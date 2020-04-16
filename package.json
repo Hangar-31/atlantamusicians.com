@@ -1,0 +1,61 @@
+{
+  "name": "h31-starter",
+  "private": true,
+  "description": "Hangar 31 starter for beginning projects faster",
+  "version": "1.0.0",
+  "author": "Hangar 31 LLC",
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "gatsby": "^2.18.12",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-emotion": "^4.1.21",
+    "gatsby-plugin-manifest": "^2.2.31",
+    "gatsby-plugin-netlify": "^2.1.31",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-netlify-cms": "^4.1.42",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-remove-trailing-slashes": "^2.1.20",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-plugin-transition-link": "^1.17.7",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-sharp": "^2.3.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "gatsby-plugin-eslint": "^2.0.8"
+  },
+  "keywords": [
+    "gatsby",
+    "Hangar 31",
+    "h31-starter"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hangar-31/h31-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
