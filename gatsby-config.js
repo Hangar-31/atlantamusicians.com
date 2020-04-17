@@ -10,6 +10,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'markdown-pages',
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'images',
         path: `${__dirname}/src/images`,
       },
@@ -61,5 +68,8 @@ module.exports = {
 
     // Remove the trailing slashes from pathing
     'gatsby-plugin-remove-trailing-slashes',
+
+    'gatsby-plugin-netlify-cms',
+    'gatsby-transformer-remark',
   ],
 };

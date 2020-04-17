@@ -1,0 +1,51 @@
+backend:
+  name: github
+  repo: Hangar-31/atlantamusicians.com
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: pages
+    label: Pages
+    folder: pages
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - label: Sections
+        name: sections
+        widget: list
+        types:
+            - label: Slideshow
+              name: section_slideshow
+              widget: object
+              fields:
+                - label: Slideshow Images
+                  name: section_slideshow_list
+                  widget: list
+                  fields:
+                    - { label: Image, name: section_slideshow_image, widget: image }
+                    - { label: Image Alt Text, name: section_slideshow_image_alt_text, widget: string }
+            - label: Boxes
+              name: section_boxes
+              widget: object
+              fields:
+                - label: Box Items
+                  name: section_boxes_list
+                  widget: list
+                  fields:
+                    - { label: Title, name: section_boxes_item_title, widget: string }
+                    - { label: Text, name: section_boxes_item_text, widget: text }
+                    - { label: Image, name: section_boxes_item_image, widget: image }
+                    - { label: Image Alt Text, name: section_boxes_item_image_alt_text, widget: string }
+                    - { label: Link Text, name: section_boxes_item_link_text, widget: string }
+                    - { label: Link URL, name: section_boxes_item_link_url, widget: string }
+            # - label: Content 1
+            #   name: section_content_one
+            #   widget: object
+            #   fields:
+            #     - { label: Title, name: section_content_one_title, widget: string }
+            #     - { label: Text, name: section_content_one_text, widget: text }
+            #     - { label: Image, name: section_content_one_image, widget: image }
+            #     - { label: Image Alt Text, name: section_content_one_image_alt_text, widget: string }
