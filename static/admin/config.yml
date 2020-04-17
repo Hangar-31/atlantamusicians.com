@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: Hangar-31/atlantamusicians.com
+  branch: staging
 
 media_folder: static/assets
 public_folder: /assets
@@ -41,11 +42,11 @@ collections:
                     - { label: Image Alt Text, name: section_boxes_item_image_alt_text, widget: string }
                     - { label: Link Text, name: section_boxes_item_link_text, widget: string }
                     - { label: Link URL, name: section_boxes_item_link_url, widget: string }
-            # - label: Content 1
-            #   name: section_content_one
-            #   widget: object
-            #   fields:
-            #     - { label: Title, name: section_content_one_title, widget: string }
-            #     - { label: Text, name: section_content_one_text, widget: text }
-            #     - { label: Image, name: section_content_one_image, widget: image }
-            #     - { label: Image Alt Text, name: section_content_one_image_alt_text, widget: string }
+            - label: Content 1
+              name: section_content_one
+              widget: object
+              fields:
+                - { label: Title, name: section_content_one_title, widget: string }
+                - { label: Text, name: section_content_one_text, widget: text }
+                - { label: Image, name: section_content_one_image, widget: image }
+                - { label: Image Alt Text, name: section_content_one_image_alt_text, widget: string }
