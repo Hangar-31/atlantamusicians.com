@@ -1,14 +1,18 @@
-import React from 'react';
+/* eslint-disable no-use-before-define */
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
+import { FaCaretDown } from 'react-icons/fa';
 
 // Components
 import { Link as GLink } from 'gatsby';
+import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
 import { colors } from '../../configs/styles';
 
 // Styled Components
 const Container = styled.section`
   position: relative;
+  height: 120px;
   width: 100%;
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
@@ -20,8 +24,8 @@ const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   max-width: 1440px;
-  padding: 30px 0;
   margin: 0 auto;
 `;
 
@@ -31,22 +35,32 @@ const Logo = styled.div`
 
 const ListLinks = styled.ul`
   position: relative;
-  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
   padding: 0;
+  list-style: none;
 `;
 
 const ItemLink = styled.li`
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  height: 100%;
   margin: 0 30px;
 `;
 
 const ListSubLinks = styled.ul`
+  display: none;
   position: absolute;
-  top: 60px;
-  list-style: none;
-  padding: 0;
+  width: 180px;
+  top: 100%;
+  left: -25px;
+  margin: 0;
+  padding: 15px;
   background: #324B93;
+
+  list-style: none;
 `;
 
 const ItemSubLink = styled.li`
@@ -55,7 +69,9 @@ const ItemSubLink = styled.li`
 `;
 
 const Link = styled(GLink)`
+  display: inline-table;
   color: #ffffff;
+  font-size: 0.75rem;
   font-family: Montserrat;
   font-weight: regular;
   text-decoration: none;
@@ -104,21 +120,51 @@ const links = [
 // Functions
 const formatLink = (linkName) => linkName.toLowerCase().replace(new RegExp(' ', 'g'), '-');
 
-export default () => (
-  <Container>
-    <Wrapper>
-      <Logo>
-        <ImageLogo1 cssProp="width: 100%;" />
-      </Logo>
+export default () => {
+  const [activeSubMenu, setActiveSubMenu] = useState(-1);
 
-      <ListLinks>
-        {links.map((link) => (
-          <ItemLink key={link.name}>
-            <Link to={`/${formatLink(link.name)}`}>{link.name}</Link>
+  return (
+    <Container>
+      <Wrapper>
+        <Logo>
+          <ImageLogo1 cssProp="width: 100%;" />
+        </Logo>
 
-            {link.subLinks.length > 0
+        <ListLinks onMouseLeave={() => setActiveSubMenu(-1)}>
+          {links.map((link, i) => (
+            <ItemLink
+              key={link.name}
+              onMouseOver={() => {
+                if (link.subLinks.length === 0) {
+                  setActiveSubMenu(-1);
+                } else if (link.subLinks.length > 0 && activeSubMenu >= 0) {
+                  setActiveSubMenu(i);
+                }
+              }}
+              onFocus={() => {
+                if (link.subLinks.length === 0) {
+                  setActiveSubMenu(-1);
+                } else if (link.subLinks.length > 0 && activeSubMenu >= 0) {
+                  setActiveSubMenu(i);
+                }
+              }}
+            >
+              <Link
+                to={`/${formatLink(link.name)}`}
+                onMouseOver={() => setActiveSubMenu(i)}
+                onFocus={() => setActiveSubMenu(i)}
+              >
+                {`${link.name} `}
+                {link.subLinks.length > 0 ? <FaCaretDown css={css`height: 12px;`} /> : ''}
+              </Link>
+
+              {link.subLinks.length > 0
               && (
-              <ListSubLinks>
+              <ListSubLinks
+                css={css`
+                  display: ${activeSubMenu === i ? 'block' : 'none'}
+                `}
+              >
                 {link.subLinks.map((subLink) => (
                   <ItemSubLink key={subLink.name}>
                     <Link to={`/${formatLink(link.name)}/${formatLink(subLink.name)}`}>{subLink.name}</Link>
@@ -126,9 +172,10 @@ export default () => (
                 ))}
               </ListSubLinks>
               )}
-          </ItemLink>
-        ))}
-      </ListLinks>
-    </Wrapper>
-  </Container>
-);
+            </ItemLink>
+          ))}
+        </ListLinks>
+      </Wrapper>
+    </Container>
+  );
+};

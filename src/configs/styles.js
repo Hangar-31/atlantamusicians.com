@@ -1,6 +1,13 @@
 /* eslint-disable import/prefer-default-export */
 
+export const fonts = {
+  montserrat: 'Montserrat',
+  nunitoSans: 'Nunito Sans',
+  biryani: 'Biryani',
+};
+
 export const colors = {
+  lightOrange: '#FFAFA3',
   blue: '#324B93',
   darkBlue: '#1F225B',
   lightBlue: '#469FD1',
