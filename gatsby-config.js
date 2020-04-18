@@ -6,14 +6,10 @@ module.exports = {
     siteUrl: 'https://hangar31.dev',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-
     // Gives additional image processing functions
     'gatsby-plugin-sharp',
-
     // Creates ImageSharp nodes for image manipulation within GraphQL queries
     'gatsby-transformer-sharp',
-
     // Create ImageSharp nodes from markdown images
     'gatsby-transformer-remark',
 
@@ -21,18 +17,21 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'images',
         path: `${__dirname}/src/images`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'pages',
         path: `${__dirname}/src/pages`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'assets',
         path: `${__dirname}/static/assets`,
       },
     },
@@ -50,6 +49,9 @@ module.exports = {
         icon: 'src/images/hangar-31-logo-black-icon.png',
       },
     },
+    // React Helmet
+    'gatsby-plugin-react-helmet',
+
     // Emotion plugin for Gatsby
     'gatsby-plugin-emotion',
 
