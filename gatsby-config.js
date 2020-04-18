@@ -6,6 +6,23 @@ module.exports = {
     siteUrl: 'https://hangar31.dev',
   },
   plugins: [
+    // Image Transforming Plugins
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1920,
+            },
+          },
+        ],
+      },
+    },
+
     // File Sourcing
     {
       resolve: 'gatsby-source-filesystem',
@@ -40,23 +57,6 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/hangar-31-logo-black-icon.png',
-      },
-    },
-
-    // Image Transforming Plugins
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1920,
-            },
-          },
-        ],
       },
     },
 

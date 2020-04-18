@@ -26,10 +26,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.path,
-      component: PageBuilderTemplate,
-      context: {}, // additional data can be passed via context
-    });
+    if (node.frontmatter.path !== null) {
+      createPage({
+        path: node.frontmatter.path,
+        component: PageBuilderTemplate,
+        context: {}, // additional data can be passed via context
+      });
+    }
   });
 };

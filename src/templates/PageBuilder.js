@@ -21,6 +21,8 @@ export default ({ data }) => {
     components.push(obj);
   });
 
+  console.log(components);
+
   return (
     <Layout>
       {sectionBuilder(components)}
@@ -37,13 +39,7 @@ export const pageQuery = graphql`
           type
           section_content_one_title
           section_content_one_text
-          section_content_one_image  {
-            childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
+          section_content_one_image
           section_content_one_image_alt_text
           section_boxes_list {
             section_boxes_item_title
@@ -51,22 +47,10 @@ export const pageQuery = graphql`
             section_boxes_item_link_url
             section_boxes_item_link_text
             section_boxes_item_image_alt_text
-            section_boxes_item_image  {
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            section_boxes_item_image
           }
           section_slideshow_list {
-            section_slideshow_image  {
-              childImageSharp {
-                fluid(maxWidth: 1920) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            section_slideshow_image
             section_slideshow_image_alt_text
           }
         }
