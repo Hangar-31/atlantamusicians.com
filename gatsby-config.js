@@ -7,20 +7,37 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+
+    // Gives additional image processing functions
+    'gatsby-plugin-sharp',
+
+    // Creates ImageSharp nodes for image manipulation within GraphQL queries
+    'gatsby-transformer-sharp',
+
+    // Create ImageSharp nodes from markdown images
+    'gatsby-transformer-remark',
+
+    // File Sourcing
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'markdown-pages',
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/src/pages`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/assets`,
       },
     },
+
+    // Manifest
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -49,27 +66,13 @@ module.exports = {
     // Allows the use of react-helmet within Gatsby
     'gatsby-plugin-react-helmet',
 
-    // Creates ImageSharp nodes for image manipulation within GraphQL queries
-    'gatsby-transformer-sharp',
-
-    // Transition linking between pages
-    {
-      resolve: 'gatsby-plugin-transition-link',
-      options: {
-        injectPageProps: false,
-      },
-    },
-
-    // Gives additional image processing functions
-    'gatsby-plugin-sharp',
-
     // Gatsby Plugin for linting -- Using AirBNB
     'gatsby-plugin-eslint',
 
     // Remove the trailing slashes from pathing
     'gatsby-plugin-remove-trailing-slashes',
 
+    // Netlify CMS
     'gatsby-plugin-netlify-cms',
-    'gatsby-transformer-remark',
   ],
 };
