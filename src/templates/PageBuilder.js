@@ -6,7 +6,7 @@ import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
 export default ({ data }) => {
-  const { markdownRemark: { frontmatter: { sections } } } = data;
+  const { markdownRemark: { frontmatter: { sections, path } } } = data;
   const components = [];
 
   sections.forEach((section) => {
@@ -21,11 +21,11 @@ export default ({ data }) => {
     components.push(obj);
   });
 
-  console.log(components);
+  console.log('Components:', components, data);
 
   return (
     <Layout>
-      {sectionBuilder(components)}
+      {sectionBuilder(components, path)}
     </Layout>
   );
 };
@@ -37,22 +37,6 @@ export const pageQuery = graphql`
         path
         sections {
           type
-          section_content_one_title
-          section_content_one_text
-          section_content_one_image
-          section_content_one_image_alt_text
-          section_boxes_list {
-            section_boxes_item_title
-            section_boxes_item_text
-            section_boxes_item_link_url
-            section_boxes_item_link_text
-            section_boxes_item_image_alt_text
-            section_boxes_item_image
-          }
-          section_slideshow_list {
-            section_slideshow_image
-            section_slideshow_image_alt_text
-          }
         }
       }
     }
