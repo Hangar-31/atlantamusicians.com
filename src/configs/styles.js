@@ -4,6 +4,7 @@ export const fonts = {
   montserrat: 'Montserrat',
   nunitoSans: 'Nunito Sans',
   biryani: 'Biryani',
+  archivo: 'Archivo',
 };
 
 export const colors = {
