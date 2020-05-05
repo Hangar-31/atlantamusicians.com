@@ -2,13 +2,6 @@
 path: /test
 title: Test
 sections:
-  - type: section_slideshow
-    list:
-      - image: assets/atlanta-musicians-placeholder-horizontal.png
-        alt_text: testing
-    slides:
-      - image: assets/atlanta-musicians-placeholder-horizontal.png
-        alt_text: placeholder
   - type: section_boxes
     list:
       - title: Test
@@ -22,4 +15,11 @@ sections:
     text: Testing
     image: assets/atlanta-musicians-placeholder-horizontal.png
     alt_text: Testing
+  - type: section_slideshow
+    list:
+      - image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: testing
+    slides:
+      - image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
 ---
