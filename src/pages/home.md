@@ -19,7 +19,25 @@ sections:
         link_url: /
   - type: section_content_one
     title: Test Title
-    text: Testing
-    image: assets/atlanta-musicians-placeholder-horizontal.png
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus
+      viverra accumsan in nisl nisi scelerisque. Arcu vitae elementum curabitur
+      vitae nunc sed velit dignissim.
+    image: assets/atlanta-musicians-placeholder-square.png
     alt_text: Testing
+    background_color_toggle: true
+  - type: section_content_one
+    image_right: true
+    background_color_toggle: false
+    title: Test 2
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus
+      viverra accumsan in nisl nisi scelerisque. Arcu vitae elementum curabitur
+      vitae nunc sed velit dignissim.
+    image: assets/atlanta-musicians-placeholder-square.png
+    alt_text: placeholder
 ---
