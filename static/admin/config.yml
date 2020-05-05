@@ -50,6 +50,6 @@ collections:
                 - { label: Text, name: text, widget: text }
                 - { label: Image, name: image, widget: image }
                 - { label: Image Alt Text, name: alt_text, widget: string }
-                - { label: Image On Right, name: image_right, widget: "boolean", default: true}
-                - { label: Link Text, name: link_text, widget: string }
-                - { label: Link URL, name: link_url, widget: string }
+                - { label: Image On Right, name: image_right, widget: "boolean", default: true, required: false}
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
