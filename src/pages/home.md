@@ -64,8 +64,9 @@ sections:
     image: assets/atlanta-musicians-placeholder-square.png
     alt_text: Testing
     background_color_toggle: true
-  - type: section_content_one
     image_right: true
+  - type: section_content_one
+    image_right: false
     background_color_toggle: false
     title: Test 2
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
