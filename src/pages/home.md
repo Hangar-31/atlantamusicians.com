@@ -11,11 +11,47 @@ sections:
         alt_text: placeholder
   - type: section_boxes
     list:
-      - title: Test
-        text: Lorem Ipsum
+      - title: Become a Member
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
         image: assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: test
-        link_text: Test
+        link_text: Join Now
+        link_url: /
+      - title: Hire Local Musicians
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
+        image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
+        link_text: Join Now
+        link_url: /
+      - title: Read Our Blog
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
+        image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
+        link_text: Join Now
+        link_url: /
+      - title: Union Benefits
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
+        image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
+        link_text: Join Now
+        link_url: /
+      - title: Academic Scholarships
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
+        image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
+        link_text: Join Now
+        link_url: /
+      - title: Advocacy Press
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. "
+        image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
+        link_text: Join Now
         link_url: /
   - type: section_content_one
     title: Test Title
