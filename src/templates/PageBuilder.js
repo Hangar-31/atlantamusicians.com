@@ -5,21 +5,24 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
+const removeNulls = (data) => data.map((item) => {
+  const obj = {};
+
+  Object.keys(item).forEach((key) => {
+    if (item[key] !== null) {
+      obj[key] = item[key];
+
+      if (Array.isArray(item[key])) {
+        obj[key] = removeNulls(item[key]);
+      }
+    }
+  });
+  return obj;
+});
+
 export default ({ data }) => {
   const { markdownRemark: { frontmatter: { sections } } } = data;
-  const components = [];
-
-  sections.forEach((section) => {
-    const obj = {};
-
-    Object.keys(section).forEach((key) => {
-      if (section[key] !== null) {
-        obj[key] = section[key];
-      }
-    });
-
-    components.push(obj);
-  });
+  const components = removeNulls(sections);
 
   console.log('Components:', components, data);
 
