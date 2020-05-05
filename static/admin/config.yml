@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: Hangar-31/atlantamusicians.com
-  branch: staging
+  name: git-gateway
 
 media_folder: static/assets
 public_folder: assets
