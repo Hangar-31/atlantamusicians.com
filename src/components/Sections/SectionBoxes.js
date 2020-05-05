@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 import { colors, fonts } from '../../configs/styles';
 
@@ -82,53 +82,26 @@ const Button = styled(Link)`
   border-radius: 0.25rem;
 `;
 
-const useQuerySection = (sectionIndex) => {
-  const data = useStaticQuery(graphql`
-    query {
-    markdownRemark(frontmatter: { sections: {elemMatch: {type: {eq: "section_boxes"}} }}) {
-      frontmatter {
-        path
-        sections {
-          section_boxes_list {
-            section_boxes_item_title
-            section_boxes_item_text
-            section_boxes_item_link_url
-            section_boxes_item_link_text
-            section_boxes_item_image_alt_text
-            section_boxes_item_image
-          }
-        }
-      }
-    }
-  }`);
-  const { markdownRemark: { frontmatter: { sections: { [sectionIndex]: section } } } } = data;
-  return section;
-};
-export default ({ sectionIndex }) => {
-  const section = useQuerySection(sectionIndex);
-
-  console.log('section boxes', section);
-  return (
-    <Container>
-      <Wrapper>
-        {section.section_boxes_list.map((box) => (
-          <Card key={box.section_boxes_item_title}>
-            {box.section_boxes_item_image && (
+export default ({ section }) => (
+  <Container>
+    <Wrapper>
+      {section.list.map((box) => (
+        <Card key={box.title}>
+          {box.image && (
             <img
-              src={box.section_boxes_item_image}
-              alt={box.section_boxes_item_image_alt_text}
+              src={box.image}
+              alt={box.alt_text}
             />
-            )}
-            <h1>{box.section_boxes_item_title}</h1>
-            <p>{box.section_boxes_item_text}</p>
-            <footer>
-              <Button to={box.section_boxes_item_link_url}>
-                {box.section_boxes_item_link_text}
-              </Button>
-            </footer>
-          </Card>
-        ))}
-      </Wrapper>
-    </Container>
-  );
-};
+          )}
+          <h1>{box.title}</h1>
+          <p>{box.text}</p>
+          <footer>
+            <Button to={box.link_url}>
+              {box.link_text}
+            </Button>
+          </footer>
+        </Card>
+      ))}
+    </Wrapper>
+  </Container>
+);

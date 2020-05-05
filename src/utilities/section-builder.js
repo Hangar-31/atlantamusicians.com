@@ -3,16 +3,16 @@ import SectionSlideshow from '../components/Sections/SectionSlideshow';
 import SectionContentOne from '../components/Sections/SectionContentOne';
 import SectionBoxes from '../components/Sections/SectionBoxes';
 
-export default (data) => (
+export default (sections) => (
   <>
-    {data.map((item, index) => {
-      switch (item.type) {
+    {sections.map(({ type, ...section }) => {
+      switch (type) {
         case 'section_slideshow':
-          return (<SectionSlideshow sectionIndex={index} />);
+          return (<SectionSlideshow section={section} />);
         case 'section_boxes':
-          return (<SectionBoxes sectionIndex={index} />);
+          return (<SectionBoxes section={section} />);
         case 'section_content_one':
-          return (<SectionContentOne sectionIndex={index} />);
+          return (<SectionContentOne section={section} />);
         default:
           console.log('Section Not Defined');
           return '';

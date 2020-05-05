@@ -6,7 +6,7 @@ import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
 export default ({ data }) => {
-  const { markdownRemark: { frontmatter: { sections, path } } } = data;
+  const { markdownRemark: { frontmatter: { sections } } } = data;
   const components = [];
 
   sections.forEach((section) => {
@@ -25,7 +25,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
-      {sectionBuilder(components, path)}
+      {sectionBuilder(components)}
     </Layout>
   );
 };
@@ -37,6 +37,21 @@ export const pageQuery = graphql`
         path
         sections {
           type
+          list {
+            image
+            alt_text
+            title
+            text
+            link_text
+            link_url
+          }
+          title
+          text
+          image
+          alt_text
+          image_right
+          link_text
+          link_url
         }
       }
     }

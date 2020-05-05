@@ -1,10 +1,10 @@
 ---
-path: /test
-title: Test
+path: /test2
+title: Testing 2
 sections:
   - type: section_slideshow
     list:
-      - image: assets/atlanta-musicians-placeholder-horizontal.png
+      - image: http://placehold.it/2000x300
         alt_text: testing
   - type: section_boxes
     list:
@@ -17,6 +17,6 @@ sections:
   - type: section_content_one
     title: Test Title
     text: Testing
-    image: assets/atlanta-musicians-placeholder-horizontal.png
+    image: http://placehold.it/2000x300
     alt_text: Testing
 ---

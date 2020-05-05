@@ -35,3 +35,37 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   });
 };
+
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type Frontmatter {
+      path: String
+      sections: [Sections]
+    }
+    type Sections {
+      type: String
+      list: [ListItem]
+      title: String
+      text: String
+      image: String
+      alt_text: String
+      image_right: Boolean
+      link_text: String
+      link_url: String
+    }
+    type ListItem {
+      image: String
+      alt_text: String
+      title: String
+      text: String
+      link_text: String
+      link_url: String
+    }
+  `;
+  createTypes(typeDefs);
+};

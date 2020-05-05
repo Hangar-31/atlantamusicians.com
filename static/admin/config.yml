@@ -23,30 +23,33 @@ collections:
               widget: object
               fields:
                 - label: Slideshow Images
-                  name: section_slideshow_list
+                  name: slides
                   widget: list
                   fields:
-                    - { label: Image, name: section_slideshow_image, widget: image }
-                    - { label: Image Alt Text, name: section_slideshow_image_alt_text, widget: string }
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }
             - label: Boxes
               name: section_boxes
               widget: object
               fields:
                 - label: Box Items
-                  name: section_boxes_list
+                  name: list
                   widget: list
                   fields:
-                    - { label: Title, name: section_boxes_item_title, widget: string }
-                    - { label: Text, name: section_boxes_item_text, widget: text }
-                    - { label: Image, name: section_boxes_item_image, widget: image }
-                    - { label: Image Alt Text, name: section_boxes_item_image_alt_text, widget: string }
-                    - { label: Link Text, name: section_boxes_item_link_text, widget: string }
-                    - { label: Link URL, name: section_boxes_item_link_url, widget: string }
+                    - { label: Title, name: title, widget: string }
+                    - { label: Text, name: text, widget: text }
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }
+                    - { label: Link Text, name: link_text, widget: string }
+                    - { label: Link URL, name: link_url, widget: string }
             - label: Content 1
               name: section_content_one
               widget: object
               fields:
-                - { label: Title, name: section_content_one_title, widget: string }
-                - { label: Text, name: section_content_one_text, widget: text }
-                - { label: Image, name: section_content_one_image, widget: image }
-                - { label: Image Alt Text, name: section_content_one_image_alt_text, widget: string }
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: string }
+                - { label: Image On Right, name: image_right, widget: "boolean", default: true}
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
