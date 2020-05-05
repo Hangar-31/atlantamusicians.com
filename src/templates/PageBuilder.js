@@ -47,6 +47,7 @@ export const pageQuery = graphql`
             text
             link_text
             link_url
+            background_color_toggle
           }
           title
           text

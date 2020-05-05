@@ -57,6 +57,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       image_right: Boolean
       link_text: String
       link_url: String
+      background_color_toggle: String
     }
     type ListItem {
       image: String
@@ -65,6 +66,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       text: String
       link_text: String
       link_url: String
+      background_color_toggle: String
     }
   `;
   createTypes(typeDefs);

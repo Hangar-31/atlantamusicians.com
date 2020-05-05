@@ -53,3 +53,4 @@ collections:
                 - { label: Image On Right, name: image_right, widget: "boolean", default: true, required: false}
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}

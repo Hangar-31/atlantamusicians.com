@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 
 const Container = styled.section`
   position: relative;
@@ -31,7 +32,11 @@ line-height: 53px;
 export default ({ section }) => {
   console.log('section content-one', section);
   return (
-    <Container>
+    <Container
+      css={css`
+        background: ${section.background_color_toggle ? 'linear-gradient(180deg, #F5F5F5 0%, #F7FAFB 100%);' : 'none'}
+      `}
+    >
       <Content>
         <Title>{section.title}</Title>
       </Content>
