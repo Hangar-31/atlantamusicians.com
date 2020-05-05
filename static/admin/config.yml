@@ -1,0 +1,56 @@
+backend:
+  name: github
+  repo: Hangar-31/atlantamusicians.com
+  branch: staging
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: pages
+    label: Pages
+    folder: src/pages
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - label: Sections
+        name: sections
+        widget: list
+        types:
+            - label: Slideshow
+              name: section_slideshow
+              widget: object
+              fields:
+                - label: Slideshow Images
+                  name: slides
+                  widget: list
+                  fields:
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }
+            - label: Boxes
+              name: section_boxes
+              widget: object
+              fields:
+                - label: Box Items
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Title, name: title, widget: string }
+                    - { label: Text, name: text, widget: text }
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }
+                    - { label: Link Text, name: link_text, widget: string }
+                    - { label: Link URL, name: link_url, widget: string }
+            - label: Content 1
+              name: section_content_one
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: string }
+                - { label: Image On Right, name: image_right, widget: "boolean", default: true, required: false}
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}

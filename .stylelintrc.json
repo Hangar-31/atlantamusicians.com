@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "plugins": ["stylelint-order", "stylelint-rational-order-plugin"],
+  "plugin/rational-order": true,
+  "rules": {
+    "order/properties-order": [],
+    "plugin/rational-order": [
+      true,
+      {
+        "emptyLineBeetweenGroup": true
+      }
+    ]
+  }
+}
