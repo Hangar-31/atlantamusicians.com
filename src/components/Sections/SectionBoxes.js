@@ -5,57 +5,81 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import { colors, fonts } from '../../configs/styles';
 
 const Container = styled.section`
+
   width: 100%;
 `;
 
 const Wrapper = styled.div`
-  padding: 30px 0;
-  max-width: 1350px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 84.375rem;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 330px 330px 330px;
-  grid-column-gap: 90px;
+  padding: 1.875rem 0;
+
 `;
 
 const Card = styled.article`
-  grid-column: span 1;
+
+  width: 20.625rem;
+  margin: 1.25rem 2.8125rem;
 
   img {
     max-width: 100%;
   }
+
   h1 {
-    font-family: ${fonts.montserrat};
-    font-size: 1.25em;
-    color: ${colors.darkBlue};
-    line-height: 1.2em;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
     margin: 0.8em;
+
+    color: ${colors.darkBlue};
+    font-weight: normal;
+    font-size: 1.25rem;
+    font-family: ${fonts.montserrat};
+    font-style: normal;
+    line-height: 1.2em;
+    line-height: 1.5rem;
+    text-align: center;
   }
+
   p {
+    margin: 1rem 2rem;
+
+    font-weight: 300;
+    font-size: 1rem;
     font-family: ${fonts.nunitoSans};
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 130%;
+    line-height: 1.3125rem;
   }
+
   footer {
+    text-align: center;
+
     background: ${colors.darkBlue};
   }
 `;
 
 const Button = styled(Link)`
+
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  margin: 0.75rem auto;
+  padding: 0.5rem 0.9375rem;
+
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.875rem;
   font-family: ${fonts.archivo};
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
+  line-height: 0.9375rem;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 
-  color: #FFFFFF;
+  border: 0.0625rem solid ${colors.border};
+  border-radius: 0.25rem;
 `;
 
 const useQuerySection = (sectionIndex) => {

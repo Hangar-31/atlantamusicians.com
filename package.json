@@ -36,13 +36,22 @@
     "react-icons": "^3.9.0"
   },
   "devDependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
-    "gatsby-plugin-eslint": "^2.0.8"
+    "gatsby-plugin-eslint": "^2.0.8",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^4.0.0",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "stylelint-rational-order-plugin": "^1.0.2"
   },
   "keywords": [
     "gatsby",

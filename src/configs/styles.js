@@ -4,7 +4,7 @@ export const fonts = {
   montserrat: 'Montserrat',
   nunitoSans: 'Nunito Sans',
   biryani: 'Biryani',
-  archivo: 'Archivo',
+  archivo: "'Archivo', sans-serif",
 };
 
 export const colors = {
@@ -13,6 +13,7 @@ export const colors = {
   darkBlue: '#1F225B',
   lightBlue: '#469FD1',
   paragraphGrey: '#747474',
+  border: '#EC4067',
 };
 
 export const contact = {
