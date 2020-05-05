@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: Hangar-31/atlantamusicians.com
   branch: staging-netlify
 
