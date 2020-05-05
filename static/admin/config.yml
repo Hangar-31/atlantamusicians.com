@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: Hangar-31/atlantamusicians.com
+  branch: master
 
 media_folder: static/assets
 public_folder: assets
