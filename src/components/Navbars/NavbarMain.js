@@ -40,6 +40,7 @@ const ListLinks = styled.ul`
   height: 100%;
   padding: 0;
   list-style: none;
+  text-transform: uppercase;
 `;
 
 const ItemLink = styled.li`

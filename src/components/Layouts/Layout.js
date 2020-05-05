@@ -10,7 +10,7 @@ const Layout = ({ children }) => (
       styles={css`
           @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
           @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600&display=swap');
-          @import url('https://fonts.googleapis.com/css?family=Biryani:300,400,600&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Biryani:300,400,600,800&display=swap');
           @import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
           body {
             margin: 0;
