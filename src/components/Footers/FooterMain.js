@@ -10,7 +10,6 @@ import ImageLogo2 from '../Images/Logos/ImageLogo2';
 // Join Now
 
 const ContainerJoinNow = styled.section`
-  margin-top: 200px;
   position: relative;
   width: 100%;
   background: ${colors.lightBlue}
@@ -49,6 +48,7 @@ const LinkJoinNow = styled(GLink)`
 const ContainerFooter = styled.section`
   position: relative;
   width: 100%;
+  overflow: hidden;
   background: ${colors.blue}
 `;
 

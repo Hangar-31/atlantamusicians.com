@@ -52,6 +52,7 @@ const ItemLink = styled.li`
 
 const ListSubLinks = styled.ul`
   display: none;
+  z-index: 1;
   position: absolute;
   width: 180px;
   top: 100%;

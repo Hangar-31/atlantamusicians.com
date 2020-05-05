@@ -9,22 +9,27 @@ const Container = styled.section`
   width: 100%;
 `;
 
-const Wrapper = styled.div`
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  max-width: 84.375rem;
+const Grid = styled.div`
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 1.875rem 0;
+  padding: 60px 0;
+`;
 
+const Row = styled.div`
+  display: grid;
+  grid-column: 2 / span 10;
+  grid-row-gap: 45px;
+  grid-column-gap: 90px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 `;
 
 const Card = styled.article`
-
-  width: 20.625rem;
-  margin: 1.25rem 2.8125rem;
+  grid-column: span 3;
+  
+  border: 1px solid #DFDFDF;
 
   img {
     max-width: 100%;
@@ -41,6 +46,7 @@ const Card = styled.article`
     line-height: 1.2em;
     line-height: 1.5rem;
     text-align: center;
+    text-transform: uppercase;
   }
 
   p {
@@ -51,6 +57,7 @@ const Card = styled.article`
     font-family: ${fonts.nunitoSans};
     font-style: normal;
     line-height: 1.3125rem;
+    text-align: justify;
   }
 
   footer {
@@ -84,24 +91,26 @@ const Button = styled(Link)`
 
 export default ({ section }) => (
   <Container>
-    <Wrapper>
-      {section.list.map((box) => (
-        <Card key={box.title}>
-          {box.image && (
+    <Grid>
+      <Row>
+        {section.list.map((box) => (
+          <Card key={box.title}>
+            {box.image && (
             <img
               src={box.image}
               alt={box.alt_text}
             />
-          )}
-          <h1>{box.title}</h1>
-          <p>{box.text}</p>
-          <footer>
-            <Button to={box.link_url}>
-              {box.link_text}
-            </Button>
-          </footer>
-        </Card>
-      ))}
-    </Wrapper>
+            )}
+            <h1>{box.title}</h1>
+            <p>{box.text}</p>
+            <footer>
+              <Button to={box.link_url}>
+                {box.link_text}
+              </Button>
+            </footer>
+          </Card>
+        ))}
+      </Row>
+    </Grid>
   </Container>
 );

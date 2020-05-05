@@ -56,6 +56,7 @@ export const pageQuery = graphql`
           image_right
           link_text
           link_url
+          background_color_toggle
         }
       }
     }
