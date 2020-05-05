@@ -6,6 +6,9 @@ sections:
     list:
       - image: assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: testing
+    slides:
+      - image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: placeholder
   - type: section_boxes
     list:
       - title: Test
