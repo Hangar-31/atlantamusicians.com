@@ -51,9 +51,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       type: String
       list: [ListItem]
       title: String
+      content_title: String
       text: String
       image: String
+      content_image: String
       alt_text: String
+      content_alt_text: String
       image_right: Boolean
       link_text: String
       link_url: String
@@ -61,9 +64,13 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type ListItem {
       image: String
+      content_image: String
       alt_text: String
+      content_alt_text: String
       title: String
+      content_title: String
       text: String
+      content_text: String
       link_text: String
       link_url: String
       background_color_toggle: Boolean

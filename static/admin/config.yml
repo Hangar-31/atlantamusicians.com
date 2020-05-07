@@ -54,3 +54,12 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
+            - label: Title Banner
+              name: section_title_banner
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Content Image, name: content_image, widget: image }
+                - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
+                - { label: Content Title, name: content_title, widget: string }
+                - { label: Content Text, name: content_text, widget: text }
