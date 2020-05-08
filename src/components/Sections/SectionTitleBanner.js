@@ -1,7 +1,8 @@
+/* eslint-disable no-param-reassign */
 import React from 'react';
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
-// import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 import { fonts, colors } from '../../configs/styles';
 import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
@@ -23,9 +24,8 @@ const Grid = styled.div`
 const Row = styled.div`
   display: grid;
   grid-column: 2 / span 10;
-  grid-row-gap: 45px;
-  grid-column-gap: 90px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 `;
 
 const Title = styled.h1`
@@ -36,14 +36,32 @@ const Title = styled.h1`
   font-family: ${fonts.biryani};
   text-transform: uppercase;
   font-style: normal;
-  line-height: 53px;
+  line-height: 1;
+  margin: 30px 0;
 `;
 
-const Img = styled.img`
+const ContainerImg = styled.div`
+  position: relative;
   grid-row: 1;
   grid-column: 1 / span 10;
   width: 100%;
   height: 260px;
+`;
+
+const TintImg = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #469FD1;
+  opacity: 0.5;
+`;
+
+const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
 const P = styled.p`
@@ -52,25 +70,100 @@ const P = styled.p`
   color: #ffffff;
 `;
 
-export default ({ section }) => (
-  <>
-    <Container css={css`height: auto;`}>
-      <Grid css={css`padding: 0;`}>
-        <Title css={css`line-height: 0.46; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
-      </Grid>
-    </Container>
+const ContainerLink = styled.div`
+  position: relative;
+  display: flex;
+  background: ${colors.darkBlue};
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+`;
 
-    <Container>
-      <ImageAccentCityScape cssProp="position: absolute !important; width: 100%; height: 200px;" />
-      <Grid>
-        <Row>
-          <Img src={section.content_image} alt={section.content_image_alt} />
-          <div css={css`grid-column: 2 / span 8; grid-row: 1; padding-top: 30px;`}>
-            <Title>{section.content_title}</Title>
-            <P>{section.content_text}</P>
-          </div>
-        </Row>
-      </Grid>
-    </Container>
-  </>
-);
+const GLink = styled(Link)`
+  position: relative;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  &:hover {
+    span {
+      background: ${colors.blue};
+    }
+  }
+
+  span {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 15px 30px;
+    background: ${colors.darkBlue};
+    transition: 0.2s;
+  }
+
+  &:before {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+  }
+`;
+
+export default ({ section }) => {
+  if (typeof section.content_text === 'undefined') {
+    section.content_text = '';
+  }
+  if (typeof section.link_text === 'undefined') {
+    section.link_text = '';
+  }
+
+  return (
+    <>
+      <Container css={css`height: auto;`}>
+        <Grid css={css`padding: 0;`}>
+          <Title css={css`line-height: 0.46; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
+        </Grid>
+      </Container>
+
+      <Container>
+        <ImageAccentCityScape cssProp="position: absolute !important; width: 100%; height: 200px;" />
+        <Grid>
+          <Row>
+            <ContainerImg>
+              <Img src={section.content_image} alt={section.content_image_alt} />
+              {section.content_title.length > 0
+            && <TintImg />}
+            </ContainerImg>
+            {section.content_title.length > 0
+          && (
+            <>
+              <div css={css`position: relative; grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; grid-row: 1; padding-top: 30px;`}>
+                <Title>{section.content_title}</Title>
+                <P>{section.content_text}</P>
+              </div>
+              {section.link_text.length > 0
+              && (
+              <ContainerLink css={css`position: relative; grid-column: 8 / span 3; grid-row: 1;`}>
+                <GLink to={section.link_url}>
+                  <span>
+                    {section.link_text}
+                  </span>
+                </GLink>
+              </ContainerLink>
+              )}
+            </>
+          )}
+          </Row>
+        </Grid>
+      </Container>
+    </>
+  );
+};
