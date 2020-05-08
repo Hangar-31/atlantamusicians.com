@@ -28,8 +28,8 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-            - label: Boxes
-              name: section_boxes
+            - label: Content - Boxes
+              name: section_content_boxes
               widget: object
               fields:
                 - label: Box Items
@@ -42,7 +42,7 @@ collections:
                     - { label: Image Alt Text, name: alt_text, widget: string }
                     - { label: Link Text, name: link_text, widget: string }
                     - { label: Link URL, name: link_url, widget: string }
-            - label: Content 1
+            - label: Content - Variant 1
               name: section_content_one
               widget: object
               fields:
@@ -54,7 +54,7 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
-            - label: Title Banner
+            - label: Title - Banner
               name: section_title_banner
               widget: object
               fields:
@@ -65,8 +65,24 @@ collections:
                 - { label: Content Text, name: content_text, widget: text, required: false }
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
-            - label: Content Title
-              name: section_content_title
+            - label: Title - Section
+              name: section_title
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
+            - label: Content - Title / Text
+              name: section_content_title_text
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+            - label: Content - Images
+              name: section_content_images
+              widget: object
+              fields:
+                - label: Content Images
+                  name: images
+                  widget: list
+                  fields:
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }

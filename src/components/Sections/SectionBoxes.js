@@ -43,7 +43,6 @@ const Card = styled.article`
     font-size: 1.25rem;
     font-family: ${fonts.montserrat};
     font-style: normal;
-    line-height: 1.2em;
     line-height: 1.5rem;
     text-align: center;
     text-transform: uppercase;

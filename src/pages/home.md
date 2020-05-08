@@ -62,7 +62,7 @@ sections:
 
 
       Risus feugiat in ante metus dictum. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Scelerisque purus semper eget duis at tellus at. Nulla posuere sollicitudin aliquam ultrices sagittis orci. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Amet justo donec enim diam vulputate ut pharetra sit amet. Feugiat vivamus at augue eget arcu dictum varius duis at. Vel pharetra vel turpis nunc eget lorem dolor sed. Pharetra massa massa ultricies mi. Nunc sed id semper risus in hendrerit gravida. Ac orci phasellus egestas tellus rutrum. Id velit ut tortor pretium viverra suspendisse. Elementum nibh tellus molestie nunc non blandit massa. Sed sed risus pretium quam vulputate dignissim. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et.
-  - type: section_boxes
+  - type: section_content_boxes
     list:
       - title: Become a Member
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
