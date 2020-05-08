@@ -105,6 +105,4 @@ sections:
       arcu.
     link_text: Join Now
     link_url: /
-  - type: section_content_title
-    title: About AFM
 ---
