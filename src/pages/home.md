@@ -86,4 +86,6 @@ sections:
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
       lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
       arcu.
+    link_text: Join Now
+    link_url: /
 ---
