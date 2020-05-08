@@ -81,11 +81,8 @@ sections:
     title: Atlanta Federation of Musicians
     content_image: assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: test
-    content_title: Title For Join
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
-    link_text: Join Now
-    link_url: /
+    content_title: ""
+    content_text: ""
+    link_text: ""
+    link_url: ""
 ---
