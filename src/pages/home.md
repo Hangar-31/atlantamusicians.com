@@ -81,8 +81,8 @@ sections:
     title: Atlanta Federation of Musicians
     content_image: assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: test
-    content_title: Testing
-    content_text: Lorem
+    content_title: ""
+    content_text: ""
     link_text: ""
     link_url: ""
 ---
