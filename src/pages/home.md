@@ -130,4 +130,14 @@ sections:
       vitae nunc sed velit dignissim.
     image: assets/atlanta-musicians-placeholder-square.png
     alt_text: placeholder
+  - type: section_content_images
+    images:
+      - image: assets/atlanta-musicians-placeholder-horizontal.png
+        alt_text: Test
+  - type: section_content_images
+    images:
+      - image: assets/atlanta-musicians-placeholder-square.png
+        alt_text: Test
+      - image: assets/atlanta-musicians-placeholder-square.png
+        alt_text: Test
 ---
