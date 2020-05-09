@@ -155,4 +155,43 @@ sections:
           nulla at volutpat diam sioh e duat sey pola qor thediaun
         image: assets/blank-profile-picture-973460_640.png
         alt_text: testing
+      - name: Jim Johns
+        title: Board Member
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+          nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+          Purus viverra accumsan in nisl nisi scelerisque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Semper quis lectus nulla at volutpat
+          diam. Nulla facilisi nullam vehicula ipsum a arcu. Semper quis lectus
+          nulla at volutpat diam sioh e duat sey pola qor thediaun
+        image: assets/blank-profile-picture-973460_640.png
+        alt_text: test
+      - name: Gary Heidman
+        title: Board Member
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+          nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+          Purus viverra accumsan in nisl nisi scelerisque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Semper quis lectus nulla at volutpat
+          diam. Nulla facilisi nullam vehicula ipsum a arcu. Semper quis lectus
+          nulla at volutpat diam sioh e duat sey pola qor thediaun
+        image: assets/blank-profile-picture-973460_640.png
+        alt_text: Test
+      - name: Julia Grande
+        title: Board Member
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+          nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+          Purus viverra accumsan in nisl nisi scelerisque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Semper quis lectus nulla at volutpat
+          diam. Nulla facilisi nullam vehicula ipsum a arcu. Semper quis lectus
+          nulla at volutpat diam sioh e duat sey pola qor thediaun
+        image: assets/blank-profile-picture-973460_640.png
+        alt_text: test
 ---
