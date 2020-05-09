@@ -51,6 +51,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       type: String
       list: [ListItem]
       title: String
+      name: String
       content_title: String
       text: String
       image: String
@@ -69,6 +70,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       content_alt_text: String
       title: String
       content_title: String
+      name: String
       text: String
       content_text: String
       link_text: String

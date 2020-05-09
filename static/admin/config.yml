@@ -28,6 +28,19 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
+            - label: Section - Bios
+              name: section_bios
+              widget: object
+              fields:
+                - label: Bio Items
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Name, name: name, widget: string }
+                    - { label: Title, name: title, widget: string }
+                    - { label: Bio, name: text, widget: text }
+                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image Alt Text, name: alt_text, widget: string }
             - label: Content - Boxes
               name: section_content_boxes
               widget: object
@@ -81,7 +94,7 @@ collections:
               widget: object
               fields:
                 - label: Content Images
-                  name: images
+                  name: list
                   widget: list
                   fields:
                     - { label: Image, name: image, widget: image }

@@ -5,6 +5,8 @@ import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
 import SectionContentOne from '../components/Sections/SectionContentOne';
 import SectionContentTitleText from '../components/Sections/SectionContentTitleText';
+import SectionContentImages from '../components/Sections/SectionContentImages';
+import SectionBios from '../components/Sections/SectionBios';
 
 export default (sections) => (
   <>
@@ -12,6 +14,8 @@ export default (sections) => (
       switch (type) {
         case 'section_slideshow':
           return (<SectionSlideshow section={section} />);
+        case 'section_bios':
+          return (<SectionBios section={section} />);
         case 'section_content_boxes':
           return (<SectionBoxes section={section} />);
         case 'section_title':
@@ -22,6 +26,8 @@ export default (sections) => (
           return (<SectionContentOne section={section} />);
         case 'section_content_title_text':
           return (<SectionContentTitleText section={section} />);
+        case 'section_content_images':
+          return (<SectionContentImages section={section} />);
         default:
           console.log('Section Not Defined');
           return '';

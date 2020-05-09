@@ -41,18 +41,20 @@ export const pageQuery = graphql`
         sections {
           type
           list {
-            image
-            content_image
-            alt_text
-            content_alt_text
+            name
             title
             content_title
             text
             content_text
+            image
+            content_image
+            alt_text
+            content_alt_text
             link_text
             link_url
             background_color_toggle
           }
+          name
           title
           content_title
           text
