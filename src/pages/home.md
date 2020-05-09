@@ -131,11 +131,11 @@ sections:
     image: assets/atlanta-musicians-placeholder-square.png
     alt_text: placeholder
   - type: section_content_images
-    list:
+    images:
       - image: assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: Test
   - type: section_content_images
-    list:
+    images:
       - image: assets/atlanta-musicians-placeholder-square.png
         alt_text: Test
       - image: assets/atlanta-musicians-placeholder-square.png
@@ -194,5 +194,5 @@ sections:
           nulla at volutpat diam sioh e duat sey pola qor thediaun
         image: assets/blank-profile-picture-973460_640.png
         alt_text: test
-    background_color_toggle: true
+    background_color_toggle: false
 ---
