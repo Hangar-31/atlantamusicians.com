@@ -24,7 +24,7 @@ export default ({ data }) => {
   const { markdownRemark: { frontmatter: { sections } } } = data;
   const components = removeNulls(sections);
 
-  console.log('Components:', components, data);
+  console.log('Components:', components);
 
   return (
     <Layout>

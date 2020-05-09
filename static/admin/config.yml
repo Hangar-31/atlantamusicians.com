@@ -32,6 +32,7 @@ collections:
               name: section_bios
               widget: object
               fields:
+                - { label: Alternate Row Colors, name: background_color_toggle, widget: "boolean", default: false, required: false }
                 - label: Bio Items
                   name: list
                   widget: list

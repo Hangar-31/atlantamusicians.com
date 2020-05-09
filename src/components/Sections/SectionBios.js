@@ -21,7 +21,7 @@ const Grid = styled.div`
 const Row = styled.div`
   display: grid;
   grid-column: 3 / span 8;
-  grid-column-gap: 30px;
+  grid-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 `;
 
@@ -79,8 +79,11 @@ export default ({ section }) => (
   <Container>
     <Grid>
       <Row>
-        {section.list.length > 0 && section.list.map((bio) => (
-          <BioComponent bio={bio} />
+        {section.list.length > 0 && section.list.map((bio, i) => (
+          <BioComponent
+            bio={bio}
+            color={section.background_color_toggle ? i % 2 !== 0 : false}
+          />
         ))}
       </Row>
     </Grid>
@@ -88,15 +91,36 @@ export default ({ section }) => (
 
 );
 
-const BioComponent = ({ bio }) => {
+const BioComponent = ({ bio, color }) => {
   const [open, setOpen] = useState(false);
+  let display = 'block';
+  let padding = '0px';
+  let gridColumn = '6';
+  let maxHeight = '90px';
+  let background = '#ffffff';
+  let textColor = '#000000';
+
+  if (open) {
+    display = 'none';
+    padding = '45px';
+    gridColumn = '8';
+    maxHeight = 'initial';
+  }
+  if (color) {
+    background = colors.darkBlue;
+    textColor = '#ffffff';
+  }
+
+  console.log(color);
+
+
   return (
-    <Bio>
-      <Image css={css`display: ${open ? 'none' : 'block'};`} src={bio.image} alt={bio.alt_text} />
-      <BioContent css={css`grid-column: span ${open ? '8' : '6'}; padding-left: ${open ? '45px' : '0'};`}>
-        <Name>{bio.name}</Name>
+    <Bio css={css`background: ${background}`}>
+      <Image css={css`display: ${display};`} src={bio.image} alt={bio.alt_text} />
+      <BioContent css={css`grid-column: span ${gridColumn}; padding-left: ${padding};`}>
+        <Name css={css`color: ${textColor};`}>{bio.name}</Name>
         <Title>{bio.title}</Title>
-        <Text css={css`max-height: ${open ? 'initial' : '90px'};`}>{bio.text}</Text>
+        <Text css={css`max-height: ${maxHeight}; color: ${textColor};`}>{bio.text}</Text>
       </BioContent>
       <Button type="button" onClick={() => setOpen(!open)}>{open ? <AiFillCaretDown /> : <AiFillCaretUp />}</Button>
     </Bio>
