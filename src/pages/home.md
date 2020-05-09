@@ -131,11 +131,11 @@ sections:
     image: assets/atlanta-musicians-placeholder-square.png
     alt_text: placeholder
   - type: section_content_images
-    images:
+    list:
       - image: assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: Test
   - type: section_content_images
-    images:
+    list:
       - image: assets/atlanta-musicians-placeholder-square.png
         alt_text: Test
       - image: assets/atlanta-musicians-placeholder-square.png
