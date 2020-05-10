@@ -1,5 +1,5 @@
 ---
-path: /test
+path: /test/testing
 title: Test
 sections:
   - type: section_slideshow
