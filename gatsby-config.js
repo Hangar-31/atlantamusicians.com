@@ -87,5 +87,7 @@ module.exports = {
 
     // Netlify CMS
     'gatsby-plugin-netlify-cms',
+
+    'gatsby-plugin-netlify-cms-paths',
   ],
 };

@@ -23,7 +23,7 @@ collections:
               widget: object
               fields:
                 - label: Slideshow Images
-                  name: slides
+                  name: list
                   widget: list
                   fields:
                     - { label: Image, name: image, widget: image }

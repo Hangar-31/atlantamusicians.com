@@ -54,6 +54,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String
       content_title: String
       text: String
+      content_text: String
       image: String
       content_image: String
       alt_text: String

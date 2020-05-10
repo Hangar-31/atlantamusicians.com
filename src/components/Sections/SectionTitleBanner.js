@@ -118,6 +118,9 @@ const GLink = styled(Link)`
 `;
 
 export default ({ section }) => {
+  if (typeof section.content_title === 'undefined') {
+    section.content_title = '';
+  }
   if (typeof section.content_text === 'undefined') {
     section.content_text = '';
   }
