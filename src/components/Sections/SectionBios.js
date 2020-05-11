@@ -96,7 +96,7 @@ const BioComponent = ({ bio, color }) => {
   let display = 'block';
   let padding = '0px';
   let gridColumn = '6';
-  let maxHeight = '90px';
+  let maxHeight = '85px';
   let background = '#ffffff';
   let textColor = '#000000';
 

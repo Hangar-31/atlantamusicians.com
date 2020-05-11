@@ -22,9 +22,8 @@ const Title = styled.h1`
   grid-column: 3 / span 8;
   color: ${colors.blue};
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: ${fonts.biryani};
-  text-transform: uppercase;
   line-height: 1;
 `;
 

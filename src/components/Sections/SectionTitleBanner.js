@@ -33,7 +33,7 @@ const Title = styled.h1`
   color: ${colors.blue};
   font-weight: 800;
   font-size: 30px;
-  font-family: ${fonts.biryani};
+  font-family: ${fonts.montserrat};
   text-transform: uppercase;
   font-style: normal;
   line-height: 1;
@@ -132,7 +132,7 @@ export default ({ section }) => {
     <>
       <Container css={css`height: auto; margin-top: 75px;`}>
         <Grid css={css`padding: 0;`}>
-          <Title css={css`line-height: 0.46; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
+          <Title css={css`line-height: 0.7; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
         </Grid>
       </Container>
 

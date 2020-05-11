@@ -3,11 +3,12 @@ import SectionSlideshow from '../components/Sections/SectionSlideshow';
 import SectionBoxes from '../components/Sections/SectionBoxes';
 import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
+import SectionBios from '../components/Sections/SectionBios';
 import SectionContentOne from '../components/Sections/SectionContentOne';
 import SectionContentTitle1 from '../components/Sections/SectionContentTitle1';
 import SectionContentTitle2 from '../components/Sections/SectionContentTitle2';
+import SectionContentTitle3 from '../components/Sections/SectionContentTitle3';
 import SectionContentImages from '../components/Sections/SectionContentImages';
-import SectionBios from '../components/Sections/SectionBios';
 import SectionContentText from '../components/Sections/SectionContentText';
 
 export default (sections) => (
@@ -30,6 +31,8 @@ export default (sections) => (
           return (<SectionContentTitle1 section={section} />);
         case 'section_content_title_2':
           return (<SectionContentTitle2 section={section} />);
+        case 'section_content_title_3':
+          return (<SectionContentTitle3 section={section} />);
         case 'section_content_text':
           return (<SectionContentText section={section} />);
         case 'section_content_images':
