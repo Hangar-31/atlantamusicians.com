@@ -9,30 +9,22 @@ sections:
     content_alt_text: Testing
   - type: section_title
     title: About AFM
-  - type: section_content_title_text
+  - type: section_content_title_1
     title: Title
+  - type: section_content_text
     text: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
       nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
 
 
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nis. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Pellentesque habitant morbi tristique senectus
+      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nisi scelerisque. Pellentesque habitant morbi tristique senectus. Non odio euismod lacinia at quis risus sed vulputate odio.
   - type: section_content_images
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
   - type: section_title
     title: History
-  - type: section_content_title_text
-    title: Title
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-
-
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nis. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Pellentesque habitant morbi tristique senectus
   - type: section_content_images
     list:
       - image: /assets/atlanta-musicians-placeholder-square.png
