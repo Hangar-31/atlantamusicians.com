@@ -87,11 +87,20 @@ collections:
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
-            - label: Content - Title / Text
-              name: section_content_title_text
+            - label: Content - Title 1
+              name: section_content_title_1
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
+            - label: Content - Title 2
+              name: section_content_title_2
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Text
+              name: section_content_text
+              widget: object
+              fields:
                 - { label: Text, name: text, widget: text }
             - label: Content - Images
               name: section_content_images

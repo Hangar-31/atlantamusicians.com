@@ -4,9 +4,11 @@ import SectionBoxes from '../components/Sections/SectionBoxes';
 import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
 import SectionContentOne from '../components/Sections/SectionContentOne';
-import SectionContentTitleText from '../components/Sections/SectionContentTitleText';
+import SectionContentTitle1 from '../components/Sections/SectionContentTitle1';
+import SectionContentTitle2 from '../components/Sections/SectionContentTitle2';
 import SectionContentImages from '../components/Sections/SectionContentImages';
 import SectionBios from '../components/Sections/SectionBios';
+import SectionContentText from '../components/Sections/SectionContentText';
 
 export default (sections) => (
   <>
@@ -24,8 +26,12 @@ export default (sections) => (
           return (<SectionTitleBanner section={section} />);
         case 'section_content_one':
           return (<SectionContentOne section={section} />);
-        case 'section_content_title_text':
-          return (<SectionContentTitleText section={section} />);
+        case 'section_content_title_1':
+          return (<SectionContentTitle1 section={section} />);
+        case 'section_content_title_2':
+          return (<SectionContentTitle2 section={section} />);
+        case 'section_content_text':
+          return (<SectionContentText section={section} />);
         case 'section_content_images':
           return (<SectionContentImages section={section} />);
         default:

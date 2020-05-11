@@ -7,7 +7,7 @@ import { FaCaretDown } from 'react-icons/fa';
 import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
-import { colors } from '../../configs/styles';
+import { colors, fonts } from '../../configs/styles';
 
 // Styled Components
 const Container = styled.section`
@@ -50,7 +50,7 @@ const ItemLink = styled.li`
   display: flex;
   align-items: center;
   height: 100%;
-  margin: 0 30px;
+  margin: 0 20px;
 `;
 
 const ListSubLinks = styled.ul`
@@ -83,6 +83,43 @@ const Link = styled(GLink)`
   font-family: Montserrat;
   font-weight: regular;
   text-decoration: none;
+`;
+
+const StyledLink = styled(GLink)`
+  position: relative;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-family: ${fonts.montserrat};
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  &:hover {
+    span {
+      background: ${colors.darkBlue};
+    }
+  }
+
+  span {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    background: ${colors.blue};
+    transition: 0.2s;
+  }
+
+  &:before {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+  }
 `;
 
 export default () => {
@@ -191,6 +228,13 @@ export default () => {
               )}
             </ItemLink>
           ))}
+          <ItemLink>
+            <StyledLink to="/">
+              <span>
+                Join Now
+              </span>
+            </StyledLink>
+          </ItemLink>
         </ListLinks>
       </Wrapper>
     </Container>

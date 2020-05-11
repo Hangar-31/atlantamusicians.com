@@ -111,9 +111,6 @@ const BioComponent = ({ bio, color }) => {
     textColor = '#ffffff';
   }
 
-  console.log(color);
-
-
   return (
     <Bio css={css`background: ${background}`}>
       <Image css={css`display: ${display};`} src={bio.image} alt={bio.alt_text} />
