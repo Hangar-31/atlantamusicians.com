@@ -1,6 +1,7 @@
 ---
 path: /
 title: AFM Home
+number: "101"
 sections:
   - type: section_slideshow
     list:
