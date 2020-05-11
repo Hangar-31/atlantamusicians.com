@@ -1,5 +1,5 @@
 ---
-path: /resources/union-plus
+path: /resources/press
 title: Press
 number: "409"
 sections:
