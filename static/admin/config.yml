@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Hangar-31/atlantamusicians.com
-  branch: staging-netlify
+  branch: staging
 
 media_folder: static/assets
 public_folder: /assets
