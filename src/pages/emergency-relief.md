@@ -31,7 +31,7 @@ sections:
       - title: Source Three
         text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.
-        image: /assets/atlanta-musicians-placeholder-square.png
+        image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
         link_url: /
