@@ -4,7 +4,7 @@ backend:
   branch: staging-netlify
 
 media_folder: static/assets
-public_folder: assets
+public_folder: /assets
 
 collections:
   - name: pages
@@ -23,13 +23,27 @@ collections:
               widget: object
               fields:
                 - label: Slideshow Images
-                  name: slides
+                  name: list
                   widget: list
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-            - label: Boxes
-              name: section_boxes
+            - label: Section - Bios
+              name: section_bios
+              widget: object
+              fields:
+                - { label: Alternate Row Colors, name: background_color_toggle, widget: "boolean", default: false, required: false }
+                - label: Bio Items
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Name, name: name, widget: string }
+                    - { label: Title, name: title, widget: string }
+                    - { label: Bio, name: text, widget: text }
+                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image Alt Text, name: alt_text, widget: string }
+            - label: Content - Boxes
+              name: section_content_boxes
               widget: object
               fields:
                 - label: Box Items
@@ -42,7 +56,7 @@ collections:
                     - { label: Image Alt Text, name: alt_text, widget: string }
                     - { label: Link Text, name: link_text, widget: string }
                     - { label: Link URL, name: link_url, widget: string }
-            - label: Content 1
+            - label: Content - Variant 1
               name: section_content_one
               widget: object
               fields:
@@ -54,3 +68,35 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
+            - label: Title - Banner
+              name: section_title_banner
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Content Image, name: content_image, widget: image }
+                - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
+                - { label: Content Title, name: content_title, widget: string, required: false }
+                - { label: Content Text, name: content_text, widget: text, required: false }
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
+            - label: Title - Section
+              name: section_title
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Title / Text
+              name: section_content_title_text
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+            - label: Content - Images
+              name: section_content_images
+              widget: object
+              fields:
+                - label: Content Images
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }

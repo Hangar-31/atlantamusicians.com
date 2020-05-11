@@ -1,10 +1,10 @@
 /* eslint-disable no-use-before-define */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
 
 // Components
-import { Link as GLink } from 'gatsby';
+import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
 import { colors } from '../../configs/styles';
@@ -29,8 +29,10 @@ const Wrapper = styled.nav`
   margin: 0 auto;
 `;
 
-const Logo = styled.div`
+const Logo = styled(GLink)`
+  display: block;
   width: 300px;
+  text-decoration: none;
 `;
 
 const ListLinks = styled.ul`
@@ -79,57 +81,71 @@ const Link = styled(GLink)`
   text-decoration: none;
 `;
 
-// Data
-const links = [
-  {
-    name: 'AFM Home',
-    subLinks: [],
-  },
-  {
-    name: 'About',
-    subLinks: [
-      {
-        name: 'About Us',
-      },
-    ],
-  },
-  {
-    name: 'Membership',
-    subLinks: [
-      {
-        name: 'Join Our Local',
-      },
-    ],
-  },
-  {
-    name: 'Resources',
-    subLinks: [
-      {
-        name: 'Hire Local Musicians',
-      },
-    ],
-  },
-  {
-    name: 'Blog',
-    subLinks: [],
-  },
-  {
-    name: 'Contact',
-    subLinks: [],
-  },
-];
-
-// Functions
-const formatLink = (linkName) => linkName.toLowerCase().replace(new RegExp(' ', 'g'), '-');
-
 export default () => {
+  const [links, setLinks] = useState([]);
   const [activeSubMenu, setActiveSubMenu] = useState(-1);
+  const { allMarkdownRemark: data } = useStaticQuery(graphql`
+    query MyQuery {
+      allMarkdownRemark(filter: {frontmatter: {path: {ne: null}}}, sort: {fields: frontmatter___title, order: ASC}) {
+        nodes {
+          frontmatter {
+            title
+            path
+          }
+        }
+      }
+    }
+  `);
+
+  useEffect(() => {
+    const pathLinks = [];
+    data.nodes.forEach((node) => {
+      const { path, title } = node.frontmatter;
+      const pathSplit = path.split('/');
+
+      console.log(path);
+
+
+      if (pathSplit.length === 2) {
+        pathLinks.push({
+          name: title,
+          path: pathSplit[1],
+          subLinks: [],
+        });
+      }
+      if (pathSplit.length === 3) {
+        const subLinkName = path.split('/')[2].replace('-', ' ');
+
+        if (pathLinks.filter((item) => item.name === pathSplit[1]).length === 0) {
+          pathLinks.push({
+            name: pathSplit[1],
+            path,
+            subLinks: [
+              {
+                name: subLinkName,
+                path,
+              },
+            ],
+          });
+        } else {
+          pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
+            name: subLinkName,
+            path,
+          });
+        }
+      }
+    });
+
+    // Data
+    setLinks(pathLinks);
+  }, []);
+
 
   return (
     <Container>
       <Wrapper>
         <Logo>
-          <ImageLogo1 cssProp="width: 100%;" />
+          <ImageLogo1 to="/" cssProp="width: 100%;" />
         </Logo>
 
         <ListLinks onMouseLeave={() => setActiveSubMenu(-1)}>
@@ -152,7 +168,7 @@ export default () => {
               }}
             >
               <Link
-                to={`/${formatLink(link.name)}`}
+                to={link.path}
                 onMouseOver={() => setActiveSubMenu(i)}
                 onFocus={() => setActiveSubMenu(i)}
               >
@@ -169,7 +185,7 @@ export default () => {
               >
                 {link.subLinks.map((subLink) => (
                   <ItemSubLink key={subLink.name}>
-                    <Link to={`/${formatLink(link.name)}/${formatLink(subLink.name)}`}>{subLink.name}</Link>
+                    <Link to={subLink.path}>{subLink.name}</Link>
                   </ItemSubLink>
                 ))}
               </ListSubLinks>

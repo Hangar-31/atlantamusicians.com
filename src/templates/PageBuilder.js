@@ -24,7 +24,7 @@ export default ({ data }) => {
   const { markdownRemark: { frontmatter: { sections } } } = data;
   const components = removeNulls(sections);
 
-  console.log('Components:', components, data);
+  console.log('Components:', components);
 
   return (
     <Layout>
@@ -41,18 +41,28 @@ export const pageQuery = graphql`
         sections {
           type
           list {
-            image
-            alt_text
+            name
             title
+            content_title
             text
+            content_text
+            image
+            content_image
+            alt_text
+            content_alt_text
             link_text
             link_url
             background_color_toggle
           }
+          name
           title
+          content_title
           text
+          content_text
           image
+          content_image
           alt_text
+          content_alt_text
           image_right
           link_text
           link_url

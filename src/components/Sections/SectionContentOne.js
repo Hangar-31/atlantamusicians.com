@@ -39,36 +39,33 @@ const P = styled.p`
 `;
 
 
-export default ({ section }) => {
-  console.log('section content-one', section);
-  return (
-    <Container
-      css={css`
+export default ({ section }) => (
+  <Container
+    css={css`
         background: ${section.background_color_toggle ? 'linear-gradient(180deg, #F5F5F5 0%, #F7FAFB 100%);' : 'none'}
       `}
-    >
-      <Grid>
-        <Column css={css`
+  >
+    <Grid>
+      <Column css={css`
           grid-row: 1;
           grid-column: ${section.image_right ? '2 / span 5' : '7 / span 5'}
         `}
-        >
-          <Title css={css`color: ${section.background_color_toggle ? colors.lightBlue : colors.darkBlue}`}>{section.title}</Title>
-          <P>{section.text}</P>
-        </Column>
-        <Column
-          css={css`
+      >
+        <Title css={css`color: ${section.background_color_toggle ? colors.lightBlue : colors.darkBlue}`}>{section.title}</Title>
+        <P>{section.text}</P>
+      </Column>
+      <Column
+        css={css`
           grid-row: 1;
           grid-column: ${section.image_right ? '8 / span 4' : '2 / span 4'}
         `}
-        >
-          <img
-            css={css`max-width: 100%;`}
-            src={section.image}
-            alt={section.image_alt}
-          />
-        </Column>
-      </Grid>
-    </Container>
-  );
-};
+      >
+        <img
+          css={css`max-width: 100%;`}
+          src={section.image}
+          alt={section.image_alt}
+        />
+      </Column>
+    </Grid>
+  </Container>
+);
