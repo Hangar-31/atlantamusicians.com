@@ -11,9 +11,11 @@ collections:
     label: Pages
     folder: src/pages
     create: true
+    summary: "{{fields.title}} | Page Number: {{fields.number}}"
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
+      - { name: number, label: Page Number }
       - label: Sections
         name: sections
         widget: list

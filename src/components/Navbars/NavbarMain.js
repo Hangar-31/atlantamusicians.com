@@ -86,7 +86,7 @@ export default () => {
   const [activeSubMenu, setActiveSubMenu] = useState(-1);
   const { allMarkdownRemark: data } = useStaticQuery(graphql`
     query MyQuery {
-      allMarkdownRemark(filter: {frontmatter: {path: {ne: null}}}, sort: {fields: frontmatter___title, order: ASC}) {
+      allMarkdownRemark(filter: {frontmatter: {path: {ne: null}}}, sort: {fields: frontmatter___number, order: ASC}) {
         nodes {
           frontmatter {
             title
