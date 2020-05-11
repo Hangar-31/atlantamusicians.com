@@ -97,6 +97,11 @@ collections:
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
+            - label: Content - Title 3
+              name: section_content_title_3
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
             - label: Content - Text
               name: section_content_text
               widget: object
