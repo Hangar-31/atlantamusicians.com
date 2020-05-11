@@ -4,6 +4,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 import { fonts, colors } from '../../configs/styles';
+import textToComponent from '../../utilities/text-to-component';
 
 const Container = styled.section`
   width: 100%;
@@ -43,11 +44,7 @@ export default ({ section }) => (
   <Container>
     <Grid>
       <Title>{section.title}</Title>
-      {section.text.split(/\r?\n/).map((text) => {
-        if (text.length === 0) return;
-        // eslint-disable-next-line consistent-return
-        return <Text>{text}</Text>;
-      })}
+      {textToComponent(section.text, Text)}
     </Grid>
   </Container>
 );

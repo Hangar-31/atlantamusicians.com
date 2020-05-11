@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
 
 import { colors, fonts } from '../../configs/styles';
+import textToComponent from '../../utilities/text-to-component';
 
 const Container = styled.section`
   width: 100%;
@@ -53,7 +54,6 @@ const Title = styled.h4`
 
 const Text = styled.p`
   font-family: ${fonts.nunitoSans};
-  overflow: hidden;
 `;
 
 const Image = styled.img`
@@ -120,7 +120,9 @@ const BioComponent = ({ bio, color }) => {
       <BioContent css={css`grid-column: span ${gridColumn}; padding-left: ${padding};`}>
         <Name css={css`color: ${textColor};`}>{bio.name}</Name>
         <Title>{bio.title}</Title>
-        <Text css={css`max-height: ${maxHeight}; color: ${textColor};`}>{bio.text}</Text>
+        <div css={css`overflow: hidden; max-height: ${maxHeight};`}>
+          {textToComponent(bio.text, Text, `color: ${textColor};`)}
+        </div>
       </BioContent>
       <Button type="button" onClick={() => setOpen(!open)}>{open ? <AiFillCaretDown /> : <AiFillCaretUp />}</Button>
     </Bio>

@@ -70,6 +70,10 @@ const ListSubLinks = styled.ul`
 const ItemSubLink = styled.li`
   position: relative;
   display: block;
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 `;
 
 const Link = styled(GLink)`
@@ -103,9 +107,6 @@ export default () => {
       const { path, title } = node.frontmatter;
       const pathSplit = path.split('/');
 
-      console.log(path);
-
-
       if (pathSplit.length === 2) {
         pathLinks.push({
           name: title,
@@ -114,22 +115,20 @@ export default () => {
         });
       }
       if (pathSplit.length === 3) {
-        const subLinkName = path.split('/')[2].replace('-', ' ');
-
         if (pathLinks.filter((item) => item.name === pathSplit[1]).length === 0) {
           pathLinks.push({
             name: pathSplit[1],
             path,
             subLinks: [
               {
-                name: subLinkName,
+                name: title,
                 path,
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
-            name: subLinkName,
+            name: title,
             path,
           });
         }
