@@ -14,4 +14,6 @@ sections:
       arcu.
     link_text: Download
     link_url: /
+  - type: section_title
+    title: 2020 Price List Summary
 ---
