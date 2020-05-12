@@ -87,10 +87,9 @@ collections:
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
                 - { label: Image, name: image, widget: image }
                 - { label: Image Alt Text, name: alt_text, widget: "string"}
-                - { label: Title, name: title, widget: string, required: false }
-                - { label: Text, name: ctext, widget: text, required: false }
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Red Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
