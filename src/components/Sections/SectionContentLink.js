@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import React from 'react';
-// import { css } from '@emotion/core';
 import styled from '@emotion/styled';
+import { Link } from 'gatsby';
 
 import { fonts, colors } from '../../configs/styles';
 
@@ -18,20 +18,63 @@ const Grid = styled.div`
   margin: 0 auto;
 `;
 
-const Title = styled.h1`
+const Row = styled.div`
+  position: relative;
+  background: ${colors.darkBlue};
   grid-column: 3 / span 8;
-  color: ${colors.blue};
-  font-weight: 800;
-  font-size: 1.25rem;
-  font-family: ${fonts.biryani};
-  line-height: 1;
+  padding: 30px 0;
+  text-align: center;
+`;
+
+const GLink = styled(Link)`
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  &:hover {
+    span {
+      background: ${colors.blue};
+    }
+  }
+
+  span {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 15px 30px;
+    background: ${colors.darkBlue};
+    transition: 0.2s;
+  }
+
+  &:before {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+  }
 `;
 
 
 export default ({ section }) => (
   <Container>
     <Grid>
-      <Title>{section.title}</Title>
+      <Row>
+        <GLink to={section.link_url}>
+          <span>
+            {section.link_text}
+          </span>
+        </GLink>
+      </Row>
     </Grid>
   </Container>
 );

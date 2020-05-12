@@ -123,14 +123,14 @@ export default ({ section }) => (
         <ContainerImg>
           <Img src={section.image} alt={section.image_alt} />
           {section.title.length > 0
-            && <TintImg css={css`background: ${section.background_color_toggle ? '#469FD1;' : 'linear-gradient(180deg, rgba(236, 64, 103, 0.5) 0%, rgba(255, 175, 163, 0.5) 100%);'}`} />}
+            && <TintImg css={css`background: ${section.background_color_toggle ? 'linear-gradient(180deg, rgba(236, 64, 103, 1) 0%, rgba(255, 175, 163, 1) 100%);' : '#469FD1;'}`} />}
         </ContainerImg>
         {section.title.length > 0
           && (
             <>
               <div css={css`position: relative; grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; grid-row: 1; padding-top: 30px;`}>
                 <Title>{section.title}</Title>
-                <P>{section.link}</P>
+                <P>{section.text}</P>
               </div>
               {section.link_text.length > 0
               && (

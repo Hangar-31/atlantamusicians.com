@@ -118,6 +118,12 @@ collections:
               widget: object
               fields:
                 - { label: Text, name: text, widget: text }
+            - label: Content - Link
+              name: section_content_link
+              widget: object
+              fields:
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
             - label: Content - Images
               name: section_content_images
               widget: object
