@@ -71,8 +71,8 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
-            - label: Title - Banner
-              name: section_title_banner
+            - label: Banner
+              name: section_banner
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
@@ -82,6 +82,18 @@ collections:
                 - { label: Content Text, name: content_text, widget: text, required: false }
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
+            - label: Banner - Small
+              name: section_banner_small
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: "string"}
+                - { label: Title, name: title, widget: string, required: false }
+                - { label: Text, name: ctext, widget: text, required: false }
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: Add Red Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
             - label: Title - Section
               name: section_title
               widget: object
