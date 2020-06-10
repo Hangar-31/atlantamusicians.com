@@ -63,6 +63,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       link_text: String
       link_url: String
       background_color_toggle: Boolean
+      hours: String
+      phone: String
+      email: String
+      address: String
     }
     type ListItem {
       image: String
@@ -77,6 +81,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       link_text: String
       link_url: String
       background_color_toggle: Boolean
+      hours: String
+      phone: String
+      email: String
+      address: String
     }
   `;
   createTypes(typeDefs);

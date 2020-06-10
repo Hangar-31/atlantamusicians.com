@@ -53,6 +53,10 @@ export const pageQuery = graphql`
             link_text
             link_url
             background_color_toggle
+            hours
+            phone
+            email
+            address
           }
           name
           title
@@ -67,6 +71,10 @@ export const pageQuery = graphql`
           link_text
           link_url
           background_color_toggle
+          hours
+          phone
+          email
+          address
         }
       }
     }

@@ -45,6 +45,21 @@ collections:
                     - { label: Bio, name: text, widget: text }
                     - { label: Bio Image, name: image, widget: image }
                     - { label: Bio Image Alt Text, name: alt_text, widget: string }
+            - label: Section - Map
+              name: section_map
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Contact
+              name: section_contact
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: string }
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
             - label: Content - Boxes
               name: section_content_boxes
               widget: object

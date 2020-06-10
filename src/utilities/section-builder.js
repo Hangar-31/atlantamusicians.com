@@ -4,12 +4,14 @@ import SectionBoxes from '../components/Sections/SectionBoxes';
 import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
 import SectionBios from '../components/Sections/SectionBios';
+import SectionContact from '../components/Sections/SectionContact';
 import SectionContentOne from '../components/Sections/SectionContentOne';
 import SectionContentTitle1 from '../components/Sections/SectionContentTitle1';
 import SectionContentTitle2 from '../components/Sections/SectionContentTitle2';
 import SectionContentTitle3 from '../components/Sections/SectionContentTitle3';
 import SectionContentImages from '../components/Sections/SectionContentImages';
 import SectionContentText from '../components/Sections/SectionContentText';
+import MapOfficeLocation from '../components/Maps/MapOfficeLocation';
 
 export default (sections) => (
   <>
@@ -25,6 +27,10 @@ export default (sections) => (
           return (<SectionTitle section={section} />);
         case 'section_title_banner':
           return (<SectionTitleBanner section={section} />);
+        case 'section_contact':
+          return (<SectionContact section={section} />);
+        case 'section_map':
+          return (<MapOfficeLocation section={section} />);
         case 'section_content_one':
           return (<SectionContentOne section={section} />);
         case 'section_content_title_1':
