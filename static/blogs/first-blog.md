@@ -1,6 +1,8 @@
 ---
 title: First Blog
 date: 2020-06-10T13:44:49.395Z
+image: /assets/bailey-zindel-nrqv-hbf10m-unsplash.jpg
+alt_text: Mountain View
 content: >-
   # Hello
 
@@ -25,13 +27,14 @@ content: >-
 
   * Cool thing 1
 
-    Cool thing 2
+  * Cool thing 2
 
-    Cool thing 3
+  * Cool thing 3
 
-    Cool thing 4
+  * Cool thing 4
 
-    Cool thing 5
+  * Cool thing 5
+
 
   ## Here we go
 
