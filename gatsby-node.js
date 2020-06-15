@@ -75,7 +75,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       path: String
       sections: [Sections]
-      list: [ListItem]
+      list: [String]
       date: Date
       image: String
       alt: String

@@ -18,8 +18,8 @@ collections:
             label: Blog Tags
             widget: list
             label_singular: Tag Name
-            summary: {{tag}}
-            field: { name: tag, label: Tag Name, widget: string }
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
   - name: blog
     label: Blog
     folder: static/blogs
@@ -34,9 +34,8 @@ collections:
         name: tags
         widget: relation
         collection: settings_blog_tags
-        file: static/settings/blog_tags.md
-        valueField: blog_tags.blog_tag
-        searchFields: ["blog_tags.blog_tag"]
+        valueField: list.tag
+        searchFields: ["list.tag"]
         multiple: true
       - { name: content, label: Content, widget: markdown }
   - name: press
