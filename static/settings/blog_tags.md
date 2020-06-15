@@ -1,0 +1,5 @@
+---
+list:
+  - tech
+  - news
+---
