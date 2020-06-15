@@ -7,10 +7,11 @@ import { Link, useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 
 import ReactMarkdown from 'react-markdown';
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors } from '../../../configs/styles';
 
 const Container = styled.section`
   width: 100%;
+  margin: 30px 0;
 `;
 
 const Grid = styled.div`
@@ -65,15 +66,17 @@ const P = styled.p`
 
 const PLink = styled(Link)`
   font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #EC4067;
   text-decoration: underline;
+  text-transform: uppercase;
+  float: right;
 `;
 
 export default () => {
   const { allFile: { nodes } } = useStaticQuery(graphql`
     {
-      allFile(filter: {sourceInstanceName: {eq: "blog"}}) {
+      allFile(filter: {sourceInstanceName: {eq: "blog"}}, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___date}) {
         nodes {
           childMarkdownRemark {
             frontmatter {
@@ -81,6 +84,7 @@ export default () => {
               subtitle
               image
               alt
+              path
               content
             }
           }
@@ -104,9 +108,9 @@ export default () => {
         >
           <Grid css={css`grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;`}>
             {nodes.map(({ childMarkdownRemark: { frontmatter } }) => (
-              <Grid css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;`}>
-                <img css={css`grid-column: span 3; height: 225px; width: 100%; object-fit: cover;`} src={frontmatter.image} alt={frontmatter.alt} />
-                <div css={css`grid-column: span 5;`}>
+              <Grid css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}>
+                <img css={css`grid-column: span 3; height: 225px; width: 100%; height: 100%; object-fit: cover;`} src={frontmatter.image} alt={frontmatter.alt} />
+                <div css={css`grid-column: span 5; padding: 15px 30px 15px 0;`}>
                   <Title1>{frontmatter.title}</Title1>
                   <Title2>{frontmatter.subtitle}</Title2>
                   <ReactMarkdown source={frontmatter.content} renderers={{ paragraph: P }} allowedTypes={['text', 'paragraph']} />
