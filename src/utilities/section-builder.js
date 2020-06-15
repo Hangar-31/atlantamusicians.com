@@ -12,6 +12,7 @@ import SectionContentTitle3 from '../components/Sections/SectionContentTitle3';
 import SectionContentImages from '../components/Sections/SectionContentImages';
 import SectionContentText from '../components/Sections/SectionContentText';
 import MapOfficeLocation from '../components/Maps/MapOfficeLocation';
+import SectionBlogs from '../components/Sections/SectionBlogs';
 
 export default (sections) => (
   <>
@@ -23,6 +24,8 @@ export default (sections) => (
           return (<SectionBios section={section} />);
         case 'section_content_boxes':
           return (<SectionBoxes section={section} />);
+        case 'section_blogs':
+          return (<SectionBlogs section={section} />);
         case 'section_title':
           return (<SectionTitle section={section} />);
         case 'section_title_banner':

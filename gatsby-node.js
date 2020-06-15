@@ -4,14 +4,27 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
   const PageBuilderTemplate = path.resolve('src/templates/PageBuilder.js');
+  const BlogTemplate = path.resolve('src/templates/BlogTemplate.js');
+  const PressTemplate = path.resolve('src/templates/PressTemplate.js');
 
   const result = await graphql(`
     {
+      allFile {
+        nodes {
+          sourceInstanceName
+          childMarkdownRemark {
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
       allMarkdownRemark {
         edges {
           node {
             frontmatter {
               path
+              title
             }
           }
         }
@@ -34,6 +47,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       });
     }
   });
+
+  result.data.allFile.nodes.forEach((node) => {
+    if (node.sourceInstanceName === 'blog') {
+      createPage({
+        path: `blog/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+        component: BlogTemplate,
+        context: { title: node.childMarkdownRemark.frontmatter.title }, // additional data can be passed via context
+      });
+    } else if (node.sourceInstanceName === 'press') {
+      createPage({
+        path: `resources/press/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+        component: PressTemplate,
+        context: { title: node.childMarkdownRemark.frontmatter.title }, // additional data can be passed via context
+      });
+    }
+  });
 };
 
 
@@ -46,11 +75,17 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       path: String
       sections: [Sections]
+      date: Date
+      image: String
+      alt: String
+      content: String
+      subtitle: String
     }
     type Sections {
       type: String
       list: [ListItem]
       title: String
+      subtitle: String
       name: String
       content_title: String
       text: String
