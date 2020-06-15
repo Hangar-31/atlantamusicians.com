@@ -7,7 +7,5 @@ blog_tags:
   - news
   - instruments
   - orchestra
-list:
-  - test
-  - cool
+list: []
 ---
