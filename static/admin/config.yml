@@ -17,6 +17,8 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: number, label: Page Number }
+      - { name: seo_title, label: SEO Page Title }
+      - { name: seo_description, label: SEO Page Description, widget: text }
       - label: Sections
         name: sections
         widget: list
