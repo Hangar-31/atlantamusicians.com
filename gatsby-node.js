@@ -75,7 +75,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       path: String
       sections: [Sections]
-      list: [String]
+      list: [ListItem]
       date: Date
       image: String
       alt: String
@@ -121,8 +121,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       phone: String
       email: String
       address: String
-      blog_tags: String
-      blog_tag: String
+      tag: String
     }
   `;
   createTypes(typeDefs);

@@ -1,5 +1,5 @@
 ---
 list:
-  - tag: test
-  - tag: news
+  - test
+  - news
 ---
