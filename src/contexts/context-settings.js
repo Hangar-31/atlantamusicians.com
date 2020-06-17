@@ -18,8 +18,6 @@ export const ContextSettingsProvider = (props) => {
   settings.colorDarkGray = '#4C4C4C';
   settings.colorBlack = '#000000';
 
-  console.log('Fired');
-
   return (
     <>
       <ContextSettings.Provider value={settings}>

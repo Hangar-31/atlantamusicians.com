@@ -1,5 +1,0 @@
----
-list:
-  - test
-  - news
----

@@ -7,17 +7,6 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: settings
-    label: Settings
-    files:
-      - label: Blog Tags
-        name: settings_blog_tags
-        file: static/settings/blog_tags.md
-        fields:
-          - name: list
-            label: Blog Tags
-            widget: list
-            label_singular: Tag Name
   - name: blog
     label: Blog
     folder: static/blogs
@@ -30,12 +19,8 @@ collections:
       - { label: Image Alt Text, name: alt_text, widget: string }
       - label: Post Tags
         name: tags
-        widget: relation
+        widget: list
         collection: settings
-        file: static/settings/blog_tags.md
-        searchFields: ["list"]
-        valueField: list
-        multiple: true
       - { name: content, label: Content, widget: markdown }
   - name: press
     label: Press
