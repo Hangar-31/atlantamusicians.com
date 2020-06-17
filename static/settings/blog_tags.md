@@ -4,7 +4,9 @@ list:
   - tag: news
   - tag: orchestras
 tags:
-  - tag: test
-  - tag: sadas
-  - tag: asdsad
+  - tag: instruments
+  - tag: tips
+  - tag: local
+  - tag: orchestras
+  - tag: news
 ---
