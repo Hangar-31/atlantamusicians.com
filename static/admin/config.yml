@@ -18,10 +18,30 @@ collections:
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
       - label: Post Tags
-        name: tags
-        widget: list
+        name: relation
+        widget: relation
         collection: settings
+        file: settings_blog_tags
+        searchFields: [tags]
+        valueField: tags.*.tag
+        displayFields: [tags.*.tag]
+        multiple: true
       - { name: content, label: Content, widget: markdown }
+
+  - name: settings
+    label: Settings
+    files:
+      - label: Blog Tags
+        name: settings_blog_tags
+        file: static/settings/blog_tags.md
+        fields:
+          - name: tags
+            label: Blog Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
+
   - name: press
     label: Press
     folder: static/press
@@ -33,6 +53,7 @@ collections:
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
       - { name: content, label: Content, widget: markdown }
+
   - name: pages
     label: Pages
     folder: src/pages

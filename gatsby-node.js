@@ -76,6 +76,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       path: String
       sections: [Sections]
       list: [ListItem]
+      tags: [ListItem]
       date: Date
       image: String
       alt: String
