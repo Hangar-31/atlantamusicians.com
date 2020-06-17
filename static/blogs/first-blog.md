@@ -8,6 +8,9 @@ tags:
   - instruments
   - orchestras
   - locals
+relation:
+  - local
+  - instruments
 content: >-
   # Hello
 
