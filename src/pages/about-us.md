@@ -16,19 +16,23 @@ sections:
   - type: section_title
     title: About AFM
   - type: section_content_title_1
-    title: Title
+    title: AFM Local 148-462
   - type: section_content_text
-    text: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+    text: >
+      Every day the AFM helps thousands of musicians — negotiating fair
+      agreements, protecting ownership of recorded music, securing benefits such
+      as health care and pension, or lobbying our legislators. The AFM is
+      committed to raising industry standards and placing the professional
+      musician in the foreground of the cultural landscape.
 
 
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nisi scelerisque. Pellentesque habitant morbi tristique senectus. Non odio euismod lacinia at quis risus sed vulputate odio.
+      Organized in 1901, the Atlanta Federation of Musicians is a significant chapter of the AFM representing around 700 musicians throughout Georgia, including the metropolitan areas of Atlanta, Athens, Augusta, Columbus and Macon. Our professional members perform every imaginable style of music – including blues, classical, country, ethnic/world music, hip-hop, jazz, rap, rock, soul.
   - type: section_content_images
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
+      - image: /assets/rehearsal-hall-angle-1.jpg
+        alt_text: Atlanta Federation Of Musicians Rehearsal Hall
   - type: section_title
     title: History
   - type: section_content_title_1
