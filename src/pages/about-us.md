@@ -14,9 +14,7 @@ sections:
       largest organization in the world representing the interests of
       professional musicians.
   - type: section_title
-    title: About AFM
-  - type: section_content_title_1
-    title: AFM Local 148-462
+    title: About AFM Local 148-462
   - type: section_content_text
     text: >
       Every day the AFM helps thousands of musicians — negotiating fair
