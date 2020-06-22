@@ -2,11 +2,17 @@
 path: /about/about-us
 title: About Us
 number: "201"
+seo_title: About Us
+seo_description: Atlanta Federation Musicians About Us
 sections:
   - type: section_banner
     title: ATLANTA FEDERATION OF MUSICIANS
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: Testing
+    content_text: The Atlanta Federation of Musicians is Local 148-462 of the
+      American Federation of Musicians of the United States and Canada – the
+      largest organization in the world representing the interests of
+      professional musicians.
   - type: section_title
     title: About AFM
   - type: section_content_title_1
