@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
 
 const Container = styled.section`
@@ -26,6 +26,10 @@ const Row = styled.div`
   grid-column: 2 / span 10;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+  @media(max-width: ${mq.xs}px) {
+    grid-column: 1 / span 12;
+  }
 `;
 
 const Title = styled.h1`
@@ -45,7 +49,8 @@ const ContainerImg = styled.div`
   grid-row: 1;
   grid-column: 1 / span 10;
   width: 100%;
-  height: 260px;
+  height: calc(100% + 0px);
+  overflow: hidden;
 `;
 
 const TintImg = styled.div`
@@ -68,6 +73,11 @@ const P = styled.p`
   font-family: ${fonts.nunitoSans};
   font-size: 1.25rem;
   color: #ffffff;
+  padding-bottom: 30px;
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1rem;
+  }
 `;
 
 const ContainerLink = styled.div`
@@ -130,9 +140,40 @@ export default ({ section }) => {
 
   return (
     <>
-      <Container css={css`height: auto; margin-top: 75px;`}>
-        <Grid css={css`padding: 0;`}>
-          <Title css={css`line-height: 0.7; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
+      <Container css={css`
+        height: auto; 
+        margin-top: 75px;
+        @media(max-width: ${mq.xs}px) {
+          margin-top: 30px;
+        }
+      `}
+      >
+        <Grid css={css`
+          padding: 0 15px;
+          @media(max-width: ${mq.xs}px) {
+            justify-items: center;
+          }
+          `}
+        >
+          <Title css={css`
+            line-height: 0.7; 
+            margin: 0; 
+            padding: 0; 
+            color: #536080;
+
+            @media(max-width: ${mq.md}px) {
+              font-size: 1.5rem;
+            }
+            @media(max-width: ${mq.xs}px) {
+              text-align: center;: center;
+              line-height: 1.5;
+              margin-bottom: -10px;
+            }
+          `}
+          >
+            {section.title}
+
+          </Title>
         </Grid>
       </Container>
 
@@ -141,20 +182,68 @@ export default ({ section }) => {
         <Grid>
           <Row>
             <ContainerImg>
-              <Img src={section.content_image} alt={section.content_image_alt} />
+              <Img
+                css={css`
+                position: absolute !important;
+                top: 0;
+                left: 0;
+              `}
+                src={section.content_image}
+                alt={section.content_image_alt}
+              />
               {section.content_title.length > 0
             && <TintImg />}
             </ContainerImg>
             {section.content_title.length > 0
-          && (
+            && (
             <>
-              <div css={css`position: relative; grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; grid-row: 1; padding-top: 30px;`}>
-                <Title>{section.content_title}</Title>
+              <div css={css`
+                position: relative; 
+                grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; 
+                grid-row: 1; 
+                padding-top: 30px;
+
+                @media(max-width: ${mq.md}px) {
+                  padding: 30px 45px;
+                  grid-row: 1;
+                  grid-column: 1 / span 10; 
+                }
+                @media(max-width: ${mq.sm}px) {
+                  padding: 15px 30px;
+                }
+                @media(max-width: ${mq.xs}px) {
+                  padding: 15px;
+                }
+              `}
+              >
+                <Title css={css`
+                    @media(max-width: ${mq.xs}px) {
+                      font-size: 1.5rem;
+                    }
+                `}
+                >
+                  {section.content_title}
+
+                </Title>
                 <P>{section.content_text}</P>
               </div>
               {section.link_text.length > 0
               && (
-              <ContainerLink css={css`position: relative; grid-column: 8 / span 3; grid-row: 1;`}>
+              <ContainerLink css={css`
+                position: relative; 
+                grid-column: 8 / span 3; 
+                grid-row: 1;
+
+                @media(max-width: ${mq.md}px) {
+                  padding: 30px 0;
+                  grid-row: 2;
+                  grid-column: 1 / span 10; 
+                }
+                @media(max-width: ${mq.sm}px) {
+                  padding: 15px 0;
+                }
+              `}
+              >
                 <GLink to={section.link_url}>
                   <span>
                     {section.link_text}
@@ -163,7 +252,7 @@ export default ({ section }) => {
               </ContainerLink>
               )}
             </>
-          )}
+            )}
           </Row>
         </Grid>
       </Container>
