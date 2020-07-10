@@ -20,8 +20,15 @@ const Container = styled.section`
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.6);
+
   @media(min-width: ${mq.md}px) {
     display: none;
+  }
+  @media(MAX-width: ${mq.md}px) {
+    height: 90px;
+  }
+  @media(MAX-width: ${mq.xs}px) {
+    height: 75px;
   }
 `;
 
