@@ -18,7 +18,7 @@ collections:
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
       - label: Post Tags
-        name: relation
+        postTags: relation
         widget: relation
         collection: settings
         file: settings_blog_tags

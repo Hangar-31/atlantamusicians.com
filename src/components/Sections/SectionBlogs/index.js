@@ -1,7 +1,9 @@
 /* eslint-disable max-len */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-param-reassign */
-import React from 'react';
+import React, {
+  useContext, useEffect, Children, useState, useRef,
+} from 'react';
 // import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Link, useStaticQuery, graphql } from 'gatsby';
@@ -10,6 +12,10 @@ import { css } from '@emotion/core';
 
 import ReactMarkdown from 'react-markdown';
 import { fonts, colors } from '../../../configs/styles';
+import InputCheckBox from '../../Inputs/InputCheckBox';
+
+import { ProviderArticles, ContextArticles } from '../../../contexts/context-articles';
+import SearchBar from './SearchBar';
 
 const Container = styled.section`
   width: 100%;
@@ -27,13 +33,18 @@ const Grid = styled.div`
 
 const Column = styled.div``;
 
-const Title = styled.h1`
-  grid-column: 3 / span 8;
-  color: ${colors.darkBlue};
+const SidebarTitle = styled.h2`
+  background: ${colors.lightBlue};
+  color: #FFFFFF;
+  padding: 10px 0 5px 0;
+  margin: 0;
   font-weight: 800;
-  font-size: 1.875rem;
+  font-size: 0.875rem;
   font-family: ${fonts.biryani};
   text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  
 `;
 
 const Title1 = styled.h1`
@@ -75,7 +86,8 @@ const PLink = styled(Link)`
   float: right;
 `;
 
-const getData = () => useStaticQuery(graphql`
+const GetData = ({ children }) => {
+  const { tags, blogs } = useStaticQuery(graphql`
     query AllBlogsAndAllTags {
       blogs: allFile(filter: {sourceInstanceName: {eq: "blog"}}, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___date}) {
         nodes {
@@ -86,6 +98,7 @@ const getData = () => useStaticQuery(graphql`
               image
               alt
               path
+              postTags
               content
             }
           }
@@ -105,12 +118,35 @@ const getData = () => useStaticQuery(graphql`
     }
   `);
 
-const SectionBlogs = () => {
-  console.log(getData());
-  const { tags, blogs } = getData();
+  return (
+    <ProviderArticles>
+      <SectionBlogs tags={tags.nodes[0].childMarkdownRemark.frontmatter.tags} blogs={blogs.nodes} />
+    </ProviderArticles>
+  );
+};
 
-  console.log(tags);
-  console.log(blogs);
+const SectionBlogs = ({ tags, blogs }) => {
+  const { searchQuery } = useContext(ContextArticles);
+  const [activeTags, setActiveTags] = useState([]);
+  const activeTagsRef = useRef(activeTags);
+  const [articles, setArticles] = useState(blogs);
+
+  const setActiveTagsFunc = (data) => {
+    activeTagsRef.current = data;
+    setActiveTags(data);
+  };
+
+  useEffect(() => {
+    const articlesFiltered = articles;
+    if (activeTags.length > 0) {
+      articlesFiltered.filter((article) => article.childMarkdownRemark.frontmatter.postTags.filter((postTag) => activeTags.includes(postTag)));
+    }
+    if (searchQuery.length > 0) {
+      articlesFiltered.filter((article) => article.childMarkdownRemark.frontmatter.title.toLowerCase().includes(searchQuery.toLowerCase()));
+    }
+
+    setArticles(articlesFiltered);
+  }, [searchQuery, activeTags.current]);
 
   return (
     <Container>
@@ -119,11 +155,24 @@ const SectionBlogs = () => {
         grid-column: 2 / span 2;
       `}
         >
-          <Title>Sidebar</Title>
-          {tags.nodes.map(({ childMarkdownRemark: { frontmatter: { tags: tags2 } } }) => (
-            tags2.map(({ tag }) => (
-              <p>{tag}</p>
-            ))
+          <SearchBar />
+          <SidebarTitle>Tags</SidebarTitle>
+          {tags.map((tag, i) => (
+            <InputCheckBox
+              labelText={tag.tag}
+              onClick={(e) => {
+                if (!activeTagsRef.current.includes(tag)) {
+                  const x = activeTagsRef.current;
+                  x.push(tag);
+                  setActiveTagsFunc(x);
+                } else {
+                  const x = activeTagsRef.current;
+                  x.filter((activeTag) => activeTag !== tag);
+                  setActiveTagsFunc(x);
+                }
+                e.currentTarget.firstChild.checked = !e.currentTarget.firstChild.checked;
+              }}
+            />
           ))}
         </Column>
         <Column css={css`
@@ -131,7 +180,7 @@ const SectionBlogs = () => {
       `}
         >
           <Grid css={css`grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;`}>
-            {blogs.nodes.map(({ childMarkdownRemark: { frontmatter } }) => (
+            {articles.length > 0 && articles.map(({ childMarkdownRemark: { frontmatter } }) => (
               <Grid css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}>
                 <img css={css`grid-column: span 3; height: 225px; width: 100%; height: 100%; object-fit: cover;`} src={frontmatter.image} alt={frontmatter.alt} />
                 <div css={css`grid-column: span 5; padding: 15px 30px 15px 0;`}>
@@ -149,4 +198,4 @@ const SectionBlogs = () => {
   );
 };
 
-export default SectionBlogs;
+export default GetData;

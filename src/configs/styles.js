@@ -16,6 +16,15 @@ export const colors = {
   border: '#EC4067',
 };
 
+export const mq = {
+  xxs: 424.98,
+  xs: 575.98,
+  sm: 767.98,
+  md: 991.98,
+  lg: 1199.98,
+  xl: 1439.98,
+};
+
 export const contact = {
   name: 'Atlanta Federation of Musicians',
   address: {

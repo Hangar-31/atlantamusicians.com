@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { fonts, colors } from '../configs/styles';
 
 const imageUrl = process.env.NEXT_PUBLIC_ASSET_URL;
 
@@ -50,15 +51,16 @@ export const SpacerStyled = styled.hr`
 
 export const LabelStyled = styled.label`
   position: relative;
-
   display: block;
   width: 100%;
-  margin: 1rem auto;
+  margin: 0 15px 0 0;
 
   color: ${(props) => props.theme.colorHint};
 
+  font-size: 0.75rem;
+  font-family: ${fonts.montserrat};
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 1;
   text-align: left;
   text-transform: uppercase;
   vertical-align: middle;
@@ -142,21 +144,22 @@ export const CheckBoxInputStyled = styled.input`
 
   opacity: 0;
   &:checked ~ span {
-    background-color: ${(props) => props.theme.colorDarkGray};
+    background-color: ${colors.lightBlue};
   }
 `;
 
 export const CheckBoxCheckStyled = styled.span`
   display: inline-block;
-  width: 1.4rem;
+  width: 15px;
+  height: 15px;
 
-  height: 1.4rem;
-  margin: 0 10px 3px 0;
+  margin: 0 5px 3px 0;
 
-  line-height: 2rem;
+  line-height: 1;
   vertical-align: middle;
+  background: #E5E5E5;
 
-  border: 1px solid ${(props) => props.theme.colorDarkGray};
+  border: 1px solid #E5E5E5;
   content: '';
 `;
 

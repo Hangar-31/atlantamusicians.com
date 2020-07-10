@@ -12,7 +12,7 @@ const InputCheckBox = ({
   columns,
   inputCSS,
   inputName,
-  inputOnChange,
+  onClick,
   inputValue,
   labelCSS,
   labelText,
@@ -23,6 +23,7 @@ const InputCheckBox = ({
   return (
     <LabelStyled
       htmlFor={id}
+      onClick={onClick}
       css={{
         gridColumn: `span ${columns}`,
         padding: '1rem 0',
@@ -34,10 +35,9 @@ const InputCheckBox = ({
         required={required}
         type={type}
         name={inputName}
-        onChange={inputOnChange}
         value={inputValue}
         css={inputCSS}
-        checked={checkOn === inputValue}
+        checked={checkOn}
       />
       <CheckBoxCheckStyled />
       {(required ? '*' : '') + labelText}
@@ -46,11 +46,11 @@ const InputCheckBox = ({
 };
 
 InputCheckBox.defaultProps = {
-  checkOn: true,
+  checkOn: false,
   columns: '4',
   inputCSS: '',
   inputName: '',
-  inputOnChange: undefined,
+  onClick: undefined,
   inputValue: '',
   labelCSS: {},
   labelText: '',
@@ -63,7 +63,7 @@ InputCheckBox.propTypes = {
   columns: PropTypes.string,
   inputCSS: PropTypes.string,
   inputName: PropTypes.string,
-  inputOnChange: PropTypes.func,
+  onClick: PropTypes.func,
   inputValue: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   labelCSS: PropTypes.objectOf(PropTypes.any),
   labelText: PropTypes.string,

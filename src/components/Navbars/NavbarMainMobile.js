@@ -1,7 +1,10 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable no-use-before-define */
 import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
+import { FcMenu } from 'react-icons/fc';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 // Components
 import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
@@ -17,7 +20,7 @@ const Container = styled.section`
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.6);
-  @media(max-width: ${mq.md}px) {
+  @media(min-width: ${mq.md}px) {
     display: none;
   }
 `;
@@ -43,11 +46,18 @@ const Logo = styled(GLink)`
 `;
 
 const ListLinks = styled.ul`
-  position: relative;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 0px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100%;
-  padding: 0;
+  background: ${colors.darkBlue};
+  height: 100vh;
+  width: 250px;
+  padding: 30px;
+  margin: 0;
   list-style: none;
   text-transform: uppercase;
 `;
@@ -56,34 +66,21 @@ const ItemLink = styled.li`
   position: relative;
   display: flex;
   align-items: center;
-  height: 100%;
-  margin: 0 20px;
-  @media(max-width: ${mq.lg}px) {
-    margin: 0 15px;
-  }
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  margin: 0 0 20px 0px;
 `;
 
 const ListSubLinks = styled.ul`
-  display: none;
   z-index: 1;
-  position: absolute;
-  width: 180px;
-  top: 100%;
-  left: -25px;
-  margin: 0;
-  padding: 15px;
-  background: #324B93;
+  display: none;
+  position: relative;
+  width: 100%;
+  margin: 0 0 15px 0;
+  padding-left: 20px;
 
   list-style: none;
-`;
-
-const ItemSubLink = styled.li`
-  position: relative;
-  display: block;
-  margin-bottom: 15px;
-  &:last-child {
-    margin-bottom: 0;
-  }
 `;
 
 const Link = styled(GLink)`
@@ -133,10 +130,12 @@ const StyledLink = styled(GLink)`
 `;
 
 export default () => {
+  // eslint-disable-next-line no-unused-vars
+  const [mobileVisible, setMobileVisible] = useState(false);
   const [links, setLinks] = useState([]);
   const [activeSubMenu, setActiveSubMenu] = useState(-1);
   const { allMarkdownRemark: data } = useStaticQuery(graphql`
-    query MyQuery {
+    query MobileNav {
       allMarkdownRemark(filter: {frontmatter: {path: {ne: null}}}, sort: {fields: frontmatter___number, order: ASC}) {
         nodes {
           frontmatter {
@@ -194,18 +193,66 @@ export default () => {
           <ImageLogo1 to="/" cssProp="width: 100%;" />
         </Logo>
 
-        <ListLinks onMouseLeave={() => setActiveSubMenu(-1)}>
-          {links.map((link, i) => (
+        <button
+          css={css`
+            padding-right: 40px;
+            font-size: 2.5rem;
+            background: none;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: 0.2s;
+
+            g {
+              fill: #ffffff;
+            }
+
+            @media (max-width: ${mq.xs}px) {
+              padding-right: 15px;
+            }
+
+          `}
+          type="button"
+          onClick={() => setMobileVisible(true)}
+        >
+          <FcMenu />
+        </button>
+      </Wrapper>
+
+      <ListLinks
+        css={css`
+            transform: ${mobileVisible ? 'translateX(0px)' : 'translateX(250px)'};
+            transition: 0.4s;
+          `}
+        onMouseLeave={() => setActiveSubMenu(-1)}
+      >
+        <ItemLink>
+          <button
+            css={css`
+              margin: 0;
+              padding: 0;
+              font-size: 2rem;
+              background: none;
+              outline: none;
+              border: none;
+              cursor: pointer;
+              transition: 0.2s;
+              svg {
+                fill: #ffffff;
+              }
+            `}
+            type="button"
+            onClick={() => setMobileVisible(false)}
+          >
+            <AiOutlineCloseCircle />
+          </button>
+        </ItemLink>
+
+        {links.map((link, i) => (
+          <>
             <ItemLink
               key={link.name}
-              onMouseOver={() => {
-                if (link.subLinks.length === 0) {
-                  setActiveSubMenu(-1);
-                } else if (link.subLinks.length > 0 && activeSubMenu >= 0) {
-                  setActiveSubMenu(i);
-                }
-              }}
-              onFocus={() => {
+              onClick={() => {
                 if (link.subLinks.length === 0) {
                   setActiveSubMenu(-1);
                 } else if (link.subLinks.length > 0 && activeSubMenu >= 0) {
@@ -215,14 +262,17 @@ export default () => {
             >
               <Link
                 to={link.path}
-                onMouseOver={() => setActiveSubMenu(i)}
-                onFocus={() => setActiveSubMenu(i)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setActiveSubMenu(i);
+                }}
               >
                 {`${link.name} `}
                 {link.subLinks.length > 0 ? <FaCaretDown css={css`height: 12px;`} /> : ''}
               </Link>
+            </ItemLink>
 
-              {link.subLinks.length > 0
+            {link.subLinks.length > 0
               && (
               <ListSubLinks
                 css={css`
@@ -230,23 +280,23 @@ export default () => {
                 `}
               >
                 {link.subLinks.map((subLink) => (
-                  <ItemSubLink key={subLink.name}>
+                  <ItemLink key={subLink.name}>
                     <Link to={subLink.path}>{subLink.name}</Link>
-                  </ItemSubLink>
+                  </ItemLink>
                 ))}
               </ListSubLinks>
               )}
-            </ItemLink>
-          ))}
-          <ItemLink>
-            <StyledLink to="/">
-              <span>
-                Join Now
-              </span>
-            </StyledLink>
-          </ItemLink>
-        </ListLinks>
-      </Wrapper>
+          </>
+        ))}
+
+        <ItemLink>
+          <StyledLink to="/">
+            <span>
+              Join Now
+            </span>
+          </StyledLink>
+        </ItemLink>
+      </ListLinks>
     </Container>
   );
 };

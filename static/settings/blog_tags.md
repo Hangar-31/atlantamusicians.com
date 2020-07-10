@@ -1,6 +1,8 @@
 ---
 tags:
-  - tag: test
-  - tag: news
+  - tag: instruments
+  - tag: tips
+  - tag: local
   - tag: orchestras
+  - tag: news
 ---
