@@ -48,6 +48,11 @@ const LinkJoinNow = styled(GLink)`
   font-family: ${fonts.montserrat};
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 // Footer
@@ -156,6 +161,12 @@ const FooterLink = styled(GLink)`
   text-transform: uppercase;
   text-decoration: none;
 
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
   @media(max-width: ${mq.md}px) {
     white-space: nowrap;
   }
@@ -204,6 +215,11 @@ const BottomLink = styled(GLink)`
   font-family: ${fonts.biryani};
   font-size: 0.75rem;
   text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 

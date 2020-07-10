@@ -94,6 +94,11 @@ const Link = styled(GLink)`
   font-family: Montserrat;
   font-weight: regular;
   text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 const StyledLink = styled(GLink)`
@@ -104,6 +109,8 @@ const StyledLink = styled(GLink)`
   text-transform: uppercase;
   text-decoration: none;
   
+  transition: 0.2s;
+
   &:hover {
     span {
       background: ${colors.darkBlue};
