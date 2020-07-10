@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 
 const Form = styled.form`
   display: grid;
@@ -26,6 +26,10 @@ const InputText = styled.input`
 
   &:focus {
     background: #ffffff;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    grid-column: span 2 !important;
   }
 `;
 
@@ -60,6 +64,10 @@ const ButtonSubmit = styled.button`
   &:hover {
     color: #ffffff;
     background: ${colors.darkBlue};
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    grid-column: span 2 !important;
   }
 `;
 

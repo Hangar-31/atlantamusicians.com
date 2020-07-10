@@ -3,7 +3,7 @@ import React from 'react';
 // import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
-import { fonts } from '../../configs/styles';
+import { fonts, mq } from '../../configs/styles';
 import textToComponent from '../../utilities/text-to-component';
 
 const Container = styled.section`
@@ -27,6 +27,14 @@ const Text = styled.p`
   font-family: ${fonts.nunitoSans};
   font-style: normal;
   text-align: justify;
+
+  @media(max-width: ${mq.sm}px) {
+    grid-column: 2 / span 10;
+  }
+  @media(max-width: ${mq.xs}px) {
+    grid-column: 1 / span 12;
+    padding: 0 15px;
+  }
 `;
 
 

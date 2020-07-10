@@ -270,8 +270,10 @@ export default () => {
               <Link
                 to={link.path}
                 onClick={(e) => {
-                  e.preventDefault();
-                  setActiveSubMenu(i);
+                  if (link.subLinks.length > 0) {
+                    e.preventDefault();
+                    setActiveSubMenu(i);
+                  }
                 }}
               >
                 {`${link.name} `}

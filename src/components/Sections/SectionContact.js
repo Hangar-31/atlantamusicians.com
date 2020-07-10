@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 
 import FormContact from '../Forms/FormContact';
 
@@ -17,6 +17,14 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px 0;
+
+  @media(max-width: ${mq.sm}px) {
+    padding: 45px 0;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    padding: 0 0 30px 0;
+  }
 `;
 
 const Column = styled.div``;
@@ -29,6 +37,11 @@ const List = styled.ul`
 
 const Item = styled.li`
   margin-bottom: 45px;
+  
+  @media(max-width: ${mq.sm}px) {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 `;
 
 const Title = styled.h4`
@@ -51,7 +64,12 @@ export default ({ section }) => (
     <Grid>
       <Column css={css`
           grid-row: 1;
-          grid-column: 2 / span 4
+          grid-column: 2 / span 4;
+
+          @media(max-width: ${mq.sm}px) {
+            grid-row: 1;
+            grid-column: 2 / span 10;
+          }
         `}
       >
         <List>
@@ -91,7 +109,19 @@ export default ({ section }) => (
       </Column>
       <Column css={css`
           grid-row: 1;
-          grid-column: 6 / span 6
+          grid-column: 6 / span 6;
+
+          @media(max-width: ${mq.sm}px) {
+            padding-top: 60px;
+            grid-row: 2;
+            grid-column: 2 / span 10;
+          }
+
+          @media(max-width: ${mq.xs}px) {
+            padding: 0 15px;
+            grid-row: 2;
+            grid-column: 1 / span 12;
+          }
         `}
       >
         <FormContact />

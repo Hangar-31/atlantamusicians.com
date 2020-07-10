@@ -49,6 +49,7 @@ const ContainerImg = styled.div`
   grid-row: 1;
   grid-column: 1 / span 10;
   width: 100%;
+  min-height: 260px;
   height: calc(100% + 0px);
   overflow: hidden;
 `;
@@ -156,18 +157,17 @@ export default ({ section }) => {
           `}
         >
           <Title css={css`
-            line-height: 0.7; 
-            margin: 0; 
+            line-height: 1.5; 
+            margin: 0 0 -12px 0; 
             padding: 0; 
             color: #536080;
 
             @media(max-width: ${mq.md}px) {
-              font-size: 1.5rem;
+              font-size: 1.75rem;
             }
             @media(max-width: ${mq.xs}px) {
               text-align: center;: center;
-              line-height: 1.5;
-              margin-bottom: -10px;
+              margin-bottom: -11px;
             }
           `}
           >
