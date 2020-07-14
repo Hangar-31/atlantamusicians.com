@@ -1,11 +1,9 @@
 import { GraphQLClient } from 'graphql-request';
 
-const endpoint = process.env.NEXT_PUBLIC_GRAPHQL_URI;
+const endpoint = 'http://localhost:4000/graphql';
 
-export default (ctx) => new GraphQLClient(endpoint, {
-  credentials: 'include',
+export default () => new GraphQLClient(endpoint, {
   headers: {
-    // authorization: auth ? auth.authorizationString : '',
-    domain: ctx.req.headers.host,
+    domain: 'localhost:3000',
   },
 });
