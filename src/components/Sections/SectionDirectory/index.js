@@ -9,6 +9,7 @@ import { ProviderDirectory } from '../../usicians-directory/context-directory';
 import Contractor from '../../usicians-directory/SVGs/Contractor';
 import Teacher from '../../usicians-directory/SVGs/Teacher';
 import gqlClient from '../../../utilities/gqlClient';
+import PublicDirectoryCard from '../../usicians-directory/DirectoryCard/Public';
 
 const query = `{
   GetFilters {
@@ -94,7 +95,7 @@ const MemberDirectoryContext = () => {
     <ProviderDirectory filterData={filters}>
 
       <ThemeProvider theme={{
-        colorActive: '#D57E18',
+        colorActive: '#EC4067',
         colorActiveHover: '#000000',
         colorBtnBg: '#1F225B',
         colorBtnHover: '#EC4067',
@@ -120,7 +121,7 @@ const MemberDirectoryContext = () => {
             font-family: 'Nunito Sans';
           `}
           >
-            <MemberDirectory members={members} />
+            <MemberDirectory members={members} type="PUBLIC" Card={PublicDirectoryCard} />
           </Grid>
         </Container>
       </ThemeProvider>
