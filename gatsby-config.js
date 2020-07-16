@@ -1,3 +1,5 @@
+const { createProxyMiddleware: proxy } = require('http-proxy-middleware');
+
 module.exports = {
   siteMetadata: {
     title: 'Hangar 31 Website',
@@ -109,4 +111,15 @@ module.exports = {
     // Netlify CMS
     'gatsby-plugin-netlify-cms',
   ],
+  developMiddleware: (app) => {
+    app.use(
+      '/.netlify/functions/',
+      proxy({
+        target: 'http://localhost:9000',
+        pathRewrite: {
+          '/.netlify/functions/': '',
+        },
+      }),
+    );
+  },
 };

@@ -10,16 +10,18 @@ const Form = styled.form`
 `;
 
 const Text = styled.p`
+  color: #fff;
   font-size: 1.15rem;
   font-family: Blinker;
-  color: #fff;
 `;
 
 const InputText = styled.input`
-  font-family: ${fonts.montserrat};
-  font-size: 1rem;
-  padding: 10px 15px;
   margin-bottom: 15px;
+  padding: 10px 15px;
+
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+
   background: #F5F5F5;
   border: 1px solid #C4C4C4;
   border-radius: 4px;
@@ -34,15 +36,18 @@ const InputText = styled.input`
 `;
 
 const Textbox = styled.textarea`
-  font-family: ${fonts.montserrat};
-  font-size: 1rem;
-  padding: 10px 15px;
+  min-height: 212px;
   margin-bottom: 15px;
+  padding: 10px 15px;
+
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+
   background: #F5F5F5;
   border: 1px solid #C4C4C4;
   border-radius: 4px;
+
   resize: vertical;
-  min-height: 212px;
 
   &:focus {
     background: #ffffff;
@@ -50,19 +55,23 @@ const Textbox = styled.textarea`
 `;
 
 const ButtonSubmit = styled.button`
-  font-family: ${fonts.montserrat};
-  font-size: 1rem;
   padding: 15px;
+
   color: #EC4067;
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+
   background: transparent;
   border: 1px solid #EC4067;
   border-radius: 4px;
-  transition: 0.2s;
 
   cursor: pointer;
 
+  transition: 0.2s;
+
   &:hover {
     color: #ffffff;
+
     background: ${colors.darkBlue};
   }
 

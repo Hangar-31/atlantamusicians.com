@@ -12,8 +12,9 @@ const Container = styled.section`
 `;
 
 const Grid = styled.div`
-  display: grid;
   position: relative;
+
+  display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
@@ -26,7 +27,7 @@ const Row = styled.div`
   grid-column: 2 / span 10;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  
+
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
   }
@@ -34,23 +35,25 @@ const Row = styled.div`
 
 const Title = styled.h1`
   grid-column: 1 / span 12;
+  margin: 30px 0;
+
   color: ${colors.blue};
   font-weight: 800;
   font-size: 30px;
   font-family: ${fonts.montserrat};
-  text-transform: uppercase;
   font-style: normal;
   line-height: 1;
-  margin: 30px 0;
+  text-transform: uppercase;
 `;
 
 const ContainerImg = styled.div`
   position: relative;
-  grid-row: 1;
+
   grid-column: 1 / span 10;
+  grid-row: 1;
   width: 100%;
-  min-height: 260px;
   height: calc(100% + 0px);
+  min-height: 260px;
   overflow: hidden;
 `;
 
@@ -58,8 +61,10 @@ const TintImg = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
+
   background: #469FD1;
   opacity: 0.5;
 `;
@@ -71,10 +76,11 @@ const Img = styled.img`
 `;
 
 const P = styled.p`
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
-  color: #ffffff;
   padding-bottom: 30px;
+
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
 
   @media(max-width: ${mq.xs}px) {
     font-size: 1rem;
@@ -83,22 +89,25 @@ const P = styled.p`
 
 const ContainerLink = styled.div`
   position: relative;
+
   display: flex;
-  background: ${colors.darkBlue};
-  align-items: center;
   justify-content: center;
-  height: 100%;
+  align-items: center;
   width: 100%;
+  height: 100%;
+
+  background: ${colors.darkBlue};
 `;
 
 const GLink = styled(Link)`
   position: relative;
+
   color: #ffffff;
   font-size: 1rem;
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
-  
+
   &:hover {
     span {
       background: ${colors.blue};
@@ -106,25 +115,30 @@ const GLink = styled(Link)`
   }
 
   span {
-    display: block;
     position: relative;
-    height: 100%;
+
+    display: block;
     width: 100%;
+    height: 100%;
     padding: 15px 30px;
+
     background: ${colors.darkBlue};
+
     transition: 0.2s;
   }
 
   &:before {
-    z-index: 0;
     position: absolute;
-    content: "";
-    display: block;
     top: -1px;
     left: -1px;
+    z-index: 0;
+
+    display: block;
     width: calc(100% + 2px);
     height: calc(100% + 2px);
+
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+    content: "";
   }
 `;
 
@@ -142,7 +156,7 @@ export default ({ section }) => {
   return (
     <>
       <Container css={css`
-        height: auto; 
+        height: auto;
         margin-top: 75px;
         @media(max-width: ${mq.xs}px) {
           margin-top: 30px;
@@ -157,17 +171,19 @@ export default ({ section }) => {
           `}
         >
           <Title css={css`
-            line-height: 1.5; 
-            margin: 0 0 -12px 0; 
-            padding: 0; 
+            margin: 0 0 -12px 0;
+            padding: 0;
+
             color: #536080;
+            line-height: 1.5;
 
             @media(max-width: ${mq.md}px) {
               font-size: 1.75rem;
             }
             @media(max-width: ${mq.xs}px) {
-              text-align: center;: center;
               margin-bottom: -11px;
+
+              text-align: center;: center;
             }
           `}
           >
@@ -198,15 +214,16 @@ export default ({ section }) => {
             && (
             <>
               <div css={css`
-                position: relative; 
-                grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; 
-                grid-row: 1; 
+                position: relative;
+
+                grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'};
+                grid-row: 1;
                 padding-top: 30px;
 
                 @media(max-width: ${mq.md}px) {
-                  padding: 30px 45px;
+                  grid-column: 1 / span 10;
                   grid-row: 1;
-                  grid-column: 1 / span 10; 
+                  padding: 30px 45px;
                 }
                 @media(max-width: ${mq.sm}px) {
                   padding: 15px 30px;
@@ -230,14 +247,15 @@ export default ({ section }) => {
               {section.link_text.length > 0
               && (
               <ContainerLink css={css`
-                position: relative; 
-                grid-column: 8 / span 3; 
+                position: relative;
+
+                grid-column: 8 / span 3;
                 grid-row: 1;
 
                 @media(max-width: ${mq.md}px) {
-                  padding: 30px 0;
+                  grid-column: 1 / span 10;
                   grid-row: 2;
-                  grid-column: 1 / span 10; 
+                  padding: 30px 0;
                 }
                 @media(max-width: ${mq.sm}px) {
                   padding: 15px 0;
