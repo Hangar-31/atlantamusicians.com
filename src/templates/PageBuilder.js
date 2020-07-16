@@ -90,6 +90,7 @@ export const pageQuery = graphql`
           phone
           email
           address
+          year
         }
       }
     }

@@ -15,6 +15,7 @@ import MapOfficeLocation from '../components/Maps/MapOfficeLocation';
 import SectionBlogs from '../components/Sections/SectionBlogs';
 import SectionDirectory from '../components/Sections/SectionDirectory';
 import SectionPress from '../components/Sections/SectionPress';
+import SectionAwards from '../components/Sections/SectionAwards';
 
 export default (sections) => (
   <>
@@ -24,6 +25,8 @@ export default (sections) => (
           return (<SectionSlideshow section={section} />);
         case 'section_bios':
           return (<SectionBios section={section} />);
+        case 'section_awards':
+          return (<SectionAwards section={section} />);
         case 'section_content_boxes':
           return (<SectionBoxes section={section} />);
         case 'section_directory':

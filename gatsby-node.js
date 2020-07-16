@@ -105,6 +105,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       phone: String
       email: String
       address: String
+      year: Int
     }
     type ListItem {
       image: String

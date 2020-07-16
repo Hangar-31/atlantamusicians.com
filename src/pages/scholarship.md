@@ -30,7 +30,7 @@ sections:
       nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
       Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
   - type: section_awards
-    background_color_toggle: true
+    year: 2012
     list:
       - name: Jackie Burrows
         title: Winner
@@ -40,7 +40,6 @@ sections:
           Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
         image: /assets/blank-profile-picture-973460_640.png
         alt_text: placeholder
-        year: 2012
       - name: Tiffany Stormwell
         title: Winner
         text: >-
@@ -54,5 +53,28 @@ sections:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
         image: /assets/blank-profile-picture-973460_640.png
         alt_text: placeholder
-        year: 2001
+  - type: section_awards
+    year: 2014
+    list:
+      - name: Jackie Burrows
+        title: Winner
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+          nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+        image: /assets/blank-profile-picture-973460_640.png
+        alt_text: placeholder
+      - name: Tiffany Stormwell
+        title: Winner
+        text: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+          quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula
+          ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi
+          tincidunt augue.
+
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+        image: /assets/blank-profile-picture-973460_640.png
+        alt_text: placeholder
 ---

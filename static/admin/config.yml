@@ -119,7 +119,7 @@ collections:
               name: section_awards
               widget: object
               fields:
-                - { label: Alternate Row Colors, name: background_color_toggle, widget: "boolean", default: false, required: false }
+                - { label: Year, name: year, widget: "number", required: true }
                 - label: Award Winners
                   name: list
                   widget: list
@@ -129,7 +129,6 @@ collections:
                     - { label: Bio, name: text, widget: text }
                     - { label: Bio Image, name: image, widget: image }
                     - { label: Bio Image Alt Text, name: alt_text, widget: string }
-                    - { label: Year, name: year, widget: number }
             - label: Section - Map
               name: section_map
               widget: object
