@@ -226,3 +226,21 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
+            - label: Credit Card Form
+              name: section_content_images
+              widget: object
+              fields:
+                - label: Type of payment
+                  name: payment_type
+                  widget: select
+                  required: true
+                  options:
+                      - { label: 'Donation', value: 'DONATE'}
+                      - { label: 'Payment', value: 'PAYMENT'}
+                - label: Extra Data for Stripe
+                  name: list
+                  widget: list
+                  required: false
+                  fields:
+                    - { label: Title, name: name, widget: string }
+                    - { label: Value, name: text, widget: string }

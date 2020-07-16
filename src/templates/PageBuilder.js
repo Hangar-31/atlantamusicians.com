@@ -91,6 +91,7 @@ export const pageQuery = graphql`
           email
           address
           year
+          payment_type
         }
       }
     }

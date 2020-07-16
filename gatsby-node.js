@@ -106,6 +106,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       email: String
       address: String
       year: Int
+      payment_type: String
     }
     type ListItem {
       image: String

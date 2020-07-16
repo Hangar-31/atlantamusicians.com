@@ -21,20 +21,15 @@ sections:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
       nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-
-
-      Checks made out to: 
-
-
-      Atlanta Federation of Musicians 
-
-
-      Mailed or Delivered to: 
-
-
-      Atlanta Federation of Musicians 
-
-      551 Dutch Valley Road NE 
-
+  - type: section_content_title_3
+    title: 'Checks made out to:'
+  - type: section_content_text
+    text: >-
+      Atlanta Federation of Musicians
+  - type: section_content_title_3
+    title: 'Mailed or Delivered to:'
+  - type: section_content_text
+    text: >-
+      551 Dutch Valley Road NE
       Atlanta, GA 30324
 ---
