@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SectionSlideshow from '../components/Sections/SectionSlideshow';
 import SectionBoxes from '../components/Sections/SectionBoxes';
 import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
+import SectionBanner from '../components/Sections/SectionBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
 import SectionBios from '../components/Sections/SectionBios';
 import SectionContact from '../components/Sections/SectionContact';
@@ -55,6 +56,8 @@ export default (sections) => {
             return (<SectionTitle section={section} />);
           case 'section_title_banner':
             return (<SectionTitleBanner section={section} />);
+          case 'section_banner':
+            return (<SectionBanner section={section} />);
           case 'section_contact':
             return (<SectionContact section={section} />);
           case 'section_map':
