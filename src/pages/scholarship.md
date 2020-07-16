@@ -56,7 +56,7 @@ sections:
   - type: section_awards
     year: 2014
     list:
-      - name: Jackie Burrows
+      - name: Pauline Prescott
         title: Winner
         text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
@@ -64,7 +64,7 @@ sections:
           Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
         image: /assets/blank-profile-picture-973460_640.png
         alt_text: placeholder
-      - name: Tiffany Stormwell
+      - name: Ida Harris
         title: Winner
         text: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
