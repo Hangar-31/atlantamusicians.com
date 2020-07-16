@@ -227,7 +227,7 @@ collections:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
             - label: Credit Card Form
-              name: section_content_images
+              name: section_credit_card
               widget: object
               fields:
                 - label: Type of payment
