@@ -27,6 +27,7 @@
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.6",
+    "google-libphonenumber": "^3.2.10",
     "google-map-react": "^1.1.7",
     "graphql-request": "^2.0.0",
     "graphql-tag": "^2.10.3",

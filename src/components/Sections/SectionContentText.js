@@ -11,8 +11,9 @@ const Container = styled.section`
 `;
 
 const Grid = styled.div`
-  display: grid;
   position: relative;
+
+  display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
@@ -21,11 +22,12 @@ const Grid = styled.div`
 
 const Text = styled.p`
   grid-column: 3 / span 8;
-  font-size: 1.25rem;
 
   font-weight: 300;
+  font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
   font-style: normal;
+  white-space: pre-line;
   text-align: justify;
 
   @media(max-width: ${mq.sm}px) {
@@ -38,10 +40,13 @@ const Text = styled.p`
 `;
 
 
-export default ({ section }) => (
-  <Container>
-    <Grid>
-      {textToComponent(section.text, Text)}
-    </Grid>
-  </Container>
-);
+export default ({ section }) => {
+  console.log(section.text);
+  return (
+    <Container>
+      <Grid>
+        {textToComponent(section.text, Text)}
+      </Grid>
+    </Container>
+  );
+};
