@@ -3,13 +3,13 @@ import { css } from '@emotion/core';
 
 
 import { Container, Grid } from 'semantic-ui-react';
-import { ThemeProvider } from 'emotion-theming';
-import MemberDirectory from '../../usicians-directory';
-import { ProviderDirectory } from '../../usicians-directory/context-directory';
-import Contractor from '../../usicians-directory/SVGs/Contractor';
-import Teacher from '../../usicians-directory/SVGs/Teacher';
-import gqlClient from '../../../utilities/gqlClient';
-import PublicDirectoryCard from '../../usicians-directory/DirectoryCard/Public';
+import MemberDirectory from '../usicians-directory';
+import { ProviderDirectory } from '../usicians-directory/context-directory';
+import Contractor from '../usicians-directory/SVGs/Contractor';
+import Teacher from '../usicians-directory/SVGs/Teacher';
+import gqlClient from '../../utilities/gqlClient';
+import PublicDirectoryCard from '../usicians-directory/DirectoryCard/Public';
+import filterMemberDirectory from '../usicians-directory/filterMemberDirectory';
 
 const query = `{
   GetFilters {
@@ -93,24 +93,9 @@ const MemberDirectoryContext = () => {
   ];
   return (
     <ProviderDirectory filterData={filters}>
-
-      <ThemeProvider theme={{
-        colorActive: '#EC4067',
-        colorActiveHover: '#000000',
-        colorBtnBg: '#1F225B',
-        colorBtnHover: '#EC4067',
-        colorBtnText: '#FFFFFF',
-        colorDarkGray: '#4C4C4C',
-        colorDisabled: '#D7D7D7',
-        colorHint: '#7D7D7D',
-        colorNegative: '#EC4067',
-        colorOffWhite: '#FDFDFD',
-        colorWhite: '#FFFFFF',
-      }}
-      >
-        <Container>
-          <Grid
-            css={css`
+      <Container>
+        <Grid
+          css={css`
             display: grid;
             grid-column-gap: 3rem;
             grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -120,11 +105,14 @@ const MemberDirectoryContext = () => {
 
             font-family: 'Nunito Sans';
           `}
-          >
-            <MemberDirectory members={members} type="PUBLIC" Card={PublicDirectoryCard} />
-          </Grid>
-        </Container>
-      </ThemeProvider>
+        >
+          <MemberDirectory
+            members={members}
+            filter={filterMemberDirectory}
+            Card={PublicDirectoryCard}
+          />
+        </Grid>
+      </Container>
     </ProviderDirectory>
   );
 };

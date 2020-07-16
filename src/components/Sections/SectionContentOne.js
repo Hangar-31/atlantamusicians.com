@@ -5,6 +5,7 @@ import { fonts, colors, mq } from '../../configs/styles';
 
 const Container = styled.article`
   position: relative;
+
   width: 100%;
   margin: 0 auto;
 `;
@@ -12,10 +13,10 @@ const Grid = styled.div`
   display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px 0;
-  align-items: center;
 
   @media(max-width: ${mq.sm}px) {
     padding: 45px 30px;
@@ -35,9 +36,9 @@ const Title = styled.h1`
   font-weight: 800;
   font-size: 2rem;
   font-family: ${fonts.biryani};
-  text-transform: uppercase;
   font-style: normal;
   line-height: 53px;
+  text-transform: uppercase;
 
   @media(max-width: ${mq.sm}px) {
     font-size: 1.75rem;
@@ -48,9 +49,9 @@ const Title = styled.h1`
 `;
 
 const P = styled.p`
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
   color: #747474;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
 
   @media(max-width: ${mq.sm}px) {
     font-size: 1.125rem;
@@ -69,8 +70,8 @@ export default ({ section }) => (
   >
     <Grid>
       <Column css={css`
-          grid-row: 1;
           grid-column: ${section.image_right ? '2 / span 5' : '7 / span 5'};
+          grid-row: 1;
 
           @media(max-width: ${mq.sm}px) {
             grid-column: ${section.image_right ? '1 / span 6' : '7 / span 6'};
@@ -85,9 +86,9 @@ export default ({ section }) => (
       </Column>
       <Column
         css={css`
-          grid-row: 1;
           grid-column: ${section.image_right ? '8 / span 4' : '2 / span 4'};
-          
+          grid-row: 1;
+
           @media(max-width: ${mq.md}px) {
             grid-column: ${section.image_right ? '7 / span 5' : '2 / span 5'};
           }

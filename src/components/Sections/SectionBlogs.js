@@ -5,8 +5,8 @@ import ArticlesDirectory from '../Articles/Directory';
 
 const GetData = () => {
   const { tags, blogs } = useStaticQuery(graphql`
-    query AllPressAndAllTags {
-      blogs: allFile(filter: {sourceInstanceName: {eq: "press"}}, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___date}) {
+    query AllBlogAndAllTags {
+      blogs: allFile(filter: {sourceInstanceName: {eq: "blog"}}, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___date}) {
         nodes {
           childMarkdownRemark {
             frontmatter {
@@ -21,7 +21,7 @@ const GetData = () => {
           }
         }
       }
-      tags: allFile(filter: {base: {eq: "press_tags.md"}}) {
+      tags: allFile(filter: {base: {eq: "blog_tags.md"}}) {
         nodes {
           childMarkdownRemark {
             frontmatter {
@@ -35,12 +35,11 @@ const GetData = () => {
     }
   `);
 
-
   return (
     <ArticlesDirectory
       tags={tags.nodes[0].childMarkdownRemark.frontmatter.tags}
       blogs={blogs.nodes}
-      link="resources/press"
+      link="blog"
     />
   );
 };

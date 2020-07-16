@@ -41,6 +41,16 @@ collections:
             label_singular: Tag Name
             fields:
               - { name: tag, label: Tag Name, widget: string }
+      - label: Press Tags
+        name: settings_press_tags
+        file: static/settings/press_tags.md
+        fields:
+          - name: tags
+            label: Press Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
 
   - name: press
     label: Press
@@ -52,6 +62,15 @@ collections:
       - { name: date, label: Post Date, widget: date }
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
+      - label: Post Tags
+        postTags: relation
+        widget: relation
+        collection: settings
+        file: settings_press_tags
+        searchFields: [tags]
+        valueField: tags.*.tag
+        displayFields: [tags.*.tag]
+        multiple: true
       - { name: content, label: Content, widget: markdown }
 
   - name: pages

@@ -14,6 +14,7 @@ import SectionContentText from '../components/Sections/SectionContentText';
 import MapOfficeLocation from '../components/Maps/MapOfficeLocation';
 import SectionBlogs from '../components/Sections/SectionBlogs';
 import SectionDirectory from '../components/Sections/SectionDirectory';
+import SectionPress from '../components/Sections/SectionPress';
 
 export default (sections) => (
   <>
@@ -49,8 +50,11 @@ export default (sections) => (
           return (<SectionContentText section={section} />);
         case 'section_content_images':
           return (<SectionContentImages section={section} />);
+        case 'section_press':
+          return <SectionPress section={section} />;
         default:
-          console.log('Section Not Defined');
+          // eslint-disable-next-line no-console
+          console.log('Section Not Defined', type);
           return '';
       }
     })}
