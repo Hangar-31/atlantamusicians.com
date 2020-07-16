@@ -14,6 +14,8 @@ sections:
       payment by logging into your account and paying through the members pay
       center.
     content_alt_text: placeholder
+  - type: section_content_title_2
+    title: Pay By Card
   - type: section_credit_card
     payment_type: PAYMENT
     list:
