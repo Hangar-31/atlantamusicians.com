@@ -40,6 +40,7 @@ sections:
           Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
         image: /assets/blank-profile-picture-973460_640.png
         alt_text: placeholder
+        year: 2012
       - name: Tiffany Stormwell
         title: Winner
         text: >-
@@ -53,4 +54,5 @@ sections:
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
         image: /assets/blank-profile-picture-973460_640.png
         alt_text: placeholder
+        year: 2001
 ---
