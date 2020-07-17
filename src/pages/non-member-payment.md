@@ -16,11 +16,8 @@ sections:
     content_alt_text: placeholder
   - type: section_content_title_2
     title: Pay By Card
-  - type: section_credit_card
+  - type: section_credit_card_payment
     payment_type: PAYMENT
-    list:
-      - name: Type
-        text: Non-Member Payment
     title: Non Member Payment
   - type: section_content_title_2
     title: PAY BY CHECK
