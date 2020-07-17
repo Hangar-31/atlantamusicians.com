@@ -21,6 +21,7 @@ sections:
     list:
       - name: Type
         text: Non-Member Payment
+    title: Non Member Payment
   - type: section_content_title_2
     title: PAY BY CHECK
   - type: section_content_text
@@ -35,4 +36,18 @@ sections:
     title: "Mailed or Delivered to:"
   - type: section_content_text
     text: 551 Dutch Valley Road NE Atlanta, GA 30324
+  - content_alt_text: Placeholder
+    link_url: /donate
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+    link_text: Donate Today
+    content_title: DONATE TO OUR SCHOLARSHIP FUND
+    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
+      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
+      arcu.
+    content_image: /assets/atlanta-musicians-placeholder-horizontal-red.png
+    title: THANK YOU FOR YOUR PAYMENT!
+    type: section_thank_you
 ---
