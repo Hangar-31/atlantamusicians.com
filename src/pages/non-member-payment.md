@@ -1,7 +1,7 @@
 ---
 path: /non-member-payment
 title: Non Member Payment
-number: "101"
+number: "0"
 seo_title: Non Member Payment
 seo_description: Make payments
 sections:
