@@ -19,4 +19,9 @@ sections:
     title: Donation
     list:
       - name: Program 1
+  - type: section_thank_you
+    title: Thank you for your payment!
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
+      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
 ---
