@@ -226,17 +226,38 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-            - label: Credit Card Form
-              name: section_credit_card
+            - label: Payment - Donatation Form
+              name: section_credit_card_donate
               widget: object
               fields:
                 - label: Type of payment
                   name: payment_type
-                  widget: select
+                  widget: hidden
                   required: true
+                  default: 'DONATE'
                   options:
-                      - { label: 'Donation', value: 'DONATE'}
-                      - { label: 'Payment', value: 'PAYMENT'}
+                - label: Stripe Description
+                  name: title
+                  widget: string
+                - label: Programs
+                  name: list
+                  widget: list
+                  required: false
+                  fields:
+                    - { label: Name, name: name, widget: string }
+            - label: Payment - Non-Member Form
+              name: section_credit_card_payment
+              widget: object
+              fields:
+                - label: Type of payment
+                  name: payment_type
+                  widget: hidden
+                  required: true
+                  default: 'PAYMENT'
+                  options:
+                - label: Stripe Description
+                  name: title
+                  widget: string
                 - label: Extra Data for Stripe
                   name: list
                   widget: list
@@ -244,3 +265,39 @@ collections:
                   fields:
                     - { label: Title, name: name, widget: string }
                     - { label: Value, name: text, widget: string }
+            - label: Payment - Thank You
+              name: section_thank_you
+              widget: object
+              fields:
+                - label: Title
+                  name: title
+                  widget: string
+                  required: false
+                - label: Text
+                  name: text
+                  widget: text
+                  required: false
+                - label: Banner Title
+                  name: content_title
+                  widget: string
+                  required: false
+                - label: Text
+                  name: content_text
+                  widget: text
+                  required: false
+                - label: Banner Image
+                  name: content_image
+                  widget: image
+                  required: false
+                - label: Banner Alt Text
+                  name: content_alt_text
+                  widget: string
+                  required: false
+                - label: Link Text
+                  name: link_text
+                  widget: string
+                  required: false
+                - label: Link URL
+                  name: link_url
+                  widget: string
+                  required: false

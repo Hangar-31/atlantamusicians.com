@@ -19,6 +19,7 @@ import SectionPress from '../components/Sections/SectionPress';
 import SectionAwards from '../components/Sections/SectionAwards';
 import SectionAwardFilters from '../components/Sections/SectionAwardFilters';
 import SectionCreditCard from '../components/Sections/SectionCreditCard';
+import SectionThankYou from '../components/Sections/SectionThankYou';
 
 export default (sections) => {
   const years = sections
@@ -77,8 +78,16 @@ export default (sections) => {
             return (<SectionContentImages section={section} />);
           case 'section_press':
             return <SectionPress section={section} />;
-          case 'section_credit_card':
-            return <SectionCreditCard section={section} />;
+          case 'section_credit_card_donate':
+          case 'section_credit_card_payment':
+            return (
+              <SectionCreditCard
+                section={section}
+                ThankYou={
+                  <SectionThankYou section={sections.find((s) => s.type === 'section_thank_you')} />
+                }
+              />
+            );
           default:
             // eslint-disable-next-line no-console
             console.log('Section Not Defined', type);

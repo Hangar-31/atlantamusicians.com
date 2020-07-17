@@ -41,7 +41,7 @@ exports.handler = function (event, context, callback) {
       currency: 'usd',
       amount: data.amount * 100,
       payment_method: data.paymentMethod.id,
-      description: data.type === 'PAYMENT' ? 'Non-Member Payment' : 'Donation',
+      description: data.description,
       metadata: data.extraData,
       confirmation_method: 'automatic',
       confirm: true,
