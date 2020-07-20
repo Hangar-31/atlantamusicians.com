@@ -27,7 +27,6 @@ const Text = styled.p`
   font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
   font-style: normal;
-  white-space: pre-line;
   text-align: justify;
 
   @media(max-width: ${mq.sm}px) {
@@ -40,13 +39,10 @@ const Text = styled.p`
 `;
 
 
-export default ({ section }) => {
-  console.log(section.text);
-  return (
-    <Container>
-      <Grid>
-        {textToComponent(section.text, Text)}
-      </Grid>
-    </Container>
-  );
-};
+export default ({ section }) => (
+  <Container>
+    <Grid>
+      {textToComponent(section.text, Text)}
+    </Grid>
+  </Container>
+);

@@ -5,7 +5,6 @@ import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
 import { fonts, colors, mq } from '../../configs/styles';
-import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
 
 const Container = styled.section`
   width: 100%;
@@ -20,13 +19,21 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px 0;
+
+
 `;
 
 const Row = styled.div`
   display: grid;
-  grid-column: 2 / span 10;
+  grid-column: 3 / span 8;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+
+  background: #FFFFFF;
+
+  border-radius: 10px;
+  box-shadow: 0px 0 4px  rgba(0, 0, 0, 0.25);
 
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
@@ -37,49 +44,49 @@ const Title = styled.h1`
   grid-column: 1 / span 12;
   margin: 30px 0;
 
-  color: ${colors.blue};
+  color: #fff;
   font-weight: 800;
-  font-size: 30px;
-  font-family: ${fonts.montserrat};
+  font-size: 20px;
+  font-family: ${fonts.biryani};
   font-style: normal;
   line-height: 1;
+  text-align: center;
   text-transform: uppercase;
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const ContainerImg = styled.div`
   position: relative;
 
   grid-column: 1 / span 10;
-  grid-row: 1;
+  grid-row: 2;
   width: 100%;
   height: calc(100% + 0px);
   min-height: 260px;
   overflow: hidden;
 `;
 
-const TintImg = styled.div`
-  position: absolute;
+
+const Img = styled.img`
+  position: absolute !important;
   top: 0;
   left: 0;
 
-  width: 100%;
-  height: 100%;
-
-  background: #469FD1;
-  opacity: 0.5;
-`;
-
-const Img = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
 `;
 
 const P = styled.p`
+  max-width: 75%;
+  margin: 0 auto;
   padding-bottom: 30px;
 
   color: #ffffff;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: ${fonts.nunitoSans};
 
   @media(max-width: ${mq.xs}px) {
@@ -91,12 +98,22 @@ const ContainerLink = styled.div`
   position: relative;
 
   display: flex;
+
+  grid-column: span 10;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 45px;
 
   background: ${colors.darkBlue};
+
+  @media(max-width: ${mq.md}px) {
+    padding: 30px 0;
+  }
+  @media(max-width: ${mq.sm}px) {
+    padding: 15px 0;
+  }
 `;
 
 const GLink = styled(Link)`
@@ -142,87 +159,57 @@ const GLink = styled(Link)`
   }
 `;
 
-export default ({ section }) => {
-  if (typeof section.content_title === 'undefined') {
-    section.content_title = '';
+const MainContent = styled.div`
+
+  grid-column: span 10;
+  padding: 50px 100px;
+
+  h1 {
+    color: ${colors.darkBlue};
+    font-weight: 800;
+    font-size: 30px;
+    font-family: ${fonts.biryani};
+    text-align: center
   }
-  if (typeof section.content_text === 'undefined') {
-    section.content_text = '';
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: ${fonts.nunitoSans};
+    text-align: justify;
   }
-  if (typeof section.link_text === 'undefined') {
-    section.link_text = '';
-  }
+`;
 
-  return (
-    <>
-      <Container css={css`
-        height: auto;
-        margin-top: 75px;
-        @media(max-width: ${mq.xs}px) {
-          margin-top: 30px;
-        }
-      `}
-      >
-        <Grid css={css`
-          padding: 0 15px;
-          @media(max-width: ${mq.xs}px) {
-            justify-items: center;
-          }
-          `}
-        >
-          <Title css={css`
-            margin: 0 0 -12px 0;
-            padding: 0;
-
-            color: #536080;
-            line-height: 1.5;
-
-            @media(max-width: ${mq.md}px) {
-              font-size: 1.75rem;
-            }
-            @media(max-width: ${mq.xs}px) {
-              margin-bottom: -11px;
-
-              text-align: center;: center;
-            }
-          `}
-          >
-            {section.title}
-
-          </Title>
-        </Grid>
-      </Container>
-
-      <Container>
-        <ImageAccentCityScape cssProp="position: absolute !important; width: 100%; height: 200px;" />
-        <Grid>
-          <Row>
-            <ContainerImg>
-              <Img
-                css={css`
-                position: absolute !important;
-                top: 0;
-                left: 0;
-              `}
-                src={section.content_image}
-                alt={section.content_image_alt}
-              />
-              {section.content_title.length > 0
-            && <TintImg />}
-            </ContainerImg>
-            {section.content_title.length > 0
+export default ({ section }) => (
+  <>
+    <Container>
+      <Grid>
+        <Row>
+          {(section.title || section.text) && (
+          <MainContent>
+            <h1>{section.title}</h1>
+            <p>{section.text}</p>
+          </MainContent>
+          )}
+          {section.content_image && (
+          <ContainerImg>
+            <Img
+              src={section.content_image}
+              alt={section.content_image_alt}
+            />
+          </ContainerImg>
+          )}
+          {section.content_title
             && (
             <>
               <div css={css`
                 position: relative;
 
-                grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'};
-                grid-row: 1;
+                grid-column: 2 / span 8;
+                grid-row: 2;
                 padding-top: 30px;
 
                 @media(max-width: ${mq.md}px) {
-                  grid-column: 1 / span 10;
-                  grid-row: 1;
                   padding: 30px 45px;
                 }
                 @media(max-width: ${mq.sm}px) {
@@ -233,35 +220,15 @@ export default ({ section }) => {
                 }
               `}
               >
-                <Title css={css`
-                    @media(max-width: ${mq.xs}px) {
-                      font-size: 1.5rem;
-                    }
-                `}
-                >
+                <Title>
                   {section.content_title}
 
                 </Title>
                 <P>{section.content_text}</P>
               </div>
-              {section.link_text.length > 0
+              {section.link_text
               && (
-              <ContainerLink css={css`
-                position: relative;
-
-                grid-column: 8 / span 3;
-                grid-row: 1;
-
-                @media(max-width: ${mq.md}px) {
-                  grid-column: 1 / span 10;
-                  grid-row: 2;
-                  padding: 30px 0;
-                }
-                @media(max-width: ${mq.sm}px) {
-                  padding: 15px 0;
-                }
-              `}
-              >
+              <ContainerLink>
                 <GLink to={section.link_url}>
                   <span>
                     {section.link_text}
@@ -271,9 +238,8 @@ export default ({ section }) => {
               )}
             </>
             )}
-          </Row>
-        </Grid>
-      </Container>
-    </>
-  );
-};
+        </Row>
+      </Grid>
+    </Container>
+  </>
+);
