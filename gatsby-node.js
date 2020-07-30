@@ -53,13 +53,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       createPage({
         path: `blog/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
         component: BlogTemplate,
-        context: { title: node.childMarkdownRemark.frontmatter.title }, // additional data can be passed via context
+        // additional data can be passed via context
+        context: { title: node.childMarkdownRemark.frontmatter.title },
       });
     } else if (node.sourceInstanceName === 'press') {
       createPage({
         path: `resources/press/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
         component: PressTemplate,
-        context: { title: node.childMarkdownRemark.frontmatter.title }, // additional data can be passed via context
+        // additional data can be passed via context
+        context: { title: node.childMarkdownRemark.frontmatter.title },
       });
     }
   });

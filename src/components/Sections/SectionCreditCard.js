@@ -178,7 +178,6 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       // form submission until Stripe.js has loaded.
       return;
     }
-    console.log('ev.target, ev.currentTarget', ev.target, ev.currentTarget);
     const valid = ev.target.reportValidity();
     if (!valid) {
       setStatus('ERROR');
@@ -224,6 +223,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
     const data = await info.json();
     if (payload.error || data.status !== 'succeeded') {
       setStatus('ERROR');
+      // eslint-disable-next-line no-console
       console.log('[error]', payload.error, data.status);
     } else {
       setStatus('SUCCESS');

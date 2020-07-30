@@ -1,7 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: Hangar-31/atlantamusicians.com
-  branch: staging
+  branch: staging-netlify
 
 media_folder: static/assets
 public_folder: /assets
@@ -116,8 +116,8 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: number, label: Page Number }
-      - { name: seo_title, label: SEO Title }
-      - { name: seo_description, label: SEO Description }
+      - { name: seo_title, label: SEO Page Title }
+      - { name: seo_description, label: SEO Page Description, widget: text }
       - label: Sections
         name: sections
         widget: list
@@ -201,8 +201,8 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
-            - label: Title - Banner
-              name: section_title_banner
+            - label: Banner
+              name: section_banner
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
@@ -212,16 +212,17 @@ collections:
                 - { label: Content Text, name: content_text, widget: text, required: false }
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
-            - label: Banner
-              name: section_banner
+            - label: Banner - Small
+              name: section_banner_small
               widget: object
               fields:
-                - { label: Content Image, name: content_image, widget: image }
-                - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
-                - { label: Content Title, name: content_title, widget: string, required: false }
-                - { label: Content Text, name: content_text, widget: text, required: false }
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: "string"}
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: Add Red Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
             - label: Title - Section
               name: section_title
               widget: object
@@ -247,6 +248,12 @@ collections:
               widget: object
               fields:
                 - { label: Text, name: text, widget: text }
+            - label: Content - Link
+              name: section_content_link
+              widget: object
+              fields:
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
             - label: Content - Images
               name: section_content_images
               widget: object

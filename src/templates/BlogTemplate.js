@@ -5,13 +5,14 @@ import { css } from '@emotion/core';
 
 // Components
 import Layout from '../components/Layouts/Layout';
-import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
+import SectionBanner from '../components/Sections/SectionBanner';
 import { fonts, colors, contact } from '../configs/styles';
 
 const ReactMarkdown = require('react-markdown');
 
 const Container = styled.article`
   position: relative;
+
   width: 100%;
   margin: -30px auto 0 auto;
 `;
@@ -56,20 +57,21 @@ const Title2 = styled.h2`
 `;
 
 const P = styled.p`
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
   color: #747474;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
 `;
 
 const PLink = styled.a`
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
   color: #EC4067;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
   text-decoration: underline;
 `;
 
 const Image = styled.img`
   position: relative;
+
   width: 100%;
 `;
 
@@ -79,32 +81,38 @@ const List = styled.ul`
 
 const Item = styled.li`
   margin-bottom: 15px;
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
+
   color: #747474;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
 `;
 
 const LinkBack = styled(Link)`
   position: relative;
+
+  padding: 5px 30px;
+
+  color: #EC4067;
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+  text-decoration: none;
+
   border: 1px solid #EC4067;
   border-radius: 3px;
-  padding: 5px 30px;
-  font-family: ${fonts.montserrat};
-  font-size: 1rem;
-  color: #EC4067;
-  text-decoration: none;
 
   transition: 0.2s;
 
   &:hover {
-    background: #EC4067;
     color: #ffffff;
+
+    background: #EC4067;
   }
 `;
 
 const LinksBottom = styled(Link)`
   display: flex;
   align-items: center;
+
   color: #ffffff;
   font-size: 0.875rem;
   font-family: ${fonts.montserrat};
@@ -133,34 +141,35 @@ export default ({ data }) => {
   return (
     <Layout>
 
-      <SectionTitleBanner section={section} />
+      <SectionBanner section={section} />
 
       <Container>
         <Grid>
           <Grid css={css`
             grid-column: 2 / span 10;
             padding: 15px 0;
+
             box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
           `}
           >
             <Column css={css`
-              grid-row: 1;
-              grid-column: 1 / span 2;
               display: flex;
+              grid-column: 1 / span 2;
+              grid-row: 1;
               justify-content: center;
               align-items: center;
             `}
             >
-              <svg css={css`margin-right: 10px; width: 9px; height: 18px;`} width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg css={css` width: 9px; height: 18px;margin-right: 10px;`} width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-2.18557e-07 5L5 2.18557e-07L5 10L-2.18557e-07 5Z" fill="#EC4067" />
               </svg>
               <LinkBack to="/blog">BACK</LinkBack>
             </Column>
 
             <Column css={css`
-              grid-row: 1;
-              grid-column: 11 / span 2;
               display: flex;
+              grid-column: 11 / span 2;
+              grid-row: 1;
               justify-content: center;
               align-items: center;
             `}
@@ -180,8 +189,8 @@ export default ({ data }) => {
             </Column>
 
             <Column css={css`
-              grid-row: 2;
               grid-column: 3 / span 8;
+              grid-row: 2;
             `}
             >
               <Title1>{title}</Title1>
@@ -196,7 +205,7 @@ export default ({ data }) => {
                 }}
                 source={content}
               />
-              <div css={css`display: flex; height: 120px; width: 100%; align-items: center; justify-content: center;`}>
+              <div css={css`display: flex; justify-content: center; align-items: center; width: 100%; height: 120px;`}>
                 <LinksBottom href={contact.facebook}>
                   <svg css={css`margin-right: 15px;`} width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
@@ -214,13 +223,14 @@ export default ({ data }) => {
 
           </Grid>
           <Column css={css`
-              grid-column: 2 / span 10;
-              margin: 30px 0 60px 0;
-              background: ${colors.darkBlue};
-              padding: 10px 15px;
               display: flex;
+              grid-column: 2 / span 10;
               justify-content: space-between;
               align-items: center;
+              margin: 30px 0 60px 0;
+              padding: 10px 15px;
+
+              background: ${colors.darkBlue};
             `}
           >
             <LinksBottom href="/previous">
