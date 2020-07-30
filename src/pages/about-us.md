@@ -66,17 +66,21 @@ sections:
   - type: section_bios
     background_color_toggle: false
     list:
-      - name: John Smith
-        title: Board Member
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
-          quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula
-          ipsum a arcu.
-
-
-          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nis. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Pellentesque habitant morbi tristique senectus
-        image: /assets/blank-profile-picture-973460_640.png
+      - name: Christina Ottaviano
+        title: Secretary-Treasurer
+        text: Christina Ottaviano has been Secretary of the Atlanta Federation of
+          Musicians since 2012 and Secretary-Treasurer since 2018. Previously,
+          she served as Local Executive Board Director and ROPA Delegate for the
+          Atlanta Ballet Orchestra. Christina received her Bachelor of Music in
+          Double Bass Performance from the New England Conservatory and Master
+          of Music from the University of Georgia. She performed as a member of
+          the Atlanta Ballet Orchestra, the Atlanta Opera Orchestra, and the
+          Columbus Symphony for over a decade. Her students have gone on to
+          pursue degrees at Florida State University, the University of South
+          Carolina, and Boston Conservatory. A runner, baker, gamer, and
+          accounting student, Christina currently lives in Cumming with her
+          husband and young son.
+        image: /assets/tina-headshot.jpg
         alt_text: placeholder
       - name: Gina Garfield
         title: Board Member
