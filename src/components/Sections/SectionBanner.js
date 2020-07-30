@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
 import { fonts, colors, mq } from '../../configs/styles';
+import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
 
 const Container = styled.section`
   width: 100%;
@@ -56,6 +57,17 @@ const ContainerImg = styled.div`
   overflow: hidden;
 `;
 
+const TintImg = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #469FD1;
+  opacity: 0.5;
+`;
 
 const Img = styled.img`
   width: 100%;
@@ -143,7 +155,46 @@ export default ({ section }) => {
 
   return (
     <>
+      <Container css={css`
+        height: auto;
+        margin-top: 75px;
+        @media(max-width: ${mq.xs}px) {
+          margin-top: 30px;
+        }
+      `}
+      >
+        <Grid css={css`
+          padding: 0 15px;
+          @media(max-width: ${mq.xs}px) {
+            justify-items: center;
+          }
+          `}
+        >
+          <Title css={css`
+            margin: 0 0 -12px 0;
+            padding: 0;
+
+            color: #536080;
+            line-height: 1.5;
+
+            @media(max-width: ${mq.md}px) {
+              font-size: 1.75rem;
+            }
+            @media(max-width: ${mq.xs}px) {
+              margin-bottom: -11px;
+
+              text-align: center;: center;
+            }
+          `}
+          >
+            {section.title}
+
+          </Title>
+        </Grid>
+      </Container>
+
       <Container>
+        <ImageAccentCityScape cssProp="position: absolute !important; width: 100%; height: 200px;" />
         <Grid>
           <Row>
             <ContainerImg>
@@ -156,7 +207,8 @@ export default ({ section }) => {
                 src={section.content_image}
                 alt={section.content_image_alt}
               />
-
+              {section.content_title.length > 0
+            && <TintImg />}
             </ContainerImg>
             {section.content_title.length > 0
             && (

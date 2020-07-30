@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SectionSlideshow from '../components/Sections/SectionSlideshow';
 import SectionBoxes from '../components/Sections/SectionBoxes';
-import SectionTitleBanner from '../components/Sections/SectionTitleBanner';
+import SectionBannerSmall from '../components/Sections/SectionBannerSmall';
 import SectionBanner from '../components/Sections/SectionBanner';
 import SectionTitle from '../components/Sections/SectionTitle';
 import SectionBios from '../components/Sections/SectionBios';
@@ -10,6 +10,7 @@ import SectionContentOne from '../components/Sections/SectionContentOne';
 import SectionContentTitle1 from '../components/Sections/SectionContentTitle1';
 import SectionContentTitle2 from '../components/Sections/SectionContentTitle2';
 import SectionContentTitle3 from '../components/Sections/SectionContentTitle3';
+import SectionContentLink from '../components/Sections/SectionContentLink';
 import SectionContentImages from '../components/Sections/SectionContentImages';
 import SectionContentText from '../components/Sections/SectionContentText';
 import MapOfficeLocation from '../components/Maps/MapOfficeLocation';
