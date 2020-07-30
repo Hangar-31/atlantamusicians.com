@@ -10,7 +10,7 @@ const headers = {
   'Access-Control-Allow-Headers': 'Content-Type',
 };
 
-exports.handler = function (event, context, callback) {
+exports.handler = function Handler(event, context, callback) {
   // don't do anything unless you are posting to the endpoint
   if (event.httpMethod !== 'POST' || !event.body) {
     callback(null, {
@@ -22,12 +22,9 @@ exports.handler = function (event, context, callback) {
 
   // parse the body contents into the data variable
   const data = JSON.parse(event.body);
-  console.log(data);
 
   // make sure we have all required data
   if (!data.paymentMethod || !data.amount) {
-    console.error('Required information is missing.');
-
     callback(null, {
       statusCode,
       headers,
@@ -48,6 +45,7 @@ exports.handler = function (event, context, callback) {
     },
     (err, charge) => {
       if (err !== null) {
+        // eslint-disable-next-line no-console
         console.log(err);
       }
 

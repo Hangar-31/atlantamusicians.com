@@ -28,9 +28,7 @@ const query = `{
     bio
     contractor
     email
-    firstName
     gender
-    lastName
     phone
     professionalName
     website
@@ -63,10 +61,14 @@ const MemberDirectoryContext = () => {
   const [filters, setFilters] = useState({ instruments: [], musicStyles: [] });
   useEffect(() => {
     const getData = async () => {
-      const { GetFilters, GetMembers } = await gqlClient().request(query);
-
-      setFilters(GetFilters);
-      setMembers(GetMembers);
+      try {
+        const { GetFilters, GetMembers } = await gqlClient().request(query);
+        console.log('GetFilters, GetMembers', GetFilters, GetMembers);
+        setFilters(GetFilters);
+        setMembers(GetMembers);
+      } catch (e) {
+        console.log('e', e);
+      }
     };
     getData();
   }, []);

@@ -57,8 +57,8 @@ export default (sections) => {
             return (<SectionBlogs section={section} />);
           case 'section_title':
             return (<SectionTitle section={section} />);
-          case 'section_title_banner':
-            return (<SectionTitleBanner section={section} />);
+          case 'section_banner_small':
+            return (<SectionBannerSmall section={section} />);
           case 'section_banner':
             return (<SectionBanner section={section} />);
           case 'section_contact':
@@ -77,6 +77,8 @@ export default (sections) => {
             return (<SectionContentText section={section} />);
           case 'section_content_images':
             return (<SectionContentImages section={section} />);
+          case 'section_content_link':
+            return (<SectionContentLink section={section} />);
           case 'section_press':
             return <SectionPress section={section} />;
           case 'section_credit_card_donate':

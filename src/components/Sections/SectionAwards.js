@@ -120,7 +120,6 @@ const BioComponent = ({ bio, color }) => {
     background = colors.darkBlue;
     textColor = '#ffffff';
   }
-  console.log('bio', bio);
 
   return (
     <Bio css={css`background: ${background}`}>
