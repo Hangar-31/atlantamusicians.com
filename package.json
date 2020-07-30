@@ -74,9 +74,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "copy": "cp lambda-dev/purchase.js lambda/purchase.js",
+    "copy": "cp lambda-dev/payment.js lambda/payment.js",
     "lambda-serve": "yarn run copy && netlify-lambda serve lambda-dev",
-    "build": "gatsby build && yarn run copy && netlify-lambda build lambda",
+    "build": "gatsby build && yarn run copy && netlify-lambda build lambda-dev",
     "start": "run-p start:**",
     "start:app": "npm run develop",
     "start:lambda": "netlify-lambda serve lambda-dev",
