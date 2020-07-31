@@ -9,21 +9,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     {
-      allFile {
-        nodes {
-          sourceInstanceName
-          childMarkdownRemark {
-            frontmatter {
-              title
-            }
-          }
-        }
-      }
       allMarkdownRemark {
         edges {
           node {
             frontmatter {
               path
+              title
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+          }
+          next {
+            frontmatter {
               title
             }
           }
@@ -39,7 +39,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.frontmatter.path !== null) {
+    if (node.frontmatter.path !== null || node.frontmatter.path !== '') {
       createPage({
         path: node.frontmatter.path,
         component: PageBuilderTemplate,

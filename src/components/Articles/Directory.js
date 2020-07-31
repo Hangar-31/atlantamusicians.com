@@ -22,6 +22,12 @@ const Grid = styled.div`
   margin: 0 auto;
 
   font-family: ${fonts.nunitoSans};
+
+  div:nth-of-type(2) {
+    div {
+      margin-bottom: 30px;
+    }
+  }
 `;
 
 

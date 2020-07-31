@@ -72,6 +72,7 @@ const Button = styled.button`
   border: none;
   outline: none;
   color: ${colors.lightOrange};
+  cursor: pointer;
 `;
 
 
@@ -121,7 +122,7 @@ const BioComponent = ({ bio, color }) => {
           {textToComponent(bio.text, Text, `color: ${textColor};`)}
         </div>
       </BioContent>
-      <Button type="button" onClick={() => setOpen(!open)}>{open ? <AiFillCaretDown /> : <AiFillCaretUp />}</Button>
+      <Button type="button" onClick={() => setOpen(!open)}>{open ? <AiFillCaretUp /> : <AiFillCaretDown />}</Button>
     </Bio>
   );
 };

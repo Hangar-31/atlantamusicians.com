@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: Hangar-31/atlantamusicians.com
-  branch: staging-netlify
+  branch: staging
 
 media_folder: static/assets
 public_folder: /assets
@@ -12,18 +12,14 @@ collections:
     folder: static/blogs
     create: true
     fields:
+      - { label: type, name: type, widget: hidden, default: blog }
       - { name: title, label: Title, widget: string }
       - { name: subtitle, label: Subtitle, widget: string }
       - { name: date, label: Post Date, widget: date }
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
-<<<<<<< HEAD
-      - name: post_tags
-        label: Post Tags
-=======
       - label: Post Tags
         name: postTags
->>>>>>> 0041cc11c5f9519102df7d4cc51d432dfe11025d
         postTags: relation
         widget: relation
         collection: settings
@@ -32,10 +28,9 @@ collections:
         valueField: tags.*.tag
         displayFields: [tags.*.tag]
         multiple: true
+        required: false
       - { name: content, label: Content, widget: markdown }
 
-<<<<<<< HEAD
-=======
   - name: settings
     label: Settings
     files:
@@ -60,24 +55,19 @@ collections:
             fields:
               - { name: tag, label: Tag Name, widget: string }
 
->>>>>>> 0041cc11c5f9519102df7d4cc51d432dfe11025d
   - name: press
     label: Press
     folder: static/press
     create: true
     fields:
+      - { label: type, name: type, widget: hidden, default: press }
       - { name: title, label: Title, widget: string }
       - { name: subtitle, label: Subtitle, widget: string }
       - { name: date, label: Post Date, widget: date }
       - { label: Image, name: image, widget: image }
       - { label: Image Alt Text, name: alt_text, widget: string }
-<<<<<<< HEAD
-      - name: post_tags
-        label: Post Tags
-=======
       - label: Post Tags
         name: postTags
->>>>>>> 0041cc11c5f9519102df7d4cc51d432dfe11025d
         postTags: relation
         widget: relation
         collection: settings
@@ -86,6 +76,7 @@ collections:
         valueField: tags.*.tag
         displayFields: [tags.*.tag]
         multiple: true
+        required: false
       - { name: content, label: Content, widget: markdown }
 
   - name: scholarships
@@ -264,8 +255,6 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   - name: settings
     label: Settings
@@ -290,87 +279,80 @@ collections:
             label_singular: Tag Name
             fields:
               - { name: tag, label: Tag Name, widget: string }
-=======
-            - label: Credit Card Form
-              name: section_credit_card
-=======
-            - label: Payment - Donatation Form
-              name: section_credit_card_donate
->>>>>>> 6b05349c046b705c1d496933a2ffc214686f3b5b
-              widget: object
-              fields:
-                - label: Type of payment
-                  name: payment_type
-                  widget: hidden
-                  required: true
-                  default: 'DONATE'
-                  options:
-                - label: Stripe Description
-                  name: title
-                  widget: string
-                - label: Programs
-                  name: list
-                  widget: list
-                  required: false
-                  fields:
-                    - { label: Name, name: name, widget: string }
-            - label: Payment - Non-Member Form
-              name: section_credit_card_payment
-              widget: object
-              fields:
-                - label: Type of payment
-                  name: payment_type
-                  widget: hidden
-                  required: true
-                  default: 'PAYMENT'
-                  options:
-                - label: Stripe Description
-                  name: title
-                  widget: string
-                - label: Extra Data for Stripe
-                  name: list
-                  widget: list
-                  required: false
-                  fields:
-                    - { label: Title, name: name, widget: string }
-                    - { label: Value, name: text, widget: string }
-<<<<<<< HEAD
->>>>>>> 0041cc11c5f9519102df7d4cc51d432dfe11025d
-=======
-            - label: Payment - Thank You
-              name: section_thank_you
-              widget: object
-              fields:
-                - label: Title
-                  name: title
-                  widget: string
-                  required: false
-                - label: Text
-                  name: text
-                  widget: text
-                  required: false
-                - label: Banner Title
-                  name: content_title
-                  widget: string
-                  required: false
-                - label: Text
-                  name: content_text
-                  widget: text
-                  required: false
-                - label: Banner Image
-                  name: content_image
-                  widget: image
-                  required: false
-                - label: Banner Alt Text
-                  name: content_alt_text
-                  widget: string
-                  required: false
-                - label: Link Text
-                  name: link_text
-                  widget: string
-                  required: false
-                - label: Link URL
-                  name: link_url
-                  widget: string
-                  required: false
->>>>>>> 6b05349c046b705c1d496933a2ffc214686f3b5b
+              - label: Credit Card Form
+                name: section_credit_card
+              - label: Payment - Donatation Form
+                name: section_credit_card_donate
+                widget: object
+                fields:
+                  - label: Type of payment
+                    name: payment_type
+                    widget: hidden
+                    required: true
+                    default: 'DONATE'
+                    options:
+                  - label: Stripe Description
+                    name: title
+                    widget: string
+                  - label: Programs
+                    name: list
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: Name, name: name, widget: string }
+              - label: Payment - Non-Member Form
+                name: section_credit_card_payment
+                widget: object
+                fields:
+                  - label: Type of payment
+                    name: payment_type
+                    widget: hidden
+                    required: true
+                    default: 'PAYMENT'
+                    options:
+                  - label: Stripe Description
+                    name: title
+                    widget: string
+                  - label: Extra Data for Stripe
+                    name: list
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: Title, name: name, widget: string }
+                      - { label: Value, name: text, widget: string }
+              - label: Payment - Thank You
+                name: section_thank_you
+                widget: object
+                fields:
+                  - label: Title
+                    name: title
+                    widget: string
+                    required: false
+                  - label: Text
+                    name: text
+                    widget: text
+                    required: false
+                  - label: Banner Title
+                    name: content_title
+                    widget: string
+                    required: false
+                  - label: Text
+                    name: content_text
+                    widget: text
+                    required: false
+                  - label: Banner Image
+                    name: content_image
+                    widget: image
+                    required: false
+                  - label: Banner Alt Text
+                    name: content_alt_text
+                    widget: string
+                    required: false
+                  - label: Link Text
+                    name: link_text
+                    widget: string
+                    required: false
+                  - label: Link URL
+                    name: link_url
+                    widget: string
+                    required: false

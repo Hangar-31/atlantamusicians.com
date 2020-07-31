@@ -40,7 +40,7 @@ const TitleJoinNow = styled.h2`
   text-transform: uppercase;
 `;
 
-const LinkJoinNow = styled(GLink)`
+const LinkJoinNow = styled.a`
   color: ${colors.lightOrange};
   margin: 0;
   font-size: 1.5rem;
@@ -175,6 +175,29 @@ const FooterLink = styled(GLink)`
   }
 `;
 
+const FooterLinkA = styled.a`
+  margin: 0 0 10px 0;
+  color: ${colors.lightOrange};
+  font-weight: 700;
+  font-size: 0.75rem;
+  font-family: ${fonts.biryani};
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  @media(max-width: ${mq.md}px) {
+    white-space: nowrap;
+  }
+  @media(max-width: ${mq.sm}px) {
+    white-space: wrap;
+  }
+`;
+
 
 // Bottom
 
@@ -235,7 +258,7 @@ export default () => (
         <TitleJoinNow>
           Become a Member • &nbsp;
         </TitleJoinNow>
-        <LinkJoinNow to="/">Join Now!</LinkJoinNow>
+        <LinkJoinNow href="https://member.atlantamusicians.com/sign-up">Join Now!</LinkJoinNow>
       </WrapperJoinNow>
 
       <WrapperJoinNow css={css`
@@ -313,19 +336,19 @@ export default () => (
           <Line />
           <ListFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Member Log-In</FooterLink>
+              <FooterLinkA href="https://member.atlantamusicians.com/sign-up">Member Log-In</FooterLinkA>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">About Us</FooterLink>
+              <FooterLink to="/about/about-us">About Us</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Union Benefits</FooterLink>
+              <FooterLink to="/membership/benefits">Member Benefits</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Hire A Musician</FooterLink>
+              <FooterLink to="/resources/hiring-directory">Hire A Musician</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Non Member / Make Payment</FooterLink>
+              <FooterLink to="/non-member-payment">Non Member / Make Payment</FooterLink>
             </ItemFooterLinks>
 
           </ListFooterLinks>
@@ -340,15 +363,15 @@ export default () => (
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">Blog</FooterLink>
+              <FooterLink to="/blog">Blog</FooterLink>
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">
+              <FooterLinkA href={`${contact.facebook}`}>
                 Facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 {' '}
                 <FaFacebookF />
-              </FooterLink>
+              </FooterLinkA>
             </ItemFooterLinks>
 
             <ItemFooterLinks>
