@@ -9,11 +9,52 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark {
+      pages: allMarkdownRemark(filter: {frontmatter: {path: {ne: null}}}) {
         edges {
           node {
             frontmatter {
+              type
               path
+              title
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+          }
+          next {
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+      blogs: allMarkdownRemark(filter: {frontmatter: {type: {eq: "blog"}}}, sort: {fields: frontmatter___date, order: DESC}) {
+        edges {
+          node {
+            frontmatter {
+              type
+              title
+            }
+          }
+          previous {
+            frontmatter {
+              title
+            }
+          }
+          next {
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+      press: allMarkdownRemark(filter: {frontmatter: {type: {eq: "press"}}}, sort: {fields: frontmatter___date, order: DESC}) {
+        edges {
+          node {
+            frontmatter {
+              type
               title
             }
           }
@@ -38,8 +79,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.frontmatter.path !== null || node.frontmatter.path !== '') {
+  console.log('======PAGES======');
+  console.log(result.data.pages);
+  console.log('======BLOGS======');
+  console.log(result.data.blogs);
+  console.log('======PRESS======');
+  console.log(result.data.press);
+
+  // Pages
+  result.data.pages.edges.forEach(({ node }) => {
+    if (node.frontmatter.path !== null) {
       createPage({
         path: node.frontmatter.path,
         component: PageBuilderTemplate,
@@ -48,22 +97,32 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   });
 
-  result.data.allFile.nodes.forEach((node) => {
-    if (node.sourceInstanceName === 'blog') {
-      createPage({
-        path: `blog/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
-        component: BlogTemplate,
-        // additional data can be passed via context
-        context: { title: node.childMarkdownRemark.frontmatter.title },
-      });
-    } else if (node.sourceInstanceName === 'press') {
-      createPage({
-        path: `resources/press/${node.childMarkdownRemark.frontmatter.title.toLowerCase().split(' ').join('-')}`,
-        component: PressTemplate,
-        // additional data can be passed via context
-        context: { title: node.childMarkdownRemark.frontmatter.title },
-      });
-    }
+  // Blogs
+  result.data.blogs.edges.forEach(({ node, next, previous }) => {
+    createPage({
+      path: `blog/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+      component: BlogTemplate,
+      // additional data can be passed via context
+      context: {
+        title: node.frontmatter.title,
+        nextLink: next ? `blog/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        previousLink: previous ? `blog/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+      },
+    });
+  });
+
+  // Press
+  result.data.press.edges.forEach(({ node, next, previous }) => {
+    createPage({
+      path: `resources/press/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+      component: PressTemplate,
+      // additional data can be passed via context
+      context: {
+        title: node.frontmatter.title,
+        nextLink: next ? `resources/press/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        previousLink: previous ? `resources/press/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+      },
+    });
   });
 };
 
@@ -73,8 +132,10 @@ exports.createSchemaCustomization = ({ actions }) => {
   const typeDefs = `
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
+      type: String
     }
     type Frontmatter {
+      type: String
       path: String
       sections: [Sections]
       list: [ListItem]

@@ -34,6 +34,7 @@ export const contact = {
     zip: '30324',
   },
   facebook: 'https://www.facebook.com/AtlantaFederationofMusicians/',
+  instagram: 'https://www.instagram.com/atlantafederationofmusicians',
   phone: '(404) 873-2033',
   email: 'office@atlantamusicians.com',
   hours: 'Monday through Friday 10 am- 4 pm',

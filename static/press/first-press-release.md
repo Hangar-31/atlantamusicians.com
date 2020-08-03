@@ -1,4 +1,5 @@
 ---
+type: press
 title: First Press Release
 subtitle: This is a subtitle
 date: 2020-06-11T23:50:15.643Z

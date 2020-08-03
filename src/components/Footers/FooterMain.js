@@ -375,11 +375,11 @@ export default () => (
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">
+              <FooterLinkA href="https://www.instagram.com/atlantafederationofmusicians">
                 Instagram &nbsp;&nbsp;&nbsp;
                 {' '}
                 <FaInstagram />
-              </FooterLink>
+              </FooterLinkA>
             </ItemFooterLinks>
           </ListFooterLinks>
         </FooterColumn>

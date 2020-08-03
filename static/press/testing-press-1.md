@@ -1,4 +1,5 @@
 ---
+type: press
 title: Testing Press 1
 subtitle: "adfads fadsf ldsaj flkas "
 date: 2020-07-31T13:58:14.698Z

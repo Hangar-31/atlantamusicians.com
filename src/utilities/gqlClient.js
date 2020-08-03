@@ -1,9 +1,9 @@
 import { GraphQLClient } from 'graphql-request';
 
-const endpoint = 'http://localhost:4000/graphql';
+const endpoint = process.env.GATSBY_GRAPH_URL;
 
 export default () => new GraphQLClient(endpoint, {
   headers: {
-    domain: 'localhost:3000',
+    domain: 'member.atlantamusicians.com',
   },
 });

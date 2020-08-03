@@ -1,4 +1,5 @@
 ---
+type: blog
 title: Test 5
 subtitle: New Subtitle
 date: 2020-07-31T13:52:18.913Z

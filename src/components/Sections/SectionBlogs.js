@@ -6,7 +6,7 @@ import ArticlesDirectory from '../Articles/Directory';
 const GetData = () => {
   const { tags, blogs } = useStaticQuery(graphql`
     query AllBlogAndAllTags {
-      blogs: allFile(filter: {sourceInstanceName: {eq: "blog"}}, sort: {order: ASC, fields: childMarkdownRemark___frontmatter___date}) {
+      blogs: allFile(filter: {sourceInstanceName: {eq: "blog"}}, sort: {order: DESC, fields: childMarkdownRemark___frontmatter___date}) {
         nodes {
           childMarkdownRemark {
             frontmatter {

@@ -1,4 +1,5 @@
 ---
+type: blog
 title: Test 2
 subtitle: "asdfasdf asdfjsdajfldsaj flkasjflk ajsdflk jasdfl "
 date: 2020-07-31T13:49:17.547Z

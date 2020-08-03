@@ -1,4 +1,5 @@
 ---
+type: blog
 title: First Blog
 subtitle: This is a subtitle
 date: 2020-06-10T13:44:49.395Z

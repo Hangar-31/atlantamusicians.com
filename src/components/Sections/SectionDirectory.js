@@ -28,7 +28,6 @@ const query = `{
     bio
     contractor
     email
-    gender
     phone
     professionalName
     website
@@ -106,6 +105,16 @@ const MemberDirectoryContext = () => {
             margin: 45px auto;
 
             font-family: 'Nunito Sans';
+
+            div:nth-of-type(2) {
+              article {
+                margin-top: 0.25rem;
+              }
+              article:nth-of-type(odd) {
+                background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);
+              }
+            }
+
           `}
         >
           <MemberDirectory
