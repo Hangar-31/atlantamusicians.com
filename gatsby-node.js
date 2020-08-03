@@ -79,13 +79,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  console.log('======PAGES======');
-  console.log(result.data.pages);
-  console.log('======BLOGS======');
-  console.log(result.data.blogs);
-  console.log('======PRESS======');
-  console.log(result.data.press);
-
   // Pages
   result.data.pages.edges.forEach(({ node }) => {
     if (node.frontmatter.path !== null) {

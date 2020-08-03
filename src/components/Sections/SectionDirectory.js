@@ -95,8 +95,24 @@ const MemberDirectoryContext = () => {
   return (
     <ProviderDirectory filterData={filters}>
       <Container>
-        <Grid
-          css={css`
+        <Grid css={css`
+        max-width: 1440px;
+        margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(12, minmax(0, 1fr));
+          > div {
+            > div:nth-of-type(1) {
+              grid-column: span 4;
+            }
+            > div:nth-of-type(2) {
+              grid-column: span 8;
+            }
+          }
+        `}
+        >
+          <Grid
+            css={css`
+            grid-column: 2 / span 10;
             display: grid;
             grid-column-gap: 3rem;
             grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -116,12 +132,13 @@ const MemberDirectoryContext = () => {
             }
 
           `}
-        >
-          <MemberDirectory
-            members={members}
-            filter={filterMemberDirectory}
-            Card={PublicDirectoryCard}
-          />
+          >
+            <MemberDirectory
+              members={members}
+              filter={filterMemberDirectory}
+              Card={PublicDirectoryCard}
+            />
+          </Grid>
         </Grid>
       </Container>
     </ProviderDirectory>
