@@ -1,5 +1,5 @@
 ---
-path: /about/about-us
+path: /about/us
 title: About Us
 number: "201"
 seo_title: About Us
