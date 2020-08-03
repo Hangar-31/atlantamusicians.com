@@ -4,7 +4,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
 
 const Container = styled.section`
@@ -12,8 +12,9 @@ const Container = styled.section`
 `;
 
 const Grid = styled.div`
-  display: grid;
   position: relative;
+
+  display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
@@ -26,34 +27,44 @@ const Row = styled.div`
   grid-column: 2 / span 10;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  @media(max-width: ${mq.xs}px) {
+    grid-column: 1 / span 12;
+  }
 `;
 
 const Title = styled.h1`
   grid-column: 1 / span 12;
+  margin: 30px 0;
+
   color: ${colors.blue};
   font-weight: 800;
   font-size: 30px;
   font-family: ${fonts.montserrat};
-  text-transform: uppercase;
   font-style: normal;
   line-height: 1;
-  margin: 30px 0;
+  text-transform: uppercase;
 `;
 
 const ContainerImg = styled.div`
   position: relative;
-  grid-row: 1;
+
   grid-column: 1 / span 10;
+  grid-row: 1;
   width: 100%;
-  height: 260px;
+  height: calc(100% + 0px);
+  min-height: 260px;
+  overflow: hidden;
 `;
 
 const TintImg = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 100%;
+
   background: #469FD1;
   opacity: 0.5;
 `;
@@ -65,29 +76,38 @@ const Img = styled.img`
 `;
 
 const P = styled.p`
-  font-family: ${fonts.nunitoSans};
-  font-size: 1.25rem;
+  padding-bottom: 30px;
+
   color: #ffffff;
+  font-size: 1.25rem;
+  font-family: ${fonts.nunitoSans};
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1rem;
+  }
 `;
 
 const ContainerLink = styled.div`
   position: relative;
+
   display: flex;
-  background: ${colors.darkBlue};
-  align-items: center;
   justify-content: center;
-  height: 100%;
+  align-items: center;
   width: 100%;
+  height: 100%;
+
+  background: ${colors.darkBlue};
 `;
 
 const GLink = styled(Link)`
   position: relative;
+
   color: #ffffff;
   font-size: 1rem;
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
-  
+
   &:hover {
     span {
       background: ${colors.blue};
@@ -95,25 +115,30 @@ const GLink = styled(Link)`
   }
 
   span {
-    display: block;
     position: relative;
-    height: 100%;
+
+    display: block;
     width: 100%;
+    height: 100%;
     padding: 15px 30px;
+
     background: ${colors.darkBlue};
+
     transition: 0.2s;
   }
 
   &:before {
-    z-index: 0;
     position: absolute;
-    content: "";
-    display: block;
     top: -1px;
     left: -1px;
+    z-index: 0;
+
+    display: block;
     width: calc(100% + 2px);
     height: calc(100% + 2px);
+
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+    content: "";
   }
 `;
 
@@ -130,9 +155,41 @@ export default ({ section }) => {
 
   return (
     <>
-      <Container css={css`height: auto; margin-top: 75px;`}>
-        <Grid css={css`padding: 0;`}>
-          <Title css={css`line-height: 0.7; margin: 0; padding: 0; color: #536080;`}>{section.title}</Title>
+      <Container css={css`
+        height: auto;
+        margin-top: 75px;
+        @media(max-width: ${mq.xs}px) {
+          margin-top: 30px;
+        }
+      `}
+      >
+        <Grid css={css`
+          padding: 0 15px;
+          @media(max-width: ${mq.xs}px) {
+            justify-items: center;
+          }
+          `}
+        >
+          <Title css={css`
+            margin: 0 0 -12px 0;
+            padding: 0;
+
+            color: #536080;
+            line-height: 1.5;
+
+            @media(max-width: ${mq.md}px) {
+              font-size: 1.75rem;
+            }
+            @media(max-width: ${mq.xs}px) {
+              margin-bottom: -11px;
+
+              text-align: center;: center;
+            }
+          `}
+          >
+            {section.title}
+
+          </Title>
         </Grid>
       </Container>
 
@@ -141,20 +198,70 @@ export default ({ section }) => {
         <Grid>
           <Row>
             <ContainerImg>
-              <Img src={section.content_image} alt={section.content_image_alt} />
+              <Img
+                css={css`
+                position: absolute !important;
+                top: 0;
+                left: 0;
+              `}
+                src={section.content_image}
+                alt={section.content_image_alt}
+              />
               {section.content_title.length > 0
             && <TintImg />}
             </ContainerImg>
             {section.content_title.length > 0
-          && (
+            && (
             <>
-              <div css={css`position: relative; grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; grid-row: 1; padding-top: 30px;`}>
-                <Title>{section.content_title}</Title>
+              <div css={css`
+                position: relative;
+
+                grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'};
+                grid-row: 1;
+                padding-top: 30px;
+
+                @media(max-width: ${mq.md}px) {
+                  grid-column: 1 / span 10;
+                  grid-row: 1;
+                  padding: 30px 45px;
+                }
+                @media(max-width: ${mq.sm}px) {
+                  padding: 15px 30px;
+                }
+                @media(max-width: ${mq.xs}px) {
+                  padding: 15px;
+                }
+              `}
+              >
+                <Title css={css`
+                    @media(max-width: ${mq.xs}px) {
+                      font-size: 1.5rem;
+                    }
+                `}
+                >
+                  {section.content_title}
+
+                </Title>
                 <P>{section.content_text}</P>
               </div>
               {section.link_text.length > 0
               && (
-              <ContainerLink css={css`position: relative; grid-column: 8 / span 3; grid-row: 1;`}>
+              <ContainerLink css={css`
+                position: relative;
+
+                grid-column: 8 / span 3;
+                grid-row: 1;
+
+                @media(max-width: ${mq.md}px) {
+                  grid-column: 1 / span 10;
+                  grid-row: 2;
+                  padding: 30px 0;
+                }
+                @media(max-width: ${mq.sm}px) {
+                  padding: 15px 0;
+                }
+              `}
+              >
                 <GLink to={section.link_url}>
                   <span>
                     {section.link_text}
@@ -163,7 +270,7 @@ export default ({ section }) => {
               </ContainerLink>
               )}
             </>
-          )}
+            )}
           </Row>
         </Grid>
       </Container>

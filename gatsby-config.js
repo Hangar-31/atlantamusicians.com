@@ -1,3 +1,5 @@
+const { createProxyMiddleware: proxy } = require('http-proxy-middleware');
+
 module.exports = {
   siteMetadata: {
     title: 'Hangar 31 Website',
@@ -36,6 +38,27 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'press',
+        path: `${__dirname}/static/press`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'settings',
+        path: `${__dirname}/static/settings`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'blog',
+        path: `${__dirname}/static/blogs`,
       },
     },
     {
@@ -88,4 +111,15 @@ module.exports = {
     // Netlify CMS
     'gatsby-plugin-netlify-cms',
   ],
+  developMiddleware: (app) => {
+    app.use(
+      '/.netlify/functions/',
+      proxy({
+        target: 'http://localhost:9000',
+        pathRewrite: {
+          '/.netlify/functions/': '',
+        },
+      }),
+    );
+  },
 };
