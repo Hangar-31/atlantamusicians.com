@@ -13,35 +13,35 @@ sections:
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
         title: Become A Member
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+        text: As the largest union of musicians in the world, we have the power to make
+          the music industry work for you.
         alt_text: placeholder
         link_text: Join Now
         link_url: /
       - title: Hire Local Musicians
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+        text: "Looking for a musician or ensemble to play at your next event? Need an
+          instrumental teacher? Search our membership directory. "
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
         link_url: /
       - title: Read Our Blog
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+        text: fxgjxfgfxfnfg dhgzg dhzd
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
         link_url: /
       - title: Union Benefits
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+        text: Why Join the AFM? Membership has its benefits. Learn more about our
+          programs and perks.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
         link_url: /
-      - title: Academic Scholarship
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+      - title: John H. Head Scholarship
+        text: All scholarship contributions are tax-deductible and help us support
+          aspiring professional musicians! Auditions are open to graduating
+          Georgia instrumentalists pursing a career in music.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
