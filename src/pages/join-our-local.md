@@ -56,7 +56,7 @@ sections:
     title: Life Insurance
   - type: section_content_text
     text: A life insurance policy comes as part of your AFM membership.
-  - type: section_title
+  - type: section_content_title_2
     title: Subscriptions
   - type: section_content_text
     text: Stay informed with free subscriptions to the AFM’s award winning monthly
@@ -64,19 +64,19 @@ sections:
       newsletter Podium. In addition to fascinating interviews with some of the
       industry’s top names, each issue has news and information you need,
       industry employment and audition advertisements, and useful career advice.
-  - type: section_title
+  - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
     text: Union Plus offers exclusive discounts to AFM members on everything from
       mortgages to phone service.
+  - type: section_content_title_2
+    title: Rehearsal Space
+  - type: section_content_text
+    text: Use local 148-462’s rehearsal hall free of charge during business hours.
   - type: section_content_images
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-  - type: section_title
-    title: Rehearsal Space
-  - type: section_content_text
-    text: Use local 148-462’s rehearsal hall free of charge during business hours.
   - type: section_slideshow
   - type: section_slideshow
 ---
