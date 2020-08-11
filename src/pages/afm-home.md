@@ -8,7 +8,7 @@ sections:
   - type: section_slideshow
     list:
       - image: /assets/rehearsal-hall-angle-1.jpg
-        alt_text: Test
+        alt_text: Hall
   - type: section_content_boxes
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
