@@ -2,10 +2,12 @@
 path: /
 title: AFM Home
 number: "101"
+seo_title: Home
+seo_description: Atlanta Federation of Musicians Homepage
 sections:
   - type: section_slideshow
     list:
-      - image: /assets/atlanta-musicians-placeholder-horizontal.png
+      - image: /assets/rehearsal-hall-angle-1.jpg
         alt_text: Test
   - type: section_content_boxes
     list:
