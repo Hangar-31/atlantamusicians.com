@@ -7,8 +7,8 @@ seo_description: Atlanta Federation Musicians About Us
 sections:
   - type: section_banner
     title: ATLANTA FEDERATION OF MUSICIANS
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: Testing
+    content_image: /assets/hall.jpg
+    content_alt_text: Local 148-462 Outside
     content_text: The Atlanta Federation of Musicians is Local 148-462 of the
       American Federation of Musicians of the United States and Canada – the
       largest organization in the world representing the interests of
@@ -27,7 +27,7 @@ sections:
       Organized in 1901, the Atlanta Federation of Musicians is a significant chapter of the AFM representing around 700 musicians throughout Georgia, including the metropolitan areas of Atlanta, Athens, Augusta, Columbus and Macon. Our professional members perform every imaginable style of music – including blues, classical, country, ethnic/world music, hip-hop, jazz, rap, rock, soul.
   - type: section_content_images
     list:
-      - image: /assets/atlanta-musicians-placeholder-horizontal.png
+      - image: /assets/laridae.jpg
         alt_text: placeholder
       - image: /assets/rehearsal-hall-angle-1.jpg
         alt_text: Atlanta Federation Of Musicians Rehearsal Hall
@@ -45,7 +45,7 @@ sections:
       Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Purus viverra accumsan in nisl nisi scelerisque. Pellentesque habitant morbi tristique senectus. Non odio euismod lacinia at quis risus sed vulputate odio.
   - type: section_content_images
     list:
-      - image: /assets/atlanta-musicians-placeholder-square.png
+      - image: /assets/merger.jpg
         alt_text: placeholder
       - image: /assets/atlanta-musicians-placeholder-square.png
         alt_text: placeholder
