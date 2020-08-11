@@ -27,6 +27,10 @@ const Img = styled.img`
 `;
 
 export default ({ section }) => (
+  <>
+    {section.length > 0
+
+  && (
   <Container>
     {section.list.map((image) => (
       <Img
@@ -36,4 +40,6 @@ export default ({ section }) => (
       />
     ))}
   </Container>
+  )}
+  </>
 );
