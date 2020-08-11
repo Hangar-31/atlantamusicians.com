@@ -7,7 +7,7 @@ seo_description: Atlanta Federation Musicians About Us
 sections:
   - type: section_banner
     title: ATLANTA FEDERATION OF MUSICIANS
-    content_image: /assets/eagles-orch.jpg
+    content_image: /assets/hall-inside.jpg
     content_alt_text: Local 148-462 Outside
     content_text: The Atlanta Federation of Musicians is Local 148-462 of the
       American Federation of Musicians of the United States and Canada – the
