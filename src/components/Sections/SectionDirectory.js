@@ -103,6 +103,10 @@ const MemberDirectoryContext = () => {
           > div {
             > div:nth-of-type(1) {
               grid-column: span 4;
+              aside {
+                padding: 0;
+                margin: 0;
+              }
             }
             > div:nth-of-type(2) {
               grid-column: span 8;

@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: Hangar-31/atlantamusicians.com
-  branch: master
+  branch: staging-netlify
 
 media_folder: static/assets
 public_folder: /assets
