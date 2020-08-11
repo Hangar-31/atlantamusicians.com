@@ -2,25 +2,18 @@
 path: /contact
 title: Contact
 number: "601"
+seo_title: Contact
+seo_description: Contact Atlanta Federation of Musicians
 sections:
   - type: section_banner
     title: Contact
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
-    content_title: Title
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
+    content_image: /assets/adobestock_260200886.jpeg
+    content_alt_text: Microphone
+    content_title: Contact Us
+    content_text: Atlanta Federation of Musicians is Local 148-462 of the American
+      Federation of Musicians of the United States and Canada - the largest
+      organization in the world representing the interests of professional
+      musicians.
     link_text: Join Now
     link_url: /
-  - type: section_contact
-    hours: Monday through Friday 10 am- 4 pm.
-    phone: (404) 873-2033
-    email: office@atlantamusicians.com
-    address: "Atlanta Federation of Musicians 
-              551 Dutch Valley Road NE 
-              Atlanta, GA 30324"
-  - type: section_map
-    title: Testing
 ---
