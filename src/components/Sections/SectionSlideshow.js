@@ -28,7 +28,7 @@ const Img = styled.img`
 
 export default ({ section }) => (
   <>
-    {section.length > 0
+    {section.list.length > 0
 
   && (
   <Container>
