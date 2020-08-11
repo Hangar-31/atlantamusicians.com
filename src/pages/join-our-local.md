@@ -2,10 +2,12 @@
 path: /membership/join-our-local
 title: Join Our Local
 number: "301"
+seo_title: Join Our Local
+seo_description: Join Local 148-462 Atlanta Federation of Musicians
 sections:
   - type: section_banner
     title: AFM Membership
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    content_image: /assets/eagles-orch.jpg
     content_alt_text: placeholder
     content_title: Title
     content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
