@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 
-import { colors, fonts } from '../../configs/styles';
+import { colors, fonts, mq } from '../../configs/styles';
 
 const Container = styled.section`
 
@@ -24,11 +24,33 @@ const Row = styled.div`
   grid-row-gap: 45px;
   grid-column-gap: 90px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: baseline;
+
+  @media(max-width: ${mq.xl}px) {
+    grid-column-gap: 60px;
+  }
+  @media(max-width: ${mq.lg}px) {
+    grid-column-gap: 30px;
+  }
+  @media(max-width: ${mq.md}px) {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  @media(max-width: ${mq.sm}px) {
+    grid-column: span 12;
+    padding: 0 15px;
+  }
+  @media(max-width: ${mq.xs}px) {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-column: span 12;
+    padding: 0 15px;
+  }
 `;
 
 const Card = styled.article`
   grid-column: span 3;
-  
   border: 1px solid #DFDFDF;
 
   img {
@@ -43,10 +65,13 @@ const Card = styled.article`
     font-size: 1.25rem;
     font-family: ${fonts.montserrat};
     font-style: normal;
-    line-height: 1.2em;
     line-height: 1.5rem;
     text-align: center;
     text-transform: uppercase;
+
+    @media(max-width: ${mq.sm}px) {
+      margin: 15px;
+    }
   }
 
   p {
@@ -58,35 +83,65 @@ const Card = styled.article`
     font-style: normal;
     line-height: 1.3125rem;
     text-align: justify;
+
+    @media(max-width: ${mq.sm}px) {
+      margin: 15px;
+    }
+    @media(max-width: ${mq.xs}px) {
+      display: none;
+    }
   }
 
   footer {
     text-align: center;
-
     background: ${colors.darkBlue};
+  }
+
+  @media(max-width: ${mq.md}px) {
+    grid-column: span 4;
+  }
+  @media(max-width: ${mq.xs}px) {
+    grid-column: span 12;
   }
 `;
 
-const Button = styled(Link)`
-
-  display: flex;
+const GLink = styled(Link)`
+  position: relative;
   display: inline-block;
-  align-items: center;
-  margin: 0.75rem auto;
-  padding: 0.5rem 0.9375rem;
-
-  color: #fff;
-  font-weight: normal;
-  font-size: 0.875rem;
-  font-family: ${fonts.archivo};
-  font-style: normal;
-  line-height: 0.9375rem;
-  text-align: center;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
+  margin: 10px;
+  
+  &:hover {
+    span {
+      background: ${colors.blue};
+    }
+  }
 
-  border: 0.0625rem solid ${colors.border};
-  border-radius: 0.25rem;
+  span {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    background: ${colors.darkBlue};
+    transition: 0.2s;
+  }
+
+  &:before {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+  }
 `;
 
 export default ({ section }) => (
@@ -104,9 +159,11 @@ export default ({ section }) => (
             <h1>{box.title}</h1>
             <p>{box.text}</p>
             <footer>
-              <Button to={box.link_url}>
-                {box.link_text}
-              </Button>
+              <GLink to={box.link_url}>
+                <span>
+                  {box.link_text}
+                </span>
+              </GLink>
             </footer>
           </Card>
         ))}

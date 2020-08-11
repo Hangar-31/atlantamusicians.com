@@ -3,6 +3,7 @@ import React from 'react';
 import { Global, css } from '@emotion/core';
 import NavbarMain from '../Navbars/NavbarMain';
 import FooterMain from '../Footers/FooterMain';
+import NavbarMainMobile from '../Navbars/NavbarMainMobile';
 
 const Layout = ({ children }) => (
   <>
@@ -23,6 +24,7 @@ const Layout = ({ children }) => (
         `}
     />
     <NavbarMain />
+    <NavbarMainMobile />
     {children}
     <FooterMain />
   </>

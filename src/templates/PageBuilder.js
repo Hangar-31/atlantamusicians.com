@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 // Components
+import { ThemeProvider } from 'emotion-theming';
 import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
@@ -24,11 +25,25 @@ export default ({ data }) => {
   const { markdownRemark: { frontmatter: { sections } } } = data;
   const components = removeNulls(sections);
 
-  console.log('Components:', components, data);
 
   return (
     <Layout>
-      {sectionBuilder(components)}
+      <ThemeProvider theme={{
+        colorActive: '#EC4067',
+        colorActiveHover: '#000000',
+        colorBtnBg: '#1F225B',
+        colorBtnHover: '#EC4067',
+        colorBtnText: '#FFFFFF',
+        colorDarkGray: '#4C4C4C',
+        colorDisabled: '#D7D7D7',
+        colorHint: '#7D7D7D',
+        colorNegative: '#EC4067',
+        colorOffWhite: '#FDFDFD',
+        colorWhite: '#FFFFFF',
+      }}
+      >
+        {sectionBuilder(components)}
+      </ThemeProvider>
     </Layout>
   );
 };
@@ -41,22 +56,42 @@ export const pageQuery = graphql`
         sections {
           type
           list {
-            image
-            alt_text
+            name
             title
+            content_title
             text
+            content_text
+            image
+            content_image
+            alt_text
+            content_alt_text
             link_text
             link_url
             background_color_toggle
+            hours
+            phone
+            email
+            address
           }
+          name
           title
+          content_title
           text
+          content_text
           image
+          content_image
           alt_text
+          content_alt_text
           image_right
           link_text
           link_url
           background_color_toggle
+          hours
+          phone
+          email
+          address
+          year
+          payment_type
         }
       }
     }

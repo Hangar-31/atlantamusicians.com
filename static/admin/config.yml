@@ -1,19 +1,114 @@
 backend:
   name: git-gateway
   repo: Hangar-31/atlantamusicians.com
-  branch: master
+  branch: staging-netlify
 
 media_folder: static/assets
-public_folder: assets
+public_folder: /assets
 
 collections:
+  - name: blog
+    label: Blog
+    folder: static/blogs
+    create: true
+    fields:
+      - { label: type, name: type, widget: hidden, default: blog }
+      - { name: title, label: Title, widget: string }
+      - { name: subtitle, label: Subtitle, widget: string }
+      - { name: date, label: Post Date, widget: date }
+      - { label: Image, name: image, widget: image }
+      - { label: Image Alt Text, name: alt_text, widget: string }
+      - label: Post Tags
+        name: postTags
+        postTags: relation
+        widget: relation
+        collection: settings
+        file: settings_blog_tags
+        searchFields: [tags]
+        valueField: tags.*.tag
+        displayFields: [tags.*.tag]
+        multiple: true
+        required: false
+      - { name: content, label: Content, widget: markdown }
+
+  - name: settings
+    label: Settings
+    files:
+      - label: Blog Tags
+        name: settings_blog_tags
+        file: static/settings/blog_tags.md
+        fields:
+          - name: tags
+            label: Blog Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
+      - label: Press Tags
+        name: settings_press_tags
+        file: static/settings/press_tags.md
+        fields:
+          - name: tags
+            label: Press Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
+
+  - name: press
+    label: Press
+    folder: static/press
+    create: true
+    fields:
+      - { label: type, name: type, widget: hidden, default: press }
+      - { name: title, label: Title, widget: string }
+      - { name: subtitle, label: Subtitle, widget: string }
+      - { name: date, label: Post Date, widget: date }
+      - { label: Image, name: image, widget: image }
+      - { label: Image Alt Text, name: alt_text, widget: string }
+      - label: Post Tags
+        name: postTags
+        postTags: relation
+        widget: relation
+        collection: settings
+        file: settings_press_tags
+        searchFields: [tags]
+        valueField: tags.*.tag
+        displayFields: [tags.*.tag]
+        multiple: true
+        required: false
+      - { name: content, label: Content, widget: markdown }
+
+  - name: scholarships
+    label: Scholarships
+    folder: src/scholarship
+    create: true
+    sortableFields: ["title"]
+    fields:
+      - { name: title, label: Year }
+      - { label: Alternate Row Colors, name: background_color_toggle, widget: "hidden", default: true }
+      - label: Award Winners
+        name: section_bios
+        widget: list
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Bio, name: text, widget: text }
+          - { label: Bio Image, name: image, widget: image }
+          - { label: Bio Image Alt Text, name: alt_text, widget: string }
+
   - name: pages
     label: Pages
     folder: src/pages
     create: true
+    summary: "{{fields.title}} | Page Number: {{fields.number}} | Path: {{fields.path}}"
+    sortableFields: ["title", "number", "path"]
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
+      - { name: number, label: Page Number }
+      - { name: seo_title, label: SEO Page Title }
+      - { name: seo_description, label: SEO Page Description, widget: text }
       - label: Sections
         name: sections
         widget: list
@@ -23,13 +118,56 @@ collections:
               widget: object
               fields:
                 - label: Slideshow Images
-                  name: slides
+                  name: list
                   widget: list
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-            - label: Boxes
-              name: section_boxes
+            - label: Section - Bios
+              name: section_bios
+              widget: object
+              fields:
+                - { label: Alternate Row Colors, name: background_color_toggle, widget: "boolean", default: false, required: false }
+                - label: Bio Items
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Name, name: name, widget: string }
+                    - { label: Title, name: title, widget: string }
+                    - { label: Bio, name: text, widget: text }
+                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image Alt Text, name: alt_text, widget: string }
+            - label: Section - Award Year
+              name: section_awards
+              widget: object
+              fields:
+                - { label: Year, name: year, widget: "number", required: true }
+                - label: Award Winners
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Name, name: name, widget: string }
+                    - { label: Title, name: title, widget: string }
+                    - { label: Bio, name: text, widget: text }
+                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image Alt Text, name: alt_text, widget: string }
+            - label: Section - Map
+              name: section_map
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Contact
+              name: section_contact
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: string }
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
+            - label: Content - Boxes
+              name: section_content_boxes
               widget: object
               fields:
                 - label: Box Items
@@ -42,7 +180,7 @@ collections:
                     - { label: Image Alt Text, name: alt_text, widget: string }
                     - { label: Link Text, name: link_text, widget: string }
                     - { label: Link URL, name: link_url, widget: string }
-            - label: Content 1
+            - label: Content - Variant 1
               name: section_content_one
               widget: object
               fields:
@@ -54,3 +192,167 @@ collections:
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
                 - { label: Add Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
+            - label: Banner
+              name: section_banner
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Content Image, name: content_image, widget: image }
+                - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
+                - { label: Content Title, name: content_title, widget: string, required: false }
+                - { label: Content Text, name: content_text, widget: text, required: false }
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
+            - label: Banner - Small
+              name: section_banner_small
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Text, name: text, widget: text }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: "string"}
+                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: Add Red Background Color, name: background_color_toggle, widget: "boolean", default: false, required: false}
+            - label: Title - Section
+              name: section_title
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Title 1
+              name: section_content_title_1
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Title 2
+              name: section_content_title_2
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Title 3
+              name: section_content_title_3
+              widget: object
+              fields:
+                - { label: Title, name: title, widget: string }
+            - label: Content - Text
+              name: section_content_text
+              widget: object
+              fields:
+                - { label: Text, name: text, widget: text }
+            - label: Content - Link
+              name: section_content_link
+              widget: object
+              fields:
+                - { label: Link Text, name: link_text, widget: string }
+                - { label: Link URL, name: link_url, widget: string }
+            - label: Content - Images
+              name: section_content_images
+              widget: object
+              fields:
+                - label: Content Images
+                  name: list
+                  widget: list
+                  fields:
+                    - { label: Image, name: image, widget: image }
+                    - { label: Image Alt Text, name: alt_text, widget: string }
+
+  - name: settings
+    label: Settings
+    files:
+      - label: Blog Tags
+        name: settings_blog_tags
+        file: static/settings/blog_tags.md
+        fields:
+          - name: tags
+            label: Blog Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
+      - label: Press Tags
+        name: settings_press_tags
+        file: static/settings/press_tags.md
+        fields:
+          - name: tags
+            label: Press Tags
+            widget: list
+            label_singular: Tag Name
+            fields:
+              - { name: tag, label: Tag Name, widget: string }
+              - label: Credit Card Form
+                name: section_credit_card
+              - label: Payment - Donatation Form
+                name: section_credit_card_donate
+                widget: object
+                fields:
+                  - label: Type of payment
+                    name: payment_type
+                    widget: hidden
+                    required: true
+                    default: 'DONATE'
+                    options:
+                  - label: Stripe Description
+                    name: title
+                    widget: string
+                  - label: Programs
+                    name: list
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: Name, name: name, widget: string }
+              - label: Payment - Non-Member Form
+                name: section_credit_card_payment
+                widget: object
+                fields:
+                  - label: Type of payment
+                    name: payment_type
+                    widget: hidden
+                    required: true
+                    default: 'PAYMENT'
+                    options:
+                  - label: Stripe Description
+                    name: title
+                    widget: string
+                  - label: Extra Data for Stripe
+                    name: list
+                    widget: list
+                    required: false
+                    fields:
+                      - { label: Title, name: name, widget: string }
+                      - { label: Value, name: text, widget: string }
+              - label: Payment - Thank You
+                name: section_thank_you
+                widget: object
+                fields:
+                  - label: Title
+                    name: title
+                    widget: string
+                    required: false
+                  - label: Text
+                    name: text
+                    widget: text
+                    required: false
+                  - label: Banner Title
+                    name: content_title
+                    widget: string
+                    required: false
+                  - label: Text
+                    name: content_text
+                    widget: text
+                    required: false
+                  - label: Banner Image
+                    name: content_image
+                    widget: image
+                    required: false
+                  - label: Banner Alt Text
+                    name: content_alt_text
+                    widget: string
+                    required: false
+                  - label: Link Text
+                    name: link_text
+                    widget: string
+                    required: false
+                  - label: Link URL
+                    name: link_url
+                    widget: string
+                    required: false

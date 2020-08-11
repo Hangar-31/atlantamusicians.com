@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 import { Link as GLink } from 'gatsby';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
-import { colors, contact, fonts } from '../../configs/styles';
+import {
+  colors, contact, fonts, mq,
+} from '../../configs/styles';
 import ImageLogo2 from '../Images/Logos/ImageLogo2';
 
 // Styled Components
@@ -21,7 +24,11 @@ const WrapperJoinNow = styled.div`
   align-items: center;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 15px;
+  @media(max-width: ${mq.xs}px) {
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 const TitleJoinNow = styled.h2`
@@ -33,7 +40,7 @@ const TitleJoinNow = styled.h2`
   text-transform: uppercase;
 `;
 
-const LinkJoinNow = styled(GLink)`
+const LinkJoinNow = styled.a`
   color: ${colors.lightOrange};
   margin: 0;
   font-size: 1.5rem;
@@ -41,6 +48,11 @@ const LinkJoinNow = styled(GLink)`
   font-family: ${fonts.montserrat};
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 // Footer
@@ -59,6 +71,23 @@ const WrapperFooter = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px 0;
+
+  @media(max-width: ${mq.xl}px) {
+    padding: 30px 15px;
+  }
+  @media(max-width: ${mq.md}px) {
+    grid-column-gap: 60px;
+  }
+  @media(max-width: ${mq.sm}px) {
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+  }
+  @media(max-width: ${mq.xs}px) {
+    height: 750px;
+    grid-auto-rows: max-content;
+    grid-row-gap: 45px;
+  }
+  
 `;
 
 const Line = styled.div`
@@ -71,6 +100,21 @@ const FooterColumn = styled.section`
   display: grid;
   grid-template-columns: 25% 1% 74%;
   grid-column-gap: 10px;
+
+  @media(max-width: ${mq.lg}px) {
+    grid-column: span 4;
+  }
+  @media(max-width: ${mq.sm}px) {
+    grid-column: span 6;
+  }
+  @media(max-width: ${mq.xs}px) {
+    grid-column: span 12;
+    grid-template-columns: 35% 1% 64%;
+  }
+  @media(max-width: ${mq.xxs}px) {
+    grid-column: span 12;
+    grid-template-columns: 25% 1% 74%;
+  }
 `;
 
 const ListFooterLinks = styled.ul`
@@ -99,6 +143,13 @@ const FooterText = styled.p`
   font-size: 0.75rem;
   font-family: ${fonts.nunitoSans};
   margin: 0px;
+
+  @media(max-width: ${mq.md}px) {
+    white-space: nowrap;
+  }
+  @media(max-width: ${mq.sm}px) {
+    white-space: wrap;
+  }
 `;
 
 const FooterLink = styled(GLink)`
@@ -109,6 +160,42 @@ const FooterLink = styled(GLink)`
   font-family: ${fonts.biryani};
   text-transform: uppercase;
   text-decoration: none;
+
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  @media(max-width: ${mq.md}px) {
+    white-space: nowrap;
+  }
+  @media(max-width: ${mq.sm}px) {
+    white-space: wrap;
+  }
+`;
+
+const FooterLinkA = styled.a`
+  margin: 0 0 10px 0;
+  color: ${colors.lightOrange};
+  font-weight: 700;
+  font-size: 0.75rem;
+  font-family: ${fonts.biryani};
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  @media(max-width: ${mq.md}px) {
+    white-space: nowrap;
+  }
+  @media(max-width: ${mq.sm}px) {
+    white-space: wrap;
+  }
 `;
 
 
@@ -124,18 +211,26 @@ const WrapperBottom = styled.div`
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 15px;
 `;
 
 const ListBottomLinks = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media(max-width: ${mq.xs}px) {
+    text-align: center;
+  }
 `;
 
 const ItemBottomLink = styled.li`
   display: inline-block;
   margin-right: 30px;
+
+  @media(max-width: ${mq.xs}px) {
+    margin-right: 15px;
+  }
 `;
 
 const BottomLink = styled(GLink)`
@@ -143,22 +238,78 @@ const BottomLink = styled(GLink)`
   font-family: ${fonts.biryani};
   font-size: 0.75rem;
   text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
 `;
 
 
 export default () => (
   <>
     <ContainerJoinNow>
-      <WrapperJoinNow>
+      <WrapperJoinNow css={css`
+            @media(max-width: ${mq.xs}px) {
+              display: none;
+            }
+        `}
+      >
         <TitleJoinNow>
           Become a Member • &nbsp;
         </TitleJoinNow>
+        <LinkJoinNow href="https://member.atlantamusicians.com/sign-up">Join Now!</LinkJoinNow>
+      </WrapperJoinNow>
+
+      <WrapperJoinNow css={css`
+          display: block;
+            @media(min-width: ${mq.xs}px) {
+              display: none;
+            }
+        `}
+      >
+        <TitleJoinNow>
+          Become a Member
+        </TitleJoinNow>
+        <br />
         <LinkJoinNow to="/">Join Now!</LinkJoinNow>
       </WrapperJoinNow>
     </ContainerJoinNow>
 
     <ContainerFooter>
-      <ImageLogo2 cssProp="position: absolute!important; top: 0; right: -2%; height: 100%; width: 42%; overflow: visible;" />
+      <ImageLogo2 cssProp={`
+        position: absolute!important;
+        top: 0;
+        right: -2%;
+        height: 100%;
+        width: 775px;
+        overflow: visible;
+
+        @media(max-width: ${mq.xl}px) {
+          width: 610px;
+          padding: 30px 0;
+        }
+        @media(max-width: ${mq.lg}px) {
+          opacity: 0.5;
+        }
+        @media(max-width: ${mq.sm}px) {
+          height: 150px;
+          width: 415px;
+          top: initial;
+          bottom: 0;
+          opacity: 1;
+        }
+        @media(max-width: ${mq.xs}px) {
+          height: 150px;
+          width: 415px;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          opacity: 1;
+        }
+        
+      `}
+      />
 
       <WrapperFooter>
 
@@ -185,19 +336,19 @@ export default () => (
           <Line />
           <ListFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Member Log-In</FooterLink>
+              <FooterLinkA href="https://member.atlantamusicians.com/sign-up">Member Log-In</FooterLinkA>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">About Us</FooterLink>
+              <FooterLink to="/about/about-us">About Us</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Union Benefits</FooterLink>
+              <FooterLink to="/membership/benefits">Member Benefits</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Hire A Musician</FooterLink>
+              <FooterLink to="/resources/hiring-directory">Hire A Musician</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/">Non Member / Make Payment</FooterLink>
+              <FooterLink to="/non-member-payment">Non Member / Make Payment</FooterLink>
             </ItemFooterLinks>
 
           </ListFooterLinks>
@@ -212,23 +363,23 @@ export default () => (
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">Blog</FooterLink>
+              <FooterLink to="/blog">Blog</FooterLink>
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">
+              <FooterLinkA href={`${contact.facebook}`}>
                 Facebook &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 {' '}
                 <FaFacebookF />
-              </FooterLink>
+              </FooterLinkA>
             </ItemFooterLinks>
 
             <ItemFooterLinks>
-              <FooterLink to="/press">
+              <FooterLinkA href="https://www.instagram.com/atlantafederationofmusicians">
                 Instagram &nbsp;&nbsp;&nbsp;
                 {' '}
                 <FaInstagram />
-              </FooterLink>
+              </FooterLinkA>
             </ItemFooterLinks>
           </ListFooterLinks>
         </FooterColumn>

@@ -1,0 +1,3 @@
+[submodule "src/components/usicians-directory"]
+	path = src/components/usicians-directory
+	url = git@github.com:Hangar-31/usicians-directory.git
