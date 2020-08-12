@@ -11,7 +11,7 @@ sections:
         alt_text: Hall
   - type: section_content_boxes
     list:
-      - image: /assets/atlanta-musicians-placeholder-horizontal.png
+      - image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
         title: Become A Member
         text: As the largest union of musicians in the world, we have the power to make
           the music industry work for you.
@@ -21,7 +21,7 @@ sections:
       - title: Find Local Musicians
         text: "Looking for musicians for your next event? Need an instrumental teacher?
           Search our membership directory. "
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
+        image: /assets/mark-kamalov-wackseiqyys-unsplash.jpg
         alt_text: placeholder
         link_text: Find Musicians
         link_url: /
