@@ -7,7 +7,7 @@ seo_description: Contact Atlanta Federation of Musicians
 sections:
   - type: section_banner
     title: Contact
-    content_image: /assets/light-blue-circles.jpg
+    content_image: /assets/sun.jpg
     content_alt_text: Microphone
     content_title: Contact Us
     content_text: Atlanta Federation of Musicians is Local 148-462 of the American
