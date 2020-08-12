@@ -31,13 +31,13 @@ sections:
   - background_color_toggle: false
     alt_text: placeholder
     link_url: /
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+    text: "The Film Musicians Secondary Markets Fund acts as a unique resource to
+      research, collect and distribute musicians' residual payments for the
+      exploitation of their talents in the motion picture, television and
+      digital media industries. "
     link_text: Visit Website
     image_right: true
-    title: Why We Do It
+    title: Film Musicians Secondary Markets Fund (FMSMF)
     type: section_content_one
-    image: /assets/atlanta-musicians-placeholder-square.png
+    image: /assets/fmsmf.png
 ---
