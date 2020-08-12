@@ -18,40 +18,37 @@ sections:
         alt_text: placeholder
         link_text: Join Now
         link_url: /
-      - title: Hire Local Musicians
+      - title: Find Local Musicians
         text: "Looking for musicians for your next event? Need an instrumental teacher?
           Search our membership directory. "
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Join Now
+        link_text: Find Musicians
         link_url: /
       - title: Read Our Blog
-        text: fxgjxfgfxfnfg dhgzg dhzd
+        text: Stay up to date on Local 148-462 events and membership activities.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Join Now
+        link_text: Blog
         link_url: /
       - title: Union Benefits
         text: Why Join the AFM? Membership has its benefits. Learn more about our
           programs and perks.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Join Now
+        link_text: Benefits
         link_url: /
       - title: John H. Head Scholarship
-        text: All scholarship contributions are tax-deductible and help us support
-          aspiring professional musicians! Auditions are open to graduating
-          Georgia instrumentalists pursing a career in music.
+        text: Support aspiring professional musicians.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Join Now
+        link_text: Donate
         link_url: /
-      - title: Advocacy Press
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. "
+      - title: Advocacy
+        text: Supporting initiatives vital to the music industry.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Join Now
+        link_text: Learn More
         link_url: /
   - type: section_content_one
     image_right: true
