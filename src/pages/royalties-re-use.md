@@ -16,10 +16,13 @@ sections:
   - background_color_toggle: true
     alt_text: SRSPF
     link_url: https://www.sound-recording.org/
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+    text: " The Sound Recording Special Payments Fund (the “SRSPF”), a 501 c (6)
+      not-for-profit organization, collects and distributes to musicians
+      payments made to the SRSPF by record companies based on their
+      exploitations of sound recordings (mainly audio subscriptions and
+      streaming) recorded under their collective bargaining agreement with the
+      American Federation of Musicians of the United States and Canada (the
+      “AFM”)."
     link_text: SRSPF
     image_right: true
     title: Sound Recording Special Payments Fund (SRSPF)
