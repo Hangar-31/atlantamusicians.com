@@ -8,12 +8,12 @@ sections:
   - type: section_banner
     title: Contact
     content_image: /assets/scrolls.jpg
-    content_alt_text: Microphone
+    content_alt_text: image
     content_title: Contact Us
     content_text: Atlanta Federation of Musicians is Local 148-462 of the American
       Federation of Musicians of the United States and Canada - the largest
       organization in the world representing the interests of professional
       musicians.
-    link_text: Join Now
+    link_text: Contact Us
     link_url: /
 ---
