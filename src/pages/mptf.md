@@ -7,7 +7,7 @@ seo_description: Music Performance Trust Fund
 sections:
   - type: section_banner
     title: Music Performance Trust Fund
-    content_image: /assets/mptf.jpg
+    content_image: /assets/mptf-banner.png
     content_alt_text: MPTF
     content_title: ""
     link_text: MPTF
