@@ -7,7 +7,7 @@ seo_description: Union Plus
 sections:
   - type: section_banner
     title: Union Plus
-    content_image: /assets/union-plus-logo-2.png
+    content_image: /assets/union-plus-free-college-benefit-logo.png
     content_alt_text: placeholder
   - type: section_content_title_1
     title: Title
