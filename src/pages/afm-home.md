@@ -19,8 +19,8 @@ sections:
         link_text: Join Now
         link_url: /
       - title: Hire Local Musicians
-        text: "Looking for a musician or ensemble to play at your next event? Need an
-          instrumental teacher? Search our membership directory. "
+        text: "Looking for musicians for your next event? Need an instrumental teacher?
+          Search our membership directory. "
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
