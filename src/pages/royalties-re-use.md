@@ -1,8 +1,8 @@
 ---
 path: /resources/royalties-re-use
-title: Royalties and Reuse
+title: Residuals and Reuse
 number: "405"
-seo_title: Royalties and reuse
+seo_title: Residuals and Reuse
 seo_description: Atlanta Federation of Musicians Royalties and Reuse
 sections:
   - type: section_banner
