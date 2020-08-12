@@ -7,7 +7,7 @@ seo_description: Atlanta Federation of Musicians Homepage
 sections:
   - type: section_slideshow
     list:
-      - image: /assets/rehearsal-hall-angle-1.jpg
+      - image: /assets/guitar-band.jpg
         alt_text: Hall
   - type: section_content_boxes
     list:
