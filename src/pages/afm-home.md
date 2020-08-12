@@ -26,20 +26,22 @@ sections:
         link_text: Find Musicians
         link_url: /
       - title: Read Our Blog
-        text: Stay up to date on Local 148-462 events and membership activities.
+        text: Explore our blog to stay up to date on Local 148-462 events and membership
+          activities.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Blog
+        link_text: Read Blog
         link_url: /
       - title: Union Benefits
         text: Why Join the AFM? Membership has its benefits. Learn more about our
           programs and perks.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-        link_text: Benefits
+        link_text: Explore Benefits
         link_url: /
       - title: John H. Head Scholarship
-        text: Support aspiring professional musicians.
+        text: Donate to support graduating high school seniors pursing a career in
+          music.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Donate
