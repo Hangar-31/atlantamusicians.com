@@ -35,7 +35,7 @@ sections:
       - title: Union Benefits
         text: Why Join the AFM? Membership has its benefits. Learn more about our
           programs and perks.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
+        image: /assets/benefits.jpg
         alt_text: placeholder
         link_text: Explore Benefits
         link_url: /
@@ -46,8 +46,9 @@ sections:
         link_text: Donate
         link_url: /
       - title: Advocacy
-        text: Supporting initiatives vital to the music industry.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
+        text: Supporting initiatives vital to the music industry and your career as a
+          professional musician.
+        image: /assets/advocacy.jpg
         alt_text: placeholder
         link_text: Learn More
         link_url: /
