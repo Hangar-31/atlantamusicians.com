@@ -2,10 +2,12 @@
 path: /resources/union-plus
 title: Union Plus
 number: "408"
+seo_title: Union Plus
+seo_description: Union Plus
 sections:
   - type: section_banner
     title: Union Plus
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    content_image: /assets/union-plus-logo-2.png
     content_alt_text: placeholder
   - type: section_content_title_1
     title: Title
