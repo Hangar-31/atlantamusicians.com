@@ -1,10 +1,12 @@
 ---
 path: /resources/hiring-directory
-title: Hire Local Musicians
+title: Find a Musician
 number: "401"
+seo_title: Member Directory
+seo_description: Atlanta Federation of Musicians Member Directory
 sections:
   - type: section_banner
-    title: Hiring Directory
+    title: Member Directory
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: placeholder
     content_title: Title
