@@ -9,7 +9,7 @@ sections:
     title: Royalties and Residuals
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: banner
-    content_title: Title
+    content_title: Residual and Royalty Payments
     content_text: Are unclaimed royalty or residual payments waiting for you?  If
       you've worked in the recording industry, be sure your contact information
       is up to date with any of the appropriate funds below to get the most out
@@ -54,4 +54,19 @@ sections:
     title: SoundExchange
     type: section_content_one
     image: /assets/soundexchange.png
+  - background_color_toggle: false
+    alt_text: AFM & SAG-AFTRA Fund
+    link_url: https://www.afmsagaftrafund.org/
+    text: The AFM & SAG-AFTRA Intellectual Property Rights Distribution Fund is a
+      501c(6) not-for-profit organization . While initially formed by the
+      American Federation of Musicians (AFM) and the American Federation of
+      Television and Radio Artists (AFTRA), the Fund is an independent entity
+      whose purpose is to collect and distribute royalties from various foreign
+      territories and royalties established by government statute under U.S.
+      Copyright Law.
+    link_text: AFM & SAG-AFTRA Fund
+    image_right: true
+    title: AFM & SAG-AFTRA Fund
+    type: section_content_one
+    image: /assets/afm-sag-aftra-fund.png
 ---
