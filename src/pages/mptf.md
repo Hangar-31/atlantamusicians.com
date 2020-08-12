@@ -2,11 +2,14 @@
 path: /resources/mptf
 title: MPTF
 number: "407"
+seo_title: Muisic Performance Trust Fund
+seo_description: Music Performance Trust Fund
 sections:
   - type: section_banner
-    title: MPTF
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
+    title: Music Performance Trust Fund
+    content_image: /assets/mptf.jpg
+    content_alt_text: MPTF
+    content_title: ""
   - type: section_content_title_1
     title: Title
   - type: section_content_text
