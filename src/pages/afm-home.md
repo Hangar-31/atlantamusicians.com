@@ -40,8 +40,7 @@ sections:
         link_text: Explore Benefits
         link_url: /
       - title: John H. Head Scholarship
-        text: Donate to support graduating high school seniors pursing a career in
-          music.
+        text: Donate to support graduating high school seniors pursing a music career.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Donate
