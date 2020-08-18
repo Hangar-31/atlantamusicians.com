@@ -17,6 +17,9 @@ sections:
       open to any instrumentalist in Georgia who is a graduating high school
       senior planning to pursue a career in music, and who has been accepted to
       a college or university music program.
+  - type: section_content_file
+    file_text: 2020 Scholarship Application
+    file_url: /assets/atlanta-membership-application.pdf
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
