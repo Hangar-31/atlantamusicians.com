@@ -24,7 +24,6 @@ const Row = styled.div`
   grid-row-gap: 45px;
   grid-column-gap: 90px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  align-items: baseline;
 
   @media(max-width: ${mq.xl}px) {
     grid-column-gap: 60px;
@@ -52,6 +51,9 @@ const Row = styled.div`
 const Card = styled.article`
   grid-column: span 3;
   border: 1px solid #DFDFDF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   img {
     max-width: 100%;
@@ -82,7 +84,7 @@ const Card = styled.article`
     font-family: ${fonts.nunitoSans};
     font-style: normal;
     line-height: 1.3125rem;
-    text-align: justify;
+    text-align: left;
 
     @media(max-width: ${mq.sm}px) {
       margin: 15px;
@@ -150,14 +152,16 @@ export default ({ section }) => (
       <Row>
         {section.list.map((box) => (
           <Card key={box.title}>
-            {box.image && (
-            <img
-              src={box.image}
-              alt={box.alt_text}
-            />
-            )}
-            <h1>{box.title}</h1>
-            <p>{box.text}</p>
+            <div>
+              {box.image && (
+              <img
+                src={box.image}
+                alt={box.alt_text}
+              />
+              )}
+              <h1>{box.title}</h1>
+              <p>{box.text}</p>
+            </div>
             <footer>
               <GLink to={box.link_url}>
                 <span>

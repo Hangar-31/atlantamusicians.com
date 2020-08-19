@@ -5,14 +5,22 @@ import { Link } from 'gatsby';
 import ReactMarkdown from 'react-markdown';
 import { fonts, colors } from '../../configs/styles';
 
-const Grid = styled.div`
+const Grid = styled(Link)`
   position: relative;
 
   display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 5px 0;
+
+  text-decoration: none;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
 `;
 
 const Title1 = styled.h1`
@@ -62,9 +70,10 @@ const PLink = styled(Link)`
 
 export default (link) => ({ member }) => (
 
-  <Grid css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
- background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}
+  <Grid
+    to={`${link}/${member.title.toLowerCase().split(' ').join('-')}`}
+    css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}
   >
     <img css={css`grid-column: span 3; width: 100%; height: 225px; height: 100%; object-fit: cover;`} src={member.image} alt={member.alt} />
     <div css={css`grid-column: span 5; padding: 15px 30px 15px 0;`}>

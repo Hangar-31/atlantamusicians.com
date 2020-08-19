@@ -127,7 +127,7 @@ const LinksBottom = styled(Link)`
 `;
 
 
-export default ({ data }) => {
+export default ({ data, pageContext }) => {
   const {
     markdownRemark: {
       frontmatter: {
@@ -233,18 +233,25 @@ export default ({ data }) => {
               background: ${colors.darkBlue};
             `}
           >
-            <LinksBottom href="/previous">
-              <svg css={css`margin-right: 15px;`} width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M-4.80825e-07 11L11 4.80825e-07L11 22L-4.80825e-07 11Z" fill="#EC4067" />
-              </svg>
-              Previous
-            </LinksBottom>
-            <LinksBottom href="/next">
-              Next
-              <svg css={css`margin-left: 15px;`} width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11 11L-9.53674e-07 4.80825e-07L7.97607e-09 22L11 11Z" fill="#EC4067" />
-              </svg>
-            </LinksBottom>
+            {pageContext.previousLink
+              ? (
+                <LinksBottom to={pageContext.previousLink}>
+                  <svg css={css`margin-right: 15px;`} width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-4.80825e-07 11L11 4.80825e-07L11 22L-4.80825e-07 11Z" fill="#EC4067" />
+                  </svg>
+                  Previous
+                </LinksBottom>
+              )
+              : <div />}
+            {pageContext.nextLink
+            && (
+              <LinksBottom to={pageContext.nextLink}>
+                Next
+                <svg css={css`margin-left: 15px;`} width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 11L-9.53674e-07 4.80825e-07L7.97607e-09 22L11 11Z" fill="#EC4067" />
+                </svg>
+              </LinksBottom>
+            )}
           </Column>
         </Grid>
       </Container>

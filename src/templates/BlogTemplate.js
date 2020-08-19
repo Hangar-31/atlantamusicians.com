@@ -129,8 +129,6 @@ const LinksBottom = styled(Link)`
 
 
 export default ({ data, pageContext }) => {
-  console.log(pageContext);
-  console.log(data);
   const {
     markdownRemark: {
       frontmatter: {

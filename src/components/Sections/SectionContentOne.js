@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
+import SuperLink from 'gatsby-plugin-superlink';
 import { fonts, colors, mq } from '../../configs/styles';
 
 const Container = styled.article`
@@ -61,6 +62,21 @@ const P = styled.p`
   }
 `;
 
+const Link = styled(SuperLink)`
+  float: right;
+
+  color: #EC4067;
+  font-size: 1rem;
+  font-family: ${fonts.nunitoSans};
+  text-transform: uppercase;
+  text-decoration: underline;
+  transition: 0.2s;
+
+  &:hover {
+    color: ${colors.darkBlue};
+  }
+`;
+
 
 export default ({ section }) => (
   <Container
@@ -83,6 +99,8 @@ export default ({ section }) => (
       >
         <Title css={css`color: ${section.background_color_toggle ? colors.lightBlue : colors.darkBlue}`}>{section.title}</Title>
         <P>{section.text}</P>
+        {section.link_text && section.link_url
+          && <Link to={section.link_url}>{section.link_text}</Link>}
       </Column>
       <Column
         css={css`
