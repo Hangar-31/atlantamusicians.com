@@ -21,6 +21,7 @@ import SectionAwards from '../components/Sections/SectionAwards';
 import SectionAwardFilters from '../components/Sections/SectionAwardFilters';
 import SectionCreditCard from '../components/Sections/SectionCreditCard';
 import SectionThankYou from '../components/Sections/SectionThankYou';
+import SectionContentFile from '../components/Sections/SectionContentFile';
 
 export default (sections) => {
   const years = sections
@@ -75,10 +76,12 @@ export default (sections) => {
             return (<SectionContentTitle3 section={section} />);
           case 'section_content_text':
             return (<SectionContentText section={section} />);
-          case 'section_content_images':
-            return (<SectionContentImages section={section} />);
           case 'section_content_link':
             return (<SectionContentLink section={section} />);
+          case 'section_content_file':
+            return (<SectionContentFile section={section} />);
+          case 'section_content_images':
+            return (<SectionContentImages section={section} />);
           case 'section_press':
             return <SectionPress section={section} />;
           case 'section_credit_card_donate':

@@ -156,6 +156,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       image_right: Boolean
       link_text: String
       link_url: String
+      file_text: String
+      file_url: String
       background_color_toggle: Boolean
       hours: String
       phone: String
@@ -176,6 +178,8 @@ exports.createSchemaCustomization = ({ actions }) => {
       content_text: String
       link_text: String
       link_url: String
+      file_text: String
+      file_url: String
       background_color_toggle: Boolean
       hours: String
       phone: String

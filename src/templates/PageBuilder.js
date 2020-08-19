@@ -85,6 +85,8 @@ export const pageQuery = graphql`
           image_right
           link_text
           link_url
+          file_text
+          file_url
           background_color_toggle
           hours
           phone

@@ -232,9 +232,9 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   return (
     <div css={css`
         position: relative;
-
         max-width: 1440px;
         margin: 0 auto;
+        z-index: 1;
       `}
     >
       <Grid css={css`
@@ -298,7 +298,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       <div css={css`
         position: absolute;
 
-        opacity: 1;
+        opacity: 0;
 
         transition: opacity 0.6s ease, z-index 0.6s 1s;
 

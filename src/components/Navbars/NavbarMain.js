@@ -76,7 +76,7 @@ const ListSubLinks = styled.ul`
   position: absolute;
   top: 100%;
   left: -25px;
-  z-index: 1;
+  z-index: 10;
 
   display: none;
   width: 180px;
