@@ -16,6 +16,11 @@ sections:
     content_title: WELCOME TO  NON-MEMBER PAYMENTS
     link_text: Log In
     link_url: https://member.atlantamusicians.com
+  - type: section_credit_card_donate
+    payment_type: DONATE
+    title: Testing
+    list:
+      - name: Program 1
   - type: section_content_title_2
     title: PAY BY CHECK
   - type: section_content_text
@@ -30,4 +35,7 @@ sections:
     title: "Mailed or Delivered to:"
   - type: section_content_text
     text: 551 Dutch Valley Road NE Atlanta, GA 30324
+  - type: section_thank_you
+    title: Thank you for your donation
+    text: Please check out more!
 ---
