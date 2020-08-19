@@ -16,4 +16,11 @@ sections:
       musicians.
     link_text: Contact Us
     link_url: /
+  - type: section_contact
+    title: Testing
+    text: This is more Testing
+    image: /assets/atlanta-musicians-placeholder-horizontal.png
+    alt_text: placeholder
+    link_text: Link
+    link_url: https://apple.com
 ---
