@@ -55,28 +55,30 @@ sections:
         link_url: /
   - background_color_toggle: true
     alt_text: placeholder
-    link_url: https://apple.com
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. "
-    link_text: Visit Website
+    link_url: ""
+    text: Every day the AFM helps thousands of musicians — negotiating fair
+      agreements, protecting ownership of recorded music, securing benefits such
+      as health care and pension, or lobbying our legislators. The AFM is
+      committed to raising industry standards and placing the professional
+      musician in the foreground of the cultural landscape.
+    link_text: ""
     image_right: true
     title: What We Do
     type: section_content_one
-    image: /assets/atlanta-musicians-placeholder-square.png
+    image: /assets/pexels-josh-sorenson-995301.jpg
   - background_color_toggle: false
     alt_text: placeholder
     link_url: /contact
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-      Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. "
+    text: Many of us standing together are more powerful than any of us standing
+      alone. Musicians’ ability to make a living is threatened as never before.
+      Corporate profits continue growing while technological advances transform
+      our work and how we are compensated. Musicians deserve good wages, decent
+      working conditions, and a sustainable future.
     link_text: Learn More
     image_right: false
     title: Why We Do It
     type: section_content_one
-    image: /assets/atlanta-musicians-placeholder-square.png
+    image: /assets/cello.png
   - type: section_slideshow
   - type: section_slideshow
 ---
