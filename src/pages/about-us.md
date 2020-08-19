@@ -2,8 +2,8 @@
 path: /about/about-Local
 title: About Local 148-462
 number: "201"
-seo_title: About Us
-seo_description: Atlanta Federation Musicians About Us
+seo_title: About AFM Local 148-462
+seo_description: Atlanta Federation Musicians About Local 148-462
 sections:
   - type: section_banner
     title: ATLANTA FEDERATION OF MUSICIANS
