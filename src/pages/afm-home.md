@@ -7,7 +7,7 @@ seo_description: Atlanta Federation of Musicians Homepage
 sections:
   - type: section_slideshow
     list:
-      - image: /assets/guitar-band.jpg
+      - image: /assets/scrolls.jpg
         alt_text: Hall
   - type: section_content_boxes
     list:
@@ -41,7 +41,8 @@ sections:
         link_url: /
       - title: John H. Head Scholarship
         text: Donate to support graduating high school seniors pursing a music career.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
+          All contributions are tax deductible.
+        image: /assets/scholarships.jpg
         alt_text: placeholder
         link_text: Donate
         link_url: /
@@ -76,4 +77,6 @@ sections:
     title: Why We Do It
     type: section_content_one
     image: /assets/atlanta-musicians-placeholder-square.png
+  - type: section_slideshow
+  - type: section_slideshow
 ---
