@@ -28,7 +28,7 @@ sections:
   - type: section_content_images
     list:
       - image: /assets/laridae.jpg
-        alt_text: placeholder
+        alt_text: Laridae
       - image: /assets/rehearsal-hall-angle-1.jpg
         alt_text: Atlanta Federation Of Musicians Rehearsal Hall
   - type: section_title
