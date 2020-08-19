@@ -1,6 +1,6 @@
 ---
-path: /about/about-us
-title: About Us
+path: /about/about-Local
+title: About Local 148-462
 number: "201"
 seo_title: About Us
 seo_description: Atlanta Federation Musicians About Us
