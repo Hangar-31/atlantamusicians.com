@@ -14,8 +14,8 @@ sections:
       lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
       arcu.
     content_title: Title
-    link_text: Log In
-    link_url: https://member.atlantamusicians.com
+    link_text: ""
+    link_url: ""
   - type: section_content_title_2
     title: Pay By Card
   - type: section_credit_card_donate
