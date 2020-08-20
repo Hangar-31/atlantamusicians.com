@@ -1,5 +1,5 @@
 ---
-path: /resources/hiring-directory
+path: /resources/find-a-musician
 title: Find a Musician
 number: "401"
 seo_title: Member Directory
@@ -11,6 +11,7 @@ sections:
     content_alt_text: banner
     content_title: Title
     content_text: Looking for a musician or ensemble to play at your next event?
-      Need and instrumental teacher? Search our membership.
+      Need and instrumental teacher? Search our membership for the professionals
+      you need!
   - type: section_directory
 ---
