@@ -6,14 +6,14 @@ seo_title: Donate
 seo_description: Donate
 sections:
   - type: section_banner
-    title: Make a Payment
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    title: Donations
+    content_image: /assets/atlanta-musicians-placeholder-horizontal-red.png
     content_alt_text: placeholder
-    content_text: If you are currently a member of the Atlanta Federation of
-      Musicians Local 148-462 Union, please make your work due or membership
-      payment by logging into your account and paying through the members pay
-      center.
-    content_title: WELCOME TO  NON-MEMBER PAYMENTS
+    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
+      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
+      arcu.
+    content_title: Title
     link_text: Log In
     link_url: https://member.atlantamusicians.com
   - type: section_content_title_2
