@@ -59,7 +59,7 @@ sections:
       agreements, protecting ownership of recorded music, securing benefits such
       as health care and pension, or lobbying our legislators. The AFM is
       committed to raising industry standards and placing the professional
-      musician in the foreground of the cultural landscape.
+      musician in the foreground of the cultural landscape..
     link_text: ""
     image_right: true
     title: What We Do
