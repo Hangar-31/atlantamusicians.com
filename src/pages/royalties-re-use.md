@@ -6,7 +6,7 @@ seo_title: Royalties and Residuals
 seo_description: Atlanta Federation of Musicians Royalties and Residuals
 sections:
   - type: section_banner
-    title: Royalties and Residuals
+    title: Unclaimed Payments
     content_image: /assets/sun.jpg
     content_alt_text: banner
     content_title: Residual and Royalty Payments
