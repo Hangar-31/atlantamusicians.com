@@ -118,11 +118,8 @@ collections:
               name: section_masthead
               widget: object
               fields:
-                - label: Masthead Image
-                  name: masthead
-                  fields:
-                    - { label: Image, name: image, widget: image }
-                    - { label: Image Alt Text, name: alt_text, widget: string }
+                - { label: Image, name: image, widget: image }
+                - { label: Image Alt Text, name: alt_text, widget: string }
             - label: Section - Bios
               name: section_bios
               widget: object
