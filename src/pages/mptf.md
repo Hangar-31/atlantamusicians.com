@@ -76,19 +76,16 @@ sections:
   - type: section_content_text
     text: >
       To apply for an MPTF grant, seek the assistance of the Local office. We
-      can help in planning and organizing your event.
+      can help in planning and organizing your event. Recipients of grants are
+      required to handle the necessary payroll requirements of hiring
+      professional musicians, including appropriate payments to pension funds
+      and taxes. We will provide the financial and contact information necessary
+      to make this happen. MPTF-funded events must be free of charge and without
+      any conditions for admittance. They cannot be fund-raising events or
+      raffles regardless of the merit. 
 
 
-      Recipients of grants are required to handle the necessary payroll requirements of hiring professional musicians, including appropriate payments to pension funds and taxes. We will provide the financial and contact information necessary to make this happen.
-
-
-      MPTF-funded events must be free of charge and without any conditions for admittance. They cannot be fund-raising events or raffles regardless of the merit. 
-
-
-      We require grant applications be submitted at least 30 days prior to the performance. Grant recipients should include the MPTF in event programs, press releases, websites, posted signs, and other public notifications, along with other event sponsors.
-
-
-      Once the event happens, the MPTF requires written certification that the performance was completed, upon which grant payments are initiated.
+      We require grant applications be submitted at least 30 days prior to the performance. Grant recipients should include the MPTF in event programs, press releases, websites, posted signs, and other public notifications, along with other event sponsors. Once the event happens, the MPTF requires written certification that the performance was completed, upon which grant payments are initiated.
   - type: section_content_link
     link_url: https://musicpf.org
     link_text: Learn More
