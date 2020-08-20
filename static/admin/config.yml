@@ -114,6 +114,11 @@ collections:
         name: sections
         widget: list
         types:
+            - label: Spacer
+              name: section_spacer
+              widget: object
+              fields:
+                - { label: spacer, name: spacer, widget: hidden }
             - label: Masthead
               name: section_masthead
               widget: object

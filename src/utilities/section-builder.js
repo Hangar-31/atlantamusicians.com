@@ -22,6 +22,7 @@ import SectionAwardFilters from '../components/Sections/SectionAwardFilters';
 import SectionCreditCard from '../components/Sections/SectionCreditCard';
 import SectionThankYou from '../components/Sections/SectionThankYou';
 import SectionContentFile from '../components/Sections/SectionContentFile';
+import SectionSpacer from '../components/Sections/SectionSpacer';
 
 export default (sections) => {
   const years = sections
@@ -84,6 +85,8 @@ export default (sections) => {
             return (<SectionContentImages section={section} />);
           case 'section_press':
             return <SectionPress section={section} />;
+          case 'section_spacer':
+            return <SectionSpacer />;
           case 'section_credit_card_donate':
           case 'section_credit_card_payment':
             return (
