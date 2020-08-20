@@ -6,7 +6,7 @@ seo_title: Home
 seo_description: Atlanta Federation of Musicians Homepage
 sections:
   - type: section_masthead
-    image: /assets/scrolls.jpg
+    image: /assets/atlanta-musicians-placeholder-horizontal.png
     alt_text: Hall
   - type: section_content_boxes
     list:
