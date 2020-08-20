@@ -9,11 +9,11 @@ sections:
     title: Scale Summary
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: placeholder
-    content_title: Title
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
+    content_title: Download AFM 148-462 Scale Summary
+    content_text: Local scales are updated annually and describe the minimum wages
+      and working conditions voted on by our membership. This summary is
+      provided for estimation purposes only. Work with your AFM contractor or
+      contact the Local office for inquiries about specific events.
     link_text: Download
     link_url: /
   - type: section_title
