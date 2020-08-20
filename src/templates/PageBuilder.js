@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import React from 'react';
 import { graphql } from 'gatsby';
 
@@ -22,6 +23,8 @@ const removeNulls = (data) => data.map((item) => {
 });
 
 export default ({ data }) => {
+  console.log(data);
+  console.log('FIRE');
   const { markdownRemark: { frontmatter: { sections } } } = data;
   const components = removeNulls(sections);
 

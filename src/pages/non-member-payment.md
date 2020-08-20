@@ -5,7 +5,7 @@ number: "0"
 seo_title: Non Member Payment
 seo_description: Make payments
 sections:
-  - type: section_title_banner
+  - type: section_banner
     title: Make a Payment
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_title: WELCOME TO  NON-MEMBER PAYMENTS
@@ -46,5 +46,7 @@ sections:
       arcu.
     content_image: /assets/atlanta-musicians-placeholder-horizontal-red.png
     title: THANK YOU FOR YOUR PAYMENT!
-    type: section_thank_you
+  - type: section_thank_you
+    title: Thank you for your donation
+    text: Please check out more!
 ---
