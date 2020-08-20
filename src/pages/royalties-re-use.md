@@ -12,8 +12,8 @@ sections:
     content_title: Residual and Royalty Payments
     content_text: Are unclaimed royalty or residual payments waiting for you?  If
       you've worked in the recording industry, be sure your contact information
-      is up to date with any of the appropriate funds below to get the most out
-      of your work.
+      is up to date with the appropriate funds below to get the most out of your
+      work.
   - background_color_toggle: true
     alt_text: SRSPF
     link_url: https://www.sound-recording.org/
