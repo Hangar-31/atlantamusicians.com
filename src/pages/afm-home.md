@@ -5,10 +5,9 @@ number: "101"
 seo_title: Home
 seo_description: Atlanta Federation of Musicians Homepage
 sections:
-  - type: section_slideshow
-    list:
-      - image: /assets/scrolls.jpg
-        alt_text: Hall
+  - type: section_masthead
+    image: /assets/scrolls.jpg
+    alt_text: Hall
   - type: section_content_boxes
     list:
       - image: /assets/join-now.jpg
@@ -79,6 +78,4 @@ sections:
     title: Why We Do It
     type: section_content_one
     image: /assets/cello.png
-  - type: section_slideshow
-  - type: section_slideshow
 ---

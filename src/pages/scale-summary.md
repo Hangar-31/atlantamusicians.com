@@ -33,5 +33,5 @@ sections:
         2-30 musicians	200% of sidemusician scale
       31-59 musicians	250% of sidemusician scale
             60 musicians +	300% of sidemusician scale
-  - type: section_slideshow
+  - type: section_masthead
 ---

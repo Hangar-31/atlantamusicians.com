@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SectionSlideshow from '../components/Sections/SectionSlideshow';
+import SectionMasthead from '../components/Sections/SectionMasthead';
 import SectionBoxes from '../components/Sections/SectionBoxes';
 import SectionBannerSmall from '../components/Sections/SectionBannerSmall';
 import SectionBanner from '../components/Sections/SectionBanner';
@@ -34,8 +34,8 @@ export default (sections) => {
     <>
       {sections.map(({ type, ...section }) => {
         switch (type) {
-          case 'section_slideshow':
-            return (<SectionSlideshow section={section} />);
+          case 'section_masthead':
+            return (<SectionMasthead section={section} />);
           case 'section_bios':
             return (<SectionBios section={section} />);
           case 'section_awards': {

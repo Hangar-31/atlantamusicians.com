@@ -114,13 +114,12 @@ collections:
         name: sections
         widget: list
         types:
-            - label: Slideshow
-              name: section_slideshow
+            - label: Masthead
+              name: section_masthead
               widget: object
               fields:
-                - label: Slideshow Images
-                  name: list
-                  widget: list
+                - label: Masthead Image
+                  name: masthead
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
@@ -262,7 +261,7 @@ collections:
                   fields:
                     - { label: Image, name: image, widget: image }
                     - { label: Image Alt Text, name: alt_text, widget: string }
-            - label: Payment - Donatation Form
+            - label: Payment - Donation Form
               name: section_credit_card_donate
               widget: object
               fields:

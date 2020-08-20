@@ -77,6 +77,6 @@ sections:
     list:
       - image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
-  - type: section_slideshow
-  - type: section_slideshow
+  - type: section_masthead
+  - type: section_masthead
 ---

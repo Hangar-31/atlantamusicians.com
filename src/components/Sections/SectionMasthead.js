@@ -27,19 +27,10 @@ const Img = styled.img`
 `;
 
 export default ({ section }) => (
-  <>
-    {section.list && section.list.length > 0
-
-  && (
   <Container>
-    {section.list.map((image) => (
-      <Img
-        key={image.alt_text}
-        src={image.image}
-        alt={image.alt_text}
-      />
-    ))}
+    <Img
+      src={section.image}
+      alt={section.alt_text}
+    />
   </Container>
-  )}
-  </>
 );
