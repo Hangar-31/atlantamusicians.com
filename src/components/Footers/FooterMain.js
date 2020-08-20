@@ -245,6 +245,14 @@ const BottomLink = styled(GLink)`
   }
 `;
 
+const BottomText = styled.span`
+  color: #ffffff;
+  font-family: ${fonts.biryani};
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: 0.2s;
+`;
+
 
 export default () => (
   <>
@@ -390,7 +398,11 @@ export default () => (
       <WrapperBottom>
         <ListBottomLinks>
           <ItemBottomLink>
-            <BottomLink to="/copyright">Copyright</BottomLink>
+            <BottomText>
+              Copyright
+              {' '}
+              {new Date().getFullYear()}
+            </BottomText>
           </ItemBottomLink>
 
           <ItemBottomLink>
