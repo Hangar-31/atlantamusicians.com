@@ -23,7 +23,7 @@ sections:
   - type: section_content_title_2
     title: Free College
   - type: section_content_text
-    text: >+
+    text: >-
       Earn an Associate Degree — completely online, for FREE! Even if you don’t
       qualify for student financial aid, the Union Plus Free College Benefit
       will be applied to your balance for tuition, fees and e-books. Under an
@@ -34,24 +34,7 @@ sections:
       programs at Eastern Gateway.
 
 
-      Eastern Gateway Community College is a fully accredited, non-profit public institution that is part of the University System of Ohio. Students can enroll in the distance learning program from anywhere in the U.S. The program offers ten associate degrees and two certificate programs. Credits can be transferred to a four-year college.
-
-
-      Degree Programs
-
-          Accounting
-          Associate of Arts
-          Business Management 
-          Criminal Justice
-          Teacher Education (Associate of Arts)
-          Healthcare Administration
-          Individualized Study
-          Paralegal
-          Professional Office Management
-          Social Work
-
-      Classes Begin Every 8 Weeks
-
+      Eastern Gateway Community College is a fully accredited, non-profit public institution that is part of the University System of Ohio. Students can enroll in the distance learning program from anywhere in the U.S. The program offers ten associate degrees and two certificate programs. Credits can be transferred to a four-year college. Classes Begin Every 8 Weeks.
   - type: section_content_title_2
     title: Health Discounts
   - type: section_content_text
