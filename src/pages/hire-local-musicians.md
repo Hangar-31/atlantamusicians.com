@@ -9,7 +9,7 @@ sections:
     title: Member Directory
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: banner
-    content_title: Title
+    content_title: Find a Musician
     content_text: Looking for a musician or ensemble to play at your next event?
       Need and instrumental teacher? Search our membership for the professionals
       you need!
