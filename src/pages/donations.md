@@ -40,6 +40,7 @@ sections:
   - type: section_thank_you
     title: Thank you for your donation
     text: Please check out more!
+  - type: section_spacer
   - type: section_masthead
     image: /assets/atlanta-sky-line.png
     alt_text: atlanta skyline
