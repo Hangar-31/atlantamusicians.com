@@ -89,4 +89,7 @@ sections:
 
 
       Once the event happens, the MPTF requires written certification that the performance was completed, upon which grant payments are initiated.
+  - type: section_content_link
+    link_url: https://musicpf.org
+    link_text: Learn More
 ---
