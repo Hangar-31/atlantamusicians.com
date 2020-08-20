@@ -16,6 +16,8 @@ sections:
     content_title: WELCOME TO  NON-MEMBER PAYMENTS
     link_text: Log In
     link_url: https://member.atlantamusicians.com
+  - type: section_content_title_2
+    title: Pay By Card
   - type: section_credit_card_donate
     payment_type: DONATE
     title: Testing
@@ -38,4 +40,6 @@ sections:
   - type: section_thank_you
     title: Thank you for your donation
     text: Please check out more!
+  - type: section_content_text
+    text: " "
 ---
