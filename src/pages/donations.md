@@ -40,6 +40,4 @@ sections:
   - type: section_thank_you
     title: Thank you for your donation
     text: Please check out more!
-  - type: section_content_text
-    text: " "
 ---
