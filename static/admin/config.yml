@@ -138,6 +138,16 @@ collections:
                     - { label: Bio, name: text, widget: text }
                     - { label: Bio Image, name: image, widget: image }
                     - { label: Bio Image Alt Text, name: alt_text, widget: string }
+            - label: Section - Blogs
+              name: section_blogs
+              widget: object
+              fields:
+                - { label: spacer, name: spacer, widget: hidden }
+            - label: Section - Press
+              name: section_press
+              widget: object
+              fields:
+                - { label: spacer, name: spacer, widget: hidden }
             - label: Section - Award Year
               name: section_awards
               widget: object
