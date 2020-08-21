@@ -5,6 +5,12 @@ number: "302"
 seo_title: AFM Membership Benefits
 seo_description: AFM Membership Benefits
 sections:
+  - type: section_banner
+    content_image: /assets/sun.jpg
+    title: The AFM Advantage
+    content_alt_text: banner
+    content_text: "AFM members have access to a range of benefits from our contracts
+      and collective bargaining power to discounts and life insurance. "
   - type: section_content_title_2
     title: Contracts & Collective Bargaining
   - type: section_content_text
