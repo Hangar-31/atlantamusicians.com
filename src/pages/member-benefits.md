@@ -50,4 +50,5 @@ sections:
     text: "Use local 148-462’s rehearsal hall free of charge during business hours.
       Our large space can accommodate a chamber orchestra. A Steinway piano and
       drum set are provided. "
+  - type: section_spacer
 ---
