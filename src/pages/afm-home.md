@@ -37,7 +37,7 @@ sections:
         image: /assets/benefits.jpg
         alt_text: placeholder
         link_text: Explore Benefits
-        link_url: /benefits
+        link_url: /membership/benefits
       - title: John H. Head Scholarship
         text: Donate to support graduating high school seniors pursing a music career.
           All contributions are tax deductible.
