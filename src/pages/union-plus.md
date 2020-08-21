@@ -72,4 +72,5 @@ sections:
   - type: section_content_text
     text: Get discounts on AT&T wireless, car rental, hotels, life, homeowners,
       rental, and pet insurance, Goodyear tires, and more.
+  - type: section_spacer
 ---
