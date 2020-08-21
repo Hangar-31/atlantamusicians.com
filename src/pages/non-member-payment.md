@@ -24,9 +24,8 @@ sections:
   - type: section_content_title_2
     title: PAY BY CHECK
   - type: section_content_text
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+    text: Checks are accepted by mail or in person. After hours checks may be
+      dropped in our mail slot.
   - type: section_content_title_3
     title: "Checks made out to:"
   - type: section_content_text
