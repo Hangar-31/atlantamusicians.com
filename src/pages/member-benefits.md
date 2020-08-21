@@ -7,7 +7,7 @@ seo_description: AFM Membership Benefits
 sections:
   - type: section_banner
     content_image: /assets/hall-inside-crop.jpg
-    title: The AFM Advantage
+    title: Member Benefits
     content_alt_text: banner
     content_text: "AFM members have access to a range of benefits from our contracts
       and collective bargaining power to discounts and life insurance. "
