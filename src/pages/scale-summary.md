@@ -5,17 +5,18 @@ number: "403"
 seo_title: Scale Summary
 seo_description: Scale Summary
 sections:
-  - type: section_banner
-    title: Scale Summary
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
+  - content_alt_text: placeholder
+    link_url: ""
+    file_url: /assets/atlanta-membership-application.pdf
+    link_text: Download
     content_title: AFM 148-462 2020 Scales
     content_text: Local scales are updated annually and describe the minimum wages
       and working conditions voted on by our membership. This summary is
       provided for estimation purposes only. Work with your AFM contractor or
       contact the Local office for inquiries about specific events.
-    link_text: Download
-    link_url: /
+    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    title: Scale Summary
+    type: section_banner
   - type: section_title
     title: 2020 Price List Summary
   - type: section_content_title_3
