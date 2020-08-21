@@ -5,15 +5,6 @@ number: "302"
 seo_title: AFM Membership Benefits
 seo_description: AFM Membership Benefits
 sections:
-  - type: section_banner
-    title: Member Benefits
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
-    content_title: Title
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
   - type: section_content_title_2
     title: Contracts & Collective Bargaining
   - type: section_content_text
