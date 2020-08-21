@@ -111,6 +111,8 @@ const Link = styled(GLink)`
   &:hover {
     opacity: 0.75;
   }
+
+  cursor: pointer;
 `;
 
 const StyledLink = styled(GLink)`
@@ -199,14 +201,14 @@ export default () => {
             subLinks: [
               {
                 name: title,
-                path,
+                path: pathSplit[2],
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
             name: title,
-            path,
+            path: pathSplit[2],
           });
         }
       }
@@ -245,7 +247,14 @@ export default () => {
             >
               <Link
                 to={link.path}
-                onMouseOver={() => setActiveSubMenu(i)}
+                onLoad={(e) => e.removeAttribute('href')}
+                onClick={(e) => {
+                  if (link.subLinks.length > 0) e.preventDefault();
+                }}
+                onMouseOver={(e) => {
+                  setActiveSubMenu(i);
+                  if (link.subLinks.length > 0) e.currentTarget.removeAttribute('href');
+                }}
                 onFocus={() => setActiveSubMenu(i)}
               >
                 {`${link.name} `}

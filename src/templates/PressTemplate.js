@@ -163,7 +163,7 @@ export default ({ data, pageContext }) => {
               <svg css={css` width: 9px; height: 18px;margin-right: 10px;`} width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-2.18557e-07 5L5 2.18557e-07L5 10L-2.18557e-07 5Z" fill="#EC4067" />
               </svg>
-              <LinkBack to="/resources/press">BACK</LinkBack>
+              <LinkBack to="/press">BACK</LinkBack>
             </Column>
 
             <Column css={css`
