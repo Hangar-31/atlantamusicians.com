@@ -2,6 +2,8 @@
 path: /resources/emergency-relief
 title: Emergency Relief
 number: "406"
+seo_title: AFM Emergrncy Relief
+seo_description: AFM Emergency Relief
 sections:
   - type: section_banner
     title: Emergency Relief
@@ -14,9 +16,14 @@ sections:
       arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
   - type: section_content_boxes
     list:
-      - title: Source One
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+      - title: Lester Petrillo Memorial Fund
+        text: Started in 1951 with a $10,000 personal contribution from then-President
+          James C. Petrillo in memory of his late son, the Lester Petrillo
+          Memorial Fund for Disabled Musicians is a charitable trust fund that
+          provides financial aid to disabled members. This fund is not intended
+          to replace health insurance or provide general loans, but does supply
+          modest amounts of assistance to qualified applicants on an emergency
+          basis.
         image: /assets/atlanta-musicians-placeholder-horizontal.png
         alt_text: placeholder
         link_text: Join Now
