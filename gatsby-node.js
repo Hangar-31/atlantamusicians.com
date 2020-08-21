@@ -85,14 +85,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     if (node.frontmatter.path !== null) {
       let { path: pagePath } = node.frontmatter;
       const pagePathSplit = pagePath.split('/');
+
       if (pagePathSplit[1] === '') {
         pagePath = '/';
       } else if (pagePathSplit.length > 2) {
         pagePath = pagePathSplit[2];
-        console.log(`Path: ${pagePath}`);
       }
 
-      console.log(`Path Going In: ${pagePath}`);
+      pagePath.toLowerCase();
+
       createPage({
         path: pagePath,
         component: PageBuilderTemplate,

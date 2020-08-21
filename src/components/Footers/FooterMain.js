@@ -344,16 +344,16 @@ export default () => (
           <Line />
           <ListFooterLinks>
             <ItemFooterLinks>
-              <FooterLinkA href="https://member.atlantamusicians.com/sign-up">Member Log-In</FooterLinkA>
+              <FooterLinkA href="https://member.atlantamusicians.com">Member Log-In</FooterLinkA>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/about/about-us">About Us</FooterLink>
+              <FooterLink to="/about-our-local">About Us</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/membership/benefits">Member Benefits</FooterLink>
+              <FooterLink to="/benefits">Member Benefits</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/resources/hiring-directory">Hire A Musician</FooterLink>
+              <FooterLink to="/find-a-musician">Find A Musician</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
               <FooterLink to="/non-member-payment">Non Member / Make Payment</FooterLink>

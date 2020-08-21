@@ -1,5 +1,5 @@
 ---
-path: /about/about-Local
+path: /about/about-our-local
 title: About Local 148-462
 number: "201"
 seo_title: About AFM Local 148-462
