@@ -7,7 +7,7 @@ seo_description: Join Local 148-462 Atlanta Federation of Musicians
 sections:
   - type: section_banner
     title: AFM Membership
-    content_image: /assets/eagles-orch.jpg
+    content_image: /assets/sun.jpg
     content_alt_text: Orchestra
     content_title: Join Us
     content_text: The American Federation of Musicians of the United States and
