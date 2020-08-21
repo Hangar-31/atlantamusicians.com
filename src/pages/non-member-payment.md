@@ -9,10 +9,9 @@ sections:
     title: Make a Payment
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_title: WELCOME TO  NON-MEMBER PAYMENTS
-    content_text: If you are currently a member of the Atlanta Federation of
-      Musicians Local 148-462 Union, please make your work due or membership
-      payment by logging into your account and paying through the members pay
-      center.
+    content_text: If you are currently a member of Atlanta Federation of Musicians
+      Local 148-462, please make your work dues or membership payment by logging
+      into your account and paying through the members' pay center.
     content_alt_text: placeholder
   - type: section_content_title_2
     title: Pay By Card
