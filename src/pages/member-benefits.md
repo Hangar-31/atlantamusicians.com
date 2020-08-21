@@ -6,7 +6,7 @@ seo_title: AFM Membership Benefits
 seo_description: AFM Membership Benefits
 sections:
   - type: section_banner
-    content_image: /assets/hall-inside-crop.jpg
+    content_image: /assets/adobestock_260200886.jpeg
     title: Member Benefits
     content_alt_text: banner
     content_text: "AFM members have access to a range of benefits from our contracts
