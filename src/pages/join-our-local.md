@@ -31,6 +31,6 @@ sections:
       With offices in New York, Los Angeles, Washington, DC and Toronto, in addition to a network of more than 240 local unions in small and large cities throughout the United States and Canada, the AFM is everywhere you are. We have negotiated high-quality consumer benefits and services for you and your family, and have a professional staff to assist you with your professional needs.
   - type: section_content_images
     list:
-      - image: /assets/adobestock_260200886.jpeg
+      - image: /assets/eagles-orch-crop.jpg
         alt_text: placeholder
 ---
