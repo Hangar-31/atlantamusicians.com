@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
+
+
+import { Container } from 'semantic-ui-react';
 import { css } from '@emotion/core';
-
-
-import { Container, Grid } from 'semantic-ui-react';
 import MemberDirectory from '../usicians-directory';
 import { ProviderDirectory } from '../usicians-directory/context-directory';
 import Contractor from '../usicians-directory/SVGs/Contractor';
@@ -95,55 +95,19 @@ const MemberDirectoryContext = () => {
   return (
     <ProviderDirectory filterData={filters}>
       <Container>
-        <Grid css={css`
-        max-width: 1440px;
-        margin: 0 auto;
-          display: grid;
-          grid-template-columns: repeat(12, minmax(0, 1fr));
-          > div {
-            > div:nth-of-type(1) {
-              grid-column: span 4;
-              aside {
-                padding: 0;
-                margin: 0;
-              }
-            }
-            > div:nth-of-type(2) {
-              grid-column: span 8;
-            }
-          }
-        `}
+        <div
+          css={css`
+          max-width: 1200px;
+          margin: 0 auto;
+         `}
         >
-          <Grid
-            css={css`
-            grid-column: 2 / span 10;
-            display: grid;
-            grid-column-gap: 3rem;
-            grid-template-columns: repeat(12, minmax(0, 1fr));
-            width: 100%;
-            max-width: 1440px;
-            margin: 45px auto;
 
-            font-family: 'Nunito Sans';
-
-            div:nth-of-type(2) {
-              article {
-                margin-top: 0.25rem;
-              }
-              article:nth-of-type(odd) {
-                background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);
-              }
-            }
-
-          `}
-          >
-            <MemberDirectory
-              members={members}
-              filter={filterMemberDirectory}
-              Card={PublicDirectoryCard}
-            />
-          </Grid>
-        </Grid>
+          <MemberDirectory
+            members={members}
+            filter={filterMemberDirectory}
+            Card={PublicDirectoryCard}
+          />
+        </div>
       </Container>
     </ProviderDirectory>
   );

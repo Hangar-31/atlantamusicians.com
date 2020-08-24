@@ -114,7 +114,13 @@ export default ({ section }) => (
             grid-column: ${section.image_right ? '7 / span 6' : '1 / span 6'};
           }
           @media(max-width: ${mq.xs}px) {
-            display: none;
+            grid-row: 2;
+            grid-column: span 12;
+            margin-top: 15px;
+            > img {
+              object-fit: cover;
+              max-height: 200px;
+              width: 100%;
           }
         `}
       >

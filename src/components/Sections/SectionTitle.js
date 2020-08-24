@@ -16,7 +16,13 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 0 15px 15px 15px;
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1.375rem;
+    line-height: 1.2;
+    margin: 0;
+  }
 `;
 
 const Row = styled.div`
@@ -52,9 +58,11 @@ const Title = styled.h2`
   @media(max-width: ${mq.sm}px) {
     font-size: 2.5rem;
   }
-  @media(max-width: ${mq.sm}px) {
-    font-size: 2rem;
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1.375rem;
+    line-height: 1.2;
     margin: 0 0 -5px 0;
+    padding: 15px 15px 0 15px;
   }
 `;
 
@@ -70,6 +78,9 @@ export default ({ section }) => (
         height: 20px;
         @media(max-width: ${mq.sm}px) {
           height: 15px;
+        }
+        @media(max-width: ${mq.xs}px) {
+          height: 8px;
         }
       `}
       />

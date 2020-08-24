@@ -3,7 +3,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
 
-import { colors, fonts } from '../../configs/styles';
+import { colors, fonts, mq } from '../../configs/styles';
 import textToComponent from '../../utilities/text-to-component';
 
 const Container = styled.section`
@@ -16,7 +16,7 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 0 15px 15px 15px;
 `;
 
 const Row = styled.div`
@@ -24,19 +24,32 @@ const Row = styled.div`
   grid-column: 3 / span 8;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  @media(max-width: ${mq.sm}px) {
+    grid-column: span 12;
+  }
 `;
 
 const Bio = styled.article`
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-column: span 8;
+  grid-column: span 12;
   border: 1px solid #DFDFDF;
+
+`;
+
+const Image = styled.img`
+  position: relative;
+  display: inline-block;
+  float: left;
+  object-fit: cover;
+  max-width: 50px;
+  height: 100%;
 `;
 
 const BioContent = styled.div`
-  grid-column: span 6;
+  position: relative;
+  display: inline-block;
+  float: right;
   padding: 15px 45px 15px 15px;
 `;
 
@@ -44,29 +57,36 @@ const Name = styled.h3`
   margin: 5px 0;
   color: ${colors.darkBlue};
   font-family: ${fonts.biryani};
+
+  @media(max-width: ${mq.xs}px) {
+    margin: 0;
+  }
 `;
 
 const Title = styled.h4`
   margin: 5px 0;
   color: ${colors.lightBlue};
   font-family: ${fonts.biryani};
+
+  @media(max-width: ${mq.xs}px) {
+    margin: 0;
+  }
 `;
 
 const Text = styled.p`
   font-family: ${fonts.nunitoSans};
-`;
+  max-height: 90px;
+  overflow: hidden;
 
-const Image = styled.img`
-  grid-column: span 2;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.875rem;
+  }
 `;
 
 const Button = styled.button`
   position: absolute;
   bottom: 5px;
-  right: 5px;
+  right: 0px;
   font-size: 1.25rem;
   background: none;
   border: none;
@@ -94,32 +114,15 @@ export default ({ section }) => (
 
 const BioComponent = ({ bio, color }) => {
   const [open, setOpen] = useState(false);
-  let display = 'block';
-  let padding = '0px';
-  let gridColumn = '6';
-  let maxHeight = '85px';
-  let background = '#ffffff';
-  let textColor = '#000000';
-
-  if (open) {
-    display = 'none';
-    padding = '45px';
-    gridColumn = '8';
-    maxHeight = 'initial';
-  }
-  if (color) {
-    background = colors.darkBlue;
-    textColor = '#ffffff';
-  }
 
   return (
-    <Bio css={css`background: ${background}`}>
-      <Image css={css`display: ${display};`} src={bio.image} alt={bio.alt_text} />
-      <BioContent css={css`grid-column: span ${gridColumn}; padding-left: ${padding};`}>
-        <Name css={css`color: ${textColor};`}>{bio.name}</Name>
+    <Bio css={css`background: ${color};`}>
+      <BioContent>
+        <Image src={bio.image} alt={bio.alt_text} />
+        <Name>{bio.name}</Name>
         <Title>{bio.title}</Title>
-        <div css={css`overflow: hidden; max-height: ${maxHeight};`}>
-          {textToComponent(bio.text, Text, `color: ${textColor};`)}
+        <div>
+          {textToComponent(bio.text, Text, 'color: #000000;')}
         </div>
       </BioContent>
       <Button type="button" onClick={() => setOpen(!open)}>{open ? <AiFillCaretUp /> : <AiFillCaretDown />}</Button>

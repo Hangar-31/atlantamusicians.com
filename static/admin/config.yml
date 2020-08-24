@@ -212,8 +212,9 @@ collections:
                 - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
                 - { label: Content Title, name: content_title, widget: string, required: false }
                 - { label: Content Text, name: content_text, widget: text, required: false }
-                - { label: Link Text, name: link_text, widget: string, required: false }
+                - { label: Button Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
+                - { label: File, name: file_url, widget: file, required: false }
             - label: Banner - Small
               name: section_banner_small
               widget: object

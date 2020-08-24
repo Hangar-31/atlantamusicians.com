@@ -19,10 +19,6 @@ const Container = styled.section`
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.6);
-
-  @media(max-width: ${mq.md}px) {
-    display: none;
-  }
 `;
 
 const Wrapper = styled.nav`

@@ -5,7 +5,6 @@ import { Link } from 'gatsby';
 import { colors, fonts, mq } from '../../configs/styles';
 
 const Container = styled.section`
-
   width: 100%;
 `;
 
@@ -74,6 +73,10 @@ const Card = styled.article`
     @media(max-width: ${mq.sm}px) {
       margin: 15px;
     }
+    @media(max-width: ${mq.xs}px) {
+      font-size: 1rem;
+      line-height: 1.25rem;
+    }
   }
 
   p {
@@ -90,7 +93,7 @@ const Card = styled.article`
       margin: 15px;
     }
     @media(max-width: ${mq.xs}px) {
-      display: none;
+      font-size: 0.925rem;
     }
   }
 
@@ -101,9 +104,6 @@ const Card = styled.article`
 
   @media(max-width: ${mq.md}px) {
     grid-column: span 4;
-  }
-  @media(max-width: ${mq.xs}px) {
-    grid-column: span 12;
   }
 `;
 
@@ -116,6 +116,10 @@ const GLink = styled(Link)`
   text-transform: uppercase;
   text-decoration: none;
   margin: 10px;
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.675rem
+  }
   
   &:hover {
     span {
@@ -143,6 +147,14 @@ const GLink = styled(Link)`
     width: calc(100% + 2px);
     height: calc(100% + 2px);
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+
+    @media(max-width: ${mq.sm}px) {
+      top: -2px;
+      left: -2px;
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+    }
+
   }
 `;
 

@@ -20,19 +20,24 @@ const Grid = styled.div`
 
 const Title = styled.h3`
   grid-column: 3 / span 8;
-  color: ${colors.lightBlue};
+  color: ${colors.darkBlue};
+  padding: 0px 30px 30px 30px;
+  margin: 0;
+  
+  line-height: 1;
   font-weight: 800;
   font-size: 1.875rem;
   font-family: ${fonts.biryani};
   text-transform: uppercase;
-  margin: 30px 0 0 0;
 
   @media(max-width: ${mq.sm}px) {
     grid-column: 2 / span 10;
   }
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
-    padding: 0 15px;
+    font-size: 1rem;
+    padding: 0px 30px 30px 30px;
+
   }
 `;
 

@@ -38,7 +38,7 @@ const Title = styled.h1`
   margin: 30px 0;
 
   color: ${colors.blue};
-  font-weight: 800;
+  font-weight: 700;
   font-size: 30px;
   font-family: ${fonts.montserrat};
   font-style: normal;
@@ -142,6 +142,49 @@ const GLink = styled(Link)`
   }
 `;
 
+const ELink = styled.a`
+  position: relative;
+
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: ${fonts.montserrat};
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    span {
+      background: ${colors.blue};
+    }
+  }
+
+  span {
+    position: relative;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px;
+
+    background: ${colors.darkBlue};
+
+    transition: 0.2s;
+  }
+
+  &:before {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 0;
+
+    display: block;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+
+    background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+    content: "";
+  }
+`;
+
 export default ({ section }) => {
   if (typeof section.content_title === 'undefined') {
     section.content_title = '';
@@ -165,9 +208,6 @@ export default ({ section }) => {
       >
         <Grid css={css`
           padding: 0 15px;
-          @media(max-width: ${mq.xs}px) {
-            justify-items: center;
-          }
           `}
         >
           <Title css={css`
@@ -182,8 +222,9 @@ export default ({ section }) => {
             }
             @media(max-width: ${mq.xs}px) {
               margin-bottom: -11px;
-
-              text-align: center;: center;
+              font-weight: 700;
+              font-size: 1rem;
+              line-height: 2.1;
             }
           `}
           >
@@ -262,11 +303,22 @@ export default ({ section }) => {
                 }
               `}
               >
+                {section.link_url && !section.file_url
+                && (
                 <GLink to={section.link_url}>
                   <span>
                     {section.link_text}
                   </span>
                 </GLink>
+                )}
+                {!section.link_url && section.file_url
+                && (
+                <ELink href={section.file_url}>
+                  <span>
+                    {section.link_text}
+                  </span>
+                </ELink>
+                )}
               </ContainerLink>
               )}
             </>

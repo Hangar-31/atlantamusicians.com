@@ -15,7 +15,7 @@ sections:
       provided for estimation purposes only. Work with your AFM contractor or
       contact the Local office for inquiries about specific events.
     link_text: Download
-    link_url: /
+    file_url: /assets/atlanta-membership-application.pdf
   - type: section_title
     title: 2020 Price List Summary
   - type: section_content_title_3

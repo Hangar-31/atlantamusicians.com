@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
 import { FcMenu } from 'react-icons/fc';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
+import noScroll from 'no-scroll';
 
 // Components
 import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
@@ -57,16 +58,16 @@ const ListLinks = styled.ul`
   position: fixed;
   top: 0;
   right: 0px;
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
   background: ${colors.darkBlue};
   height: 100vh;
   width: 250px;
-  padding: 30px;
+  padding: 30px 30px 75px 30px;
   margin: 0;
   list-style: none;
   text-transform: uppercase;
+  overflow: scroll;
 `;
 
 const ItemLink = styled.li`
@@ -148,6 +149,7 @@ export default () => {
           frontmatter {
             title
             path
+            number
           }
         }
       }
@@ -157,8 +159,11 @@ export default () => {
   useEffect(() => {
     const pathLinks = [];
     data.nodes.forEach((node) => {
-      const { path, title } = node.frontmatter;
+      const { path, title, number } = node.frontmatter;
       const pathSplit = path.split('/');
+      if (number === '0') {
+        return;
+      }
 
       if (pathSplit.length === 2) {
         pathLinks.push({
@@ -175,14 +180,14 @@ export default () => {
             subLinks: [
               {
                 name: title,
-                path,
+                path: pathSplit[2],
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
             name: title,
-            path,
+            path: pathSplit[2],
           });
         }
       }
@@ -192,6 +197,13 @@ export default () => {
     setLinks(pathLinks);
   }, []);
 
+  useEffect(() => {
+    if (mobileVisible) noScroll.on();
+    if (!mobileVisible) noScroll.off();
+    return () => {
+      noScroll.off();
+    };
+  }, [mobileVisible]);
 
   return (
     <Container>
@@ -306,6 +318,19 @@ export default () => {
           </StyledLink>
         </ItemLink>
       </ListLinks>
+      <div
+        css={css`
+          z-index: 10;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: rgba(0,0,0,0.7);
+          transform: translate(${mobileVisible ? '0px' : '-9999px'});
+
+        `}
+      />
     </Container>
   );
 };

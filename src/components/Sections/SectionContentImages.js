@@ -13,11 +13,11 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 30px 0;
 `;
 
 const Image = styled.img`
   width: 100%;
+  padding: 0px 30px 30px 30px;
 `;
 
 export default ({ section }) => (
@@ -33,7 +33,6 @@ export default ({ section }) => (
             }
             @media(max-width: ${mq.xs}px) {
               grid-column: 1 / span ${12 / section.list.length};
-              padding: 0 15px;
             }
         `}
           src={image.image}
@@ -46,11 +45,10 @@ export default ({ section }) => (
           grid-column: ${3 + (i * 4)} / span 4;
 
           @media(max-width: ${mq.sm}px) {
-            grid-column: grid-column: ${3 + (i * 4)} / span 6; / span ${10 / section.list.length};
+            grid-column: ${3 + (i * 4)} / span 6; / span ${10 / section.list.length};
           }
           @media(max-width: ${mq.xs}px) {
-            grid-column: grid-column: 1 / span 12; / span ${12 / section.list.length};
-            padding: 0 15px;
+            grid-column: 1 / span 12; / span ${12 / section.list.length};
           }
           `}
           src={image.image}

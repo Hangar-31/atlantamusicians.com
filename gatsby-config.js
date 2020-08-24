@@ -11,19 +11,7 @@ module.exports = {
     // Image Transforming Plugins
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1920,
-            },
-          },
-        ],
-      },
-    },
+    'gatsby-transformer-remark',
 
     // File Sourcing
     {
