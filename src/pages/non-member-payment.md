@@ -36,6 +36,6 @@ sections:
     text: 551 Dutch Valley Road NE Atlanta, GA 30324
   - type: section_spacer
   - type: section_masthead
-    image: /assets/atlanta-sky-line.png
+    image: /assets/adobestock_207330168.jpeg
     alt_text: atlanta skyline
 ---
