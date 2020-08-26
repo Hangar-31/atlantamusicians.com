@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-
-
-import { Container } from 'semantic-ui-react';
 import { css } from '@emotion/core';
+
+
+import { Container, Grid } from 'semantic-ui-react';
 import MemberDirectory from '../usicians-directory';
 import { ProviderDirectory } from '../usicians-directory/context-directory';
 import Contractor from '../usicians-directory/SVGs/Contractor';
@@ -10,6 +10,7 @@ import Teacher from '../usicians-directory/SVGs/Teacher';
 import gqlClient from '../../utilities/gqlClient';
 import PublicDirectoryCard from '../usicians-directory/DirectoryCard/Public';
 import filterMemberDirectory from '../usicians-directory/filterMemberDirectory';
+import { mq, colors } from '../../configs/styles';
 
 const query = `{
   GetFilters {
@@ -95,19 +96,83 @@ const MemberDirectoryContext = () => {
   return (
     <ProviderDirectory filterData={filters}>
       <Container>
-        <div
+        <Grid
           css={css`
-          max-width: 1200px;
-          margin: 0 auto;
-         `}
+            display: grid;
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            
+            font-family: 'Nunito Sans';
+          `}
         >
+          <div
+            css={css`
+              grid-column: 2 / span 10;
 
-          <MemberDirectory
-            members={members}
-            filter={filterMemberDirectory}
-            Card={PublicDirectoryCard}
-          />
-        </div>
+              @media(max-width: ${mq.xs}px) {
+                padding: 0 5px 5px 5px;
+                grid-column: span 12;
+              }
+
+              aside {
+                button {
+                  background-color: ${colors.blue};
+                }
+              }
+
+              nav {
+                padding: 15px 0 0 0;
+              }
+
+              article {
+                margin-top: 0;
+                border:none;
+
+                a {
+                  color: #EC4067!important;
+                  transition: 0.2s;
+
+                  &:hover {
+                    color: #469FD1!important;
+                  }
+
+                  @media(max-width: ${mq.md}px) {
+                    font-size: 0.75rem; 
+                  }
+                  @media(max-width: ${mq.xs}px) {
+                    font-size: 0.675rem; 
+                  }
+                }
+
+                span {
+
+                  @media(max-width: ${mq.xs}px) {
+                    font-size: 0.675rem; 
+                  }
+                }
+              }
+
+              article > div {
+                
+                @media(max-width: ${mq.md}px) {
+                  padding: 15px;
+                }
+              }
+
+              article:nth-of-type(odd) {
+                background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);
+              }
+            `}
+          >
+            <MemberDirectory
+              members={members}
+              filter={filterMemberDirectory}
+              Card={PublicDirectoryCard}
+            />
+          </div>
+        </Grid>
       </Container>
     </ProviderDirectory>
   );

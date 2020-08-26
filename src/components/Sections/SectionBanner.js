@@ -55,6 +55,11 @@ const ContainerImg = styled.div`
   height: calc(100% + 0px);
   min-height: 260px;
   overflow: hidden;
+
+  @media(max-width: ${mq.xs}px) {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+  }
 `;
 
 const TintImg = styled.div`
@@ -139,6 +144,14 @@ const GLink = styled(Link)`
 
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
     content: "";
+  }
+
+  @media(max-width: ${mq.sm}px) {
+    font-size: 0.875rem;
+  }
+  
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.75rem;
   }
 `;
 
@@ -271,6 +284,8 @@ export default ({ section }) => {
                 }
                 @media(max-width: ${mq.xs}px) {
                   padding: 15px;
+                  width: calc(100% - 30px);
+                  margin: 0 auto;
                 }
               `}
               >
@@ -294,12 +309,16 @@ export default ({ section }) => {
                 grid-row: 1;
 
                 @media(max-width: ${mq.md}px) {
-                  grid-column: 1 / span 10;
+                  grid-column: span 10;
                   grid-row: 2;
                   padding: 30px 0;
                 }
                 @media(max-width: ${mq.sm}px) {
                   padding: 15px 0;
+                }
+                @media(max-width: ${mq.xs}px) {
+                  width: calc(100% - 30px);
+                  margin: 0 auto;
                 }
               `}
               >
