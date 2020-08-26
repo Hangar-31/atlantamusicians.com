@@ -42,6 +42,6 @@ sections:
     text: Please check out more!
   - type: section_spacer
   - type: section_masthead
-    image: /assets/atlanta-sky-line.png
+    image: /assets/adobestock_207330168.jpeg
     alt_text: atlanta skyline
 ---
