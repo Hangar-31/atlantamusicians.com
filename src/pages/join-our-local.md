@@ -12,9 +12,7 @@ sections:
     content_title: Join Us
     content_text: The American Federation of Musicians of the United States and
       Canada is the largest organization in the world dedicated to representing
-      the interests of professional musicians. The AFM can negotiate agreements
-      and administer contracts, procure valuable benefits and achieve
-      legislative goals. No single musician has that power.
+      the interests of professional musicians.
     link_text: Join Now
     link_url: /
   - type: section_title
@@ -23,9 +21,11 @@ sections:
     text: >-
       As an AFM member, you are part of a membership of more than 80,000
       musicians. The AFM has a long history of service for musicians in the
-      United States and Canada. Becoming a member of the AFM means that you
-      become part of an organization with more than 100 years of experience in
-      improving the lives of working musicians, and thousands of years of
+      United States and Canada. The AFM can negotiate agreements and administer
+      contracts, procure valuable benefits and achieve legislative goals. No
+      single musician has that power. Becoming a member of the AFM means that
+      you become part of an organization with more than 100 years of experience
+      in improving the lives of working musicians, and thousands of years of
       collective experience!
 
 
