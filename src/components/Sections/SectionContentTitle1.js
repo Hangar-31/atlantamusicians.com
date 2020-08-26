@@ -21,10 +21,10 @@ const Grid = styled.div`
 const Title = styled.h3`
   grid-column: 3 / span 8;
   color: ${colors.darkBlue};
-  padding: 0px 30px 30px 30px;
+  padding: 0px 30px 15px 30px;
   margin: 0;
   
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 800;
   font-size: 1.875rem;
   font-family: ${fonts.biryani};
@@ -36,8 +36,7 @@ const Title = styled.h3`
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
     font-size: 1rem;
-    padding: 0px 30px 30px 30px;
-
+    padding: 0px 15px 5px 15px;
   }
 `;
 

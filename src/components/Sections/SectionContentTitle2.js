@@ -25,15 +25,16 @@ const Title = styled.h3`
   font-size: 1.5rem;
   font-family: ${fonts.biryani};
   text-transform: uppercase;
-  line-height: 1;
-  margin: 30px 0 0 0;
+  line-height: 1.5;
+  padding: 0px 30px 15px 30px;
+  margin: 0;
 
   @media(max-width: ${mq.sm}px) {
     grid-column: 2 / span 10;
   }
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
-    padding: 0 15px;
+    padding: 0px 15px 5px 15px;
   }
 `;
 

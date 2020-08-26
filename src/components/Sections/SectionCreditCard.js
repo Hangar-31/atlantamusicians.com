@@ -21,7 +21,7 @@ const Grid = styled.div`
   width: 100%;
   margin: 0 auto;
 
-  padding: 60px 0;
+  padding: 0 0 60px 0;
 
   background-color: #fff;
 
