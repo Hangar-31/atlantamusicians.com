@@ -42,6 +42,7 @@ exports.handler = function Handler(event, context, callback) {
       metadata: data.extraData,
       confirmation_method: 'automatic',
       confirm: true,
+      receipt_email: data.email,
     },
     (err, charge) => {
       if (err !== null) {

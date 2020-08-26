@@ -171,6 +171,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const [name, setName] = useState('');
   const [postal, setPostal] = useState('');
   const [amount, setAmount] = useState('');
+  const [email, setEmail] = useState('');
   const submitForm = async (ev) => {
     ev.preventDefault();
     if (!stripe || !elements) {
@@ -191,6 +192,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       card: cardElement,
       billing_details: {
         name,
+        email,
         address: {
           postal_code: postal,
         },
@@ -206,6 +208,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
           paymentMethod: payload.paymentMethod,
           type: section.payment_type,
           description: section.title,
+          email,
           extraData: {
             ...(section.payment_type === 'payment' ? section.list.reduce((acc, { name: key, text }) => {
               acc[key] = text;
@@ -233,6 +236,8 @@ const SectionCreditCard = ({ section, ThankYou }) => {
     <div css={css`
         position: relative;
         z-index: 1;
+
+        width: 100%;
 
         max-width: 1440px;
         margin: 0 auto;
@@ -262,6 +267,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
               {section.list.map((i) => <option value={i.name}>{i.name}</option>)}
             </InputSelect>
             )}
+            <InputText css={css`grid-column: span 6;`} name="email" placeholder="Email" value={name} onChange={(e) => setEmail(e.target.value)} />
             <InputText css={css`grid-column: span 6;`} name="name" placeholder="Name on Card" value={name} onChange={(e) => setName(e.target.value)} />
             <StripeWrapper css={css`grid-column: span 4;`}>
               <CardNumberElement
@@ -298,14 +304,15 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       </Grid>
       <div css={css`
         position: absolute;
+        top: 30px;
+        z-index: 1;
 
         opacity: 0;
 
         transition: opacity 0.6s ease, z-index 0.6s 1s;
 
-        top: 30px;
+        width: 100%;
 
-        z-index: 1;
         ${status === 'SUCCESS' && `
           opacity: 1;
           z-index: 2;
