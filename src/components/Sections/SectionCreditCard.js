@@ -8,7 +8,7 @@ import {
 import { loadStripe } from '@stripe/stripe-js';
 import { fonts, colors, mq } from '../../configs/styles';
 
-const stripePromise = loadStripe('pk_test_Zd3IHWkCmxYa2N0qHDaPi8SE00k3qwXpOd');
+const stripePromise = loadStripe('pk_test_51GqNWcKkOfEHjVi07iZ9PifVYq3OVutFF7px2hsBob2r32kbFlMbdCMjjxZz4uFtif4tHmyniCHuaO5CuDeVYYBF007iCISWqa');
 
 
 const Grid = styled.div`
@@ -232,9 +232,10 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   return (
     <div css={css`
         position: relative;
+        z-index: 1;
+
         max-width: 1440px;
         margin: 0 auto;
-        z-index: 1;
       `}
     >
       <Grid css={css`
