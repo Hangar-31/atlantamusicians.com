@@ -6,7 +6,7 @@ seo_title: Home
 seo_description: Atlanta Federation of Musicians Homepage
 sections:
   - type: section_masthead
-    image: /assets/scrolls.png
+    image: /assets/adobestock_171149160.jpeg
     alt_text: Scrolls
   - type: section_content_boxes
     list:
@@ -23,28 +23,28 @@ sections:
         image: /assets/find-a-musician.jpg
         alt_text: placeholder
         link_text: Find Musicians
-        link_url: /
+        link_url: /resources/find-a-musician
       - title: Read Our Blog
         text: Explore our blog to stay up to date on Local 148-462 events and membership
           activities.
         image: /assets/blog.jpg
         alt_text: placeholder
         link_text: Read Blog
-        link_url: /
+        link_url: /blog
       - title: Union Benefits
         text: Why Join the AFM? Membership has its benefits. Learn more about our
           programs and perks.
         image: /assets/benefits.jpg
         alt_text: placeholder
         link_text: Explore Benefits
-        link_url: /
+        link_url: /membership/benefits
       - title: John H. Head Scholarship
         text: Donate to support graduating high school seniors pursing a music career.
           All contributions are tax deductible.
         image: /assets/scholarships.jpg
         alt_text: placeholder
         link_text: Donate
-        link_url: /
+        link_url: /donate
       - title: Advocacy
         text: Supporting initiatives vital to the music industry and your career as a
           professional musician.

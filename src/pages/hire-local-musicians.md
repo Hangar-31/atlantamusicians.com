@@ -7,7 +7,7 @@ seo_description: Atlanta Federation of Musicians Member Directory
 sections:
   - type: section_banner
     title: Member Directory
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    content_image: /assets/stripes.jpeg
     content_alt_text: banner
     content_title: Find a Musician
     content_text: Looking for a musician or ensemble to play at your next event?

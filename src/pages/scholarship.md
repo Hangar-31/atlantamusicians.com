@@ -7,7 +7,7 @@ seo_description: scholarship
 sections:
   - type: section_banner
     title: John H. Head Scholarship
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
+    content_image: /assets/scholarships.jpg
     content_alt_text: placeholder
   - type: section_content_title_1
     title: John H. Head Scholarship

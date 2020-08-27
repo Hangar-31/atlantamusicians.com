@@ -6,14 +6,11 @@ seo_title: AFM Membership Benefits
 seo_description: AFM Membership Benefits
 sections:
   - type: section_banner
+    content_image: /assets/scrolls.png
     title: Member Benefits
-    content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
-    content_title: Title
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
+    content_alt_text: banner
+    content_text: "AFM members have access to a range of benefits from our contracts
+      and collective bargaining power to discounts and life insurance. "
   - type: section_content_title_2
     title: Contracts & Collective Bargaining
   - type: section_content_text
@@ -50,5 +47,8 @@ sections:
   - type: section_content_title_2
     title: Rehearsal Space
   - type: section_content_text
-    text: Use local 148-462’s rehearsal hall free of charge during business hours.
+    text: "Use local 148-462’s rehearsal hall free of charge during business hours.
+      Our large space can accommodate a chamber orchestra. A Steinway piano and
+      drum set are provided. "
+  - type: section_spacer
 ---
