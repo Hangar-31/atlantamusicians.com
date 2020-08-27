@@ -34,4 +34,12 @@ sections:
     list:
       - image: /assets/eagles-orch-crop.jpg
         alt_text: placeholder
+  - type: section_price_list
+    text: "16.4"
+    title: " Cartage Fees"
+    list:
+      - name: Cello
+        text: "18.00"
+      - name: Electronic keyboard with separate or integrated amplifier
+        text: "45.00"
 ---
