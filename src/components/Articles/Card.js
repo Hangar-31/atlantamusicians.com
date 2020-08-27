@@ -1,9 +1,9 @@
 import React from 'react';
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { Link } from 'gatsby';
+import Link from 'gatsby-plugin-superlink';
 import ReactMarkdown from 'react-markdown';
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 
 const Grid = styled(Link)`
   position: relative;
@@ -15,10 +15,15 @@ const Grid = styled(Link)`
   margin: 0 auto 5px 0;
 
   text-decoration: none;
+
   transition: 0.2s;
 
   &:hover {
     opacity: 0.7;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
   }
 
 `;
@@ -73,6 +78,7 @@ export default (link) => ({ member }) => (
   <Grid
     to={`${link}/${member.title.toLowerCase().split(' ').join('-')}`}
     css={css`grid-column: span 8; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
     background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}
   >
     <img css={css`grid-column: span 3; width: 100%; height: 225px; height: 100%; object-fit: cover;`} src={member.image} alt={member.alt} />

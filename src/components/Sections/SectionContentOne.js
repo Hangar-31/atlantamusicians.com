@@ -22,7 +22,9 @@ const Grid = styled.div`
   @media(max-width: ${mq.sm}px) {
     padding: 45px 30px;
   }
+
   @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
     padding: 30px 15px;
   }
 `;
@@ -70,6 +72,7 @@ const Link = styled(SuperLink)`
   font-family: ${fonts.nunitoSans};
   text-transform: uppercase;
   text-decoration: underline;
+
   transition: 0.2s;
 
   &:hover {
@@ -114,9 +117,15 @@ export default ({ section }) => (
             grid-column: ${section.image_right ? '7 / span 6' : '1 / span 6'};
           }
           @media(max-width: ${mq.xs}px) {
-            display: none;
+            grid-column: span 12;
+            grid-row: 2;
+            margin-top: 15px;
+            > img {
+              width: 100%;
+              max-height: 200px;
+              object-fit: cover;
           }
-        `}
+        }`}
       >
         <img
           css={css`max-width: 100%;`}

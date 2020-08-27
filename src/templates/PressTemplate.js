@@ -1,12 +1,15 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import Link from 'gatsby-plugin-superlink';
+import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
 // Components
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
-import { fonts, colors, contact } from '../configs/styles';
+import {
+  fonts, colors, contact, mq,
+} from '../configs/styles';
 
 const ReactMarkdown = require('react-markdown');
 
@@ -23,6 +26,9 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Column = styled.div``;
@@ -163,7 +169,7 @@ export default ({ data, pageContext }) => {
               <svg css={css` width: 9px; height: 18px;margin-right: 10px;`} width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-2.18557e-07 5L5 2.18557e-07L5 10L-2.18557e-07 5Z" fill="#EC4067" />
               </svg>
-              <LinkBack to="/resources/press">BACK</LinkBack>
+              <LinkBack to="/press">BACK</LinkBack>
             </Column>
 
             <Column css={css`

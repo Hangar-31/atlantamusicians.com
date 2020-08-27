@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 
 // Components
 import { ThemeProvider } from 'emotion-theming';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
@@ -31,6 +32,12 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <Helmet>
+        {data.markdownRemark.frontmatter.seo_title
+          && <title>{data.markdownRemark.frontmatter.seo_title}</title>}
+        {data.seo_description
+        && <meta name="description" content={data.markdownRemark.frontmatter.seo_description} />}
+      </Helmet>
       <ThemeProvider theme={{
         colorActive: '#EC4067',
         colorActiveHover: '#000000',
@@ -52,10 +59,12 @@ export default ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($title: String!) {
+    markdownRemark(frontmatter: { title: { eq: $title } }) {
       frontmatter {
         path
+        seo_title
+        seo_description
         sections {
           type
           list {

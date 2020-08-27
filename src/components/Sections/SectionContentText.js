@@ -18,10 +18,15 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Text = styled.p`
   grid-column: 3 / span 8;
+  margin: 0;
+  padding: 0px 30px 30px 30px;
 
   font-weight: 300;
   font-size: 1.25rem;
@@ -31,10 +36,14 @@ const Text = styled.p`
 
   @media(max-width: ${mq.sm}px) {
     grid-column: 2 / span 10;
+
+    font-size: 1rem;
   }
+
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
-    padding: 0 15px;
+
+    font-size: 0.875rem;
   }
 `;
 

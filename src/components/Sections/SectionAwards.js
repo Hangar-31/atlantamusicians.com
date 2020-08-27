@@ -3,7 +3,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
 
-import { colors, fonts } from '../../configs/styles';
+import { colors, fonts, mq } from '../../configs/styles';
 import textToComponent from '../../utilities/text-to-component';
 
 const Container = styled.section`
@@ -17,6 +17,10 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 60px 0;
+
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Row = styled.div`

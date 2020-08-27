@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 const path = require('path');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
@@ -82,10 +83,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Pages
   result.data.pages.edges.forEach(({ node }) => {
     if (node.frontmatter.path !== null) {
+      let { path: pagePath } = node.frontmatter;
+      const pagePathSplit = pagePath.split('/');
+
+      if (pagePathSplit[1] === '') {
+        pagePath = '/';
+      } else if (pagePathSplit.length > 2) {
+        pagePath = pagePathSplit[2];
+      }
+
+      pagePath.toLowerCase();
+
       createPage({
-        path: node.frontmatter.path,
+        path: pagePath,
         component: PageBuilderTemplate,
-        context: {}, // additional data can be passed via context
+        context: { title: node.frontmatter.title }, // additional data can be passed via context
       });
     }
   });
@@ -107,13 +119,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Press
   result.data.press.edges.forEach(({ node, next, previous }) => {
     createPage({
-      path: `resources/press/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+      path: `press/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
       component: PressTemplate,
       // additional data can be passed via context
       context: {
         title: node.frontmatter.title,
-        nextLink: next ? `resources/press/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
-        previousLink: previous ? `resources/press/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        nextLink: next ? `press/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        previousLink: previous ? `press/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
       },
     });
   });
