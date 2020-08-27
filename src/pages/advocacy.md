@@ -56,7 +56,7 @@ sections:
     image_right: false
     title: ORGANIZING TASK FORCE
     type: section_content_one
-    image: /assets/atlanta-musicians-placeholder-square.png
+    image: /assets/otf.jpg
   - background_color_toggle: true
     alt_text: Night School at the Hall
     link_url: https://www.youtube.com/channel/UC22fmbsXWSmq0ketszqM2uw
