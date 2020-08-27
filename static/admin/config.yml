@@ -348,7 +348,25 @@ collections:
                   name: link_url
                   widget: string
                   required: false
-
+            - label: Price List
+              name: section_price_list
+              widget: object
+              fields:
+                - label: Number
+                  name: text
+                  widget: string
+                  required: true
+                - label: Title
+                  name: title
+                  widget: string
+                  required: true
+                - label: Items
+                  name: list
+                  widget: list
+                  required: true
+                  fields:
+                    - { label: Title, name: name, widget: string }
+                    - { label: Price, name: text, widget: string }
   - name: settings
     label: Settings
     files:
