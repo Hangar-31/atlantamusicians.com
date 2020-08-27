@@ -25,7 +25,7 @@ const Title = styled.h3`
   font-size: 1.5rem;
   font-family: ${fonts.biryani};
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1;
   padding: 0px 30px 15px 30px;
   margin: 0;
 

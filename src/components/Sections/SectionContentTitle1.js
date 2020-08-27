@@ -24,7 +24,7 @@ const Title = styled.h3`
   padding: 0px 30px 15px 30px;
   margin: 0;
   
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 800;
   font-size: 1.875rem;
   font-family: ${fonts.biryani};
