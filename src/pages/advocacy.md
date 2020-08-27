@@ -19,8 +19,6 @@ sections:
     link_text: ""
     link_url: ""
   - type: section_title
-    title: Strategic Plan
-  - type: section_title
     title: GET INVOLVED
   - background_color_toggle: true
     alt_text: placeholder
@@ -72,4 +70,6 @@ sections:
     title: NIGHT SCHOOL AT THE HALL
     type: section_content_one
     image: /assets/night-school-logo.jpg
+  - type: section_title
+    title: Strategic Plan
 ---
