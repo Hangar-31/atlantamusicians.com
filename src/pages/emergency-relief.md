@@ -6,14 +6,18 @@ seo_title: AFM Emergrncy Relief
 seo_description: AFM Emergency Relief
 sections:
   - type: section_banner
-    title: Emergency Relief
+    title: EMERGENCY RELIEF AND RESOURCES
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
-    content_title: Title
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
+    content_alt_text: EMERGENCY RELIEF AND RESOURCES
+    content_title: WE ARE HERE TO HELP
+    content_text: >
+      As the COVID-19 outbreak continues to grow and increasingly alter the
+      daily lives of musicians across the state of Georgia, Atlanta Federation
+      of Musicians recognizes the great need for support. As an organization,
+      your physical and mental health and safety, as well as the health and
+      safety of our community, are top priorities.
+
+      We have seen the devastating financial impacts this virus has had on the arts, creating an industry-wide work stoppage across the country. Below, we have assembled some resources and references for musicians, union and non-union, to reach out to for assistance.
   - type: section_content_boxes
     list:
       - title: Lester Petrillo Memorial Fund
