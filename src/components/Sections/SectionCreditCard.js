@@ -174,6 +174,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const [email, setEmail] = useState('');
   const submitForm = async (ev) => {
     ev.preventDefault();
+    [...document.querySelectorAll('button[type="submit"]')].map((btn) => btn.setAttribute('disabled', 'disabled'));
     if (!stripe || !elements) {
       // Stripe.js has not loaded yet. Make sure to disable
       // form submission until Stripe.js has loaded.
@@ -225,6 +226,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
     );
     const data = await info.json();
     if (payload.error || data.status !== 'succeeded') {
+      [...document.querySelectorAll('button[type="submit"]')].map((btn) => btn.removeAttribute('disabled'));
       setStatus('ERROR');
       // eslint-disable-next-line no-console
       console.log('[error]', payload.error, data.status);
@@ -267,7 +269,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
               {section.list.map((i) => <option value={i.name}>{i.name}</option>)}
             </InputSelect>
             )}
-            <InputText css={css`grid-column: span 6;`} name="email" placeholder="Email" value={name} onChange={(e) => setEmail(e.target.value)} />
+            <InputText css={css`grid-column: span 6;`} name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <InputText css={css`grid-column: span 6;`} name="name" placeholder="Name on Card" value={name} onChange={(e) => setName(e.target.value)} />
             <StripeWrapper css={css`grid-column: span 4;`}>
               <CardNumberElement
