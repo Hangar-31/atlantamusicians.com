@@ -19,19 +19,25 @@ sections:
     type: section_banner
   - type: section_title
     title: 2020 Price List Summary
-  - type: section_content_title_3
-    title: 16.1A AFM-EPF Contribution
+  - type: section_price_list_title
+    text: 16.1A
+    title: AFM-EPF Contribution
   - type: section_content_text
     text: >
       11.99% of minimum scale wage (varies for electronic media agreements);
       excludes expense reimbursement for cartage, mileage, parking, perdiem,
       etc.
-  - type: section_content_title_3
-    title: 16.1B.1	Leader/Contractor Playing
-  - type: section_content_text
-    text: |2
-              1 musician (“Single”)	150% of sidemusician scale
-        2-30 musicians	200% of sidemusician scale
-      31-59 musicians	250% of sidemusician scale
-            60 musicians +	300% of sidemusician scale
+  - type: section_price_list_title
+    title: Leader/Contractor Playing
+    text: 16.1B.1
+  - type: section_price_list_items
+    list:
+      - name: " 1 musician (“Single”)"
+        text: 150% of sidemusician scale
+      - name: " 2-30 musicians"
+        text: 200% of sidemusician scale
+      - name: 31-59 musicians
+        text: 250% of sidemusician scale
+      - name: 60 musicians +
+        text: 300% of sidemusician scale
 ---
