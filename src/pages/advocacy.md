@@ -57,4 +57,19 @@ sections:
     title: ORGANIZING TASK FORCE
     type: section_content_one
     image: /assets/atlanta-musicians-placeholder-square.png
+  - background_color_toggle: true
+    alt_text: Night School at the Hall
+    link_url: https://www.youtube.com/channel/UC22fmbsXWSmq0ketszqM2uw
+    text: The Organizing Task Force has establishing a program for members and other
+      musicians called “Night School at the Hall”. As part of the program, music
+      professionals and thought-leaders from the industry will be invited to
+      lead presentations on topics relevant to the lives of working musicians,
+      with the mission to better serve and inform our members moving into the
+      future. The sessions will be complementary for all musicians, regardless
+      of Union membership status.
+    link_text: WATCH HERE
+    image_right: true
+    title: NIGHT SCHOOL AT THE HALL
+    type: section_content_one
+    image: /assets/night-school-logo.jpg
 ---
