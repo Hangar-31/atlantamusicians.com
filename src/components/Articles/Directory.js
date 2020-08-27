@@ -23,6 +23,10 @@ const Grid = styled.div`
   margin: 0 auto;
 
   font-family: ${fonts.nunitoSans};
+
+  @media(max-width: ${mq.sm}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 
@@ -63,7 +67,7 @@ export default ({ tags, blogs, link }) => {
             width: 100%;
             max-width: 1440px;
             margin: 0 auto;
-            
+
             font-family: 'Nunito Sans';
           `}
         >
@@ -82,8 +86,9 @@ export default ({ tags, blogs, link }) => {
                   font-size: 1rem;
                 }
                 p {
-                  font-size: 0.875rem;
                   height: 78px;
+
+                  font-size: 0.875rem;
                 }
               }
 
@@ -101,22 +106,22 @@ export default ({ tags, blogs, link }) => {
                   font-size: 0.875rem;
                 }
               }
-              
+
 
               @media(max-width: ${mq.xs}px) {
-                padding: 0 5px 5px 5px;
                 grid-column: span 12;
+                padding: 0 5px 5px 5px;
 
                 img {
-                  grid-row: 1;
                   grid-column: span 12;
+                  grid-row: 1;
                   height: 250px;
                   padding: 15px;
                 }
 
                 img + div {
-                  grid-row: 2;
                   grid-column: span 12;
+                  grid-row: 2;
                   padding: 0 15px 15px 15px;
                 }
               }
@@ -132,7 +137,7 @@ export default ({ tags, blogs, link }) => {
               }
 
               article > div {
-                
+
                 @media(max-width: ${mq.md}px) {
                   padding: 15px;
                 }

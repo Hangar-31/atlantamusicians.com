@@ -3,7 +3,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 import ReactMarkdown from 'react-markdown';
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 
 const Grid = styled(Link)`
   position: relative;
@@ -20,6 +20,10 @@ const Grid = styled(Link)`
 
   &:hover {
     opacity: 0.7;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
   }
 
 `;

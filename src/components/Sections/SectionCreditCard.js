@@ -34,6 +34,7 @@ const Grid = styled.div`
   }
 
   @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
     padding: 0 0 30px 0;
   }
 `;

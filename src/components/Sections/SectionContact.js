@@ -7,6 +7,7 @@ import FormContact from '../Forms/FormContact';
 
 const Container = styled.article`
   position: relative;
+
   width: 100%;
   margin: 0 auto;
 `;
@@ -23,6 +24,7 @@ const Grid = styled.div`
   }
 
   @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
     padding: 0 0 30px 0;
   }
 `;
@@ -30,28 +32,32 @@ const Grid = styled.div`
 const Column = styled.div``;
 
 const List = styled.ul`
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+
+  list-style: none;
 `;
 
 const Item = styled.li`
   margin-bottom: 45px;
-  
+
   @media(max-width: ${mq.sm}px) {
-    text-align: center;
     margin-bottom: 30px;
+
+    text-align: center;
   }
 `;
 
 const Title = styled.h4`
   margin: 0;
+
   color: ${colors.lightBlue};
   font-family: ${fonts.biryani};
 `;
 
 const Text = styled.p`
   margin-top: 0;
+
   font-family: ${fonts.nunitoSans};
 `;
 
@@ -63,12 +69,12 @@ export default ({ section }) => (
   >
     <Grid>
       <Column css={css`
-          grid-row: 1;
           grid-column: 2 / span 4;
+          grid-row: 1;
 
           @media(max-width: ${mq.sm}px) {
-            grid-row: 1;
             grid-column: 2 / span 10;
+            grid-row: 1;
           }
         `}
       >
@@ -108,19 +114,19 @@ export default ({ section }) => (
         </List>
       </Column>
       <Column css={css`
-          grid-row: 1;
           grid-column: 6 / span 6;
+          grid-row: 1;
 
           @media(max-width: ${mq.sm}px) {
-            padding-top: 60px;
-            grid-row: 2;
             grid-column: 2 / span 10;
+            grid-row: 2;
+            padding-top: 60px;
           }
 
           @media(max-width: ${mq.xs}px) {
-            padding: 0 15px;
-            grid-row: 2;
             grid-column: 1 / span 12;
+            grid-row: 2;
+            padding: 0 15px;
           }
         `}
       >

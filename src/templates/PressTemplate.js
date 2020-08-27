@@ -7,7 +7,9 @@ import { css } from '@emotion/core';
 // Components
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
-import { fonts, colors, contact } from '../configs/styles';
+import {
+  fonts, colors, contact, mq,
+} from '../configs/styles';
 
 const ReactMarkdown = require('react-markdown');
 
@@ -24,6 +26,9 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 0;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Column = styled.div``;

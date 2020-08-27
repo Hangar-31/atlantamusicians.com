@@ -13,6 +13,9 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Image = styled.img`
@@ -45,10 +48,10 @@ export default ({ section }) => (
           grid-column: ${3 + (i * 4)} / span 4;
 
           @media(max-width: ${mq.sm}px) {
-            grid-column: ${3 + (i * 4)} / span 6; / span ${10 / section.list.length};
+            grid-column: ${3 + (i * 4)} / span 6; / span ${10 / section.list.length}
           }
           @media(max-width: ${mq.xs}px) {
-            grid-column: 1 / span 12; / span ${12 / section.list.length};
+            grid-column: 1 / span 12; / span ${12 / section.list.length}
           }
           `}
           src={image.image}

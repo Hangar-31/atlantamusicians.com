@@ -17,6 +17,11 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 15px 15px 15px;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+
+  }
+
 `;
 
 const Row = styled.div`
@@ -27,34 +32,37 @@ const Row = styled.div`
 
   @media(max-width: ${mq.sm}px) {
     grid-column: span 12;
+    grid-gap: 10px 0;
+    padding: 0 15px;
   }
 `;
 
-const Bio = styled.article`
-  position: relative;
-  grid-column: span 12;
-  border: 1px solid #DFDFDF;
 
-`;
-
-const Image = styled.img`
+const Image = styled.figure`
   position: relative;
-  display: inline-block;
-  float: left;
-  object-fit: cover;
-  max-width: 50px;
-  height: 100%;
+
+  display: block;
+  width: 210px;
+  height: 210px;
+  margin: 0;
+
+  background-position: center center;
+  background-size: cover;
 `;
 
 const BioContent = styled.div`
-  position: relative;
-  display: inline-block;
-  float: right;
-  padding: 15px 45px 15px 15px;
+
+  display: block;
+  flex: 1;
+  max-height: 180px;
+
+  margin: 15px 45px 15px 15px;
+  overflow: hidden;
 `;
 
 const Name = styled.h3`
   margin: 5px 0;
+
   color: ${colors.darkBlue};
   font-family: ${fonts.biryani};
 
@@ -65,6 +73,7 @@ const Name = styled.h3`
 
 const Title = styled.h4`
   margin: 5px 0;
+
   color: ${colors.lightBlue};
   font-family: ${fonts.biryani};
 
@@ -75,24 +84,82 @@ const Title = styled.h4`
 
 const Text = styled.p`
   font-family: ${fonts.nunitoSans};
-  max-height: 90px;
-  overflow: hidden;
 
-  @media(max-width: ${mq.xs}px) {
-    font-size: 0.875rem;
-  }
 `;
 
 const Button = styled.button`
   position: absolute;
-  bottom: 5px;
   right: 0px;
+  bottom: 5px;
+
+  color: ${colors.lightOrange};
   font-size: 1.25rem;
+
   background: none;
   border: none;
   outline: none;
-  color: ${colors.lightOrange};
   cursor: pointer;
+`;
+
+
+const Bio = styled.article`
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  grid-column: span 8;
+  align-items: flex-start;
+  max-height: 210px;
+  overflow: hidden;
+
+  border: 1px solid #DFDFDF;
+
+  @media(max-width: ${mq.sm}px) {
+    max-height: 100px;
+    ${Button} {
+      right: -5px;
+      bottom: -5px;
+    }
+    ${BioContent} {
+      max-height: 90px;
+      margin: 0 15px  0 10px;
+    }
+    ${Image} {
+      width: 100px;
+      height: 100px;
+    }
+
+    ${Name} {
+      margin: 0;
+
+      font-size: 0.875rem;
+
+    }
+
+    ${Title} {
+      font-size: 0.625rem;
+
+    }${Text} {
+      margin: 5px 0;
+
+      font-size: 0.625rem;
+
+    }
+
+  }
+
+${(props) => props.open && `
+
+    ${Image} {
+      display: none;
+    }
+    ${BioContent} {
+      max-height: none !important;
+    }
+    max-height: none !important;
+  `}
+
 `;
 
 
@@ -116,9 +183,15 @@ const BioComponent = ({ bio, color }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <Bio css={css`background: ${color};`}>
+    <Bio css={css`background: ${color};`} open={open}>
+      <Image
+        css={{
+          backgroundImage:
+            `url('${bio.image}')`,
+        }}
+        alt={bio.alt_text}
+      />
       <BioContent>
-        <Image src={bio.image} alt={bio.alt_text} />
         <Name>{bio.name}</Name>
         <Title>{bio.title}</Title>
         <div>

@@ -21,6 +21,9 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px 0;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Row = styled.div`

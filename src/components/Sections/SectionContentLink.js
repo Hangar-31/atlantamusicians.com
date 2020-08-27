@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 
 
-import { fonts, colors } from '../../configs/styles';
+import { fonts, colors, mq } from '../../configs/styles';
 
 const Container = styled.section`
   width: 100%;
@@ -18,6 +18,9 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Row = styled.div`

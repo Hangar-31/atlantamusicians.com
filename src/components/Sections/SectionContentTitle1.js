@@ -10,24 +10,29 @@ const Container = styled.section`
 `;
 
 const Grid = styled.div`
-  display: grid;
   position: relative;
+
+  display: grid;
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Title = styled.h3`
   grid-column: 3 / span 8;
-  color: ${colors.darkBlue};
-  padding: 0px 30px 15px 30px;
   margin: 0;
-  
-  line-height: 1;
+  padding: 0px 30px 15px 30px;
+
+  color: ${colors.darkBlue};
   font-weight: 800;
   font-size: 1.875rem;
   font-family: ${fonts.biryani};
+
+  line-height: 1;
   text-transform: uppercase;
 
   @media(max-width: ${mq.sm}px) {
@@ -35,8 +40,9 @@ const Title = styled.h3`
   }
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;
-    font-size: 1rem;
     padding: 0px 15px 5px 15px;
+
+    font-size: 1rem;
   }
 `;
 
