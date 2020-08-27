@@ -3,7 +3,7 @@ import React from 'react';
 // import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
-import { fonts, colors, mq } from '../../configs/styles';
+import { fonts, mq } from '../../configs/styles';
 
 const Container = styled.section`
   width: 100%;
@@ -19,53 +19,13 @@ const Grid = styled.div`
   margin: 0 auto;
 `;
 
-const Title = styled.p`
-  position: relative;
-
-  grid-column: 3 / span 8;
-  margin: 0;
-  padding: 0px 30px 0 30px;
-
-  color: ${colors.blue};
-  font-weight: 800;
-  font-size: 1.25rem;
-  font-family: ${fonts.biryani};
-
-  @media(max-width: ${mq.sm}px) {
-    grid-column: 2 / span 10;
-  }
-  @media(max-width: ${mq.xs}px) {
-    grid-column: 1 / span 12;
-    padding: 0px 15px 5px 10px;
-  }
-`;
-const Number = styled.span`
-  position: absolute;
-  right: 100%;
-
-  font-weight: 300;
-  font-size: 1.25rem;
-  font-family: ${fonts.nunitoSans};
-  font-style: normal;
-  text-align: right;
-
-  @media(max-width: ${mq.sm}px) {
-
-
-  }
-
-  @media(max-width: ${mq.xs}px) {
-    position: static;
-
-  }
-`;
 
 const List = styled.ul`
 
-  grid-column: 3 / span 7;
+  grid-column: 3 / span 8;
 
 
-  padding: 0 30px 0 60px;
+  padding: 0 30px 0 30px;
   overflow-x: hidden;
 
   font-weight: 300;
@@ -79,11 +39,17 @@ const List = styled.ul`
   }
   @media(max-width: ${mq.sm}px) {
     grid-column: 2 / span 10;
+
+    font-size: 1rem;
   }
   @media(max-width: ${mq.xs}px) {
-    grid-column: 1 / span 12;
+    grid-column: 2 / span 11;
+    padding-left: 30px;
+
+    font-size: 0.875rem;
   }
 li {
+  margin-bottom: 5px;
   overflow: hidden;
 }
 li:after {
@@ -92,6 +58,8 @@ li:after {
 
     white-space: nowrap;
     content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
  ". . . . . . . . . . . . . . . . . . . . "
  ". . . . . . . . . . . . . . . . . . . . "
  ". . . . . . . . . . . . . . . . . . . . "
@@ -119,10 +87,6 @@ span + span {
 export default ({ section }) => (
   <Container>
     <Grid>
-      <Title>
-        <Number>{section.text}</Number>
-        {section.title}
-      </Title>
       <List>
         {section.list.map((i) => (
           <li>

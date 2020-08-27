@@ -349,7 +349,7 @@ collections:
                   name: link_url
                   widget: string
                   required: false
-            - label: Price List - Title
+            - label: Tabbed Title
               name: section_price_list_title
               widget: object
               fields:
@@ -361,14 +361,7 @@ collections:
                   name: title
                   widget: string
                   required: true
-                - label: Items
-                  name: list
-                  widget: list
-                  required: true
-                  fields:
-                    - { label: Title, name: name, widget: string }
-                    - { label: Price, name: text, widget: string }
-            - label: Price List - Items
+            - label: Line Items
               name: section_price_list_items
               widget: object
               fields:

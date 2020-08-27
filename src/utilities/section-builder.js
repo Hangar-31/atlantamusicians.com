@@ -23,7 +23,8 @@ import SectionCreditCard from '../components/Sections/SectionCreditCard';
 import SectionThankYou from '../components/Sections/SectionThankYou';
 import SectionContentFile from '../components/Sections/SectionContentFile';
 import SectionSpacer from '../components/Sections/SectionSpacer';
-import SectionPriceList from '../components/Sections/SectionPriceList';
+import SectionPriceListTitle from '../components/Sections/SectionPriceListTitle';
+import SectionPriceListItems from '../components/Sections/SectionPriceListItems';
 
 export default (sections) => {
   const years = sections
@@ -98,8 +99,10 @@ export default (sections) => {
                 }
               />
             );
-          case 'section_price_list':
-            return <SectionPriceList section={section} />;
+          case 'section_price_list_title':
+            return <SectionPriceListTitle section={section} />;
+          case 'section_price_list_items':
+            return <SectionPriceListItems section={section} />;
           default:
             // eslint-disable-next-line no-console
             console.log('Section Not Defined', type);
