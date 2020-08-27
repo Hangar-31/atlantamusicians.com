@@ -105,13 +105,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Blogs
   result.data.blogs.edges.forEach(({ node, next, previous }) => {
     createPage({
-      path: `blog/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+      path: `/blog/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
       component: BlogTemplate,
       // additional data can be passed via context
       context: {
         title: node.frontmatter.title,
-        nextLink: next ? `blog/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
-        previousLink: previous ? `blog/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        nextLink: next ? `/blog/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        previousLink: previous ? `/blog/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
       },
     });
   });
@@ -119,13 +119,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Press
   result.data.press.edges.forEach(({ node, next, previous }) => {
     createPage({
-      path: `press/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
+      path: `/press/${node.frontmatter.title.toLowerCase().split(' ').join('-')}`,
       component: PressTemplate,
       // additional data can be passed via context
       context: {
         title: node.frontmatter.title,
-        nextLink: next ? `press/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
-        previousLink: previous ? `press/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        nextLink: next ? `/press/${next.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
+        previousLink: previous ? `/press/${previous.frontmatter.title.toLowerCase().split(' ').join('-')}` : null,
       },
     });
   });

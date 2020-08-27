@@ -179,7 +179,7 @@ export default ({ section }) => (
 
 );
 
-const BioComponent = ({ bio, color }) => {
+export const BioComponent = ({ bio, color }) => {
   const [open, setOpen] = useState(false);
 
   return (

@@ -1,138 +1,19 @@
 import React from 'react';
-import Link from 'gatsby-plugin-superlink';
 import { graphql } from 'gatsby';
-import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
 // Components
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
 import {
-  fonts, colors, contact, mq,
+  colors, contact, mq,
 } from '../configs/styles';
+import {
+  LinkBack, Container, P, Grid, Column, LinksBottom, Title1, PLink, Title2, Item, Image, List,
+} from './Styles';
+
 
 const ReactMarkdown = require('react-markdown');
-
-const Container = styled.article`
-  position: relative;
-
-  width: 100%;
-  margin: -30px auto 0 auto;
-`;
-const Grid = styled.div`
-  display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0;
-
-  @media(max-width: ${mq.xs}px) {
-    grid-gap: 10px 0;
-  }
-`;
-
-const Column = styled.div``;
-
-const Title1 = styled.h1`
-display: flex;
-align-items: center;
-
-color: ${colors.darkBlue};
-font-weight: 800;
-font-size: 2.25rem;
-font-family: ${fonts.biryani};
-font-style: normal;
-line-height: 1;
-`;
-
-const Title2 = styled.h2`
-  display: flex;
-  align-items: center;
-  margin: 45px 0 30px 0;
-
-  color: ${colors.lightBlue};
-  font-weight: 800;
-  font-size: 1.5rem;
-  font-family: ${fonts.biryani};
-  font-style: normal;
-  line-height: 1;
-
-  &:nth-of-type(1) {
-    margin-top: 0;
-  }
-`;
-
-const P = styled.p`
-  color: #747474;
-  font-size: 1.25rem;
-  font-family: ${fonts.nunitoSans};
-`;
-
-const PLink = styled.a`
-  color: #EC4067;
-  font-size: 1.25rem;
-  font-family: ${fonts.nunitoSans};
-  text-decoration: underline;
-`;
-
-const Image = styled.img`
-  position: relative;
-
-  width: 100%;
-`;
-
-const List = styled.ul`
-  padding: 0 0 0 45px;
-`;
-
-const Item = styled.li`
-  margin-bottom: 15px;
-
-  color: #747474;
-  font-size: 1.25rem;
-  font-family: ${fonts.nunitoSans};
-`;
-
-const LinkBack = styled(Link)`
-  position: relative;
-
-  padding: 5px 30px;
-
-  color: #EC4067;
-  font-size: 1rem;
-  font-family: ${fonts.montserrat};
-  text-decoration: none;
-
-  border: 1px solid #EC4067;
-  border-radius: 3px;
-
-  transition: 0.2s;
-
-  &:hover {
-    color: #ffffff;
-
-    background: #EC4067;
-  }
-`;
-
-const LinksBottom = styled(Link)`
-  display: flex;
-  align-items: center;
-
-  color: #ffffff;
-  font-size: 0.875rem;
-  font-family: ${fonts.montserrat};
-  text-transform: uppercase;
-  text-decoration: none;
-
-  transition: 0.2s;
-
-  &:hover {
-    opacity: 0.7;
-  }
-`;
 
 
 export default ({ data, pageContext }) => {
@@ -155,20 +36,31 @@ export default ({ data, pageContext }) => {
         <Grid>
           <Grid css={css`
             grid-column: 2 / span 10;
-            padding: 15px 0;
+            padding-top: 15px;
+            padding-bottom: 15px;
 
             box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
           `}
           >
             <Column css={css`
               display: flex;
-              grid-column: 1 / span 2;
+              grid-column: 1 / span 2 !important;
               grid-row: 1;
               justify-content: center;
               align-items: center;
+              svg {
+                width: 9px;
+                height: 18px;
+                margin-right: 10px;
+                @media(max-width: ${mq.sm}px) {
+                  height: 12px;
+                  margin-right: 5px;
+                }
+              }
             `}
             >
-              <svg css={css` width: 9px; height: 18px;margin-right: 10px;`} width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="9" height="18" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-2.18557e-07 5L5 2.18557e-07L5 10L-2.18557e-07 5Z" fill="#EC4067" />
               </svg>
               <LinkBack to="/blog">BACK</LinkBack>
@@ -176,14 +68,22 @@ export default ({ data, pageContext }) => {
 
             <Column css={css`
               display: flex;
-              grid-column: 11 / span 2;
+              grid-column: 11 / span 2 !important;
               grid-row: 1;
               justify-content: center;
               align-items: center;
+             svg {
+                margin-right: 15px;
+                @media(max-width: ${mq.sm}px) {
+                  width: 14px;
+                  height: 14px;
+                  margin-right: 10px;
+                }
+              }
             `}
             >
               <LinksBottom href={contact.facebook}>
-                <svg css={css`margin-right: 15px;`} width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
                   <path d="M11.4864 27V18.0547H8V14.5H11.4864V11.6992C11.4864 8.65625 13.65 7 16.8091 7C18.3227 7 19.6227 7.09766 20 7.14062V10.3203H17.8091C16.0909 10.3203 15.7591 11.0234 15.7591 12.0508V14.5H19.6364L19.1045 18.0547H15.7591V27" fill="white" />
                 </svg>
@@ -239,6 +139,8 @@ export default ({ data, pageContext }) => {
               padding: 10px 15px;
 
               background: ${colors.darkBlue};
+
+
             `}
           >
             {pageContext.previousLink

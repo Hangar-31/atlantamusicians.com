@@ -36,7 +36,7 @@ export default ({ data }) => {
     } = {},
   }] = removeNulls([data]);
   const components = removeNulls(sections);
-
+  console.log('components', components);
 
   return (
     <Layout>

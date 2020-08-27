@@ -21,14 +21,21 @@ const Grid = styled.div`
   padding: 30px 0;
   @media(max-width: ${mq.xs}px) {
     grid-gap: 10px 0;
+    padding: 20px;
   }
 `;
 
 const Row = styled.div`
   display: grid;
-  grid-column: 2 / span 10;
-  grid-column-gap: 30px;
+  grid-column: 2 / span 9;
+  grid-column-gap: 0;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 20px;
+
+   @media(max-width: ${mq.xs}px) {
+    grid-column: span 12;
+    padding-left: 0;
+  }
 `;
 
 const Title = styled.h1`
@@ -37,21 +44,21 @@ const Title = styled.h1`
 
   color: ${colors.blue};
   font-weight: 800;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: ${fonts.montserrat};
   font-style: normal;
   line-height: 1;
   text-transform: uppercase;
+
+  @media(max-width: ${mq.sm}px) {
+    font-size: 1.5rem;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 1.125rem;
+  }
 `;
 
-const ContainerImg = styled.div`
-  position: relative;
-
-  grid-column: 1 / span 10;
-  grid-row: 1;
-  width: 100%;
-  height: 260px;
-`;
 
 const TintImg = styled.div`
   position: absolute;
@@ -65,16 +72,19 @@ const TintImg = styled.div`
   opacity: 0.5;
 `;
 
-const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-`;
 
 const P = styled.p`
   color: #ffffff;
   font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
+
+  @media(max-width: ${mq.sm}px) {
+    font-size: 1rem;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.875rem;
+  }
 `;
 
 const ContainerLink = styled.div`
@@ -85,6 +95,7 @@ const ContainerLink = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 20px;
 
   background: ${colors.darkBlue};
 `;
@@ -97,6 +108,15 @@ const GLink = styled(Link)`
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
+
+  @media(max-width: ${mq.sm}px) {
+    font-size: 0.875rem;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.625rem;
+  }
+
 
   &:hover {
     span {
@@ -136,26 +156,42 @@ export default ({ section }) => (
   <Container>
     <Grid>
       <Row>
-        <ContainerImg>
-          <Img src={section.image} alt={section.image_alt} />
-          {section.title.length > 0
-            && <TintImg css={css`background: ${section.background_color_toggle ? 'linear-gradient(180deg, rgba(236, 64, 103, 1) 0%, rgba(255, 175, 163, 1) 100%);' : '#469FD1;'}`} />}
-        </ContainerImg>
-        {section.title.length > 0
+        {section.title
           && (
             <>
-              <div css={css`position: relative;
+              <div css={css`
+                position: relative;
 
- grid-column: 2 / span ${section.link_text.length > 0 ? '6' : '8'}; grid-row: 1; padding-top: 30px;`}
+                grid-column: 2 / span ${section.link_text ? '6' : '8'};
+                grid-row: 1;
+                padding: 30px;
+
+                background-image: url('${section.image}');
+
+
+                @media(max-width: ${mq.sm}px) {
+                grid-column: span 12;
+                }
+                `}
               >
+                <TintImg css={css`background: ${section.background_color_toggle ? 'linear-gradient(180deg, rgba(236, 64, 103, 1) 0%, rgba(255, 175, 163, 1) 100%);' : '#469FD1;'}`} />
                 <Title>{section.title}</Title>
                 <P>{section.text}</P>
               </div>
               {section.link_text.length > 0
               && (
-              <ContainerLink css={css`position: relative;
+              <ContainerLink css={css`
+              position: relative;
 
- grid-column: 8 / span 3; grid-row: 1;`}
+              grid-column: 8 / span 3;
+              grid-row: 1;
+
+              @media(max-width: ${mq.sm}px) {
+                grid-column: span 12;
+                grid-row: 2;
+              }
+
+              `}
               >
                 <GLink to={section.link_url}>
                   <span>

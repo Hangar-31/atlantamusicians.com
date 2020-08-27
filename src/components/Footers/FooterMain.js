@@ -96,6 +96,7 @@ const WrapperFooter = styled.div`
     grid-auto-rows: max-content;
     grid-row-gap: 45px;
     height: 750px;
+    padding: 30px 5px;
   }
 
 `;
@@ -124,7 +125,7 @@ const FooterColumn = styled.section`
   }
   @media(max-width: ${mq.xxs}px) {
     grid-column: span 12;
-    grid-template-columns: 25% 1% 74%;
+    grid-template-columns: 85px 0px calc(100% - 110px);
   }
 `;
 
@@ -141,13 +142,14 @@ const ItemFooterLinks = styled.li`
 
 const FooterTitle = styled.h3`
   margin-top: 15px;
-  justify-self: flex-end;
 
   color: #ffffff;
   font-weight: 700;
   font-size: 0.75rem;
   font-family: ${fonts.montserrat};
+  text-align: right;
   text-transform: uppercase;
+  justify-self: flex-end;
 `;
 
 const FooterText = styled.p`
@@ -162,7 +164,9 @@ const FooterText = styled.p`
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    white-space: normal;
   }
 `;
 
@@ -186,7 +190,10 @@ const FooterLink = styled(GLink)`
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    font-size: 0.625rem;
+    white-space: normal;
   }
 `;
 
@@ -210,7 +217,9 @@ const FooterLinkA = styled.a`
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    white-space: normal;
   }
 `;
 

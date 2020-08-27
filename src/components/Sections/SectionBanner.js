@@ -238,11 +238,11 @@ export default ({ section }) => {
               font-size: 1.75rem;
             }
             @media(max-width: ${mq.xs}px) {
-              margin-bottom: -11px;
+              margin-bottom: -3px;
 
               font-weight: 700;
               font-size: 1rem;
-              line-height: 2.1;
+              line-height: 1;
             }
           `}
           >

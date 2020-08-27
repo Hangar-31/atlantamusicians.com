@@ -186,7 +186,7 @@ export default () => {
       if (pathSplit.length === 2) {
         pathLinks.push({
           name: title,
-          path: pathSplit[1],
+          path: pathSplit.join('/'),
           subLinks: [],
         });
       }
@@ -198,14 +198,14 @@ export default () => {
             subLinks: [
               {
                 name: title,
-                path: pathSplit[2],
+                path: `/${pathSplit[2]}`,
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
             name: title,
-            path: pathSplit[2],
+            path: `/${pathSplit[2]}`,
           });
         }
       }
@@ -215,12 +215,14 @@ export default () => {
     setLinks(pathLinks);
   }, []);
 
+  console.log('links', links);
+
 
   return (
     <Container>
       <Wrapper>
-        <Logo>
-          <ImageLogo1 to="/" cssProp="width: 100%;" />
+        <Logo to="/">
+          <ImageLogo1 cssProp="width: 100%;" />
         </Logo>
 
         <ListLinks onMouseLeave={() => setActiveSubMenu(-1)}>

@@ -27,8 +27,6 @@ const Grid = styled.div`
 
   transition: opacity 0.6s ease, z-index 0.6s 1s;
 
-
-
   @media(max-width: ${mq.sm}px) {
     padding: 45px 0;
   }
@@ -54,6 +52,8 @@ const FormContainer = styled.div`
   @media(max-width: ${mq.sm}px) {
     grid-column: span 12;
     grid-row: 1;
+    margin: 0 15px;
+    padding: 30px 0;
   }
 
 `;
@@ -63,6 +63,11 @@ const Form = styled.form`
   grid-column-gap: 15px;
   grid-template-columns: repeat(6, 1fr);
   max-width: 1195px;
+
+  @media(max-width: ${mq.sm}px) {
+    grid-column: span 10;
+    padding: 0 15px;
+  }
 `;
 
 
@@ -82,7 +87,7 @@ const InputText = styled.input`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 const InputSelect = styled.select`
@@ -101,7 +106,7 @@ const InputSelect = styled.select`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 
@@ -144,7 +149,7 @@ const ButtonSubmit = styled.button`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 const ELEMENT_OPTIONS = {
@@ -243,7 +248,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
         width: 100%;
 
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 0 auto 20px;
       `}
     >
       <Grid css={css`
@@ -272,7 +277,14 @@ const SectionCreditCard = ({ section, ThankYou }) => {
             )}
             <InputText css={css`grid-column: span 6;`} name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <InputText css={css`grid-column: span 6;`} name="name" placeholder="Name on Card" value={name} onChange={(e) => setName(e.target.value)} />
-            <StripeWrapper css={css`grid-column: span 4;`}>
+            <StripeWrapper css={css`
+
+              grid-column: span 4;
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 6;
+              }
+              `}
+            >
               <CardNumberElement
                 id="cardNumber"
 
@@ -280,13 +292,26 @@ const SectionCreditCard = ({ section, ThankYou }) => {
                 options={ELEMENT_OPTIONS}
               />
             </StripeWrapper>
-            <StripeWrapper css={css`grid-column: span 2;`}>
+            <StripeWrapper css={css`
+              grid-column: span 2;
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 3;
+              }
+              `}
+            >
               <CardCvcElement
                 id="cvc"
                 options={ELEMENT_OPTIONS}
               />
             </StripeWrapper>
-            <StripeWrapper css={css`grid-column: span 3;`}>
+            <StripeWrapper css={css`
+              grid-column: span 3;
+
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 3;
+              }
+              `}
+            >
               <CardExpiryElement
                 id="expiry"
                 options={ELEMENT_OPTIONS}

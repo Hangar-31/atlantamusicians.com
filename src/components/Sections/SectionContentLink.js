@@ -17,7 +17,7 @@ const Grid = styled.div`
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   @media(max-width: ${mq.xs}px) {
     grid-gap: 10px 0;
   }

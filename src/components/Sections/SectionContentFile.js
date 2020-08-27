@@ -18,6 +18,7 @@ const Grid = styled.div`
   margin: 0 auto;
   @media(max-width: ${mq.xs}px) {
     grid-gap: 10px 0;
+    padding: 0 20px;
   }
 `;
 
@@ -30,6 +31,11 @@ const Row = styled.div`
   text-align: center;
 
   background: ${colors.darkBlue};
+
+  @media(max-width: ${mq.xs}px) {
+    grid-column: span 12;
+    padding: 10px;
+  }
 `;
 
 const GLink = styled.a`
@@ -42,6 +48,15 @@ const GLink = styled.a`
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
+
+  @media(max-width: ${mq.sm}px) {
+    font-size: 0.875rem;
+  }
+
+  @media(max-width: ${mq.xs}px) {
+    font-size: 0.625rem;
+  }
+
 
   &:hover {
     span {
