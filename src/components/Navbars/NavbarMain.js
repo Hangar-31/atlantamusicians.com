@@ -4,7 +4,8 @@ import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
 
 // Components
-import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
+import GLink from 'gatsby-plugin-superlink';
+import { useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
 import { colors, fonts, mq } from '../../configs/styles';
@@ -102,13 +103,13 @@ const Link = styled(GLink)`
   font-family: Montserrat;
   text-decoration: none;
 
+  cursor: pointer;
+
   transition: 0.2s;
 
   &:hover {
     opacity: 0.75;
   }
-
-  cursor: pointer;
 `;
 
 const StyledLink = styled(GLink)`

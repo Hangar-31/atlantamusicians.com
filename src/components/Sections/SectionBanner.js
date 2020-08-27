@@ -2,7 +2,8 @@
 import React from 'react';
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { Link } from 'gatsby';
+import Link from 'gatsby-plugin-superlink';
+
 
 import { fonts, colors, mq } from '../../configs/styles';
 import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
@@ -149,7 +150,7 @@ const GLink = styled(Link)`
   @media(max-width: ${mq.sm}px) {
     font-size: 0.875rem;
   }
-  
+
   @media(max-width: ${mq.xs}px) {
     font-size: 0.75rem;
   }
@@ -235,6 +236,7 @@ export default ({ section }) => {
             }
             @media(max-width: ${mq.xs}px) {
               margin-bottom: -11px;
+
               font-weight: 700;
               font-size: 1rem;
               line-height: 2.1;
@@ -283,9 +285,9 @@ export default ({ section }) => {
                   padding: 15px 30px;
                 }
                 @media(max-width: ${mq.xs}px) {
-                  padding: 15px;
                   width: calc(100% - 30px);
                   margin: 0 auto;
+                  padding: 15px;
                 }
               `}
               >
