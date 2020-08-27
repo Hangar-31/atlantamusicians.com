@@ -24,7 +24,7 @@ const Grid = styled.div`
 
   font-family: ${fonts.nunitoSans};
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.xs}px) {
     grid-gap: 10px 0;
   }
 `;

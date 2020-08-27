@@ -26,17 +26,23 @@ const removeNulls = (data) => data.map((item) => {
 export default ({ data }) => {
   console.log(data);
   console.log('FIRE');
-  const { markdownRemark: { frontmatter: { sections } } } = data;
+  const [{
+    markdownRemark: {
+      frontmatter: {
+        sections = [],
+        seo_title: seoTitle,
+        seo_description: seoDescription,
+      } = {},
+    } = {},
+  }] = removeNulls([data]);
   const components = removeNulls(sections);
 
 
   return (
     <Layout>
       <Helmet>
-        {data.markdownRemark.frontmatter.seo_title
-          && <title>{data.markdownRemark.frontmatter.seo_title}</title>}
-        {data.seo_description
-        && <meta name="description" content={data.markdownRemark.frontmatter.seo_description} />}
+        {seoTitle && <title>{seoTitle}</title>}
+        {seoDescription && <meta name="description" content={seoDescription} />}
       </Helmet>
       <ThemeProvider theme={{
         colorActive: '#EC4067',

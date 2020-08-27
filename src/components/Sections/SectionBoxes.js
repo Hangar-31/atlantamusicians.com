@@ -111,6 +111,9 @@ const Card = styled.article`
   @media(max-width: ${mq.md}px) {
     grid-column: span 4;
   }
+   @media(max-width: ${mq.xs}px) {
+    grid-column: span 8;
+  }
 `;
 
 const GLink = styled(Link)`

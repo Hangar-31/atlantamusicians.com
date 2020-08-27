@@ -20,7 +20,7 @@ const Grid = styled.div`
   padding: 0 15px 15px 15px;
 
  @media(max-width: ${mq.xs}px) {
-    grid-gap: 10px 0;
+    grid-gap:  0;
     margin: 0;
 
     font-size: 1.375rem;
