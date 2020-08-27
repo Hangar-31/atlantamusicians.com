@@ -24,7 +24,7 @@ sections:
     title: GET INVOLVED
   - background_color_toggle: true
     alt_text: placeholder
-    link_url: ""
+    link_url: https://atlantamusicians.netlify.app/contact
     text: >
       By signing up as a member of the Solidarity Team, you are adding your name
       to a list of people that will receive calls to action for AFM campaigns,
@@ -38,21 +38,21 @@ sections:
 
 
       LEND YOUR SUPPORT TODAY!
-    link_text: ""
+    link_text: JOIN HERE
     image_right: true
     title: SOLIDARITY TEAM
     type: section_content_one
     image: /assets/atlanta-musicians-placeholder-square.png
   - background_color_toggle: false
     alt_text: Organizing Task Force
-    link_url: ""
+    link_url: https://atlantamusicians.netlify.app/contact
     text: >
       The Organizing Task Force of AFM Local 148-462 is charged with both
       external and internal organizing of our Union, with the goals of
       expanding, involving, and better serving our membership, being a more
       visible and relevant presence in the Atlanta music community, and serving
       the needs and goals of all musicians in our Local’s jurisdiction.
-    link_text: ""
+    link_text: CONTACT US TO LEARN MORE
     image_right: false
     title: ORGANIZING TASK FORCE
     type: section_content_one
