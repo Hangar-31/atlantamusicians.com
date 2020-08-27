@@ -4,6 +4,7 @@ import { mq } from '../../configs/styles';
 
 const Container = styled.section`
   position: relative;
+
   width: 100%;
   height: 40vh;
   @media(max-width: ${mq.lg}px) {
@@ -18,19 +19,26 @@ const Container = styled.section`
 `;
 
 const Img = styled.img`
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 `;
 
 export default ({ section }) => (
-  <Container>
-    <Img
-      src={section.image}
-      alt={section.alt_text}
-    />
-  </Container>
+  <>
+    {
+    section.image && (
+    <Container>
+      <Img
+        src={section.image}
+        alt={section.alt_text}
+      />
+    </Container>
+    )
+  }
+  </>
 );

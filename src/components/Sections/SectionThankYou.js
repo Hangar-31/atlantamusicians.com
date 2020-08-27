@@ -2,7 +2,8 @@
 import React from 'react';
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
-import { Link } from 'gatsby';
+import Link from 'gatsby-plugin-superlink';
+
 
 import { fonts, colors, mq } from '../../configs/styles';
 
@@ -20,7 +21,9 @@ const Grid = styled.div`
   margin: 0 auto;
   padding: 30px 0;
 
-
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
+  }
 `;
 
 const Row = styled.div`

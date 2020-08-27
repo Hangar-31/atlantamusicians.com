@@ -5,9 +5,11 @@ import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
 import { FcMenu } from 'react-icons/fc';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
+import noScroll from 'no-scroll';
 
 // Components
-import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
+import GLink from 'gatsby-plugin-superlink';
+import { useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
 import { colors, fonts, mq } from '../../configs/styles';
@@ -15,8 +17,10 @@ import { colors, fonts, mq } from '../../configs/styles';
 // Styled Components
 const Container = styled.section`
   position: relative;
-  height: 120px;
+
   width: 100%;
+  height: 120px;
+
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.6);
@@ -34,18 +38,20 @@ const Container = styled.section`
 
 const Wrapper = styled.nav`
   position: relative;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
   max-width: 1440px;
+  height: 100%;
   margin: 0 auto;
 `;
 
 const Logo = styled(GLink)`
   display: block;
-  padding-left: 15px;
   width: 300px;
+  padding-left: 15px;
+
   text-decoration: none;
   @media(max-width: ${mq.lg}px) {
     width: 250px;
@@ -53,36 +59,42 @@ const Logo = styled(GLink)`
 `;
 
 const ListLinks = styled.ul`
-  z-index: 1000;
   position: fixed;
   top: 0;
   right: 0px;
-  display: flex;
-  flex-direction: column;
+  z-index: 1000;
+
+  display: block;
   align-items: center;
-  background: ${colors.darkBlue};
-  height: 100vh;
   width: 250px;
-  padding: 30px;
+  height: 100vh;
   margin: 0;
-  list-style: none;
+  padding: 30px 30px 75px 30px;
+  overflow: scroll;
+
   text-transform: uppercase;
+
+  list-style: none;
+  background: ${colors.darkBlue};
 `;
 
 const ItemLink = styled.li`
   position: relative;
+
   display: flex;
   align-items: center;
-  height: 30px;
   width: 100%;
-  text-align: left;
+  height: 30px;
   margin: 0 0 20px 0px;
+
+  text-align: left;
 `;
 
 const ListSubLinks = styled.ul`
-  z-index: 1;
-  display: none;
   position: relative;
+  z-index: 1;
+
+  display: none;
   width: 100%;
   margin: 0 0 15px 0;
   padding-left: 20px;
@@ -92,21 +104,23 @@ const ListSubLinks = styled.ul`
 
 const Link = styled(GLink)`
   display: inline-table;
+
   color: #ffffff;
+  font-weight: regular;
   font-size: 0.75rem;
   font-family: Montserrat;
-  font-weight: regular;
   text-decoration: none;
 `;
 
 const StyledLink = styled(GLink)`
   position: relative;
+
   color: #ffffff;
   font-size: 0.75rem;
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
   text-decoration: none;
-  
+
   &:hover {
     span {
       background: ${colors.darkBlue};
@@ -114,25 +128,30 @@ const StyledLink = styled(GLink)`
   }
 
   span {
-    display: block;
     position: relative;
-    height: 100%;
+
+    display: block;
     width: 100%;
+    height: 100%;
     padding: 10px 20px;
+
     background: ${colors.blue};
+
     transition: 0.2s;
   }
 
   &:before {
-    z-index: 0;
     position: absolute;
-    content: "";
-    display: block;
     top: -1px;
     left: -1px;
+    z-index: 0;
+
+    display: block;
     width: calc(100% + 2px);
     height: calc(100% + 2px);
+
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
+    content: "";
   }
 `;
 
@@ -148,6 +167,7 @@ export default () => {
           frontmatter {
             title
             path
+            number
           }
         }
       }
@@ -157,13 +177,16 @@ export default () => {
   useEffect(() => {
     const pathLinks = [];
     data.nodes.forEach((node) => {
-      const { path, title } = node.frontmatter;
+      const { path, title, number } = node.frontmatter;
       const pathSplit = path.split('/');
+      if (number === '0') {
+        return;
+      }
 
       if (pathSplit.length === 2) {
         pathLinks.push({
           name: title,
-          path: pathSplit[1],
+          path: pathSplit.join('/'),
           subLinks: [],
         });
       }
@@ -175,14 +198,14 @@ export default () => {
             subLinks: [
               {
                 name: title,
-                path,
+                path: `/${pathSplit[2]}`,
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
             name: title,
-            path,
+            path: `/${pathSplit[2]}`,
           });
         }
       }
@@ -192,22 +215,32 @@ export default () => {
     setLinks(pathLinks);
   }, []);
 
+  useEffect(() => {
+    if (mobileVisible) noScroll.on();
+    if (!mobileVisible) noScroll.off();
+    return () => {
+      noScroll.off();
+    };
+  }, [mobileVisible]);
 
   return (
     <Container>
       <Wrapper>
-        <Logo>
-          <ImageLogo1 to="/" cssProp="width: 100%;" />
+        <Logo to="/">
+          <ImageLogo1 cssProp="width: 100%;; max-width: 147px;" />
         </Logo>
 
         <button
           css={css`
             padding-right: 40px;
+
             font-size: 2.5rem;
+
             background: none;
-            outline: none;
             border: none;
+            outline: none;
             cursor: pointer;
+
             transition: 0.2s;
 
             g {
@@ -229,6 +262,7 @@ export default () => {
       <ListLinks
         css={css`
             transform: ${mobileVisible ? 'translateX(0px)' : 'translateX(250px)'};
+
             transition: 0.4s;
           `}
         onMouseLeave={() => setActiveSubMenu(-1)}
@@ -238,11 +272,14 @@ export default () => {
             css={css`
               margin: 0;
               padding: 0;
+
               font-size: 2rem;
+
               background: none;
-              outline: none;
               border: none;
+              outline: none;
               cursor: pointer;
+
               transition: 0.2s;
               svg {
                 fill: #ffffff;
@@ -306,6 +343,21 @@ export default () => {
           </StyledLink>
         </ItemLink>
       </ListLinks>
+      <div
+        css={css`
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 10;
+
+          width: 100vw;
+          height: 100vh;
+
+          background: rgba(0,0,0,0.7);
+          transform: translate(${mobileVisible ? '0px' : '-9999px'});
+
+        `}
+      />
     </Container>
   );
 };

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 
 // Components
 import { ThemeProvider } from 'emotion-theming';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layouts/Layout';
 import sectionBuilder from '../utilities/section-builder';
 
@@ -25,12 +26,24 @@ const removeNulls = (data) => data.map((item) => {
 export default ({ data }) => {
   console.log(data);
   console.log('FIRE');
-  const { markdownRemark: { frontmatter: { sections } } } = data;
+  const [{
+    markdownRemark: {
+      frontmatter: {
+        sections = [],
+        seo_title: seoTitle,
+        seo_description: seoDescription,
+      } = {},
+    } = {},
+  }] = removeNulls([data]);
   const components = removeNulls(sections);
-
+  console.log('components', components);
 
   return (
     <Layout>
+      <Helmet>
+        {seoTitle && <title>{seoTitle}</title>}
+        {seoDescription && <meta name="description" content={seoDescription} />}
+      </Helmet>
       <ThemeProvider theme={{
         colorActive: '#EC4067',
         colorActiveHover: '#000000',
@@ -52,10 +65,12 @@ export default ({ data }) => {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($title: String!) {
+    markdownRemark(frontmatter: { title: { eq: $title } }) {
       frontmatter {
         path
+        seo_title
+        seo_description
         sections {
           type
           list {

@@ -8,7 +8,7 @@ import {
 import { loadStripe } from '@stripe/stripe-js';
 import { fonts, colors, mq } from '../../configs/styles';
 
-const stripePromise = loadStripe('pk_test_Zd3IHWkCmxYa2N0qHDaPi8SE00k3qwXpOd');
+const stripePromise = loadStripe('pk_test_51GqNWcKkOfEHjVi07iZ9PifVYq3OVutFF7px2hsBob2r32kbFlMbdCMjjxZz4uFtif4tHmyniCHuaO5CuDeVYYBF007iCISWqa');
 
 
 const Grid = styled.div`
@@ -21,19 +21,18 @@ const Grid = styled.div`
   width: 100%;
   margin: 0 auto;
 
-  padding: 60px 0;
+  padding: 0 0 60px 0;
 
   background-color: #fff;
 
   transition: opacity 0.6s ease, z-index 0.6s 1s;
-
-
 
   @media(max-width: ${mq.sm}px) {
     padding: 45px 0;
   }
 
   @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
     padding: 0 0 30px 0;
   }
 `;
@@ -53,6 +52,8 @@ const FormContainer = styled.div`
   @media(max-width: ${mq.sm}px) {
     grid-column: span 12;
     grid-row: 1;
+    margin: 0 15px;
+    padding: 30px 0;
   }
 
 `;
@@ -62,6 +63,11 @@ const Form = styled.form`
   grid-column-gap: 15px;
   grid-template-columns: repeat(6, 1fr);
   max-width: 1195px;
+
+  @media(max-width: ${mq.sm}px) {
+    grid-column: span 10;
+    padding: 0 15px;
+  }
 `;
 
 
@@ -81,7 +87,7 @@ const InputText = styled.input`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 const InputSelect = styled.select`
@@ -100,7 +106,7 @@ const InputSelect = styled.select`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 
@@ -143,7 +149,7 @@ const ButtonSubmit = styled.button`
   }
 
   @media(max-width: ${mq.xs}px) {
-    grid-column: span 2 !important;
+    grid-column: span 6;
   }
 `;
 const ELEMENT_OPTIONS = {
@@ -171,8 +177,10 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const [name, setName] = useState('');
   const [postal, setPostal] = useState('');
   const [amount, setAmount] = useState('');
+  const [email, setEmail] = useState('');
   const submitForm = async (ev) => {
     ev.preventDefault();
+    [...document.querySelectorAll('button[type="submit"]')].map((btn) => btn.setAttribute('disabled', 'disabled'));
     if (!stripe || !elements) {
       // Stripe.js has not loaded yet. Make sure to disable
       // form submission until Stripe.js has loaded.
@@ -191,6 +199,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       card: cardElement,
       billing_details: {
         name,
+        email,
         address: {
           postal_code: postal,
         },
@@ -206,6 +215,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
           paymentMethod: payload.paymentMethod,
           type: section.payment_type,
           description: section.title,
+          email,
           extraData: {
             ...(section.payment_type === 'payment' ? section.list.reduce((acc, { name: key, text }) => {
               acc[key] = text;
@@ -222,6 +232,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
     );
     const data = await info.json();
     if (payload.error || data.status !== 'succeeded') {
+      [...document.querySelectorAll('button[type="submit"]')].map((btn) => btn.removeAttribute('disabled'));
       setStatus('ERROR');
       // eslint-disable-next-line no-console
       console.log('[error]', payload.error, data.status);
@@ -232,9 +243,12 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   return (
     <div css={css`
         position: relative;
-        max-width: 1440px;
-        margin: 0 auto;
         z-index: 1;
+
+        width: 100%;
+
+        max-width: 1440px;
+        margin: 0 auto 20px;
       `}
     >
       <Grid css={css`
@@ -261,8 +275,16 @@ const SectionCreditCard = ({ section, ThankYou }) => {
               {section.list.map((i) => <option value={i.name}>{i.name}</option>)}
             </InputSelect>
             )}
+            <InputText css={css`grid-column: span 6;`} name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
             <InputText css={css`grid-column: span 6;`} name="name" placeholder="Name on Card" value={name} onChange={(e) => setName(e.target.value)} />
-            <StripeWrapper css={css`grid-column: span 4;`}>
+            <StripeWrapper css={css`
+
+              grid-column: span 4;
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 6;
+              }
+              `}
+            >
               <CardNumberElement
                 id="cardNumber"
 
@@ -270,13 +292,26 @@ const SectionCreditCard = ({ section, ThankYou }) => {
                 options={ELEMENT_OPTIONS}
               />
             </StripeWrapper>
-            <StripeWrapper css={css`grid-column: span 2;`}>
+            <StripeWrapper css={css`
+              grid-column: span 2;
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 3;
+              }
+              `}
+            >
               <CardCvcElement
                 id="cvc"
                 options={ELEMENT_OPTIONS}
               />
             </StripeWrapper>
-            <StripeWrapper css={css`grid-column: span 3;`}>
+            <StripeWrapper css={css`
+              grid-column: span 3;
+
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 3;
+              }
+              `}
+            >
               <CardExpiryElement
                 id="expiry"
                 options={ELEMENT_OPTIONS}
@@ -297,14 +332,15 @@ const SectionCreditCard = ({ section, ThankYou }) => {
       </Grid>
       <div css={css`
         position: absolute;
+        top: 30px;
+        z-index: 1;
 
         opacity: 0;
 
         transition: opacity 0.6s ease, z-index 0.6s 1s;
 
-        top: 30px;
+        width: 100%;
 
-        z-index: 1;
         ${status === 'SUCCESS' && `
           opacity: 1;
           z-index: 2;

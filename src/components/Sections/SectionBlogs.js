@@ -39,7 +39,7 @@ const GetData = () => {
     <ArticlesDirectory
       tags={tags.nodes[0].childMarkdownRemark.frontmatter.tags}
       blogs={blogs.nodes}
-      link="blog"
+      link="/blog"
     />
   );
 };

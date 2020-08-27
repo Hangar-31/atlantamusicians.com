@@ -1,11 +1,12 @@
 /* eslint-disable no-param-reassign */
 import styled from '@emotion/styled';
 import React from 'react';
+import { css } from '@emotion/core';
 import { ProviderDirectory } from '../usicians-directory/context-directory';
 import MemberDirectory from '../usicians-directory';
 import filterSortDirectory from '../usicians-directory/filterSortDirectory';
 import Article from './Card';
-import { fonts } from '../../configs/styles';
+import { fonts, mq, colors } from '../../configs/styles';
 
 const Container = styled.section`
   width: 100%;
@@ -23,15 +24,14 @@ const Grid = styled.div`
 
   font-family: ${fonts.nunitoSans};
 
-  div:nth-of-type(2) {
-    div {
-      margin-bottom: 30px;
-    }
+  @media(max-width: ${mq.xs}px) {
+    grid-gap: 10px 0;
   }
 `;
 
 
 export default ({ tags, blogs, link }) => {
+  console.log('link', link);
   const tagFilter = (filters, search, articles) => {
     const filteringOn = {
       search: !!search,
@@ -61,12 +61,100 @@ export default ({ tags, blogs, link }) => {
   return (
     <ProviderDirectory filterData={filters}>
       <Container>
-        <Grid>
-          <MemberDirectory
-            members={blogs.map(({ childMarkdownRemark: { frontmatter } }) => frontmatter)}
-            filter={tagFilter}
-            Card={Article(link)}
-          />
+        <Grid
+          css={css`
+            display: grid;
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+
+            font-family: 'Nunito Sans';
+          `}
+        >
+          <div
+            css={css`
+              grid-column: 2 / span 10;
+              p {
+                height: 88px;
+              }
+
+              @media(max-width: ${mq.lg}px) {
+                h1 {
+                  font-size: 1.5rem;
+                }
+                h2 {
+                  font-size: 1rem;
+                }
+                p {
+                  height: 78px;
+
+                  font-size: 0.875rem;
+                }
+              }
+
+              @media(max-width: ${mq.sm}px) {
+                h1 {
+                  font-size: 1.25rem;
+                }
+                h2 {
+                  font-size: 0.925rem;
+                }
+                p {
+                  font-size: 0.875rem;
+                }
+                a {
+                  font-size: 0.875rem;
+                }
+              }
+
+
+              @media(max-width: ${mq.xs}px) {
+                grid-column: span 12;
+                padding: 0 5px 5px 5px;
+
+                img {
+                  grid-column: span 12;
+                  grid-row: 1;
+                  height: 250px;
+                  padding: 15px;
+                }
+
+                img + div {
+                  grid-column: span 12;
+                  grid-row: 2;
+                  padding: 0 15px 15px 15px;
+                }
+              }
+
+              aside {
+                button {
+                  background-color: ${colors.blue};
+                }
+              }
+
+              nav {
+                padding: 15px 0 0 0;
+              }
+
+              article > div {
+
+                @media(max-width: ${mq.md}px) {
+                  padding: 15px;
+                }
+              }
+
+              article:nth-of-type(odd) {
+                background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);
+              }
+            `}
+          >
+            <MemberDirectory
+              members={blogs.map(({ childMarkdownRemark: { frontmatter } }) => frontmatter)}
+              filter={tagFilter}
+              Card={Article(link)}
+            />
+          </div>
         </Grid>
       </Container>
     </ProviderDirectory>

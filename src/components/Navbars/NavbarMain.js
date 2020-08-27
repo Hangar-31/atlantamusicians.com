@@ -4,7 +4,8 @@ import styled from '@emotion/styled';
 import { FaCaretDown } from 'react-icons/fa';
 
 // Components
-import { Link as GLink, useStaticQuery, graphql } from 'gatsby';
+import GLink from 'gatsby-plugin-superlink';
+import { useStaticQuery, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import ImageLogo1 from '../Images/Logos/ImageLogo1';
 import { colors, fonts, mq } from '../../configs/styles';
@@ -19,10 +20,6 @@ const Container = styled.section`
   background: ${colors.blue};
   border-bottom: 1px solid #ffffff;
   box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.6);
-
-  @media(max-width: ${mq.md}px) {
-    display: none;
-  }
 `;
 
 const Wrapper = styled.nav`
@@ -106,6 +103,8 @@ const Link = styled(GLink)`
   font-family: Montserrat;
   text-decoration: none;
 
+  cursor: pointer;
+
   transition: 0.2s;
 
   &:hover {
@@ -187,7 +186,7 @@ export default () => {
       if (pathSplit.length === 2) {
         pathLinks.push({
           name: title,
-          path: pathSplit[1],
+          path: pathSplit.join('/'),
           subLinks: [],
         });
       }
@@ -199,14 +198,14 @@ export default () => {
             subLinks: [
               {
                 name: title,
-                path,
+                path: `/${pathSplit[2]}`,
               },
             ],
           });
         } else {
           pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
             name: title,
-            path,
+            path: `/${pathSplit[2]}`,
           });
         }
       }
@@ -216,12 +215,14 @@ export default () => {
     setLinks(pathLinks);
   }, []);
 
+  console.log('links', links);
+
 
   return (
     <Container>
       <Wrapper>
-        <Logo>
-          <ImageLogo1 to="/" cssProp="width: 100%;" />
+        <Logo to="/">
+          <ImageLogo1 cssProp="width: 100%;" />
         </Logo>
 
         <ListLinks onMouseLeave={() => setActiveSubMenu(-1)}>
@@ -245,7 +246,14 @@ export default () => {
             >
               <Link
                 to={link.path}
-                onMouseOver={() => setActiveSubMenu(i)}
+                onLoad={(e) => e.removeAttribute('href')}
+                onClick={(e) => {
+                  if (link.subLinks.length > 0) e.preventDefault();
+                }}
+                onMouseOver={(e) => {
+                  setActiveSubMenu(i);
+                  if (link.subLinks.length > 0) e.currentTarget.removeAttribute('href');
+                }}
                 onFocus={() => setActiveSubMenu(i)}
               >
                 {`${link.name} `}

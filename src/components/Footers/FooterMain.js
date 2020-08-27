@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { Link as GLink } from 'gatsby';
+import GLink from 'gatsby-plugin-superlink';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import {
   colors, contact, fonts, mq,
@@ -14,12 +14,15 @@ import ImageLogo2 from '../Images/Logos/ImageLogo2';
 
 const ContainerJoinNow = styled.section`
   position: relative;
+
   width: 100%;
+
   background: ${colors.lightBlue}
 `;
 
 const WrapperJoinNow = styled.div`
   position: relative;
+
   display: flex;
   align-items: center;
   max-width: 1440px;
@@ -27,27 +30,31 @@ const WrapperJoinNow = styled.div`
   padding: 15px;
   @media(max-width: ${mq.xs}px) {
     justify-content: center;
+
     text-align: center;
   }
 `;
 
 const TitleJoinNow = styled.h2`
-  color: #ffffff;
   margin: 0;
-  font-size: 1.5rem;
+
+  color: #ffffff;
   font-weight: 700;
+  font-size: 1.5rem;
   font-family: ${fonts.montserrat};
   text-transform: uppercase;
 `;
 
 const LinkJoinNow = styled.a`
-  color: ${colors.lightOrange};
   margin: 0;
-  font-size: 1.5rem;
+
+  color: ${colors.lightOrange};
   font-weight: 700;
+  font-size: 1.5rem;
   font-family: ${fonts.montserrat};
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
   transition: 0.2s;
 
   &:hover {
@@ -59,13 +66,16 @@ const LinkJoinNow = styled.a`
 
 const ContainerFooter = styled.section`
   position: relative;
+
   width: 100%;
   overflow: hidden;
+
   background: ${colors.blue}
 `;
 
 const WrapperFooter = styled.div`
   position: relative;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
@@ -79,27 +89,29 @@ const WrapperFooter = styled.div`
     grid-column-gap: 60px;
   }
   @media(max-width: ${mq.sm}px) {
-    grid-row-gap: 30px;
     grid-column-gap: 30px;
+    grid-row-gap: 30px;
   }
   @media(max-width: ${mq.xs}px) {
-    height: 750px;
     grid-auto-rows: max-content;
     grid-row-gap: 45px;
+    height: 750px;
+    padding: 30px 5px;
   }
-  
+
 `;
 
 const Line = styled.div`
   width: 2px;
+
   background: #ffffff;
 `;
 
 const FooterColumn = styled.section`
-  grid-column: span 3;
   display: grid;
-  grid-template-columns: 25% 1% 74%;
+  grid-column: span 3;
   grid-column-gap: 10px;
+  grid-template-columns: 25% 1% 74%;
 
   @media(max-width: ${mq.lg}px) {
     grid-column: span 4;
@@ -113,14 +125,15 @@ const FooterColumn = styled.section`
   }
   @media(max-width: ${mq.xxs}px) {
     grid-column: span 12;
-    grid-template-columns: 25% 1% 74%;
+    grid-template-columns: 85px 0px calc(100% - 110px);
   }
 `;
 
 const ListFooterLinks = styled.ul`
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+
+  list-style: none;
 `;
 
 const ItemFooterLinks = styled.li`
@@ -129,31 +142,37 @@ const ItemFooterLinks = styled.li`
 
 const FooterTitle = styled.h3`
   margin-top: 15px;
-  justify-self: flex-end;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 0.75rem;
   font-family: ${fonts.montserrat};
+  text-align: right;
   text-transform: uppercase;
+  justify-self: flex-end;
 `;
 
 const FooterText = styled.p`
+  margin: 0px;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 0.75rem;
   font-family: ${fonts.nunitoSans};
-  margin: 0px;
 
   @media(max-width: ${mq.md}px) {
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    white-space: normal;
   }
 `;
 
 const FooterLink = styled(GLink)`
   margin: 0 0 10px 0;
+
   color: ${colors.lightOrange};
   font-weight: 700;
   font-size: 0.75rem;
@@ -171,12 +190,16 @@ const FooterLink = styled(GLink)`
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    font-size: 0.625rem;
+    white-space: normal;
   }
 `;
 
 const FooterLinkA = styled.a`
   margin: 0 0 10px 0;
+
   color: ${colors.lightOrange};
   font-weight: 700;
   font-size: 0.75rem;
@@ -194,7 +217,9 @@ const FooterLinkA = styled.a`
     white-space: nowrap;
   }
   @media(max-width: ${mq.sm}px) {
-    white-space: wrap;
+    padding-right: 10px;
+
+    white-space: normal;
   }
 `;
 
@@ -203,21 +228,25 @@ const FooterLinkA = styled.a`
 
 const ContainerBottom = styled.section`
   position: relative;
+
   width: 100%;
+
   background: ${colors.darkBlue}
 `;
 
 const WrapperBottom = styled.div`
   position: relative;
+
   max-width: 1440px;
   margin: 0 auto;
   padding: 30px 15px;
 `;
 
 const ListBottomLinks = styled.ul`
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 
   @media(max-width: ${mq.xs}px) {
     text-align: center;
@@ -235,9 +264,10 @@ const ItemBottomLink = styled.li`
 
 const BottomLink = styled(GLink)`
   color: #ffffff;
-  font-family: ${fonts.biryani};
   font-size: 0.75rem;
+  font-family: ${fonts.biryani};
   text-decoration: none;
+
   transition: 0.2s;
 
   &:hover {
@@ -247,9 +277,10 @@ const BottomLink = styled(GLink)`
 
 const BottomText = styled.span`
   color: #ffffff;
-  font-family: ${fonts.biryani};
   font-size: 0.75rem;
+  font-family: ${fonts.biryani};
   text-decoration: none;
+
   transition: 0.2s;
 `;
 
@@ -315,7 +346,7 @@ export default () => (
           right: 0;
           opacity: 1;
         }
-        
+
       `}
       />
 
@@ -344,16 +375,16 @@ export default () => (
           <Line />
           <ListFooterLinks>
             <ItemFooterLinks>
-              <FooterLinkA href="https://member.atlantamusicians.com/sign-up">Member Log-In</FooterLinkA>
+              <FooterLinkA href="https://member.atlantamusicians.com">Member Log-In</FooterLinkA>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/about/about-us">About Us</FooterLink>
+              <FooterLink to="/about-our-local">About Us</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/membership/benefits">Member Benefits</FooterLink>
+              <FooterLink to="/benefits">Member Benefits</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
-              <FooterLink to="/resources/hiring-directory">Hire A Musician</FooterLink>
+              <FooterLink to="/find-a-musician">Find A Musician</FooterLink>
             </ItemFooterLinks>
             <ItemFooterLinks>
               <FooterLink to="/non-member-payment">Non Member / Make Payment</FooterLink>
