@@ -16,7 +16,7 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: subtitle, label: Subtitle, widget: string }
       - { name: date, label: Post Date, widget: date }
-      - { label: Image, name: image, widget: image }
+      - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1170px x 260px' }
       - { label: Image Alt Text, name: alt_text, widget: string }
       - label: Post Tags
         name: postTags
@@ -64,7 +64,7 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: subtitle, label: Subtitle, widget: string }
       - { name: date, label: Post Date, widget: date }
-      - { label: Image, name: image, widget: image }
+      - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1170px x 260px' }
       - { label: Image Alt Text, name: alt_text, widget: string }
       - label: Post Tags
         name: postTags
@@ -94,7 +94,7 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Title, name: title, widget: string }
           - { label: Bio, name: text, widget: text }
-          - { label: Bio Image, name: image, widget: image }
+          - { label: Bio Image, name: image, widget: image, hint: 'Image Dimensions: 210px x 210px' }
           - { label: Bio Image Alt Text, name: alt_text, widget: string }
 
   - name: pages
@@ -122,7 +122,7 @@ collections:
               name: section_masthead
               widget: object
               fields:
-                - { label: Image, name: image, widget: image }
+                - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1920 x 400px' }
                 - { label: Image Alt Text, name: alt_text, widget: string }
             - label: Section - Bios
               name: section_bios
@@ -136,7 +136,7 @@ collections:
                     - { label: Name, name: name, widget: string }
                     - { label: Title, name: title, widget: string }
                     - { label: Bio, name: text, widget: text }
-                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image, name: image, widget: image, hint: 'Image Dimensions: 210px x 210px' }
                     - { label: Bio Image Alt Text, name: alt_text, widget: string }
             - label: Section - Blogs
               name: section_blogs
@@ -160,7 +160,7 @@ collections:
                     - { label: Name, name: name, widget: string }
                     - { label: Title, name: title, widget: string }
                     - { label: Bio, name: text, widget: text }
-                    - { label: Bio Image, name: image, widget: image }
+                    - { label: Bio Image, name: image, widget: image, hint: 'Image Dimensions: 210px x 210px' }
                     - { label: Bio Image Alt Text, name: alt_text, widget: string }
             - label: Section - Map
               name: section_map
@@ -173,7 +173,7 @@ collections:
               fields:
                 - { label: Title, name: title, widget: string }
                 - { label: Text, name: text, widget: text }
-                - { label: Image, name: image, widget: image }
+                - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1920px x 400px' }
                 - { label: Image Alt Text, name: alt_text, widget: string }
                 - { label: Link Text, name: link_text, widget: string }
                 - { label: Link URL, name: link_url, widget: string }
@@ -187,7 +187,7 @@ collections:
                   fields:
                     - { label: Title, name: title, widget: string }
                     - { label: Text, name: text, widget: text }
-                    - { label: Image, name: image, widget: image }
+                    - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 330px x 110px'}
                     - { label: Image Alt Text, name: alt_text, widget: string }
                     - { label: Link Text, name: link_text, widget: string }
                     - { label: Link URL, name: link_url, widget: string }
@@ -197,7 +197,7 @@ collections:
               fields:
                 - { label: Title, name: title, widget: string }
                 - { label: Text, name: text, widget: text }
-                - { label: Image, name: image, widget: image }
+                - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 480px x 380px' }
                 - { label: Image Alt Text, name: alt_text, widget: string }
                 - { label: Image On Right, name: image_right, widget: "boolean", default: true, required: false}
                 - { label: Link Text, name: link_text, widget: string, required: false }
@@ -208,7 +208,7 @@ collections:
               widget: object
               fields:
                 - { label: Title, name: title, widget: string }
-                - { label: Content Image, name: content_image, widget: image }
+                - { label: Content Image, name: content_image, widget: image, hint: 'Image Dimensions: 1170px x 260px' }
                 - { label: Content Image Alt Text, name: content_alt_text, widget: "string"}
                 - { label: Content Title, name: content_title, widget: string, required: false }
                 - { label: Content Text, name: content_text, widget: text, required: false }
@@ -221,7 +221,7 @@ collections:
               fields:
                 - { label: Title, name: title, widget: string }
                 - { label: Text, name: text, widget: text }
-                - { label: Image, name: image, widget: image }
+                - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1170px x 260px'  }
                 - { label: Image Alt Text, name: alt_text, widget: "string"}
                 - { label: Link Text, name: link_text, widget: string, required: false }
                 - { label: Link URL, name: link_url, widget: string, required: false }
@@ -271,7 +271,7 @@ collections:
                   name: list
                   widget: list
                   fields:
-                    - { label: Image, name: image, widget: image }
+                    - { label: Image, name: image, widget: image, hint: 'If Only One Image, Dimensions: 930px x 300px. If Two Images, Dimensions: 450px x 300px.'  }
                     - { label: Image Alt Text, name: alt_text, widget: string }
             - label: Payment - Donation Form
               name: section_credit_card_donate
@@ -335,6 +335,7 @@ collections:
                 - label: Banner Image
                   name: content_image
                   widget: image
+                  hint: 'Image Dimensions: 930px x 205px'
                   required: false
                 - label: Banner Alt Text
                   name: content_alt_text
@@ -348,8 +349,8 @@ collections:
                   name: link_url
                   widget: string
                   required: false
-            - label: Price List
-              name: section_price_list
+            - label: Price List - Title
+              name: section_price_list_title
               widget: object
               fields:
                 - label: Number
@@ -360,6 +361,17 @@ collections:
                   name: title
                   widget: string
                   required: true
+                - label: Items
+                  name: list
+                  widget: list
+                  required: true
+                  fields:
+                    - { label: Title, name: name, widget: string }
+                    - { label: Price, name: text, widget: string }
+            - label: Price List - Items
+              name: section_price_list_items
+              widget: object
+              fields:
                 - label: Items
                   name: list
                   widget: list
