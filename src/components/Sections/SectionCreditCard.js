@@ -49,7 +49,7 @@ const FormContainer = styled.div`
   border-radius: 10px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: span 12;
     grid-row: 1;
     margin: 0 15px;
@@ -64,7 +64,7 @@ const Form = styled.form`
   grid-template-columns: repeat(6, 1fr);
   max-width: 1195px;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: span 10;
     padding: 0 15px;
   }

@@ -37,16 +37,16 @@ const List = styled.ul`
 
   list-style: none;
 
-  @media(max-width: ${mq.md}px) {
+  @media(max-width: ${mq.lg}px) {
     grid-column: 3 / span 8;
   }
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: 2 / span 10;
 
     font-size: 1rem;
   }
   @media(max-width: ${mq.xs}px) {
-    grid-column: 2 / span 11;
+    grid-column: span 12;
     padding-left: 30px;
 
     font-size: 0.875rem;

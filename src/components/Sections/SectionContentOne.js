@@ -19,12 +19,17 @@ const Grid = styled.div`
   margin: 0 auto;
   padding: 60px 0;
 
-  @media(max-width: ${mq.sm}px) {
-    padding: 45px 30px;
+  @media(max-width: ${mq.md}px) {
+    padding: 45px 0;
   }
 
-  @media(max-width: ${mq.xs}px) {
+  @media(max-width: ${mq.sm}px) {
     grid-gap: 10px 0;
+    padding: 45px 0;
+  }
+
+
+  @media(max-width: ${mq.xs}px) {
     padding: 30px 15px;
   }
 `;
@@ -92,8 +97,8 @@ export default ({ section }) => (
           grid-column: ${section.image_right ? '2 / span 5' : '7 / span 5'};
           grid-row: 1;
 
-          @media(max-width: ${mq.sm}px) {
-            grid-column: ${section.image_right ? '1 / span 6' : '7 / span 6'};
+        @media(max-width: ${mq.sm}px) {
+            grid-column: 2 / span 10;
           }
           @media(max-width: ${mq.xs}px) {
             grid-column:  1 / span 12;
@@ -110,15 +115,16 @@ export default ({ section }) => (
           grid-column: ${section.image_right ? '8 / span 4' : '2 / span 4'};
           grid-row: 1;
 
-          @media(max-width: ${mq.md}px) {
+          @media(max-width: ${mq.lg}px) {
             grid-column: ${section.image_right ? '7 / span 5' : '2 / span 5'};
           }
+
           @media(max-width: ${mq.sm}px) {
-            grid-column: ${section.image_right ? '7 / span 6' : '1 / span 6'};
+            grid-column: 2 / span 10;
+            grid-row: 2;
           }
           @media(max-width: ${mq.xs}px) {
             grid-column: span 12;
-            grid-row: 2;
             margin-top: 15px;
             > img {
               width: 100%;
