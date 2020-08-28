@@ -336,7 +336,7 @@ export default () => {
         ))}
 
         <ItemLink>
-          <StyledLink to="/">
+          <StyledLink to="https://member.atlantamusicians.com">
             <span>
               Join Now
             </span>
