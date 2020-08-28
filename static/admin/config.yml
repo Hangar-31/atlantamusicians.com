@@ -331,6 +331,9 @@ collections:
                   name: link_url
                   widget: string
                   required: false
+            - label: Directory
+              name: section_directory
+              widget: object
             - label: Tabbed Title
               name: section_price_list_title
               widget: object
