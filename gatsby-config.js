@@ -67,7 +67,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/hangar-31-logo-black-icon.png',
+        icon: 'src/images/atlanta-musicians-favicon.jpg',
       },
     },
 
