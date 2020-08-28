@@ -39,7 +39,7 @@ const Row = styled.div`
     grid-row-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: span 12;
     padding: 0 15px;
   }
@@ -75,7 +75,7 @@ const Card = styled.article`
     text-align: center;
     text-transform: uppercase;
 
-    @media(max-width: ${mq.sm}px) {
+    @media(max-width: ${mq.md}px) {
       margin: 15px;
     }
     @media(max-width: ${mq.xs}px) {
@@ -94,7 +94,7 @@ const Card = styled.article`
     line-height: 1.3125rem;
     text-align: left;
 
-    @media(max-width: ${mq.sm}px) {
+    @media(max-width: ${mq.md}px) {
       margin: 15px;
     }
     @media(max-width: ${mq.xs}px) {

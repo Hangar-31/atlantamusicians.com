@@ -35,7 +35,7 @@ const Title = styled.p`
   font-size: 1.25rem;
   font-family: ${fonts.biryani};
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: 2 / span 10;
   }
   @media(max-width: ${mq.xs}px) {
@@ -48,6 +48,10 @@ const Number = styled.span`
   right: 100%;
 
   text-align: right;
+
+  @media(max-width: ${mq.md}px) {
+    position: static;
+  }
 
   @media(max-width: ${mq.xs}px) {
     position: static;

@@ -50,7 +50,7 @@ const Title = styled.h1`
   line-height: 1;
   text-transform: uppercase;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     font-size: 1.5rem;
   }
 
@@ -169,7 +169,7 @@ export default ({ section }) => (
                 background-image: url('${section.image}');
 
 
-                @media(max-width: ${mq.sm}px) {
+                @media(max-width: ${mq.md}px) {
                 grid-column: span 12;
                 }
                 `}
@@ -186,7 +186,7 @@ export default ({ section }) => (
               grid-column: 8 / span 3;
               grid-row: 1;
 
-              @media(max-width: ${mq.sm}px) {
+              @media(max-width: ${mq.md}px) {
                 grid-column: span 12;
                 grid-row: 2;
               }

@@ -34,7 +34,7 @@ const Title = styled.h3`
   line-height: 1;
   text-transform: uppercase;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: 2 / span 10;
   }
   @media(max-width: ${mq.xs}px) {

@@ -28,7 +28,7 @@ const Row = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 0 30px;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: span 12;
     grid-gap: 10px 0;
     padding: 0 15px;

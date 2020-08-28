@@ -215,8 +215,6 @@ export default () => {
     setLinks(pathLinks);
   }, []);
 
-  console.log('links', links);
-
 
   return (
     <Container>
@@ -277,7 +275,7 @@ export default () => {
             </ItemLink>
           ))}
           <ItemLink>
-            <StyledLink to="/">
+            <StyledLink to="https://member.atlantamusicians.com">
               <span>
                 Join Now
               </span>

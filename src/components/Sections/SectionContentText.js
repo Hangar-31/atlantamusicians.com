@@ -34,7 +34,7 @@ const Text = styled.p`
   font-style: normal;
   text-align: justify;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     grid-column: 2 / span 10;
 
     font-size: 1rem;

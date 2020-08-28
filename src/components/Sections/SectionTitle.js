@@ -16,15 +16,15 @@ const Grid = styled.div`
   grid-column-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 15px 15px 15px;
+  margin: 0 auto 30px auto;
 
- @media(max-width: ${mq.xs}px) {
+
+ @media(max-width: ${mq.sm}px) {
     grid-gap:  0;
-    margin: 0;
 
     font-size: 1.375rem;
     line-height: 1.2;
+
   }
 `;
 
@@ -34,6 +34,7 @@ const Row = styled.div`
   align-items: flex-end;
 
   background: ${colors.darkBlue};
+
 
   @media(max-width: ${mq.xs}px) {
     grid-column: 1 / span 12;

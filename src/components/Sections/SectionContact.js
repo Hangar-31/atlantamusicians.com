@@ -72,9 +72,11 @@ export default ({ section }) => (
           grid-column: 2 / span 4;
           grid-row: 1;
 
-          @media(max-width: ${mq.sm}px) {
+          @media(max-width: ${mq.md}px) {
             grid-column: 2 / span 10;
             grid-row: 1;
+
+            text-align: center;
           }
         `}
       >
@@ -117,7 +119,7 @@ export default ({ section }) => (
           grid-column: 6 / span 6;
           grid-row: 1;
 
-          @media(max-width: ${mq.sm}px) {
+          @media(max-width: ${mq.md}px) {
             grid-column: 2 / span 10;
             grid-row: 2;
             padding-top: 60px;

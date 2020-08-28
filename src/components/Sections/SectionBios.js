@@ -17,7 +17,7 @@ const Grid = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 15px 15px 15px;
-  @media(max-width: ${mq.xs}px) {
+@media(max-width: ${mq.xs}px) {
     grid-gap: 10px 0;
 
   }
@@ -26,14 +26,18 @@ const Grid = styled.div`
 
 const Row = styled.div`
   display: grid;
-  grid-column: 3 / span 8;
+  grid-column: 2 / span 10;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0 30px;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
+    grid-column: 2 / span 10;
+  }
+  @media(max-width: ${mq.xs}px) {
     grid-column: span 12;
     grid-gap: 10px 0;
-    padding: 0 15px;
+    padding: 0 ;
   }
 `;
 
@@ -115,7 +119,7 @@ const Bio = styled.article`
 
   border: 1px solid #DFDFDF;
 
-  @media(max-width: ${mq.sm}px) {
+  @media(max-width: ${mq.md}px) {
     max-height: 100px;
     ${Button} {
       right: -5px;
