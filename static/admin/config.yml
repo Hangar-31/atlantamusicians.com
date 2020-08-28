@@ -79,24 +79,6 @@ collections:
         required: false
       - { name: content, label: Content, widget: markdown }
 
-  - name: scholarships
-    label: Scholarships
-    folder: src/scholarship
-    create: true
-    sortableFields: ["title"]
-    fields:
-      - { name: title, label: Year }
-      - { label: Alternate Row Colors, name: background_color_toggle, widget: "hidden", default: true }
-      - label: Award Winners
-        name: section_bios
-        widget: list
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Title, name: title, widget: string }
-          - { label: Bio, name: text, widget: text }
-          - { label: Bio Image, name: image, widget: image, hint: 'Image Dimensions: 210px x 210px' }
-          - { label: Bio Image Alt Text, name: alt_text, widget: string }
-
   - name: pages
     label: Pages
     folder: src/pages
