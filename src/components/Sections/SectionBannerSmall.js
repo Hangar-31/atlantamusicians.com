@@ -39,6 +39,9 @@ const Row = styled.div`
 `;
 
 const Title = styled.h1`
+  position: relative;
+  z-index: 1;
+
   grid-column: 1 / span 12;
   margin: 30px 0;
 
@@ -64,6 +67,7 @@ const TintImg = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
 
   width: 100%;
   height: 100%;
@@ -74,6 +78,9 @@ const TintImg = styled.div`
 
 
 const P = styled.p`
+  position: relative;
+  z-index: 1;
+
   color: #ffffff;
   font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
@@ -174,9 +181,9 @@ export default ({ section }) => (
                 }
                 `}
               >
-                <TintImg css={css`background: ${section.background_color_toggle ? 'linear-gradient(180deg, rgba(236, 64, 103, 1) 0%, rgba(255, 175, 163, 1) 100%);' : '#469FD1;'}`} />
                 <Title>{section.title}</Title>
                 <P>{section.text}</P>
+                <TintImg css={css`background: ${section.background_color_toggle ? 'linear-gradient(180deg, rgba(236, 64, 103, 1) 0%, rgba(255, 175, 163, 1) 100%);' : '#469FD1;'}`} />
               </div>
               {section.link_text.length > 0
               && (
