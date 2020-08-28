@@ -11,6 +11,7 @@ import gqlClient from '../../utilities/gqlClient';
 import PublicDirectoryCard from '../usicians-directory/DirectoryCard/Public';
 import filterMemberDirectory from '../usicians-directory/filterMemberDirectory';
 import { mq, colors } from '../../configs/styles';
+import { TagsStyled, FilteredListContainerStyled } from '../usicians-directory/Directory.Styled';
 
 const query = `{
   GetFilters {
@@ -103,8 +104,17 @@ const MemberDirectoryContext = () => {
             width: 100%;
             max-width: 1440px;
             margin: 0 auto;
-            
+
+
             font-family: 'Nunito Sans';
+
+            @media(max-width: ${mq.xs}px) {
+              padding: 0 10px;
+            }
+
+            ${FilteredListContainerStyled} {
+              padding: 15px 0;
+            }
           `}
         >
           <div
@@ -112,8 +122,8 @@ const MemberDirectoryContext = () => {
               grid-column: 2 / span 10;
 
               @media(max-width: ${mq.xs}px) {
-                padding: 0 5px 5px 5px;
                 grid-column: span 12;
+                padding: 0 5px 5px 5px;
               }
 
               aside {
@@ -128,10 +138,12 @@ const MemberDirectoryContext = () => {
 
               article {
                 margin-top: 0;
+
                 border:none;
 
                 a {
                   color: #EC4067!important;
+
                   transition: 0.2s;
 
                   &:hover {
@@ -139,23 +151,30 @@ const MemberDirectoryContext = () => {
                   }
 
                   @media(max-width: ${mq.md}px) {
-                    font-size: 0.75rem; 
+                    font-size: 0.75rem;
                   }
                   @media(max-width: ${mq.xs}px) {
-                    font-size: 0.675rem; 
+                    font-size: 0.675rem;
                   }
                 }
 
+                @media(max-width: ${mq.xs}px) {
+                  ${TagsStyled} {
+                    height: 25px;
+                  }
                 span {
 
-                  @media(max-width: ${mq.xs}px) {
-                    font-size: 0.675rem; 
+
+                    font-size: 0.675rem;
+                    svg {
+                      height: 8px;
+                    }
                   }
                 }
               }
 
               article > div {
-                
+
                 @media(max-width: ${mq.md}px) {
                   padding: 15px;
                 }
