@@ -25,6 +25,7 @@ import SectionContentFile from '../components/Sections/SectionContentFile';
 import SectionSpacer from '../components/Sections/SectionSpacer';
 import SectionPriceListTitle from '../components/Sections/SectionPriceListTitle';
 import SectionPriceListItems from '../components/Sections/SectionPriceListItems';
+import SectionContentRichText from '../components/Sections/SectionContentRichText';
 
 export default (sections) => {
   const years = sections
@@ -79,6 +80,8 @@ export default (sections) => {
             return (<SectionContentTitle3 section={section} />);
           case 'section_content_text':
             return (<SectionContentText section={section} />);
+          case 'section_content_rich_text':
+            return (<SectionContentRichText section={section} />);
           case 'section_content_link':
             return (<SectionContentLink section={section} />);
           case 'section_content_file':

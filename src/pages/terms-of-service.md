@@ -8,7 +8,7 @@ seo_description: These Terms of Service constitute a legally binding agreement
   Atlanta Federation of Musicians.
 sections:
   - type: section_content_rich_text
-    rich_text: >-
+    content: >-
       TERMS OF SERVICE
 
 

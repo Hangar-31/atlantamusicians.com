@@ -17,6 +17,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               type
               path
               title
+              seo_title
             }
           }
           previous {
@@ -82,7 +83,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Pages
   result.data.pages.edges.forEach(({ node }) => {
-    if (node.frontmatter.path !== null) {
+    if (node.frontmatter.path !== null && node.frontmatter.seo_title !== 'e') {
       let { path: pagePath } = node.frontmatter;
       const pagePathSplit = pagePath.split('/');
 

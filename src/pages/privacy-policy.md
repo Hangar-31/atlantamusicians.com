@@ -8,7 +8,7 @@ seo_description: Thank you for choosing to be part of our community at Atlanta
   information and your right to privacy.
 sections:
   - type: section_content_rich_text
-    rich_text: >-
+    content: >-
       PRIVACY POLICY
 
 

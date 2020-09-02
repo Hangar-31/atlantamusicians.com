@@ -73,6 +73,7 @@ export const pageQuery = graphql`
         seo_description
         sections {
           type
+          content
           list {
             name
             title

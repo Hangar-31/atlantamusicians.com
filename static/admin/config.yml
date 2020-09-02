@@ -233,6 +233,11 @@ collections:
               widget: object
               fields:
                 - { label: Text, name: text, widget: text }
+            - label: Content - Rich Text
+              name: section_content_rich_text
+              widget: object
+              fields:
+                - { label: Content, name: content, widget: markdown }
             - label: Content - Link
               name: section_content_link
               widget: object

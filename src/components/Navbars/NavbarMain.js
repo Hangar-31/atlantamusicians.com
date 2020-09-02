@@ -208,8 +208,14 @@ export default () => {
             path: `/${pathSplit[2]}`,
           });
         }
+      } else if (path.includes('http')) {
+        pathLinks.filter((item) => item.name === pathSplit[1])[0].subLinks.push({
+          name: title,
+          path: path.replace(`/${pathSplit[1]}/`, ''),
+        });
       }
     });
+
 
     // Data
     setLinks(pathLinks);
