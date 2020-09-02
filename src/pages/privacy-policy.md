@@ -15,8 +15,6 @@ sections:
       Last updated August 20, 2020
 
 
-
-
       Thank you for choosing to be part of our community at Atlanta Federation of Musicians (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at office@atlantamusicians.com.
 
 
@@ -29,55 +27,36 @@ sections:
       Please read this privacy notice carefully as it will help you understand what we do with the information that we collect.
 
 
-
-
       TABLE OF CONTENTS
-
-
-      [1. WHAT INFORMATION DO WE COLLECT?](https://app.termly.io/dashboard/website/553050/privacy-policy#infocollect)
-
-
-      [2. HOW DO WE USE YOUR INFORMATION?](https://app.termly.io/dashboard/website/553050/privacy-policy#infouse)
-
-
-      [3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?](https://app.termly.io/dashboard/website/553050/privacy-policy#infoshare)
-
-
-      [4. WHO WILL YOUR INFORMATION BE SHARED WITH?](https://app.termly.io/dashboard/website/553050/privacy-policy#whoshare)
-
-
-      [5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?](https://app.termly.io/dashboard/website/553050/privacy-policy#cookies)
-
-
-      [6. DO WE USE GOOGLE MAPS?](https://app.termly.io/dashboard/website/553050/privacy-policy#googlemaps)
-
-
-      [7. HOW LONG DO WE KEEP YOUR INFORMATION?](https://app.termly.io/dashboard/website/553050/privacy-policy#inforetain)
-
-
-      [8. HOW DO WE KEEP YOUR INFORMATION SAFE?](https://app.termly.io/dashboard/website/553050/privacy-policy#infosafe)
-
-
-      [9. WHAT ARE YOUR PRIVACY RIGHTS?](https://app.termly.io/dashboard/website/553050/privacy-policy#privacyrights)
-
-
-      [10. CONTROLS FOR DO-NOT-TRACK FEATURES](https://app.termly.io/dashboard/website/553050/privacy-policy#DNT)
-
-
-      [11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?](https://app.termly.io/dashboard/website/553050/privacy-policy#caresidents)
-
-
-      [12. DO WE MAKE UPDATES TO THIS NOTICE?](https://app.termly.io/dashboard/website/553050/privacy-policy#policyupdates)
-
-
-      [13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](https://app.termly.io/dashboard/website/553050/privacy-policy#contact)
-
-
 
 
       1. WHAT INFORMATION DO WE COLLECT?
 
+      2. HOW DO WE USE YOUR INFORMATION?
 
+      3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+
+      4. WHO WILL YOUR INFORMATION BE SHARED WITH?
+
+      5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+
+      6. DO WE USE GOOGLE MAPS?
+
+      7. HOW LONG DO WE KEEP YOUR INFORMATION?
+
+      8. HOW DO WE KEEP YOUR INFORMATION SAFE?
+
+      9. WHAT ARE YOUR PRIVACY RIGHTS?
+
+      10. CONTROLS FOR DO-NOT-TRACK FEATURES
+
+      11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+
+      12. DO WE MAKE UPDATES TO THIS NOTICE?
+
+      13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+
+      14. WHAT INFORMATION DO WE COLLECT?
 
 
       Personal information you disclose to us
@@ -101,24 +80,16 @@ sections:
       All personal information that you provide to us must be true, complete and accurate, and you must notify us of any changes to such personal information.
 
 
-
-
       Information automatically collected
 
 
       In Short: Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit ourWebsite.
 
 
-
-
-      We automatically collect certain information when you visit, use or navigate theWebsite. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about who and when you use ourWebsiteand other technical information. This information is primarily needed to maintain the security and operation of ourWebsite, and for our internal analytics and reporting purposes.
-
-
+      We automatically collect certain information when you visit, use or navigate theWebsite. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about who and when you use our Website and other technical information. This information is primarily needed to maintain the security and operation of ourWebsite, and for our internal analytics and reporting purposes.
 
 
       Like many businesses, we also collect information through cookies and similar technologies.
-
-
 
 
       The information we collect includes:
@@ -129,8 +100,6 @@ sections:
       * Device Data.We collect device data such as information about your computer, phone, tablet or other device you use to access theWebsite. Depending on the device used, this device data may include information such as your IP address (or proxy server), device application identification numbers, location, browser type, hardware model Internet service provider and/or mobile carrier, operating system configuration information.
 
       * Location Data.We collect information data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type of settings of the device you use to access the Website. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Locations settings on your device. Note however, if you choose to opt out, you may not be able to use certain aspects of the Services.
-
-
 
 
       2. HOW DO WE USE YOUR INFORMATION?
@@ -161,11 +130,9 @@ sections:
 
       * To respond to legal requests and prevent harm. If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
 
-      * To send you marketing and promotional communications. We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or our Website, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the "[WHAT ARE YOUR PRIVACY RIGHTS](https://app.termly.io/dashboard/website/553050/privacy-policy#privacyrights)" below).
+      * To send you marketing and promotional communications. We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. For example, when expressing an interest in obtaining information about us or our Website, subscribing to marketing or otherwise contacting us, we will collect personal information from you. You can opt-out of our marketing emails at any time (see the "WHAT ARE YOUR PRIVACY RIGHTS" below).
 
       * Deliver targeted advertising to you. We may use your information to develop and display personalized content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.
-
-
 
 
       3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
@@ -200,28 +167,22 @@ sections:
       * Business Partners. We may share your information with our business partners to offer you certain products, services or promotions.
 
 
-
-
       4. WHO WILL YOUR INFORMATION BE SHARED WITH?
 
 
       In Short:We only share information with the following third parties.
 
 
+      We only share and disclose your information with the following third parties. We have categorized each party so that you may easily understand the purpose of our data collection and processing practices. If we have processed your data based on your consent and you wish to revoke your consent, please contact us using the contact details provided in the section below titled "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?".
 
 
-      We only share and disclose your information with the following third parties. We have categorized each party so that you may easily understand the purpose of our data collection and processing practices. If we have processed your data based on your consent and you wish to revoke your consent, please contact us using the contact details provided in the section below titled "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](https://app.termly.io/dashboard/website/553050/privacy-policy#contact)".
+      * Invoice and Billing Stripe
 
+      * Social Media Sharing and Advertising Facebook social plugins
 
-      * Invoice and Billing\
-        Stripe
-      * Social Media Sharing and Advertising\
-        Facebook social plugins
-      * Web and Mobile Analytics\
-        Google Analytics
-      * Website Hosting\
-        Netlify
+      * Web and Mobile Analytics Google Analytics
 
+      * Website Hosting Netlify
 
 
       5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
@@ -233,17 +194,13 @@ sections:
       We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
 
 
-
-
       6. DO WE USE GOOGLE MAPS?
 
 
       In Short:Yes, we use Google Maps for the purpose of providing better service.
 
 
-      This Website uses Google Maps APIs which is subject to Google's Terms of Service. You may find the Google Maps APIs Terms of Service[here](https://developers.google.com/maps/terms). To find out more about Google’s Privacy Policy, please refer to this[link](https://policies.google.com/privacy).
-
-
+      This Website uses Google Maps APIs which is subject to Google's Terms of Service. You may find the Google Maps APIs Terms of Service [here](https://developers.google.com/maps/terms). To find out more about Google’s Privacy Policy, please refer to this[ link](https://policies.google.com/privacy).
 
 
       7. HOW LONG DO WE KEEP YOUR INFORMATION?
@@ -258,8 +215,6 @@ sections:
       When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
 
 
-
-
       8. HOW DO WE KEEP YOUR INFORMATION SAFE?
 
 
@@ -269,31 +224,25 @@ sections:
       We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Website is at your own risk. You should only access the Website within a secure environment.
 
 
-
-
       9. WHAT ARE YOUR PRIVACY RIGHTS?
 
 
       In Short:You may review, change, or terminate your account at any time.
 
 
-      If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here:<http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm>.
+      If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: <http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm>.
 
 
-      If you are resident in Switzerland, the contact details for the data protection authorities are available here:<https://www.edoeb.admin.ch/edoeb/en/home.html>.
+      If you are resident in Switzerland, the contact details for the data protection authorities are available here: <https://www.edoeb.admin.ch/edoeb/en/home.html>.
 
 
-      Cookies and similar technologies:Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Website. To opt-out of interest-based advertising by advertisers on our Website visit<http://www.aboutads.info/choices/>.
-
-
+      Cookies and similar technologies:Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Website. To opt-out of interest-based advertising by advertisers on our Website visit <http://www.aboutads.info/choices/>.
 
 
       10. CONTROLS FOR DO-NOT-TRACK FEATURES
 
 
       Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage, no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
-
-
 
 
       11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
@@ -308,8 +257,6 @@ sections:
       If you are under 18 years of age, reside in California, and have a registered account with the Website, you have the right to request removal of unwanted data that you publicly post on the Website. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Website, but please be aware that the data may not be completely or comprehensively removed from all our systems (e.g. backups, etc.).
 
 
-
-
       12. DO WE MAKE UPDATES TO THIS NOTICE?
 
 
@@ -317,8 +264,6 @@ sections:
 
 
       We may update this privacy notice from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
-
-
 
 
       13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
@@ -341,10 +286,9 @@ sections:
       United States
 
 
-
-
       HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 
 
       Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please submit a request form by emailingoffice@atlantamusicians.com. We will respond to your request within 30 days.
+  - type: section_spacer
 ---
