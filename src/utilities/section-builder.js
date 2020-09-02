@@ -108,7 +108,7 @@ export default (sections) => {
             return <SectionPriceListItems section={section} />;
           default:
             // eslint-disable-next-line no-console
-            console.log('Section Not Defined', type);
+            // console.log('Section Not Defined', type);
             return '';
         }
       })}

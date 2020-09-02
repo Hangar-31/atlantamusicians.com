@@ -31,7 +31,7 @@ const Grid = styled.div`
 
 
 export default ({ tags, blogs, link }) => {
-  console.log('link', link);
+  // console.log('link', link);
   const tagFilter = (filters, search, articles) => {
     const filteringOn = {
       search: !!search,

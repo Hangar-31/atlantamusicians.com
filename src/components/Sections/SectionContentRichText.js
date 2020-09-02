@@ -68,7 +68,6 @@ const Grid = styled.div`
 
 export default ({ section }) => (
   <Container>
-    {console.log(section)}
     <Grid>
       <ReactMarkdown
         renderers={{

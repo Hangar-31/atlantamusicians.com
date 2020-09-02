@@ -6,7 +6,7 @@ import { css } from '@emotion/core';
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
 import {
-  colors, contact, mq,
+  colors, mq,
 } from '../configs/styles';
 import {
   List, LinkBack, Container, P, Grid, Column, LinksBottom, Title1, PLink, Title2, Item, Image,
@@ -79,18 +79,23 @@ export default ({ data, pageContext }) => {
               }
             `}
             >
-              <LinksBottom href={contact.facebook}>
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
-                  <path d="M11.4864 27V18.0547H8V14.5H11.4864V11.6992C11.4864 8.65625 13.65 7 16.8091 7C18.3227 7 19.6227 7.09766 20 7.14062V10.3203H17.8091C16.0909 10.3203 15.7591 11.0234 15.7591 12.0508V14.5H19.6364L19.1045 18.0547H15.7591V27" fill="white" />
-                </svg>
-              </LinksBottom>
-              <LinksBottom href="/blog">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
-                  <path fillRule="evenodd" clipRule="evenodd" d="M17.7129 23.3593C21.3973 21.8851 24 18.2822 24 14.0713C24 8.54844 19.5228 4.07129 14 4.07129C8.47715 4.07129 4 8.54844 4 14.0713C4 18.2811 6.60136 21.8833 10.2843 23.3582V15.0714H7.31787L13.9986 8.64282L20.6793 15.0714H17.7129V23.3593Z" fill="white" />
-                </svg>
-              </LinksBottom>
+              {typeof window !== 'undefined'
+              && (
+              <>
+                <LinksBottom href={`https://www.facebook.com/sharer/sharer.php?u=${window.location}`} target="_blank">
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
+                    <path d="M11.4864 27V18.0547H8V14.5H11.4864V11.6992C11.4864 8.65625 13.65 7 16.8091 7C18.3227 7 19.6227 7.09766 20 7.14062V10.3203H17.8091C16.0909 10.3203 15.7591 11.0234 15.7591 12.0508V14.5H19.6364L19.1045 18.0547H15.7591V27" fill="white" />
+                  </svg>
+                </LinksBottom>
+                <LinksBottom href={`mailto:?subject=AFM Article | ${title}&body=${window.location}`}>
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
+                    <path fillRule="evenodd" clipRule="evenodd" d="M17.7129 23.3593C21.3973 21.8851 24 18.2822 24 14.0713C24 8.54844 19.5228 4.07129 14 4.07129C8.47715 4.07129 4 8.54844 4 14.0713C4 18.2811 6.60136 21.8833 10.2843 23.3582V15.0714H7.31787L13.9986 8.64282L20.6793 15.0714H17.7129V23.3593Z" fill="white" />
+                  </svg>
+                </LinksBottom>
+              </>
+              )}
             </Column>
 
             <Column css={css`
@@ -113,20 +118,23 @@ export default ({ data, pageContext }) => {
                 }}
                 source={content}
               />
+              {typeof window !== 'undefined'
+              && (
               <div css={css`display: flex; justify-content: center; align-items: center; width: 100%; height: 120px;`}>
-                <LinksBottom href={contact.facebook}>
+                <LinksBottom href={`https://www.facebook.com/sharer/sharer.php?u=${window.location}`} target="_blank">
                   <svg css={css`margin-right: 15px;`} width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
                     <path d="M11.4864 27V18.0547H8V14.5H11.4864V11.6992C11.4864 8.65625 13.65 7 16.8091 7C18.3227 7 19.6227 7.09766 20 7.14062V10.3203H17.8091C16.0909 10.3203 15.7591 11.0234 15.7591 12.0508V14.5H19.6364L19.1045 18.0547H15.7591V27" fill="white" />
                   </svg>
                 </LinksBottom>
-                <LinksBottom href="/blog">
+                <LinksBottom href={`mailto:?subject=AFM Article | ${title}&body=${window.location}`}>
                   <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="14" cy="14" r="13.5" fill="#EC4067" stroke="white" />
                     <path fillRule="evenodd" clipRule="evenodd" d="M17.7129 23.3593C21.3973 21.8851 24 18.2822 24 14.0713C24 8.54844 19.5228 4.07129 14 4.07129C8.47715 4.07129 4 8.54844 4 14.0713C4 18.2811 6.60136 21.8833 10.2843 23.3582V15.0714H7.31787L13.9986 8.64282L20.6793 15.0714H17.7129V23.3593Z" fill="white" />
                   </svg>
                 </LinksBottom>
               </div>
+              )}
             </Column>
 
           </Grid>

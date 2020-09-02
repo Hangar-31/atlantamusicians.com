@@ -24,8 +24,6 @@ const removeNulls = (data) => data.map((item) => {
 });
 
 export default ({ data }) => {
-  console.log(data);
-  console.log('FIRE');
   const [{
     markdownRemark: {
       frontmatter: {
@@ -36,7 +34,6 @@ export default ({ data }) => {
     } = {},
   }] = removeNulls([data]);
   const components = removeNulls(sections);
-  console.log('components', components);
 
   return (
     <Layout>
