@@ -23,9 +23,17 @@ const Grid = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 30px 30px 30px;
 
   > * {
-    grid-column: span 12;
+    grid-column: 2 / span 10;
+  }
+
+  @media(max-width: ${mq.sm}px) {
+    padding: 0 15px 15px 15px;
+    > * {
+      grid-column: 1 / span 12;
+    }
   }
 
   @media(max-width: ${mq.xs}px) {

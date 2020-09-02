@@ -50,10 +50,7 @@ line-height: 1;
   font-size: 1.5rem;
 }
 @media(max-width: ${mq.sm}px) {
-  font-size: 1.125rem;
-}
-@media(max-width: ${mq.xs}px) {
-  font-size: 0.875rem;
+  font-size: 1.25rem;
 }
 `;
 
@@ -77,10 +74,7 @@ export const Title2 = styled.h2`
       font-size: 1.125rem;
   }
   @media(max-width: ${mq.sm}px) {
-    font-size: 0.875rem;
-  }
-  @media(max-width: ${mq.xs}px) {
-    font-size: 0.625rem;
+    font-size: 1rem;
   }
 `;
 
@@ -92,10 +86,6 @@ export const P = styled.p`
   @media(max-width: ${mq.sm}px) {
     font-size: 0.875rem;
   }
-
-  @media(max-width: ${mq.xs}px) {
-    font-size: 0.625rem;
-  }
 `;
 
 export const PLink = styled.a`
@@ -103,13 +93,11 @@ export const PLink = styled.a`
   font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
   text-decoration: underline;
+
   @media(max-width: ${mq.sm}px) {
     font-size: 0.875rem;
   }
 
-  @media(max-width: ${mq.xs}px) {
-    font-size: 0.625rem;
-  }
 `;
 
 export const Image = styled.img`
@@ -137,15 +125,13 @@ export const Item = styled.li`
   font-size: 1.25rem;
   font-family: ${fonts.nunitoSans};
   @media(max-width: ${mq.sm}px) {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     font-size: 0.875rem;
   }
 
   @media(max-width: ${mq.xs}px) {
-    margin-bottom: 5px;
-
-    font-size: 0.625rem;
+    margin-bottom: 10px;
   }
 `;
 
@@ -174,7 +160,7 @@ export const LinkBack = styled(Link)`
     margin-right: -20px;
     padding: 5px;
 
-    font-size: 0.375rem;
+    font-size: 0.875rem;
   }
 `;
 
