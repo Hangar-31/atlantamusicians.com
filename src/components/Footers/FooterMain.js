@@ -437,11 +437,11 @@ export default () => (
           </ItemBottomLink>
 
           <ItemBottomLink>
-            <BottomLink to="/terms-of-service">Terms of Service</BottomLink>
+            <BottomLink to="/privacy-policy">Privacy Policy</BottomLink>
           </ItemBottomLink>
 
           <ItemBottomLink>
-            <BottomLink to="/privacy-policy">Privacy Policy</BottomLink>
+            <BottomLink to="/terms-of-service">Terms of Service</BottomLink>
           </ItemBottomLink>
         </ListBottomLinks>
       </WrapperBottom>

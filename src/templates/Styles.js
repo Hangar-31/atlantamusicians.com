@@ -57,7 +57,8 @@ line-height: 1;
 export const Title2 = styled.h2`
   display: flex;
   align-items: center;
-  margin: 45px 0 30px 0;
+  margin: 0;
+  margin-bottom: 30px;
 
   color: ${colors.lightBlue};
   font-weight: 800;
@@ -75,6 +76,7 @@ export const Title2 = styled.h2`
   }
   @media(max-width: ${mq.sm}px) {
     font-size: 1rem;
+    margin-bottom: 15px;
   }
 `;
 
