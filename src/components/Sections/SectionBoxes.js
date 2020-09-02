@@ -191,6 +191,8 @@ export default ({ section }) => (
               <h1>{box.title}</h1>
               <p>{box.text}</p>
             </div>
+            {box.link_url && box.link_text
+            && (
             <footer>
               <GLink to={box.link_url}>
                 <span>
@@ -198,6 +200,7 @@ export default ({ section }) => (
                 </span>
               </GLink>
             </footer>
+            )}
           </Card>
         ))}
       </Row>
