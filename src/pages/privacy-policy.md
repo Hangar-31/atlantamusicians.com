@@ -7,6 +7,7 @@ seo_description: Thank you for choosing to be part of our community at Atlanta
   Federation of Musicians. We are committed to protecting your personal
   information and your right to privacy.
 sections:
+  - type: section_spacer
   - type: section_content_rich_text
     content: >-
       # **PRIVACY POLICY**
