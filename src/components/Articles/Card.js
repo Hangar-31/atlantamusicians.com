@@ -81,7 +81,9 @@ export default (link) => ({ member }) => (
 
     background: linear-gradient(360deg, #F7FAFB 0%, #F5F5F5 100%);`}
   >
-    <img css={css`grid-column: span 3; width: 100%; height: 225px; height: 100%; object-fit: cover;`} src={member.image} alt={member.alt} />
+    <div css={css`grid-column: span 3; width: 100%; height: 100%;`}>
+      <img css={css`width: 100%; height: 100%; object-fit: cover;`} src={member.image} alt={member.alt} />
+    </div>
     <div css={css`grid-column: span 5; padding: 15px 30px 15px 0;`}>
       <Title1>{member.title}</Title1>
       <Title2>{member.subtitle}</Title2>

@@ -144,14 +144,15 @@ const StyledLink = styled(GLink)`
 
   &:before {
     position: absolute;
-    top: -1px;
-    left: -1px;
+    top: 0px;
+    left: 0px;
     z-index: 0;
 
     display: block;
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
+    width: 100%;
+    height: 100%;
 
+    transform: scale(1.02, 1.1);
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
     content: "";
   }

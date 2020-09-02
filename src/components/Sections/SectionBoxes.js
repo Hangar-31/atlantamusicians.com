@@ -153,25 +153,17 @@ const GLink = styled(Link)`
 
   &:before {
     position: absolute;
-    top: -1px;
-    left: -1px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     z-index: 0;
 
     display: block;
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
+    transform: scale(1.02, 1.1);
 
     background: linear-gradient(180deg, #EC4067 0%, #FFAFA3 100%);
     content: "";
-
-    @media(max-width: ${mq.sm}px) {
-      top: -2px;
-      left: -2px;
-
-      width: calc(100% + 4px);
-      height: calc(100% + 4px);
-    }
-
   }
 `;
 
