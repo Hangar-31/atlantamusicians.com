@@ -1,5 +1,5 @@
 ---
-path: https://www.afm.org/
+path: /about/https://www.afm.org/
 title: afm.org National
 number: "202"
 seo_title: e
