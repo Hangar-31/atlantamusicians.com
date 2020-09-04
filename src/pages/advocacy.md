@@ -72,4 +72,18 @@ sections:
     image: /assets/night-school-logo.jpg
   - type: section_title
     title: Strategic Plan
+  - type: section_content_boxes
+    list:
+      - title: IDENTITY
+        text: Define Local 148-462, bringing clarity to who we are as an organization,
+          what our objectives are to better serve professional musicians, and
+          present a unified voice to the community at large.
+      - title: ORGANIZING
+        text: Make an active campaign to grow our membership, create additional
+          contracted-work opportunities, and establish the Fair Trade Music
+          program throughout our jurisdiction.
+      - title: SOLIDARITY
+        text: Create a sense of solidarity with our Local and fellow professional
+          musicians, increase meeting attendance, add education engagement
+          points, and push forward with AFM and union-centered campaigns.
 ---
