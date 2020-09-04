@@ -8,7 +8,7 @@ import {
 import { loadStripe } from '@stripe/stripe-js';
 import { fonts, colors, mq } from '../../configs/styles';
 
-const stripePromise = loadStripe('pk_test_51GqNWcKkOfEHjVi07iZ9PifVYq3OVutFF7px2hsBob2r32kbFlMbdCMjjxZz4uFtif4tHmyniCHuaO5CuDeVYYBF007iCISWqa');
+const stripePromise = loadStripe('pk_live_kcYJoaFrmW9ymewnQLcFv6hB00VYFtaSAf');
 
 
 const Grid = styled.div`
