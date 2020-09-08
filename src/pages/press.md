@@ -1,7 +1,9 @@
 ---
 path: /resources/press
-title: Press
+title: WELCOME TO OUR NEW WEBSITE
 number: "409"
+seo_title: Press
+seo_description: Press
 sections:
   - type: section_banner
     title: Press
