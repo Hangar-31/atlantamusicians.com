@@ -6,7 +6,7 @@ seo_title: Press
 seo_description: Press
 sections:
   - type: section_banner
-    title: MONDAY, SEPTEMBER 14; 7:00 PM
+    title: MONDAY SEPTEMBER 14 AT 7:00 PM
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
     content_alt_text: placeholder
     content_title: SEPTEMBER DIGITAL MEMBERSHIP MEETING
