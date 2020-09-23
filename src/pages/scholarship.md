@@ -17,9 +17,6 @@ sections:
       open to any instrumentalist in Georgia who is a graduating high school
       senior planning to pursue a career in music, and who has been accepted to
       a college or university music program.
-  - type: section_content_file
-    file_text: 2020 Scholarship Application
-    file_url: /assets/atlanta-membership-application.pdf
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
@@ -45,31 +42,45 @@ sections:
 
       We would also like to thank our 2020 Scholarship judging panel of Local 148-462 musicians: Karen Vaughn-Smith, Shadwa Mussad, and Eric Hawkins.
   - type: section_awards
-    year: 2012
+    year: 2020
     list:
-      - name: Jackie Burrows
-        title: Winner
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-          nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
-          Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
-        image: /assets/blank-profile-picture-973460_640.png
-        alt_text: placeholder
-      - name: Tiffany Stormwell
-        title: Winner
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
-          quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula
-          ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi
-          tincidunt augue.
-
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue.
-        image: /assets/blank-profile-picture-973460_640.png
-        alt_text: placeholder
+      - name: Lexine Feng
+        title: First Place, Cello
+        text: "Lexine Feng has regularly won competitions and participated as soloist
+          with youth symphonies throughout her time studying cello under the
+          instruction of Wendy Warner. Lexine will be attending the New England
+          Conservatory to receive a Bachelor of Music in Cello Performance.
+          Congratulations, Lexine! "
+        image: /assets/lexine-feng-2020-2-.jpg
+        alt_text: Lexine Feng
+      - name: Juliyan Martinez
+        title: Second Place, Clarinet
+        text: "Juliyan Martinez is an alumni of the Atlanta Symphony Orchestra Talent
+          Development Program under the instruction of Local member Marci
+          Gurnow. Juliyan will be attending The Juilliard School to receive a
+          Bachelor of Music in Clarinet Performance. Congratulations, Juliyan! "
+        image: /assets/juliyan-martinez.jpg
+        alt_text: Juliyan Martinez
+      - name: Joseph Bickel
+        text: "Joseph Bickel, former student of Local member David Zerkel, is interested
+          in pursuing a career in a military band or orchestra and would like to
+          teach at the college level. Joseph will be attending the University of
+          Michigan to receive a Bachelor of Music in Euphonium Performance.
+          Congratulations, Joseph! "
+        title: Third Place, Euphonium
+        image: /assets/joseph-bickel.jpg
+        alt_text: Joseph Bickel
+      - name: Kobe Lester
+        title: Third Place, Percussion
+        text: "Kobe Lester, an alumni of the Atlanta Symphony Orchestra Talent
+          Development Program under the instruction of Local member William
+          Wilder, has a passion to pay it forward. Kobe will be attending the
+          San Francisco Conservatory of Music to receive a Bachelor of Music in
+          Percussion Performance. Congratulations, Kobe! "
+        image: /assets/kobe-lester.jpg
+        alt_text: Kobe Lester
   - type: section_awards
-    year: 2014
+    year: 2019
     list:
       - name: Pauline Prescott
         title: Winner
