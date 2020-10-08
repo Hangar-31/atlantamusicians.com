@@ -1,5 +1,5 @@
 ---
-path: night-school-at-the-hall
+path: /night-school-at-the-hall
 title: Night School at the Hall
 number: "320"
 seo_title: Night School at the Hall
