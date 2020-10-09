@@ -1,7 +1,7 @@
 ---
 path: /financial-assistance/
 title: Financial Assistance
-number: "416"
+number: "0"
 seo_title: Financial Assistance
 seo_description: Financial Assistance Resources
 sections:
