@@ -1,8 +1,7 @@
 ---
 tags:
-  - tag: instruments
-  - tag: tips
-  - tag: local
-  - tag: orchestras
   - tag: news
+  - tag: Secretary-Treasurer Notes
+  - tag: President's Notes
+  - tag: Organizing Task Force
 ---
