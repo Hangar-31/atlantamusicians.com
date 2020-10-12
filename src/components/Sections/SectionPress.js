@@ -39,7 +39,7 @@ const GetData = () => {
   return (
     <ArticlesDirectory
       tags={tags.nodes[0].childMarkdownRemark.frontmatter.tags}
-      blogs={blogs.nodes}
+      blogs={blogs.nodes.filter((node) => node.childMarkdownRemark !== null)}
       link="/press"
     />
   );

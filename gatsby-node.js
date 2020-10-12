@@ -89,6 +89,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
       if (pagePathSplit[1] === '') {
         pagePath = '/';
+      } else if (pagePathSplit[2] === '') {
+        pagePath = pagePathSplit[1];
+      } else if (pagePathSplit[3] === '') {
+        pagePath = pagePathSplit[2];
       } else if (pagePathSplit.length > 2) {
         pagePath = pagePathSplit[2];
       }

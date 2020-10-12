@@ -149,6 +149,7 @@ export default ({ tags, blogs, link }) => {
               }
             `}
           >
+
             <MemberDirectory
               members={blogs.map(({ childMarkdownRemark: { frontmatter } }) => frontmatter)}
               filter={tagFilter}
