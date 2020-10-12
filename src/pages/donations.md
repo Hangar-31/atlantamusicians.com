@@ -3,7 +3,7 @@ path: /donate
 title: Donations
 number: "0"
 seo_title: Donate
-seo_description: Donate
+seo_description: Donations
 sections:
   - type: section_banner
     title: Donations
