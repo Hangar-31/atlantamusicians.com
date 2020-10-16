@@ -21,8 +21,8 @@ sections:
     phone: (404) 873-2033
     email: office@atlantamusicians.com
     address: |-
-      Atlanta Federation of Musicians 
-      551 Dutch Valley Road NE 
+      Atlanta Federation of Musicians  
+      551 Dutch Valley Road NE  
       Atlanta, GA 30324
   - type: section_map
     title: Testing
