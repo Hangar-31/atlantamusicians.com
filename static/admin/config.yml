@@ -153,12 +153,10 @@ collections:
               name: section_contact
               widget: object
               fields:
-                - { label: Title, name: title, widget: string }
-                - { label: Text, name: text, widget: text }
-                - { label: Image, name: image, widget: image, hint: 'Image Dimensions: 1920px x 400px' }
-                - { label: Image Alt Text, name: alt_text, widget: string }
-                - { label: Link Text, name: link_text, widget: string }
-                - { label: Link URL, name: link_url, widget: string }
+                - { label: Hours, name: hours, widget: string }
+                - { label: Phone, name: phone, widget: string }
+                - { label: Email, name: email, widget: string }
+                - { label: Address, name: address, widget: text }
             - label: Content - Boxes
               name: section_content_boxes
               widget: object
