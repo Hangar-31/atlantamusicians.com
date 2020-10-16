@@ -20,7 +20,10 @@ sections:
     hours: Monday through Friday 10 am- 4 pm.
     phone: (404) 873-2033
     email: office@atlantamusicians.com
-    address: Atlanta Federation of Musicians 551 Dutch Valley Road NE Atlanta, GA 30324
+    address: |-
+      Atlanta Federation of Musicians 
+      551 Dutch Valley Road NE 
+      Atlanta, GA 30324
   - type: section_map
     title: Testing
 ---
