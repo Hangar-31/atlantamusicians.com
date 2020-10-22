@@ -176,7 +176,7 @@ sections:
   - type: section_price_list_items
     list:
       - name: 2 hour minimum
-        text: $140.00	$210.00	$280.00
+        text: $140.00                $210.00	                $280.00
       - name: per 15 minutes, up to 4 hours
         text: $  17.50	$  26.25	$  35.00
       - name: per 15 minutes, over 4 hours
