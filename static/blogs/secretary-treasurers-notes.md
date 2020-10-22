@@ -2,7 +2,7 @@
 type: blog
 title: Secretary-Treasurer's Notes
 subtitle: Shifting Local Operations Off-Site but Continuing Relief Efforts
-date: 2020-10-22T18:16:16.020Z
+date: 2020-05-01T18:16:16.020Z
 image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
 alt_text: Blog
 content: >-
