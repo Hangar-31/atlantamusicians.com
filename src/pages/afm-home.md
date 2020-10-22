@@ -16,7 +16,7 @@ sections:
           the music industry work for you.
         alt_text: placeholder
         link_text: Join Now
-        link_url: /
+        link_url: https://member.atlantamusicians.com/sign-up
       - title: Find Local Musicians
         text: "Looking for musicians for your next event? Need an instrumental teacher?
           Search our membership directory. "
