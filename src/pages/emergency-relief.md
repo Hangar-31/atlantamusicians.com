@@ -24,28 +24,28 @@ sections:
         text: The entertainment industry has been hit especially hard by this pandemic,
           and we have compiled a list of available financial and hardship
           resources available at this time.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
-        alt_text: Financial Assistance
-        link_text: Click Here
-        link_url: /
+        image: ""
+        alt_text: ""
+        link_text: ""
+        link_url: ""
       - title: HEALTH & SAFETY
         text: Staying healthy, individually and as a community, is top priority right
           now. Click through and please read about how to keep you and your
           loved ones safe. As work begins, we have also included resources to
           keep in mind as you start accepting work.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
-        alt_text: Health & Safety
-        link_text: Click Here
-        link_url: /
+        image: ""
+        alt_text: ""
+        link_text: ""
+        link_url: ""
       - title: NIGHT SCHOOL AT THE HALL
         text: As this pandemic continues, the Organizing Task Force is continuing to ask
           the questions you may have and getting answers from the professionals.
           Click to see a list of published content, and continue to come back
           for additional installments.
-        image: /assets/atlanta-musicians-placeholder-horizontal.png
-        alt_text: Night School at the Hall
-        link_text: Click Here
-        link_url: /
+        image: ""
+        alt_text: ""
+        link_text: ""
+        link_url: ""
   - type: section_title
     title: FINANCIAL ASSISTANCE
   - type: section_content_rich_text
