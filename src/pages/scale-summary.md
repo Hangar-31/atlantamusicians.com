@@ -172,7 +172,9 @@ sections:
     text: 16.7A
     title: Rehearsal
   - type: section_content_text
-    text: "                 Sidemusician\t\t\t\t150%\t\t\t\t\t200%"
+    text: |-2
+                       Sidemusician				150%					200%
+                      [$70 per hour up to 4 hours]
   - type: section_price_list_items
     list:
       - name: 2 hour minimum
