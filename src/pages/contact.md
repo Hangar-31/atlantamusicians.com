@@ -6,16 +6,14 @@ seo_title: Contact
 seo_description: Contact Atlanta Federation of Musicians
 sections:
   - type: section_banner
-    title: Contact
+    title: CONTACT US
     content_image: /assets/atlanta-musicians-placeholder-horizontal.png
-    content_alt_text: placeholder
-    content_title: Title Testing
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
-    link_text: Join Now
-    link_url: /
+    content_alt_text: Contact Us
+    content_title: WE WANT TO HEAR FROM YOU
+    content_text: Have questions for the Local? Use the form below to reach out
+      directly to our office.
+    link_text: ""
+    link_url: ""
   - type: section_contact
     hours: Monday through Friday 10 am- 4 pm.
     phone: (404) 873-2033
