@@ -263,5 +263,5 @@ sections:
   - type: section_price_list_title
     text: "*"
     title: Any other use or duplication of recordings subject to current AFM
-      agreements        *
+      agreements
 ---
