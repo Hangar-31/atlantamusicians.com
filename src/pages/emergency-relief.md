@@ -51,22 +51,22 @@ sections:
   - type: section_content_rich_text
     content: >-
       * [MusiCares Financial Aid
-      Assistance](https://www.grammy.com/musicares/get-help/musicares-coronavirus-relief-fund)–
-      MusiCares may grant short-term financial assistance for personal needs
+      Assistance](https://www.grammy.com/musicares/get-help/musicares-coronavirus-relief-fund)
+      – MusiCares may grant short-term financial assistance for personal needs
       that have arisen due to unforeseen circumstances. Funding may be awarded
       for needs such as rent, car payments, insurance premiums, utilities,
       medical/dental expenses, psychotherapy, addiction treatment, sober living,
       and other personal expenses.
 
-      * [GDOL Unemployment Insurance](https://dol.georgia.gov/unemployment-benefits)– For those who qualify for regular Unemployment Insurance (UI) or other assistance programs, fill out the standard application, answering as many questions as applicable.
+      * [GDOL Unemployment Insurance](https://dol.georgia.gov/unemployment-benefits) – For those who qualify for regular Unemployment Insurance (UI) or other assistance programs, fill out the standard application, answering as many questions as applicable.
 
-      * [Union Plus](https://www.unionplus.org/blog/consumer-tips/coronavirus-covid-19-resources)– Participants in our Union Plus Mortgage, Credit Card, Personal Loan or supplemental insurance programs may be eligible for additional hardship assistance through our Mortgage Assistance Program or other Union Plus hardship assistance programs.
+      * [Union Plus](https://www.unionplus.org/blog/consumer-tips/coronavirus-covid-19-resources) – Participants in our Union Plus Mortgage, Credit Card, Personal Loan or supplemental insurance programs may be eligible for additional hardship assistance through our Mortgage Assistance Program or other Union Plus hardship assistance programs.
 
-      * [Student Loan Relief](https://www.dpeaflcio.org/blog/government-relief-for-federal-student-loans-during-the-covid-19-pandemic)– Eligible federal student loans include Department of Education direct loans (direct subsidized and unsubsidized loans, direct PLUS Loans and direct consolidation loans), as well as Federal Perkins Loans and Federal Family Education Loans (FFEL) owned by the government.
+      * [Student Loan Relief](https://www.dpeaflcio.org/blog/government-relief-for-federal-student-loans-during-the-covid-19-pandemic) – Eligible federal student loans include Department of Education direct loans (direct subsidized and unsubsidized loans, direct PLUS Loans and direct consolidation loans), as well as Federal Perkins Loans and Federal Family Education Loans (FFEL) owned by the government.
 
-      * [AFL-CIO COVID-19 Pandemic Resources](https://aflcio.org/covid-19)– The AFL-CIO has compiled a list of relevant links for workers across all industries to health, safety, financial, and labor related organizations.
+      * [AFL-CIO COVID-19 Pandemic Resources](https://aflcio.org/covid-19) – The AFL-CIO has compiled a list of relevant links for workers across all industries to health, safety, financial, and labor related organizations.
 
-      * [American Federation of Musicians Resources](https://www.afm.org/covid-19/)– AFM is calling for immediate action to provide economic relief including expanding unemployment benefits and an immediate moratorium on evictions, foreclosures, and utility shut-offs.
+      * [American Federation of Musicians Resources](https://www.afm.org/covid-19/) – AFM is calling for immediate action to provide economic relief including expanding unemployment benefits and an immediate moratorium on evictions, foreclosures, and utility shut-offs.
   - type: section_title
     title: HEALTH & SAFETY
   - type: section_content_rich_text
@@ -87,15 +87,15 @@ sections:
     title: NIGHT SCHOOL AT THE HALL
   - type: section_content_rich_text
     content: >-
-      * [Resilience and Mental Toughness](https://youtu.be/7S7W3F13VIE)– Luis
+      * [Resilience and Mental Toughness](https://youtu.be/7S7W3F13VIE) – Luis
       Valdes, Ph.D. and an expert on sports and performance psychology and
       mental conditioning, joins us to discuss the parallels between staying fit
       as a professional athlete and staying fit as a professional musician
       through the practice of mental toughness and resilience.
 
-      * [Addiction During a Pandemic](https://www.youtube.com/watch?v=Spo4KnsmAMQ&t=13s)– Steve Harris, a licensed clinical social worker, psychotherapist, and certified sex addiction therapist, joins us to discuss some adaptation techniques needed for addiction recovery during the COVID-19 pandemic, leaving us with three key pieces of advice: be creative, be connected, and ask for help.
+      * [Addiction During a Pandemic](https://www.youtube.com/watch?v=Spo4KnsmAMQ&t=13s) – Steve Harris, a licensed clinical social worker, psychotherapist, and certified sex addiction therapist, joins us to discuss some adaptation techniques needed for addiction recovery during the COVID-19 pandemic, leaving us with three key pieces of advice: be creative, be connected, and ask for help.
 
-      * [Technology During Self-Quarantine](https://www.youtube.com/watch?v=hx3-YWS3CjQ&t=107s)– Matthew Kaminski, Mike Burton, Kent Morris, and Henny Tha Bizness join moderator Brandon Bush to discuss strategies for how to stay connected, creative, and musically active during the self-quarantine. Matthew Kaminski, best known as the Braves Organist, shares his experiences of live streaming and teaching while in isolation. Saxophonist, producer, and songwriter Mike Burton discusses his successes recording remotely. Kent Morris, a seasoned live sound engineer and Lead Broadcaster at In Touch Ministries, shares tips for maximizing audio quality during internet streaming. Hit record producer, songwriter, professor and youtuber Henny Tha Bizness talks tips on iOS apps and essential gear for staying connected.
+      * [Technology During Self-Quarantine](https://www.youtube.com/watch?v=hx3-YWS3CjQ&t=107s) – Matthew Kaminski, Mike Burton, Kent Morris, and Henny Tha Bizness join moderator Brandon Bush to discuss strategies for how to stay connected, creative, and musically active during the self-quarantine. Matthew Kaminski, best known as the Braves Organist, shares his experiences of live streaming and teaching while in isolation. Saxophonist, producer, and songwriter Mike Burton discusses his successes recording remotely. Kent Morris, a seasoned live sound engineer and Lead Broadcaster at In Touch Ministries, shares tips for maximizing audio quality during internet streaming. Hit record producer, songwriter, professor and youtuber Henny Tha Bizness talks tips on iOS apps and essential gear for staying connected.
 
-      * [Keeping Music Education Viable](https://youtu.be/-pOvb5I0IfY)– We brought together a panel of three music education leaders from the Atlanta community to discuss how best to keep music lessons a viable business during this COVID-19 crisis. Looking at the uncertainty that awaits so many educators next school year, Kerren Berz from the Galloway School, Jeanne Carere of Carere Music, and Averil Taylor from the Atlanta Music Project come together to discuss what they have implemented to continue lessons and successfully keep their music education businesses running, proactively planning for changing circumstances as we move into the fall.
+      * [Keeping Music Education Viable](https://youtu.be/-pOvb5I0IfY) – We brought together a panel of three music education leaders from the Atlanta community to discuss how best to keep music lessons a viable business during this COVID-19 crisis. Looking at the uncertainty that awaits so many educators next school year, Kerren Berz from the Galloway School, Jeanne Carere of Carere Music, and Averil Taylor from the Atlanta Music Project come together to discuss what they have implemented to continue lessons and successfully keep their music education businesses running, proactively planning for changing circumstances as we move into the fall.
 ---
