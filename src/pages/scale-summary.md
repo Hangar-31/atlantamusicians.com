@@ -187,7 +187,9 @@ sections:
     text: "[$105.00 per hour after 4 hours]"
   - type: section_price_list_title
     text: 16.7D
-    title: "\t150% of minimum scale"
+    title: Sound Check
+  - type: section_content_text
+    text: 150% of minimum scale
   - type: section_price_list_title
     text: 16.8A
     title: Performance	Sidemusician	150%	200%
@@ -220,10 +222,14 @@ sections:
       No AFM-EPF shall be required
   - type: section_price_list_title
     text: 16.8C
-    title: Onstage Performance	25% of scale additional
+    title: Onstage Performance
+  - type: section_content_text
+    text: 25% of scale additional
   - type: section_price_list_title
-    text: 16.9	Overtime (per 15 minutes)
-    title: 150% of scale
+    text: "16.9"
+    title: Overtime (per 15 minutes)
+  - type: section_content_text
+    text: 150% of scale
   - type: section_price_list_title
     text: 16.13B
     title: Limited Pressing Agreement  (not to exceed 10,000 units)
