@@ -7,7 +7,7 @@ seo_description: Scale Summary
 sections:
   - content_alt_text: placeholder
     link_url: ""
-    file_url: /assets/atlanta-membership-application.pdf
+    file_url: /assets/2020-scale-summary.pdf
     link_text: Download
     content_title: AFM 148-462 2020 Scales
     content_text: Local scales are updated annually and describe the minimum wages
