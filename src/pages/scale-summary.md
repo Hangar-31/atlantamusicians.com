@@ -62,10 +62,10 @@ sections:
     text: 16.1D
     title: Consecutive Engagements
   - type: section_content_text
-    text: >-
-      Two consecutive performances held in the same location within 
-
-      a three-hour period may be paid at the aggregate time from the beginning of the first performance to the ending time of the last performance (plus applicable cartage, doubling and pension).
+    text: Two consecutive performances held in the same location within a three-hour
+      period may be paid at the aggregate time from the beginning of the first
+      performance to the ending time of the last performance (plus applicable
+      cartage, doubling and pension).
   - type: section_price_list_title
     text: 16.4A
     title: Mileage (per mile over 50 miles) at current IRS rates
@@ -77,7 +77,9 @@ sections:
         text: 46¢ (as of January 2019)
   - type: section_price_list_title
     text: 16.3C
-    title: Parking	$10.00 Per Service
+    title: Parking
+  - type: section_content_text
+    text: $10.00 Per Service
   - type: section_price_list_title
     text: 16.4A
     title: Individual Instrument Cartage
@@ -163,12 +165,14 @@ sections:
         text: $35.00
   - type: section_price_list_title
     text: 16.5A
-    title: Doubling	25% additional per each
+    title: Doubling
+  - type: section_content_text
+    text: 25% additional per each
   - type: section_price_list_title
     text: 16.7A
-    title: Rehearsal											Sidemusician				150%					200%
-  - type: section_content_text
-    text: "[$70 per hour up to 4 hours]"
+    title: Rehearsal
+  - type: section_content_rich_text
+    content: \    Sidemusician				150%					200%
   - type: section_price_list_items
     list:
       - name: 2 hour minimum
@@ -251,5 +255,5 @@ sections:
   - type: section_price_list_title
     text: "*"
     title: Any other use or duplication of recordings subject to current AFM
-      agreements   *
+      agreements        *
 ---
