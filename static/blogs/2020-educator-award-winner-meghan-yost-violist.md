@@ -1,7 +1,7 @@
 ---
 type: blog
-title: "2020 Educator Award Winner: Meghan Yost; Violist"
-subtitle: From the Organizing Task Force
+title: From the Organizing Task Force
+subtitle: "2020 Educator Award Winner: Meghan Yost; Violist"
 date: 2020-10-09T15:53:16.628Z
 image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
 alt_text: 2020 Educator Award
