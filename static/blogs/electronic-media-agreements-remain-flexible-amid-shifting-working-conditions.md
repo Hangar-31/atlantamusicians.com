@@ -1,7 +1,7 @@
 ---
 type: blog
-title: Electronic Media Agreements Remain Flexible Amid Shifting Working Conditions
-subtitle: Secretary-Treasurer Notes
+title: Secretary-Treasurer's Notes
+subtitle: Electronic Media Agreements Remain Flexible Amid Shifting Working Conditions
 date: 2020-09-01T14:21:59.818Z
 image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
 alt_text: Secretary-Treasurer Notes
