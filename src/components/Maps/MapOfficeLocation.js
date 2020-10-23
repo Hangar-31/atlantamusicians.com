@@ -38,7 +38,7 @@ const MapOfficeLocation = (props) => {
       <GoogleMapReact
         onGoogleApiLoaded={({ map, maps }) => renderMarkers(map, maps)}
         bootstrapURLKeys={{
-          key: 'AIzaSyA1Bv9KOS95RNxflm54fgkIENFb-dB-k9w',
+          key: 'AIzaSyCVP7zWtO6GlLR9o62ktbK6p-HTaa1sZVQ',
         }}
         defaultCenter={myLatLng}
         defaultZoom={zoom}
