@@ -171,44 +171,33 @@ sections:
   - type: section_price_list_title
     text: 16.7A
     title: Rehearsal
+  - type: section_content_images
+    list:
+      - image: /assets/16.7a-crop.png
+        alt_text: 16.7A
   - type: section_price_list_title
     text: 16.7D
     title: Sound Check
-  - type: section_content_images
-    list:
-      - image: /assets/16.7a.png
-        alt_text: 16.7A
   - type: section_content_text
     text: 150% of minimum scale
   - type: section_price_list_title
     text: 16.8A
-    title: Performance	Sidemusician	150%	200%
-  - type: section_content_text
-    text: "[$80 per hour up to 4 hours]"
-  - type: section_price_list_items
+    title: Performance
+  - type: section_content_images
     list:
-      - name: 2 hour minimum
-        text: $160.00	$240.00	$320.00
-      - name: per 15 minutes, up to 4 hours
-        text: $  20.00	$  30.00	$  40.00
-      - name: per 15 minutes over 4 hours
-        text: 150% of minimum scale
-  - type: section_content_text
-    text: "[$120.00 per hour after 4 hours]"
+      - image: /assets/16.8a.png
+        alt_text: 16.8A
   - type: section_price_list_title
     text: 16.8B
-    title: Club/Bar/Restaurant Scale	Sidemusician	150%	200%
-  - type: section_price_list_items
+    title: Club/Bar/Restaurant Scale
+  - type: section_content_images
     list:
-      - name: 2 hour minimum
-        text: $100.00	$150.00	$200.00
-      - name: per 15 minutes, up to 4 hours
-        text: $  7.50	$  11.25	$  15.00
-      - name: per 15 minutes, over 4 hours
-        text: $  12.50	$  18.75	$  25.00
+      - image: /assets/16.8b.png
+        alt_text: 16.8B
   - type: section_content_text
-    text: |-
+    text: |
       Split Scale as outlined in 16.1B.3 may be applied
+      Cartage and doubling fees may be negotiated
       No AFM-EPF shall be required
   - type: section_price_list_title
     text: 16.8C
