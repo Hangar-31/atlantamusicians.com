@@ -174,6 +174,10 @@ sections:
   - type: section_price_list_title
     text: 16.7D
     title: Sound Check
+  - type: section_content_images
+    list:
+      - image: /assets/16.7a.png
+        alt_text: 16.7A
   - type: section_content_text
     text: 150% of minimum scale
   - type: section_price_list_title
@@ -250,8 +254,4 @@ sections:
     text: "*"
     title: Any other use or duplication of recordings subject to current AFM
       agreements
-  - type: section_content_images
-    list:
-      - image: /assets/16.7a.png
-        alt_text: 16.7A
 ---
