@@ -171,20 +171,6 @@ sections:
   - type: section_price_list_title
     text: 16.7A
     title: Rehearsal
-  - type: section_content_text
-    text: |-2
-                       Sidemusician				150%					200%
-                      [$70 per hour up to 4 hours]
-  - type: section_price_list_items
-    list:
-      - name: 2 hour minimum
-        text: $140.00                $210.00	                $280.00
-      - name: per 15 minutes, up to 4 hours
-        text: $  17.50	$  26.25	$  35.00
-      - name: per 15 minutes, over 4 hours
-        text: 150% of minimum scale
-  - type: section_content_text
-    text: "[$105.00 per hour after 4 hours]"
   - type: section_price_list_title
     text: 16.7D
     title: Sound Check
@@ -264,4 +250,8 @@ sections:
     text: "*"
     title: Any other use or duplication of recordings subject to current AFM
       agreements
+  - type: section_content_images
+    list:
+      - image: /assets/16.7a.png
+        alt_text: 16.7A
 ---
