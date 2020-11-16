@@ -9,11 +9,11 @@ const Form = styled.form`
   grid-template-columns: 1fr 1fr;
 `;
 
-const Text = styled.p`
-  color: #fff;
-  font-size: 1.15rem;
-  font-family: Blinker;
-`;
+// const Text = styled.p`
+//   color: #fff;
+//   font-size: 1.15rem;
+//   font-family: Blinker;
+// `;
 
 const InputText = styled.input`
   margin-bottom: 15px;
@@ -100,6 +100,8 @@ const ContactForm = () => {
     };
     xhr.send(data);
   };
+
+  console.log(status);
   return (
     <Form
       onSubmit={submitForm}
@@ -119,13 +121,19 @@ const ContactForm = () => {
         css={css`grid-column: span 2;`}
       />
       {status === 'SUCCESS' ? (
-        <Text>Thanks!</Text>
+        <ButtonSubmit type="submit" css={css`grid-column: 2 / span 1; background: ${colors.blue}; color: #ffffff; pointer-events: none;`}>
+          Submitted Successfully!
+        </ButtonSubmit>
       ) : (
         <ButtonSubmit type="submit" css={css`grid-column: 2 / span 1;`}>
           Send
         </ButtonSubmit>
       )}
-      {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+      {status === 'ERROR' && (
+      <ButtonSubmit type="submit" css={css`grid-column: 2 / span 1; background: ${colors.blue}; color: #ffffff; pointer-events: none;`}>
+        Error, Please Try Again
+      </ButtonSubmit>
+      )}
     </Form>
   );
 };
