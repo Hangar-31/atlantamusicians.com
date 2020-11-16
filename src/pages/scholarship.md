@@ -27,7 +27,7 @@ sections:
     image: /assets/atlanta-musicians-placeholder-horizontal.png
     alt_text: Scholarship
     link_text: Donate
-    link_url: /
+    link_url: /donate
   - type: section_title
     title: Award Winners
   - type: section_content_title_1
