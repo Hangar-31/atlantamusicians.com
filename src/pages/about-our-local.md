@@ -125,4 +125,17 @@ sections:
           to be part of the AFM.
         image: /assets/eric-ferguson.jpg
         alt_text: Eric Ferguson
+      - name: Bruce Kenney
+        title: President
+        text: >
+          I joined the Atlanta Federation of Musicians in 1985, and have served
+          as President since 2015. I first joined the AFM Houston local in 1975,
+          working as a bass guitarist. Shifting to orchestral work as a French
+          horn player, I eventually joined the Atlanta Symphony. 
+
+          My freelance years depended on per service income in pop and classical performance. Working freelancers in all genres stand to benefit greatly from collaborative thinking, and the AFM provides the needed structure. For specific workplaces, AFM collective bargaining agreements further solidify terms of employment. 
+
+          My goal as President is to get the right conversations in progress so that musicians can decide how best to deal with the concerns of their professional lives. I’ve encouraged your Board to examine, with an open mind, ways to identify and inspire these voices. 
+        image: /assets/bruce-kenney.jpg
+        alt_text: Bruce Kenney
 ---
