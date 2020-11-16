@@ -140,7 +140,7 @@ sections:
       - name: Mary Kenney
         title: Local Executive Board
         text: The American Federation of Musicians has been an important part of MARY
-          KENNEY'S life since she first joined in 1978. She is a free lance
+          KENNEY's life since she first joined in 1978. She is a free lance
           cellist and member of both the Opera and Ballet Orchestras, joining
           the Union Board in 1998.She has actively participated in orchestra
           players committees, ROPA, CBA negotiations, modernizing our building
