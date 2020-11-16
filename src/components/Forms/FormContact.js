@@ -103,7 +103,7 @@ const ContactForm = () => {
   return (
     <Form
       onSubmit={submitForm}
-      action="https://formspree.io/xgenavdv"
+      action="https://formspree.io/f/mleolwvg"
       method="POST"
     >
       <InputText name="Name" label="Name" placeholder="*Name" required />
