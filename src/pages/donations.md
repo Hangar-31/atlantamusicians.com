@@ -9,13 +9,13 @@ sections:
     title: Donations
     content_image: /assets/atlanta-musicians-placeholder-horizontal-red.png
     content_alt_text: Donations
-    content_text: The Atlanta Federation of Musicians has developed a scholarship
+    content_text: "The Atlanta Federation of Musicians has developed a scholarship
       program to encourage and support future professional instrumentalists.
       Auditions are open to any instrumentalist in Georgia who is a graduating
       high school senior planning to pursue a career in music, and who has been
       accepted to a college or university music program. All scholarship
       contributions are tax-deductible and help us further support aspiring
-      professional musicians! Click to find out how you can help today.
+      professional musicians! "
     content_title: "DONATE "
     link_text: ""
     link_url: ""
