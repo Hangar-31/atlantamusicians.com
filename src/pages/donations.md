@@ -8,12 +8,15 @@ sections:
   - type: section_banner
     title: Donations
     content_image: /assets/atlanta-musicians-placeholder-horizontal-red.png
-    content_alt_text: placeholder
-    content_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis
-      lectus nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a
-      arcu.
-    content_title: Title
+    content_alt_text: Donations
+    content_text: The Atlanta Federation of Musicians has developed a scholarship
+      program to encourage and support future professional instrumentalists.
+      Auditions are open to any instrumentalist in Georgia who is a graduating
+      high school senior planning to pursue a career in music, and who has been
+      accepted to a college or university music program. All scholarship
+      contributions are tax-deductible and help us further support aspiring
+      professional musicians! Click to find out how you can help today.
+    content_title: "DONATE "
     link_text: ""
     link_url: ""
   - type: section_content_title_2
@@ -26,9 +29,9 @@ sections:
   - type: section_content_title_2
     title: PAY BY CHECK
   - type: section_content_text
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus
-      nulla at volutpat diam. Nulla facilisi nullam vehicula ipsum a arcu.
+    text: You can also continue to pay by check, with mail being received on our
+      regular schedule at our Midtown office. Once processed, a receipt will be
+      emailed or sent USPS as a tax-deductible donation.
   - type: section_content_title_3
     title: "Checks made out to:"
   - type: section_content_text
