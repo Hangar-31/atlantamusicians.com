@@ -37,14 +37,15 @@ sections:
       - name: Bruce Kenney
         title: President
         text: >
-          I joined the Atlanta Federation of Musicians in 1985, and have served
-          as President since 2015. I first joined the AFM Houston local in 1975,
-          working as a bass guitarist. Shifting to orchestral work as a French
-          horn player, I eventually joined the Atlanta Symphony. 
+          BRUCE KENNEY joined the Atlanta Federation of Musicians in 1985, and
+          has served as President since 2015. He first joined the AFM Houston
+          local in 1975, working as a bass guitarist. Shifting to orchestral
+          work as a French horn player, he eventually joined the Atlanta
+          Symphony. 
 
-          My freelance years depended on per service income in pop and classical performance. Working freelancers in all genres stand to benefit greatly from collaborative thinking, and the AFM provides the needed structure. For specific workplaces, AFM collective bargaining agreements further solidify terms of employment. 
+          His freelance years depended on per service income in pop and classical performance. Working freelancers in all genres stand to benefit greatly from collaborative thinking, and the AFM provides the needed structure. For specific workplaces, AFM collective bargaining agreements further solidify terms of employment. 
 
-          My goal as President is to get the right conversations in progress so that musicians can decide how best to deal with the concerns of their professional lives. I’ve encouraged your Board to examine, with an open mind, ways to identify and inspire these voices. 
+          His goal as President is to get the right conversations in progress so that musicians can decide how best to deal with the concerns of their professional lives. He encourages the Board to examine, with an open mind, ways to identify and inspire these voices. 
         image: /assets/bruce-kenney.jpg
         alt_text: Bruce Kenney
       - name: Christina Ottaviano
@@ -138,15 +139,16 @@ sections:
         alt_text: Eric Ferguson
       - name: Mary Kenney
         title: Local Executive Board
-        text: The American Federation of Musicians has been an important part of my life
-          since I first joined in 1978. I’m a free lance cellist and member of
-          both the Opera and Ballet Orchestras, joining the Union Board in 1998.
-          I have actively participated in orchestra players committees, ROPA,
-          CBA negotiations, modernizing our building and most recently, efforts
-          of the Solidarity Team and Organizing Task Force. Through it all-
-          management lockouts, picket lines, CBA negotiations, long fought for
-          gains in pay and working conditions and some amazing performance
-          opportunities, I remain committed to our shared objectives.
+        text: The American Federation of Musicians has been an important part of MARY
+          KENNEY'S life since she first joined in 1978. She is a free lance
+          cellist and member of both the Opera and Ballet Orchestras, joining
+          the Union Board in 1998.She has actively participated in orchestra
+          players committees, ROPA, CBA negotiations, modernizing our building
+          and most recently, efforts of the Solidarity Team and Organizing Task
+          Force. Through it all - management lockouts, picket lines, CBA
+          negotiations, long fought for gains in pay and working conditions and
+          some amazing performance opportunities, she has remained committed to
+          our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
 ---
