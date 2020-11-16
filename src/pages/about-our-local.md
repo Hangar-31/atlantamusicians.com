@@ -27,8 +27,6 @@ sections:
       Organized in 1901, the Atlanta Federation of Musicians is a significant chapter of the AFM representing around 700 musicians throughout Georgia, including the metropolitan areas of Atlanta, Athens, Augusta, Columbus and Macon. Our professional members perform every imaginable style of music – including blues, classical, country, ethnic/world music, hip-hop, jazz, rap, rock, soul.
   - type: section_content_images
     list:
-      - image: /assets/merger.jpg
-        alt_text: "Local 148 and Local 462 Merger "
       - image: /assets/rehearsal-hall-angle-1.jpg
         alt_text: Atlanta Federation Of Musicians Rehearsal Hall
   - type: section_title
