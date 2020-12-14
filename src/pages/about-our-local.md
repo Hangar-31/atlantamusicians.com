@@ -151,4 +151,18 @@ sections:
           our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
+      - name: Averil Taylor
+        title: Local Executive Board
+        text: Averil Taylor is an active Atlanta musician who also studied music in the
+          city. He is a former student of John Head and James Patterson. He
+          studied music in undergrad at Clark Atlanta University and in grad
+          school at Georgia State University.  Averil maintains an active
+          performance schedule while also being involved with the Atlanta Music
+          Project. He believes strongly in the potential that music has in the
+          area of youth development. Averil works to help the underserved have
+          access to high quality musical instruction. Averil hopes to play an
+          active role on the board to help with the work of advancing musician’s
+          rights and leaving a positive footprint on the Atlanta music scene.
+        image: /assets/averil-taylor.jpg
+        alt_text: Averil Taylor
 ---
