@@ -135,7 +135,7 @@ sections:
           time.  The most important element in all of these events is a deep
           sense of gratitude to have performed with so many great musicians, and
           to be part of the AFM. "
-        image: /assets/eric-ferguson1.jpg
+        image: /assets/2squareafm.jpg
         alt_text: Eric Ferguson
       - name: Mary Kenney
         title: Local Executive Board
