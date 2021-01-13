@@ -112,7 +112,7 @@ sections:
         alt_text: John McCutcheon
       - name: Eric Ferguson
         title: Local Executive Board
-        text: ERIC FERGUSON is an AFM life member and previously a member of Actor’s
+        text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
           Equity Association.  As Bassist for Ronnie Hawkins’ band in the early
           1970’s, Eric performed in Toronto and London Ontario, as well as on
           Kenny Rogers’ variety show ROLLIN’ ON THE RIVER.  His sideman credits
@@ -134,7 +134,7 @@ sections:
           agency.  He subsequently served on the LEB up to the present
           time.  The most important element in all of these events is a deep
           sense of gratitude to have performed with so many great musicians, and
-          to be part of the AFM.
+          to be part of the AFM. "
         image: /assets/eric-ferguson1.jpg
         alt_text: Eric Ferguson
       - name: Mary Kenney
