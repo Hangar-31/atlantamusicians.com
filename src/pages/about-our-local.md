@@ -51,7 +51,7 @@ sections:
       - name: Michael Moore
         title: Vice President and AFM Convention Delegate
         text: >
-          Michael Moore was raised in Decatur, GA., himself the son of long-time
+          MICHAEL MOORE was raised in Decatur, GA., himself the son of long-time
           AFM member Bill Moore, and has been a working member of Local 148-462
           since 1965 at the age of 15, when he worked a steady cocktail hour job
           on bass and guitar at the Hyatt Regency. He has been Principal Tuba in
@@ -136,7 +136,7 @@ sections:
         alt_text: Mary Kenney
       - name: Kevin Leahy
         title: Local Executive Board
-        text: "Kevin is a freelance drummer and percussionist who has worked in a
+        text: "KEVIN LEAHY is a freelance drummer and percussionist who has worked in a
           variety of settings. A graduate of the Indiana University Jacobs
           School of Music, he is currently the Executive Director of the Atlanta
           Pops Orchestra and has served on the Board of the Atlanta Chapter of
@@ -164,7 +164,7 @@ sections:
         alt_text: John McCutcheon
       - name: Averil Taylor
         title: Local Executive Board and AFM Convention Diversity Delegate
-        text: Averil Taylor is an active Atlanta musician who also studied music in the
+        text: AVERIL TAYLOR is an active Atlanta musician who also studied music in the
           city. He is a former student of John Head and James Patterson. He
           studied music in undergrad at Clark Atlanta University and in grad
           school at Georgia State University.  Averil maintains an active
@@ -179,7 +179,7 @@ sections:
       - name: Meghan Yost
         title: Local Executive Board
         text: >-
-          Meghan Yost-Coe, violist and pedagogue, strongly believes in music as
+          MEGHAN YOST-COE, violist and pedagogue, strongly believes in music as
           a vehicle
 
           for human expression and social change. She teaches and performs with
