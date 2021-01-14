@@ -48,6 +48,25 @@ sections:
           His goal as President is to get the right conversations in progress so that musicians can decide how best to deal with the concerns of their professional lives. He encourages the Board to examine, with an open mind, ways to identify and inspire these voices. 
         image: /assets/bruce-kenney.jpg
         alt_text: Bruce Kenney
+      - name: Michael Moore
+        title: Vice President and AFM Convention Delegate
+        text: >
+          Michael Moore was raised in Decatur, GA., himself the son of long-time
+          AFM member Bill Moore, and has been a working member of Local 148-462
+          since 1965 at the age of 15, when he worked a steady cocktail hour job
+          on bass and guitar at the Hyatt Regency. He has been Principal Tuba in
+          the Atlanta Symphony Orchestra since 1968 and has been on the
+          executive board of the Local since 1982. He also serves on the Local’s
+          Finance Committee and is Treasurer of both the International
+          Conference of Symphony and Opera Orchestras (ICSOM) and the Atlanta
+          Symphony Orchestra Players’ Association (ASOPA). He is President and
+          founder of the Atlanta Brass Society,Inc.and is tubaist with the
+          Atlanta Symphony Brass Quintet. Michael’s background in both classical
+          and popular music has contributed to his understanding of the music
+          industry and his willingness to serve the Local for nearly his
+          lifetime. 
+        image: /assets/mmooreheadshot.jpg
+        alt_text: Michael Moore
       - name: Christina Ottaviano
         title: Secretary-Treasurer
         text: CHRISTINA OTTAVIANO has been Secretary of the Atlanta Federation of
@@ -64,23 +83,6 @@ sections:
           husband and young son.
         image: /assets/tina-headshot.jpg
         alt_text: Christina Ottaviano
-      - name: Brandon Bush
-        title: Local Executive Board
-        text: BRANDON BUSH has performed on 100s of recordings including GRAMMY® Award
-          nominated and winning releases by John Mayer, Sugarland, and Shawn
-          Mullins. As a former member of the rock band Train, Brandon toured the
-          world indulging in his life long fantasy of performing a keyboard solo
-          on a smoke emitting Moog synthesizer. He has composed and music
-          directed for theatrical productions of “Approval Junkie”, “Shakespeare
-          In Love” and the world premier musical “Troubadour” at the Alliance
-          Theater in Atlanta, GA. In addition to scoring recent podcasts,
-          “Gangster House” and “The Baron of Botox”, he has provided original
-          music for TCM and the Food Network. Currently, Bush is touring as the
-          keyboardist with Sugarland and as the music director for his brother
-          Kristian Bush. He manages the Atlanta based music collective Songs of
-          the Architect.
-        image: /assets/brandon-bush.jpg
-        alt_text: Brandon Bush
       - name: Bill Hatcher
         title: Local Executive Board
         text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
@@ -91,25 +93,6 @@ sections:
           served as an executive board member for many years. "
         image: /assets/bill-hatcher.jpg
         alt_text: Bill Hatcher
-      - name: John McCutcheon
-        title: Local Executive Board
-        text: >
-          JOHN MCCUTCHEON is a nearly-50-year veteran of the US folk music
-          scene. A songwriter, composer, multi-instrumentalist, author, actor,
-          an international touring artist, and long-time labor activist. His is
-          a recording artist with over 40 albums to his credit, including 6
-          Grammy award nominations. His song “Christmas in the Trenches was
-          named “one of the 100 essential folksongs” by Folk Alley. He is a
-          much-in demand workshop leader and is considered one of the world
-          masters of the hammer dulcimer. He has an extensive collection of
-          field recordings from around the world in the Archive of American
-          Folksong in the American Folklife Center in the Library of Congress.
-
-          McCutcheon was one of the co-founders of AFM Local 1000 and served as its president for fifteen years. He is a 2-term Local Executive Board member of 148-462 and serves on its Organizing Task Force, Fair Trade Music Committee and Solidarity Team.
-
-          He is a resident of Smoke Rise, GA where he lives with his wife, author Carmen Agra Deedy and is the doting grandfather of five.
-        image: /assets/john-mccutcheon.jpg
-        alt_text: John McCutcheon
       - name: Eric Ferguson
         title: Local Executive Board
         text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
@@ -151,8 +134,36 @@ sections:
           our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
-      - name: Averil Taylor
+      - name: Kevin Leahy
         title: Local Executive Board
+        text: "Kevin is a freelance drummer and percussionist who has worked in a
+          variety of settings. A graduate of the Indiana University Jacobs
+          School of Music, he is currently the Executive Director of the Atlanta
+          Pops Orchestra and has served on the Board of the Atlanta Chapter of
+          the Recording Academy. "
+        image: /assets/kleahyheadshot.jpg
+        alt_text: Kevin Leahy
+      - name: John McCutcheon
+        title: Local Executive Board
+        text: >
+          JOHN MCCUTCHEON is a nearly-50-year veteran of the US folk music
+          scene. A songwriter, composer, multi-instrumentalist, author, actor,
+          an international touring artist, and long-time labor activist. His is
+          a recording artist with over 40 albums to his credit, including 6
+          Grammy award nominations. His song “Christmas in the Trenches was
+          named “one of the 100 essential folksongs” by Folk Alley. He is a
+          much-in demand workshop leader and is considered one of the world
+          masters of the hammer dulcimer. He has an extensive collection of
+          field recordings from around the world in the Archive of American
+          Folksong in the American Folklife Center in the Library of Congress.
+
+          McCutcheon was one of the co-founders of AFM Local 1000 and served as its president for fifteen years. He is a 2-term Local Executive Board member of 148-462 and serves on its Organizing Task Force, Fair Trade Music Committee and Solidarity Team.
+
+          He is a resident of Smoke Rise, GA where he lives with his wife, author Carmen Agra Deedy and is the doting grandfather of five.
+        image: /assets/john-mccutcheon.jpg
+        alt_text: John McCutcheon
+      - name: Averil Taylor
+        title: Local Executive Board and AFM Convention Diversity Delegate
         text: Averil Taylor is an active Atlanta musician who also studied music in the
           city. He is a former student of John Head and James Patterson. He
           studied music in undergrad at Clark Atlanta University and in grad
@@ -165,4 +176,65 @@ sections:
           rights and leaving a positive footprint on the Atlanta music scene.
         image: /assets/averil-taylor.jpg
         alt_text: Averil Taylor
+      - name: Meghan Yost
+        title: Local Executive Board
+        text: >-
+          Meghan Yost-Coe, violist and pedagogue, strongly believes in music as
+          a vehicle
+
+          for human expression and social change. She teaches and performs with
+
+          organizations across the country that provide low cost or tuition free training for
+
+          young musicians. Her commitment to accessibility has led her to work with El-
+
+          Sistema inspired programs such as Atlanta Music Project, Porterville Strings, and
+
+          Carnegie Hall’s PlayUSA. She regularly travels to give masterclasses and
+
+          workshops throughout the U.S. and last year was invited as Guest Artist to
+
+          Sunway University in Kuala Lumpur, Malaysia to give masterclasses and
+
+          concerts. Ms. Yost-Coe is also the Viola Professor at Clayton State University. In
+
+          2020 she was named Music Educator of the Year by the Atlanta Federation of
+
+          Musicians.
+
+          An active chamber musician, Ms. Yost-Coe has collaborated with Harlem
+
+          Quartet, Dali Quartet, Elmar Oliveira, Petar Jankovic, Bright Feather Ensemble,
+
+          and Kaleidoscope Chamber Orchestra. Her love of chamber music blossomed
+
+          under the guidance of her mentors Joel Krosnick, David Cole, Chauncey
+
+          Patterson, Doris Lederer, and Kathy Murdock. She regularly performs at The
+
+          Porterville Strings Festival and the Atlanta Music Project Summer Chamber
+
+          Series. Past festival performances include Kneisel Hall Chamber Music School,
+
+          the Dali Quartet International Music Festival, and the Garth Newel Music Center.
+
+          Love of chamber music also led her to collaborate with the indie-folk rock band
+
+          River City Extension, touring the continental U.S. for two years. Her live session
+
+          recordings can be heard on Audiotree, Little Elephant Room, and Daytrotter.
+
+          Yost-Coe performs with orchestras across the southeast, including the Atlanta
+
+          Opera, Charleston Symphony Orchestra, and Columbus Symphony Orchestra.
+
+          She has performed throughout the U.S., Canada, China, Malaysia, and Brazil.
+
+          Yost-Coe received her Bachelor of Music from Indiana University Jacobs School
+
+          of Music, where she studied with Yuval Gotlibovich and Alan deVeritch; and her
+
+          Master of Music from Lynn Conservatory of Music under Ralph Fielding.
+        image: /assets/myostheadshot.jpg
+        alt_text: Meghan Yost
 ---
