@@ -178,63 +178,21 @@ sections:
         alt_text: Averil Taylor
       - name: Meghan Yost
         title: Local Executive Board
-        text: >-
+        text: >
           MEGHAN YOST-COE, violist and pedagogue, strongly believes in music as
-          a vehicle
+          a vehicle for human expression and social change. She teaches and
+          performs with organizations across the country that provide low cost
+          or tuition free training for young musicians. Her commitment to
+          accessibility has led her to work with El- Sistema inspired programs
+          such as Atlanta Music Project, Porterville Strings, and Carnegie
+          Hall’s PlayUSA. She regularly travels to give masterclasses and
+          workshops throughout the U.S. and last year was invited as Guest
+          Artist to Sunway University in Kuala Lumpur, Malaysia to give
+          masterclasses and concerts. Ms. Yost-Coe is also the Viola Professor
+          at Clayton State University. In 2020 she was named Music Educator of
+          the Year by the Atlanta Federation of Musicians. 
 
-          for human expression and social change. She teaches and performs with
-
-          organizations across the country that provide low cost or tuition free training for
-
-          young musicians. Her commitment to accessibility has led her to work with El-
-
-          Sistema inspired programs such as Atlanta Music Project, Porterville Strings, and
-
-          Carnegie Hall’s PlayUSA. She regularly travels to give masterclasses and
-
-          workshops throughout the U.S. and last year was invited as Guest Artist to
-
-          Sunway University in Kuala Lumpur, Malaysia to give masterclasses and
-
-          concerts. Ms. Yost-Coe is also the Viola Professor at Clayton State University. In
-
-          2020 she was named Music Educator of the Year by the Atlanta Federation of
-
-          Musicians.
-
-          An active chamber musician, Ms. Yost-Coe has collaborated with Harlem
-
-          Quartet, Dali Quartet, Elmar Oliveira, Petar Jankovic, Bright Feather Ensemble,
-
-          and Kaleidoscope Chamber Orchestra. Her love of chamber music blossomed
-
-          under the guidance of her mentors Joel Krosnick, David Cole, Chauncey
-
-          Patterson, Doris Lederer, and Kathy Murdock. She regularly performs at The
-
-          Porterville Strings Festival and the Atlanta Music Project Summer Chamber
-
-          Series. Past festival performances include Kneisel Hall Chamber Music School,
-
-          the Dali Quartet International Music Festival, and the Garth Newel Music Center.
-
-          Love of chamber music also led her to collaborate with the indie-folk rock band
-
-          River City Extension, touring the continental U.S. for two years. Her live session
-
-          recordings can be heard on Audiotree, Little Elephant Room, and Daytrotter.
-
-          Yost-Coe performs with orchestras across the southeast, including the Atlanta
-
-          Opera, Charleston Symphony Orchestra, and Columbus Symphony Orchestra.
-
-          She has performed throughout the U.S., Canada, China, Malaysia, and Brazil.
-
-          Yost-Coe received her Bachelor of Music from Indiana University Jacobs School
-
-          of Music, where she studied with Yuval Gotlibovich and Alan deVeritch; and her
-
-          Master of Music from Lynn Conservatory of Music under Ralph Fielding.
+          An active chamber musician, Ms. Yost-Coe has collaborated with Harlem Quartet, Dali Quartet, Elmar Oliveira, Petar Jankovic, Bright Feather Ensemble, and Kaleidoscope Chamber Orchestra. Her love of chamber music blossomed under the guidance of her mentors Joel Krosnick, David Cole, Chauncey Patterson, Doris Lederer, and Kathy Murdock. She regularly performs at The Porterville Strings Festival and the Atlanta Music Project Summer Chamber Series. Past festival performances include Kneisel Hall Chamber Music School, the Dali Quartet International Music Festival, and the Garth Newel Music Center. Love of chamber music also led her to collaborate with the indie-folk rock band River City Extension, touring the continental U.S. for two years. Her live session recordings can be heard on Audiotree, Little Elephant Room, and Daytrotter. Yost-Coe performs with orchestras across the southeast, including the Atlanta Opera, Charleston Symphony Orchestra, and Columbus Symphony Orchestra. She has performed throughout the U.S., Canada, China, Malaysia, and Brazil. Yost-Coe received her Bachelor of Music from Indiana University Jacobs School of Music, where she studied with Yuval Gotlibovich and Alan deVeritch; and her Master of Music from Lynn Conservatory of Music under Ralph Fielding.
         image: /assets/myostheadshot.jpg
         alt_text: Meghan Yost
 ---
