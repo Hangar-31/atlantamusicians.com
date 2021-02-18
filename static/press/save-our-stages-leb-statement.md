@@ -12,6 +12,8 @@ content: >-
   passage:
 
 
+
+
   We, the Executive Board of the Atlanta Federation of Musicians, Local 148-462, applaud the passage of the Save Our Stages Act and the aid it will provide to local venues.
 
 
@@ -27,5 +29,7 @@ content: >-
   The Save Our Stages initiative will nurture the very roots of our culture, enabling renewal and growth of that most basic human need - Music.
 
 
-  <center> To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit www.saveourstages.com.
+
+
+  To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit www.saveourstages.com.
 ---
