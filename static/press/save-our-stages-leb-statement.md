@@ -3,7 +3,7 @@ type: press
 title: Save Our Stages LEB Statement
 subtitle: Passage Critical for Cultural Life
 date: 2021-02-12T16:20:40.947Z
-image: /assets/save-our-stages-afm-press.jpg
+image: /assets/saveourstages.png
 alt_text: Save Our Stages
 content: >-
   In support of local venues, the AFM campaigned last summer and fall to include
