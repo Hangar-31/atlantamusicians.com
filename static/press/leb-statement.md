@@ -27,5 +27,5 @@ content: >-
   The Save Our Stages initiative will nurture the very roots of our culture, enabling renewal and growth of that most basic human need - Music.
 
 
-  To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit \[www.saveourstages.com](www.saveourstages.com).
+  To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit [www.saveourstages.com](www.saveourstages.com).
 ---
