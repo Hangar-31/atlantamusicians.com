@@ -1,15 +1,20 @@
 ---
 type: press
-title: LEB Statement
-subtitle: Save Our Stages Critical to Cultural Life
+title: Save Our Stages
+subtitle: LEB Statement on Critical Passage of Save Our Stages Act
 date: 2021-02-12T16:20:40.947Z
-image: /assets/save-our-stages-afm-press.jpg
+image: /assets/saveourstages.png
 alt_text: Save Our Stages
+postTags:
+  - industry
+  - afm
 content: >-
   In support of local venues, the AFM campaigned last summer and fall to include
   the much-needed Save Our Stages Act in relief legislation being debated within
   the Senate. The Local Executive Board releases the following statement in
   celebration of its passage:
+
+
 
 
   We, the Executive Board of the Atlanta Federation of Musicians, Local 148-462, applaud the passage of the Save Our Stages Act and the aid it will provide to local venues.
@@ -27,5 +32,7 @@ content: >-
   The Save Our Stages initiative will nurture the very roots of our culture, enabling renewal and growth of that most basic human need - Music.
 
 
-  To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit [www.saveourstages.com](www.saveourstages.com).
+
+
+  To Learn More about the Save Our Stages Act and the National Independent Venue Association, visit www.saveourstages.com.
 ---
