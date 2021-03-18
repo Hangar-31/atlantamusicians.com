@@ -1,6 +1,6 @@
 ---
 type: blog
-title: Secretary-Treasurer's Notes
+title: Expanded Streaming Rights
 subtitle: Electronic Media Agreements Remain Flexible Amid Shifting Working Conditions
 date: 2020-09-01T14:21:59.818Z
 image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
