@@ -1,17 +1,15 @@
 ---
 type: blog
-title: Secretary-Treasurer's Notes
-subtitle: Shifting Local Operations Off-Site but Continuing Relief Efforts
+title: Off-Site Operations
+subtitle: "Secretary-Treasurer's Notes: Continuing Relief Efforts"
 date: 2020-05-01T18:16:16.020Z
 image: /assets/aaron-burden-xg8iqmqmitm-unsplash.jpg
 alt_text: Blog
 content: >-
-  The last couple of months have brought extraordinary change to the music
-  industry. While there is much yet unknown about what lies ahead, the Atlanta
-  Federation of Musicians is making every effort to adapt and prepare for an
-  uncertain future. Office operations continue as usual, albeit remotely, with
-  the dual goals of directing resources to the immediate needs of our membership
-  and emerging from this crisis stronger than ever! 
+  By Christina Ottaviano
+
+
+  The last couple of months have brought extraordinary change to the music industry. While there is much yet unknown about what lies ahead, the Atlanta Federation of Musicians is making every effort to adapt and prepare for an uncertain future. Office operations continue as usual, albeit remotely, with the dual goals of directing resources to the immediate needs of our membership and emerging from this crisis stronger than ever! 
 
 
   Among the initiatives we’ve been pursing is an earmarked fund for COVID relief for Georgia Musicians within MusiCares. To date, over $10,000 has been contributed to the fund with $5,000 of that being matching contributions from Local 148-462. If you’d like to contribute to this fund, you may do so at www.gofundme.com/GeorgiaCOVID-Musician-Relief-Fund. If you are in need of aid, you can apply for these funds by filling out the application at www.grammy.com/musicares. 
