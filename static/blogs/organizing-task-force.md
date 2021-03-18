@@ -1,7 +1,7 @@
 ---
 type: blog
-title: ORGANIZING TASK FORCE
-subtitle: 2021 Educator Award Now Accepting Applications
+title: 2021 Educator Award
+subtitle: Organizing Task Force Now Accepting Applications
 date: 2021-02-15T14:02:30.369Z
 image: /assets/scrolls.png
 alt_text: Educator Award
