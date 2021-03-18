@@ -25,7 +25,11 @@ content: >-
 
   office@atlantamusicians.com\
 
+  \
+
   or mail to\
+
+  \
 
   Atlanta Federation of Musicians\
 
