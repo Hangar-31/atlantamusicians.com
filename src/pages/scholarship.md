@@ -7,7 +7,7 @@ seo_description: scholarship
 sections:
   - type: section_banner
     title: 2021 John H. Head Scholarship
-    content_image: /assets/scholarships.jpg
+    content_image: /assets/atlanta-musicians-placeholder-square.png
     content_alt_text: Scholarship
     file_url: /assets/2021-scholarship-application.pdf
     content_title: Applications Now Available
