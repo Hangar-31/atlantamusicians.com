@@ -14,7 +14,9 @@ sections:
     content_text: It’s time for the 22nd annual John H. Head Scholarship Auditions.
       Click the link to download our 2021 applications to be returned to our
       office by the deadline of Tuesday, May 25, 2021. Please email all
-      materials to Brian Desarro at office@atlantamusicians.com.
+      materials to Brian Desarro at office@atlantamusicians.com. Video
+      submissions for consideration by our panel of judges will be due Tuesday,
+      June 1, with details to be released after the application deadline.
     link_text: APPLY NOW
   - type: section_content_title_1
     title: John H. Head Scholarship
