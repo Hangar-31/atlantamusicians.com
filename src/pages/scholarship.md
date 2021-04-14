@@ -18,15 +18,16 @@ sections:
       senior planning to pursue a career in music, and who has been accepted to
       a college or university music program.
   - type: section_banner
-    title: 2021 Applications Now Available
+    title: 22nd John H. Head Scholarship
     content_image: /assets/atlanta-musicians-placeholder-square.png
-    content_alt_text: Application
+    content_alt_text: 2021 Applications Now Available
     content_text: It’s time for the 22nd annual John H. Head Scholarship Auditions.
       Click the link to download our 2021 applications to be returned to our
       office by the deadline of Tuesday, May 25, 2021. Please email all
       materials to Brian Desarro at office@atlantamusicians.com.
     link_text: APPLICATION
     file_url: /assets/2021-scholarship-application.pdf
+    content_title: "Download "
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
