@@ -11,6 +11,16 @@ sections:
     content_alt_text: placeholder
   - type: section_content_title_1
     title: John H. Head Scholarship
+  - type: section_banner_small
+    background_color_toggle: false
+    title: 2021 Applications Now Available
+    text: It’s time for the 22nd annual John H. Head Scholarship Auditions. Click
+      the link to download our 2021 applications to be returned to our office by
+      the deadline of Tuesday, May 25, 2021. Please email all materials to Brian
+      Desarro at office@atlantamusicians.com.
+    image: /assets/atlanta-musicians-placeholder-square.png
+    alt_text: Application
+    link_text: APPLICATION
   - type: section_content_text
     text: The Atlanta Federation of Musicians has developed a scholarship program to
       encourage and support future professional instrumentalists. Auditions are
