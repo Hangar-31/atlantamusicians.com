@@ -1,39 +1,25 @@
 ---
 type: blog
 title: 2021 Educator Award
-subtitle: Organizing Task Force Now Accepting Applications
-date: 2021-02-15T14:02:30.369Z
+subtitle: Ronda Respess’ Dedication to Music Excellence Lives on Franklin Pond Road
+date: 2021-05-03T13:02:30.369Z
 image: /assets/scrolls.png
 alt_text: Educator Award
-postTags: []
+postTags:
+  - Organizing Task Force
 content: >-
-  ### DO YOU KNOW AN MUSIC EDUCATOR DESERVING OF RECOGNITION?
+  ### Congratulations to Local member Ronda Respess, winner of the third annual
+  Educator Award!
 
 
-  ### Call for nominations for the 2021 Educator Award presented by the Organizing Task Force are being accepted now
+  Ronda is the epitome of Music Education Excellence, not just through her previous work with the Atlanta Symphony Orchestra Talent Development Program, but through her continued dedication to strengthening the skills of young musicians through Franklin Pond Chamber Music. As part of this award, the OTF is granting her $500 to contribute to a music education cause of her choice. More information will be available on this through our blog later this month. 
 
 
-  \    Local 148-462 established an annual Educator Award in 2019. Organized by the OTF, this award is an honor from you, our members, to a brother or sister in the Local who exemplifies music education excellence.\
-       As part of our commitment to music education, the winner is given $500 earmarked for a cause or organization of their choosing that is dedicated to music education.\
-       To find 2021’s educator, we need YOUR help! From now until Monday, April 12, we are accepting nominations of Active Local 148-462 members who are rising to the challenges of teaching in this current environment and are dedicated to their students above and beyond notes on a page.
-
-  To Nominate a Local Member:
+  Founded in 2001, Franklin Pond Chamber Music began as a “Summer Intensive Program after realizing Atlanta’s need for a high quality summer program for serious string students”. From there, the program quickly grew into a year-round study of chamber music, enriching the lives of young musicians and allowing them to not only broaden their own horizons, but also bring the joy of music to their communities. 
 
 
-  Email or send a letter to our office by Monday, April 12 with your nominee’s name, related experience, and the reason you are nominating this person.
+  Since 2017, Franklin Pond Chamber Music has also held a yearly Chamber Music Competition, providing an opportunity to reward students for their music excellence. 
 
 
-  office@atlantamusicians.com\
-
-  \
-
-  or mail to\
-
-  \
-
-  Atlanta Federation of Musicians\
-
-  551 Dutch Valley Road NE\
-
-  Atlanta, GA 30324
+  Ronda is a retired violinist with the ASO, and Franklin Pond Chamber Music has garnered national attention for her students and intensive programs (affectionately named after the street where the program began).
 ---
