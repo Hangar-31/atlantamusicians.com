@@ -3,11 +3,11 @@ type: blog
 title: NEA HERITAGE FELLOWSHIP
 subtitle: William Bell Honored as Mentor, Trailblazer for "Memphis Soul"
 date: 2021-06-11T17:17:12.054Z
-image: /assets/rehearsal-hall-angle-1.jpg
+image: /assets/bell-coat-hirez.jpg
 alt_text: William Bell
 content: >-
-  ## Mentor and Trailblazer, William Bell Receives NEA Heritage Fellowship and
-  National Recognition for Life’s Work
+  ## Mentor and Trailblazer, William Bell Receives 2020 NEA Heritage Fellowship
+  and National Recognition for Life’s Work
 
 
   Longtime Local 148-462 member William Bell was awarded the highest honor our government can bestow upon an artist as the recipient of a 2020 National Endowment for the Arts Heritage Fellowship. As an early artist with Stax Records in Memphis, Tennessee, Bell was a game-changing contributor to what is now known as the “Memphis Sound”. Moving to Atlanta in the late ‘70s and a member of the Local since the mid-’80s, Bell continued to top the charts and hone his craft.
