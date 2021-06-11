@@ -22,17 +22,17 @@ content: >-
   Watch the interview:
 
 
-  www.youtu.be/KP6CHF4QeP0
+  [www.youtu.be/KP6CHF4QeP0](www.youtu.be/KP6CHF4QeP0)
 
 
   William Bell NEA Heritage Fellowship Bio:
 
 
-  www.arts.gov/honors/heritage/william-bell
+  [www.arts.gov/honors/heritage/william-bell](www.arts.gov/honors/heritage/william-bell)
 
 
   2020 NEA Heritage Fellowship Award Ceremony:
 
 
-  www.arts.gov/honors/heritage
+  [www.arts.gov/honors/heritage](www.arts.gov/honors/heritage)
 ---
