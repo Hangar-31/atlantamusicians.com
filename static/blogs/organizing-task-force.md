@@ -25,10 +25,4 @@ content: >-
 
 
   Ronda is a retired violinist with the ASO, and Franklin Pond Chamber Music has garnered national attention for her students and intensive programs (affectionately named after the street where the program began).
-
-
-  Visit their website to learn more: [www.franklinpond.org ](www.franklinpond.org)
-
-
-  Support Franklin Pond Chamber Music: [www.franklinpond.org/support](www.franklinpond.org/support)
 ---
