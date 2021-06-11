@@ -19,11 +19,8 @@ content: >-
   Sitting down for a conversation, LEB Director John McCutcheon spoke with Bell about this honor and the importance of passing on the art of storytelling through his music.
 
 
-  [Watch the Interview](https://youtu.be/KP6CHF4QeP0)
+  [Watch the interview:](https://youtu.be/KP6CHF4QeP0)
 
 
-  [William Bell NEA Heritage Fellowship Bio](https://www.arts.gov/honors/heritage/william-bell)
-
-
-  [2020 NEA Heritage Fellowship Award Ceremony](https://www.arts.gov/honors/heritage)
+  [www.youtu.be/KP6CHF4QeP0](https://youtu.be/KP6CHF4QeP0)
 ---
