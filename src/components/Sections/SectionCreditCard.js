@@ -6,6 +6,7 @@ import {
   Elements, CardNumberElement, CardCvcElement, CardExpiryElement, useElements, useStripe,
 } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
+import ReCAPTCHA from 'react-google-recaptcha';
 import { fonts, colors, mq } from '../../configs/styles';
 
 const stripePromise = loadStripe('pk_live_kcYJoaFrmW9ymewnQLcFv6hB00VYFtaSAf');
@@ -178,8 +179,16 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const [postal, setPostal] = useState('');
   const [amount, setAmount] = useState('');
   const [email, setEmail] = useState('');
+  const [secure, setSecure] = useState(false);
+  function onChange(value) {
+    setSecure(!!value);
+  }
   const submitForm = async (ev) => {
     ev.preventDefault();
+    if (!secure) {
+      setStatus('ERROR');
+      return;
+    }
     [...document.querySelectorAll('button[type="submit"]')].map((btn) => btn.setAttribute('disabled', 'disabled'));
     if (!stripe || !elements) {
       // Stripe.js has not loaded yet. Make sure to disable
@@ -319,6 +328,11 @@ const SectionCreditCard = ({ section, ThankYou }) => {
             </StripeWrapper>
             <InputText css={css`grid-column: span 3;`} name="zip" placeholder="Zip Code" required value={postal} onChange={(e) => setPostal(e.target.value)} />
             <InputText css={css`grid-column: span 6; margin: 2rem 0;`} name="amount" placeholder="Amount" required value={amount} onChange={(e) => setAmount(e.target.value)} />
+            <ReCAPTCHA
+              sitekey="6LfYMkAbAAAAAD0j6ku9DvGv5mcjt5G7mSI7Xu-8"
+              onChange={onChange}
+              css={css`grid-column: span 6; margin: 0 0 2rem 0;`}
+            />
 
 
             <ButtonSubmit type="submit" css={css`grid-column:  span 6;`}>
