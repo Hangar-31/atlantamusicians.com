@@ -18,10 +18,27 @@ exports.handler = function Handler(event, context, callback) {
       headers,
       body: '',
     });
+    return;
   }
+
 
   // parse the body contents into the data variable
   const data = JSON.parse(event.body);
+
+  const now = new Date();
+  const seconds = 30;
+  const before = new Date(now.getTime() - seconds * 1000);
+  const after = new Date(now.getTime() + seconds * 1000);
+  // check that the request has happened in the last minute
+  if (data.date < before || data.date > after) {
+    callback(null, {
+      statusCode,
+      headers,
+      body: JSON.stringify({ status: 'incorrect date' }),
+    });
+    return;
+  }
+  delete data.date;
 
   // make sure we have all required data
   if (!data.paymentMethod || !data.amount) {

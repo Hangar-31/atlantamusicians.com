@@ -230,6 +230,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
           type: section.payment_type,
           description: section.title,
           email,
+          date: new Date(),
           extraData: {
             ...(section.payment_type === 'payment' ? section.list.reduce((acc, { name: key, text }) => {
               acc[key] = text;
@@ -276,7 +277,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
           <Form
             onSubmit={submitForm}
           >
-            <input type="text" name="a_password" style="display:none !important" tabIndex="-1" autoComplete="off" onChange={(e) => setBot(e.target.value)} />
+            <input type="text" name="a_password" css={{ display: 'none !important' }} tabIndex="-1" autoComplete="off" onChange={(e) => setBot(e.target.value)} />
             {section.payment_type === 'PAYMENT' && <InputText css={css`grid-column: span 6; margin-bottom: 3rem;`} name="for" placeholder="Name or Invoice Number" required value={forInput} onChange={(e) => setFor(e.target.value)} />}
             {section.payment_type === 'DONATE' && (
             <InputSelect
