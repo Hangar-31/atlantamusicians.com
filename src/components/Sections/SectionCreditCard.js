@@ -179,6 +179,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const [postal, setPostal] = useState('');
   const [amount, setAmount] = useState('');
   const [email, setEmail] = useState('');
+  const [bot, setBot] = useState(false);
   const [secure, setSecure] = useState(false);
   function onChange(value) {
     setSecure(!!value);
@@ -186,6 +187,10 @@ const SectionCreditCard = ({ section, ThankYou }) => {
   const submitForm = async (ev) => {
     ev.preventDefault();
     if (!secure) {
+      setStatus('ERROR');
+      return;
+    }
+    if (bot) {
       setStatus('ERROR');
       return;
     }
@@ -271,6 +276,7 @@ const SectionCreditCard = ({ section, ThankYou }) => {
           <Form
             onSubmit={submitForm}
           >
+            <input type="text" name="a_password" style="display:none !important" tabIndex="-1" autoComplete="off" onChange={(e) => setBot(e.target.value)} />
             {section.payment_type === 'PAYMENT' && <InputText css={css`grid-column: span 6; margin-bottom: 3rem;`} name="for" placeholder="Name or Invoice Number" required value={forInput} onChange={(e) => setFor(e.target.value)} />}
             {section.payment_type === 'DONATE' && (
             <InputSelect
