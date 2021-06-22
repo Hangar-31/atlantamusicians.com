@@ -24,6 +24,7 @@ exports.handler = function Handler(event, context, callback) {
 
   // parse the body contents into the data variable
   const data = JSON.parse(event.body);
+  console.log('data', data);
 
   const now = new Date();
   const seconds = 30;
@@ -31,6 +32,7 @@ exports.handler = function Handler(event, context, callback) {
   const after = new Date(now.getTime() + seconds * 1000);
   // check that the request has happened in the last minute
   if (data.date < before || data.date > after) {
+    console.log('not date');
     callback(null, {
       statusCode,
       headers,
@@ -49,7 +51,6 @@ exports.handler = function Handler(event, context, callback) {
     });
     return;
   }
-
   stripe.paymentIntents.create(
     {
       currency: 'usd',
