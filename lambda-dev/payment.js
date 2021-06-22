@@ -31,7 +31,7 @@ exports.handler = function Handler(event, context, callback) {
   const before = new Date(now.getTime() - seconds * 1000);
   const after = new Date(now.getTime() + seconds * 1000);
   // check that the request has happened in the last minute
-  if (data.date < before || data.date > after) {
+  if (!data.date || data.date < before || data.date > after) {
     console.log('not date');
     callback(null, {
       statusCode,
