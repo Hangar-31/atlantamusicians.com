@@ -105,7 +105,7 @@ const ContactForm = () => {
   return (
     <Form
       onSubmit={submitForm}
-      action="https://formspree.io/f/mleolwvg"
+      action="https://usebasin.com/f/c06e196e1482"
       method="POST"
     >
       <InputText name="Name" label="Name" placeholder="*Name" required />
@@ -121,7 +121,16 @@ const ContactForm = () => {
         css={css`grid-column: span 2;`}
       />
       {status === 'SUCCESS' ? (
-        <ButtonSubmit type="submit" css={css`grid-column: 2 / span 1; background: ${colors.blue}; color: #ffffff; pointer-events: none;`}>
+        <ButtonSubmit
+          type="submit"
+          css={css`grid-column: 2 / span 1;
+
+ color: #ffffff;
+
+ background: ${colors.blue};
+
+ pointer-events: none;`}
+        >
           Submitted Successfully!
         </ButtonSubmit>
       ) : (
@@ -130,7 +139,16 @@ const ContactForm = () => {
         </ButtonSubmit>
       )}
       {status === 'ERROR' && (
-      <ButtonSubmit type="submit" css={css`grid-column: 2 / span 1; background: ${colors.blue}; color: #ffffff; pointer-events: none;`}>
+      <ButtonSubmit
+        type="submit"
+        css={css`grid-column: 2 / span 1;
+
+ color: #ffffff;
+
+ background: ${colors.blue};
+
+ pointer-events: none;`}
+      >
         Error, Please Try Again
       </ButtonSubmit>
       )}
