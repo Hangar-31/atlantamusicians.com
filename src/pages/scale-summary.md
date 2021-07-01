@@ -9,7 +9,7 @@ sections:
     link_url: ""
     file_url: /assets/2020-scale-summary.pdf
     link_text: Download
-    content_title: AFM 148-462 2020 Scales
+    content_title: AFM 148-462 2021 Scales
     content_text: Local scales are updated annually and describe the minimum wages
       and working conditions voted on by our membership. This summary is
       provided for estimation purposes only. Work with your AFM contractor or
