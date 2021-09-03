@@ -71,7 +71,7 @@
     "stylelint-rational-order-plugin": "^1.0.2"
   },
   "resolutions": {
-    "minipass": "2.7.0",
+    "minipass": "^3.x",
     "graphql": "^14.x"
   },
   "keywords": [
