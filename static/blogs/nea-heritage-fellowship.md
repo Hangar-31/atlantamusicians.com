@@ -3,6 +3,8 @@ type: blog
 title: NEA HERITAGE FELLOWSHIP
 subtitle: William Bell Honored as Mentor, Trailblazer for "Memphis Soul"
 date: 2021-06-11T17:17:12.054Z
+seo_title: NEA HERITAGE FELLOWSHIP
+seo_description: Mentor and Trailblazer, William Bell Receives 2020 NEA Heritage Fellowship and National Recognition for Life’s Work
 image: /assets/adobestock_167578474.jpeg
 alt_text: William Bell
 content: >-
