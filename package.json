@@ -70,6 +70,10 @@
     "stylelint-processor-styled-components": "^1.10.0",
     "stylelint-rational-order-plugin": "^1.0.2"
   },
+  "resolutions": {
+    "minipass": "2.7.0",
+    "graphql": "^14.x"
+  },
   "keywords": [
     "gatsby",
     "Hangar 31",
