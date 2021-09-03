@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import { css } from '@emotion/core';
 
 // Components
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
 import {
