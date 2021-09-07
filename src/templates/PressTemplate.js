@@ -30,9 +30,7 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
 
-      <Helmet
-        defer={false}
-      >
+      <Helmet>
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={content} />
