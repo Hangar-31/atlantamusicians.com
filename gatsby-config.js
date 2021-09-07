@@ -85,7 +85,7 @@ module.exports = {
     'gatsby-plugin-robots-txt',
 
     // // Creates a Service Worker for offline use
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
 
     // Allows the use of react-helmet within Gatsby
     'gatsby-plugin-react-helmet',

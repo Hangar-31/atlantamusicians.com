@@ -30,9 +30,7 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Helmet
-        defer={false}
-      >
+      <Helmet>
         <meta property="og:url" content={typeof window !== 'undefined' ? window.location : 'https://atlantamusicians.com/blog'} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
