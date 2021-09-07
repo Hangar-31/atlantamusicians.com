@@ -30,7 +30,11 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Helmet>
+      <Helmet
+        htmlAttributes={"en"}
+      >
+        {title && <title>{title}</title>}
+        {content && <meta name="description" content={content} />}
         <meta property="og:url" content={typeof window !== 'undefined' ? window.location : 'https://atlantamusicians.com/blog'} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
