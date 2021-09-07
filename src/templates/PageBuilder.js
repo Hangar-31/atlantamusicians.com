@@ -28,6 +28,7 @@ export default ({ data }) => {
     markdownRemark: {
       frontmatter: {
         sections = [],
+        path,
         seo_title: seoTitle,
         seo_description: seoDescription,
       } = {},
@@ -40,6 +41,7 @@ export default ({ data }) => {
       <Helmet>
         {seoTitle && <title>{seoTitle}</title>}
         {seoDescription && <meta name="description" content={seoDescription} />}
+        <meta property="og:url" content={"https://atlantamusicians.com/" + path} />
       </Helmet>
       <ThemeProvider theme={{
         colorActive: '#EC4067',
