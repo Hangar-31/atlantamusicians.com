@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import { css } from '@emotion/core';
 
 // Components
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layouts/Layout';
 import SectionBanner from '../components/Sections/SectionBanner';
 import {
@@ -12,9 +13,7 @@ import {
   LinkBack, Container, P, Grid, Column, LinksBottom, Title1, PLink, Title2, Item, Image, List,
 } from './Styles';
 
-
 const ReactMarkdown = require('react-markdown');
-
 
 export default ({ data, pageContext }) => {
   const {
@@ -29,6 +28,15 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
+
+      <Helmet>
+        <title>{`${title} | AFM Blog`}</title>
+        <meta name="description" content={content} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={content} />
+        <meta property="og:image" content={`https://atlantamusicians.com${image}`} />
+      </Helmet>
 
       <SectionBanner section={section} />
 
