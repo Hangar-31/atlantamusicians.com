@@ -30,9 +30,9 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Helmet
-        htmlAttributes={"en"}
-      >
+      <Helmet>
+        <title>{title + " | AFM Blog"}</title>
+        <meta name="description" content={content} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={content} />

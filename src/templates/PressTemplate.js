@@ -31,6 +31,9 @@ export default ({ data, pageContext }) => {
     <Layout>
 
       <Helmet>
+        <title>{title + " | Press"}</title>
+        <meta name="description" content={content} />
+        <meta property="og:type" content="article" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={content} />
