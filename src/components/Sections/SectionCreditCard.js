@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-bind */
+/* eslint-disable react/jsx-props-no-multi-spaces */
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
@@ -10,7 +12,6 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { fonts, colors, mq } from '../../configs/styles';
 
 const stripePromise = loadStripe('pk_live_kcYJoaFrmW9ymewnQLcFv6hB00VYFtaSAf');
-
 
 const Grid = styled.div`
   position: relative;
@@ -70,7 +71,6 @@ const Form = styled.form`
     padding: 0 15px;
   }
 `;
-
 
 const InputText = styled.input`
   margin-bottom: 15px;
@@ -304,7 +304,6 @@ const SectionCreditCard = ({ section, ThankYou }) => {
               <CardNumberElement
                 id="cardNumber"
 
-
                 options={ELEMENT_OPTIONS}
               />
             </StripeWrapper>
@@ -340,7 +339,6 @@ const SectionCreditCard = ({ section, ThankYou }) => {
               onChange={onChange}
               css={css`grid-column: span 6; margin: 0 0 2rem 0;`}
             />
-
 
             <ButtonSubmit type="submit" css={css`grid-column:  span 6;`}>
               Send

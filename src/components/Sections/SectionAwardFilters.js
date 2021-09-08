@@ -7,7 +7,6 @@ const Container = styled.section`
   width: 100%;
 `;
 
-
 const Row = styled.div`
  margin-top: 20px;
 
@@ -37,7 +36,6 @@ const Year = styled.button`
     font-size: 18px;
   `}
 `;
-
 
 export default ({ years, setYear, currentYear }) => (
   <Container>

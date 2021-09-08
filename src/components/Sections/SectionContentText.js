@@ -47,7 +47,6 @@ const Text = styled.p`
   }
 `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

@@ -20,7 +20,6 @@ const Layout = ({ children }) => {
     if (window.innerWidth <= 992) setMobile(true);
   }, []);
 
-
   return (
     <>
       <Global
@@ -48,6 +47,5 @@ const Layout = ({ children }) => {
     </>
   );
 };
-
 
 export default Layout;

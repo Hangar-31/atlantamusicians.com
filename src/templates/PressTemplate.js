@@ -31,10 +31,10 @@ export default ({ data, pageContext }) => {
 
       <Helmet>
         <title>{`${title} | Press`}</title>
-        <meta name="description" content={content} />
+        <meta name="description" content={content.replace(/#/g, '').trim()} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content={content} />
+        <meta property="og:description" content={content.replace(/#/g, '').trim()} />
         <meta property="og:image" content={`https://atlantamusicians.com${image}`} />
       </Helmet>
 

@@ -217,11 +217,9 @@ export default () => {
       }
     });
 
-
     // Data
     setLinks(pathLinks);
   }, []);
-
 
   return (
     <Container>

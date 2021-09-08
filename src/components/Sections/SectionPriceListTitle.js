@@ -59,7 +59,6 @@ const Number = styled.span`
   }
 `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

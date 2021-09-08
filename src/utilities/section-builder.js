@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
 import SectionMasthead from '../components/Sections/SectionMasthead';
 import SectionBoxes from '../components/Sections/SectionBoxes';

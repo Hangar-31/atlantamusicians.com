@@ -62,7 +62,6 @@ const Title = styled.h1`
   }
 `;
 
-
 const TintImg = styled.div`
   position: absolute;
   top: 0;
@@ -75,7 +74,6 @@ const TintImg = styled.div`
   background: #469FD1;
   opacity: 0.5;
 `;
-
 
 const P = styled.p`
   position: relative;

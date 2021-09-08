@@ -39,7 +39,6 @@ const Row = styled.div`
   }
 `;
 
-
 export default ({ section, currentYear }) => (
   <>
     {section.year === currentYear && (

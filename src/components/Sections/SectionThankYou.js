@@ -4,7 +4,6 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 
-
 import { fonts, colors, mq } from '../../configs/styles';
 
 const Container = styled.section`
@@ -71,7 +70,6 @@ const ContainerImg = styled.div`
   min-height: 260px;
   overflow: hidden;
 `;
-
 
 const Img = styled.img`
   position: absolute !important;

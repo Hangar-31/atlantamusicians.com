@@ -43,7 +43,6 @@ const Title = styled.h3`
   }
 `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

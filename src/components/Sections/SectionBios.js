@@ -41,7 +41,6 @@ const Row = styled.div`
   }
 `;
 
-
 const Image = styled.figure`
   position: relative;
 
@@ -105,7 +104,6 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-
 const Bio = styled.article`
   position: relative;
 
@@ -165,7 +163,6 @@ ${(props) => props.open && `
   `}
 
 `;
-
 
 export default ({ section }) => (
   <Container>

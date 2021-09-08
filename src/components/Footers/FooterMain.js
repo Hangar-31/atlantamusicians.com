@@ -223,7 +223,6 @@ const FooterLinkA = styled.a`
   }
 `;
 
-
 // Bottom
 
 const ContainerBottom = styled.section`
@@ -283,7 +282,6 @@ const BottomText = styled.span`
 
   transition: 0.2s;
 `;
-
 
 export default () => (
   <>

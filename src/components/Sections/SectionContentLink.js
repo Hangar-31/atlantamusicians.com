@@ -3,7 +3,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 
-
 import { fonts, colors, mq } from '../../configs/styles';
 
 const Container = styled.section`
@@ -78,7 +77,6 @@ const GLink = styled(Link)`
     content: "";
   }
 `;
-
 
 export default ({ section }) => (
   <Container>

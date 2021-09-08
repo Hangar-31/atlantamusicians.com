@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { css } from '@emotion/core';
 
-
 import { Container, Grid } from 'semantic-ui-react';
 import MemberDirectory from '../usicians-directory';
 import { ProviderDirectory } from '../usicians-directory/context-directory';
@@ -55,7 +54,6 @@ const query = `{
     }
   }
 }`;
-
 
 const MemberDirectoryContext = () => {
   const [members, setMembers] = useState([]);
@@ -196,6 +194,5 @@ const MemberDirectoryContext = () => {
     </ProviderDirectory>
   );
 };
-
 
 export default MemberDirectoryContext;

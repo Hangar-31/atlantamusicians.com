@@ -85,7 +85,6 @@ const Link = styled(SuperLink)`
   }
 `;
 
-
 export default ({ section }) => (
   <Container
     css={css`

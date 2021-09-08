@@ -92,7 +92,6 @@ const GLink = styled.a`
   }
 `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

@@ -86,7 +86,6 @@ span + span {
 
 `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

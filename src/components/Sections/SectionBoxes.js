@@ -2,7 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 
-
 import { colors, fonts, mq } from '../../configs/styles';
 
 const Container = styled.section`

@@ -4,7 +4,6 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 import Link from 'gatsby-plugin-superlink';
 
-
 import { fonts, colors, mq } from '../../configs/styles';
 import ImageAccentCityScape from '../Images/Accents/ImageAccentCityScape';
 

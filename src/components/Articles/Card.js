@@ -61,7 +61,6 @@ const P = styled.p`
   }
 `;
 
-
 const PLink = styled(Link)`
   float: right;
 
@@ -71,7 +70,6 @@ const PLink = styled(Link)`
   text-transform: uppercase;
   text-decoration: underline;
 `;
-
 
 export default (link) => ({ member }) => (
 

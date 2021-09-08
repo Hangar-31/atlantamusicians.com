@@ -65,7 +65,6 @@ const Grid = styled.div`
 //   }
 // `;
 
-
 export default ({ section }) => (
   <Container>
     <Grid>

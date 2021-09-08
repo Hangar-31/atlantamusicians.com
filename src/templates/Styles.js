@@ -166,7 +166,6 @@ export const LinkBack = styled(Link)`
   }
 `;
 
-
 export const LinksBottom = styled(Link)`
   display: flex;
   align-items: center;

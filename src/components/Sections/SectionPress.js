@@ -35,7 +35,6 @@ const GetData = () => {
     }
   `);
 
-
   return (
     <ArticlesDirectory
       tags={tags.nodes[0].childMarkdownRemark.frontmatter.tags}
@@ -44,6 +43,5 @@ const GetData = () => {
     />
   );
 };
-
 
 export default GetData;
