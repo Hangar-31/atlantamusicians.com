@@ -32,6 +32,8 @@ const query = `{
     phone
     professionalName
     website
+    firstName
+    lastName
     address {
       formatted
     }
