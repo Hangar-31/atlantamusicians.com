@@ -51,7 +51,7 @@ sections:
         image: /assets/advocacy.jpg
         alt_text: placeholder
         link_text: Learn More
-        link_url: /
+        link_url: /advocacy
   - background_color_toggle: true
     alt_text: placeholder
     link_url: ""
