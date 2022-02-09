@@ -23,7 +23,7 @@ sections:
         image: /assets/find-a-musician.jpg
         alt_text: placeholder
         link_text: Find Musicians
-        link_url: /resources/find-a-musician
+        link_url: /find-a-musician
       - title: Read Our Blog
         text: Explore our blog to stay up to date on Local 148-462 events and membership
           activities.
@@ -37,7 +37,7 @@ sections:
         image: /assets/benefits.jpg
         alt_text: placeholder
         link_text: Explore Benefits
-        link_url: /membership/benefits
+        link_url: /benefits
       - title: John H. Head Scholarship
         text: Donate to support graduating high school seniors pursing a music career.
           All contributions are tax deductible.
