@@ -25,7 +25,7 @@ sections:
     payment_type: DONATE
     title: Testing
     list:
-      - name: Program 1
+      - name: John H. Head Scholarship
   - type: section_content_title_2
     title: PAY BY CHECK
   - type: section_content_text
