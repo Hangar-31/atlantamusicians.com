@@ -28,7 +28,7 @@ sections:
       a college or university music program.
 
 
-      For 2022, applicant's must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
+      For 2022, applicants must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
 
 
       Scholarship Deadlines:
@@ -40,10 +40,10 @@ sections:
       - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta
 
 
-      Auditions in front of our Union judging panel will last approximately 10 minutes, and all applicants will be assigned numbers to remain semi-anonymous. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
-
-
       Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encourages, but not required.
+
+
+      Auditions in front of our Union judging panel will be semi-anonymous, with all applicants assigned numbers and proctored by an office staff member. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
 
 
       Awards are designated at the sole discretion of our judging panel based solely on the content of the performance during the audition. Any awards received are intended to be used for education-related expenses according to the regulations of the Internal Revenue Service.
