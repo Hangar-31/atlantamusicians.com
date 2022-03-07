@@ -11,18 +11,48 @@ sections:
     content_alt_text: Scholarship
     file_url: ""
     content_title: Applications Now Available
-    content_text: It’s time for the 23rd annual John H. Head Scholarship Auditions.
-      Applications will be released soon. Please stay tuned for more details on
-      audition format and deadline for applications!
+    content_text: It’s time for the 23rd annual John H. Head Scholarship program.
+      Applications are now available by clicking the "Apply Now" link. All
+      applications are due to Aaron Kruziki, Office Manager, at
+      office@atlantamusicians.com by April 18, 2022. Details for this year's
+      scholarship auditions are below.
     link_text: ""
   - type: section_content_title_1
     title: John H. Head Scholarship
   - type: section_content_text
-    text: The Atlanta Federation of Musicians has developed a scholarship program to
+    text: >-
+      The Atlanta Federation of Musicians has developed a scholarship program to
       encourage and support future professional instrumentalists. Auditions are
       open to any instrumentalist in Georgia who is a graduating high school
       senior planning to pursue a career in music, and who has been accepted to
       a college or university music program.
+
+
+      For 2022, applicant's must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
+
+
+      <b>Scholarship Deadlines:</b>
+
+      - Monday April 18, 2022: Application due to Local via email or postmarked via USPS
+
+      - Monday April 25, 2022: Audition times (1 pm or after) and safety guidelines confirmed with applicants via email
+
+      - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta
+
+
+      Auditions in front of our Union judging panel will last approximately 10 minutes, and all applicants will be assigned numbers to remain semi-anonymous. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
+
+
+      Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encourages, but not required.
+
+
+      Awards are designated at the sole discretion of our judging panel based solely on the content of the performance during the audition. Any awards received are intended to be used for education-related expenses according to the regulations of the Internal Revenue Service.
+
+
+      For any questions, please feel free to reach out to Office Manager Aaron Kruziki by email at office@atlantamusicians.com or by phone at (404) 873-2033.
+
+
+      Auditions to be held at 551 Dutch Valley Road NE; Atlanta, GA 30324.
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
