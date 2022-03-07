@@ -31,7 +31,7 @@ sections:
       For 2022, applicant's must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
 
 
-      <b>Scholarship Deadlines:</b>
+      Scholarship Deadlines:
 
       - Monday April 18, 2022: Application due to Local via email or postmarked via USPS
 
