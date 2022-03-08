@@ -67,16 +67,134 @@ sections:
   - type: section_title
     title: Award Winners
   - type: section_content_title_1
-    title: 2020 John H. Head Scholarship Winners
-  - type: section_content_text
-    text: >-
-      For our 2020 auditions, we had 14 talented musicians audition, though in a
-      slightly different format than typical. We would like to wish all the
-      young musicians for submitting their audition videos, and we know they all
-      have a bright future ahead of them.
+    title: Past John H. Head Scholarship Winners
+  - type: section_awards
+    year: 2021
+    list:
+      - text: >
+          After a brief stint on violin, Evan Nicholson began studying cello at
+          the age of four. His primary teachers have
 
+          been Pamela Devenport, Avi Friedlander, Martin Gueorguiev, and Wendy Warner. Currently, Evan studies with
 
-      We would also like to thank our 2020 Scholarship judging panel of Local 148-462 musicians: Karen Vaughn-Smith, Shadwa Mussad, and Eric Hawkins.
+          Daniel Laufer. Evan spent four summers at Green Mountain Chamber Music Festival studying with Alan
+
+          Rafferty, Sarah Kim, and Alison Wells. For two year, Evan has attended the Bowdoin International Music
+
+          Festival and studied with Stephen Doane and David Ying. Evan has participated in cello workshops in
+
+          Cincinnati, Birmingham, Memphis, and Jacksonville and has played in the Franklin Pond Chamber Music
+
+          program and the Emory Youth programs including AJCO, EYCP, and EYSO. In 2019, Evan performed the first
+
+          movement of the Dvorak Cello Concerto with EYSO and the Columbus State Symphony Orchestra. In 2021,
+
+          Evan will perform the first movement of the Shostakovich Concerto with the Northwest Florida Symphony
+
+          Orchestra and Dekalb Symphony. During the summer of 2020, Evan participated in the Hilton Head Chamber
+
+          Music Institute and the Cincinnati Young Artists Cello Workshops. A passionate chamber musician, Evan
+
+          currently plays in the Sycamore Piano Trio and is currently a member of the Atlanta Symphony Youth
+
+          Orchestra. 
+        name: Evan Nicholson
+        title: First Place, cello
+        image: /assets/evan-nicholson-headshot.jpg
+        alt_text: Evan Nicholson
+      - name: Alex Carrillo
+        title: Second Place, clarinet
+        text: >-
+          I started to play the clarinet in the middle of my sixth grade year.
+          Since then, I have been first chair
+
+          clarinet of my District since eighth grade, and have participated in the GMEA all state band throughout
+
+          various years in middle and high school. In ninth grade, I was given the opportunity to be a part of the
+
+          Atlanta Symphony Orchestra Talent Development Program, which is a program that helps Latinx and
+
+          African American musicians pursue their dreams of becoming a professional musician. Throughout my
+
+          high school career, I have been a part of numerous youth ensembles in the metro Atlanta area, which
+
+          include: the Metropolitan Youth Symphony Orchestra, the Emory Youth Symphony Orchestra, the
+
+          Atlanta Youth Wind Symphony, and the Atlanta Symphony Youth Orchestra. I have also been able to
+
+          attend summer music festivals, such as the Sewanee Summer Music Festival, the Brevard Music Center,
+
+          and the Boston University Tanglewood Institute (prior to covid).
+        image: /assets/ev_alexandria-carrillo-1-aaf83e8805.jpg
+        alt_text: Alex Carrillo
+      - name: Zoe Gotlin
+        title: Third Place, violin
+        text: >-
+          This year I was accepted to
+
+          Vanderbilt University/Blair School of Music as a Violin Performance major, my proudest
+
+          achievement thus far. In 2019, I won "Outstanding Performer" at the Georgia Music Teachers
+
+          Association Concerto Competition. I have been selected to participate in various different
+
+          ensembles, including symphonies through Emory University where I am a principal player. I was
+
+          the Concertmaster of the Johns Creek High School top orchestra and I performed solos
+
+          throughout my high school career. I was chosen to be a part of the 2020 Bowdoin Summer
+
+          Music Festival, as well as the Governor's Honors Program. I performed a solo with an orchestra
+
+          at Carnegie Hall in 2017. I have extensive chamber music experience, including performing with
+
+          the world-renowned Vega Quartet and participating in a program for two summers at New York
+
+          University.
+        image: /assets/zoe-gotlin-headshot.jpg
+        alt_text: Zoe Gotlin
+      - name: Gordon Scott Meeks
+        title: Honorable Mention, violin
+        text: >
+          As a Fellow in the Atlanta Symphony Orchestra's Talent Development
+          Program, I have
+
+          participated for two seasons in the Atlanta Symphony Youth Orchestra, including one year as
+
+          Associate Concert Master; one season as Concert Master of the Metropolitan Youth Symphony
+
+          Orchestra at Georgia State University, and concert competition winner performing the Bruch
+
+          Concerto, Op. 26 in 2019. I performed Bach's "Partita in E Major" at the 2018 ATSA Conference;
+
+          performed for Atlanta Music Club; performed for the 75th Anniversary ASO pre-concert recital;
+
+          attended Brevard Summer Music Institute, 2018; GMEA All-State Symphony, 2018; Cobb All
+
+          Honors Orchestra, 2018; University of Indiana Summer Strings Institute, 2019; Cleveland
+
+          Inst itute of Music Audition Intensive, 2020; Sphinx Summer Academy, 2020; I have performed
+
+          in master classes for Kelly Hall Tompkins, Stephen Rose, Alex Kerr, Mimi Zweig and Rachel
+
+          Barton Pine.
+        image: /assets/ev_gordon-meeks-1-c962b8470e.jpg
+        alt_text: Gordon Scott Meeks
+      - name: Kangin Joo
+        title: Honorable Mention, violin
+        text: >-
+          In 2018, Kangin won an educational grant from Rachel Barton Pine
+          Foundation. 
+
+          In 2020, Kangin won 2nd prize and Edward Braustein Award in New York International Music Concours.
+
+          In the same year, Kangin also won 2nd prize in The 1st Premier Online Music Competition, which was held in Korea.
+
+          Kangin Joo was a concertmaster in Metropolitan Youth Symphony Orchestra in 2018. 
+
+          After MYSO, Kangin got into Atlanta Symphony Youth Orchestra in the same year and has been a member of ASYO until now. 
+        image: /assets/kangin-joo.jpg
+        alt_text: Kangin Joo
   - type: section_awards
     year: 2020
     list:
