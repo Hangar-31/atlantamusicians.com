@@ -118,27 +118,19 @@ sections:
         title: Honorable Mention, violin
         text: >
           As a Fellow in the Atlanta Symphony Orchestra's Talent Development
-          Program, I have
-
-          participated for two seasons in the Atlanta Symphony Youth Orchestra, including one year as
-
-          Associate Concert Master; one season as Concert Master of the Metropolitan Youth Symphony
-
-          Orchestra at Georgia State University, and concert competition winner performing the Bruch
-
-          Concerto, Op. 26 in 2019. I performed Bach's "Partita in E Major" at the 2018 ATSA Conference;
-
-          performed for Atlanta Music Club; performed for the 75th Anniversary ASO pre-concert recital;
-
-          attended Brevard Summer Music Institute, 2018; GMEA All-State Symphony, 2018; Cobb All
-
-          Honors Orchestra, 2018; University of Indiana Summer Strings Institute, 2019; Cleveland
-
-          Inst itute of Music Audition Intensive, 2020; Sphinx Summer Academy, 2020; I have performed
-
-          in master classes for Kelly Hall Tompkins, Stephen Rose, Alex Kerr, Mimi Zweig and Rachel
-
-          Barton Pine.
+          Program, Gordon Scott Meeks participated for two seasons in the
+          Atlanta Symphony Youth Orchestra, including one year as Associate
+          Concert Master. He has performed one season as Concert Master of the
+          Metropolitan Youth Symphony Orchestra at Georgia State University, and
+          won the 2019 concerto competition performing the Bruch Concerto, Op.
+          26 in 2019. Gordon performed Bach's "Partita in E Major" at the 2018
+          ATSA Conference, and has performed for Atlanta Music Club, and the
+          75th Anniversary ASO pre-concert recital. Gordon attended Brevard
+          Summer Music Institute, GMEA All-State Symphony, Cobb All Honors
+          Orchestra, University of Indiana Summer Strings Institute, Cleveland
+          Institute of Music Audition Intensive, and the Sphinx Summer Academy.
+          Gordan has performed in master classes for Kelly Hall Tompkins,
+          Stephen Rose, Alex Kerr, Mimi Zweig and Rachel Barton Pine.
         image: /assets/ev_gordon-meeks-1-c962b8470e.jpg
         alt_text: Gordon Scott Meeks
       - name: Kangin Joo
