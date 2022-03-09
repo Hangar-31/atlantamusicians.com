@@ -130,7 +130,9 @@ sections:
           Orchestra, University of Indiana Summer Strings Institute, Cleveland
           Institute of Music Audition Intensive, and the Sphinx Summer Academy.
           Gordan has performed in master classes for Kelly Hall Tompkins,
-          Stephen Rose, Alex Kerr, Mimi Zweig and Rachel Barton Pine.
+          Stephen Rose, Alex Kerr, Mimi Zweig and Rachel Barton Pine. Gordon was
+          accepted into the Cincinnati Conservatory of Music as a violin
+          performance major. 
         image: /assets/ev_gordon-meeks-1-c962b8470e.jpg
         alt_text: Gordon Scott Meeks
       - name: Kangin Joo
