@@ -46,7 +46,7 @@ sections:
       - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta (starting at 1pm)
 
 
-      Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encourages, but not required.
+      Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encouraged, but not required.
 
 
       Auditions in front of our Union judging panel will be semi-anonymous, with all applicants assigned numbers and proctored by an office staff member. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
