@@ -11,11 +11,13 @@ sections:
     content_alt_text: Scholarship
     file_url: /assets/2022-scholarship-application.pdf
     content_title: Applications Now Available
-    content_text: It’s time for the 23rd annual John H. Head Scholarship Auditions!
-      Applications are now available by clicking the "Apply Now" link. All
-      applications are due by April 18, 2022. Please send application to
-      office@atlantamusicians.com. Details for this year's scholarship auditions
-      are below.
+    content_text: |+
+      It’s time for the 23rd annual John H. Head Scholarship Auditions! 
+      Applications are now available by clicking the "Apply Now" link. 
+      Details for this year's scholarship auditions are below.
+      Please send application to office@atlantamusicians.com. 
+      All applications are due by April 18, 2022. 
+
     link_text: APPLY HERE
   - type: section_content_title_1
     title: John H. Head Scholarship
