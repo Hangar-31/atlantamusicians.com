@@ -137,17 +137,13 @@ sections:
         alt_text: Gordon Scott Meeks
       - name: Kangin Joo
         title: Honorable Mention, violin
-        text: >-
-          In 2018, Kangin won an educational grant from Rachel Barton Pine
-          Foundation. 
-
-          In 2020, Kangin won 2nd prize and Edward Braustein Award in New York International Music Concours.
-
-          In the same year, Kangin also won 2nd prize in The 1st Premier Online Music Competition, which was held in Korea.
-
-          Kangin Joo was a concertmaster in Metropolitan Youth Symphony Orchestra in 2018. 
-
-          After MYSO, Kangin got into Atlanta Symphony Youth Orchestra in the same year and has been a member of ASYO until now. 
+        text: "Kangin Joo was accepted into the Schwob School of Music at Columbus State
+          University as violin performance major. Kangin won an educational
+          grant from Rachel Barton Pine Foundation and was a concertmaster in
+          MYSO, as well as a member of the Atlanta Symphony Youth Orchestra. In
+          2020, Kangin was a second place winner in the Edward Braustein Award
+          and took first place in the Premier Online Music Competition, held in
+          Korea. "
         image: /assets/kangin-joo.jpg
         alt_text: Kangin Joo
   - type: section_awards
