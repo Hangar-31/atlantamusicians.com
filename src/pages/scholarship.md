@@ -89,26 +89,14 @@ sections:
       - name: Alex Carrillo
         title: Second Place, clarinet
         text: >-
-          I started to play the clarinet in the middle of my sixth grade year.
-          Since then, I have been first chair
+          Alex Carrillo started clarinet at age 11. Since then, she has
+          participated in the GMEA all state band and was given the opportunity
+          to be a part of the Atlanta Symphony Orchestra Talent Development
+          Program, which is a program that helps Latinx and
 
-          clarinet of my District since eighth grade, and have participated in the GMEA all state band throughout
+          African American musicians pursue their dreams of becoming a professional musician. Alex has performed with the Metropolitan Youth Symphony Orchestra, the Emory Youth Symphony Orchestra, the Atlanta Youth Wind Symphony, and the Atlanta Symphony Youth Orchestra. Alex has attended the Sewanee Summer Music Festival, the Brevard Music Center,
 
-          various years in middle and high school. In ninth grade, I was given the opportunity to be a part of the
-
-          Atlanta Symphony Orchestra Talent Development Program, which is a program that helps Latinx and
-
-          African American musicians pursue their dreams of becoming a professional musician. Throughout my
-
-          high school career, I have been a part of numerous youth ensembles in the metro Atlanta area, which
-
-          include: the Metropolitan Youth Symphony Orchestra, the Emory Youth Symphony Orchestra, the
-
-          Atlanta Youth Wind Symphony, and the Atlanta Symphony Youth Orchestra. I have also been able to
-
-          attend summer music festivals, such as the Sewanee Summer Music Festival, the Brevard Music Center,
-
-          and the Boston University Tanglewood Institute (prior to covid).
+          and the Boston University Tanglewood Institute. She is currently a clarinet performance major at the University of Georgia.
         image: /assets/ev_alexandria-carrillo-1-aaf83e8805.jpg
         alt_text: Alex Carrillo
       - name: Zoe Gotlin
