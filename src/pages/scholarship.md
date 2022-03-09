@@ -21,6 +21,10 @@ sections:
     link_text: APPLY HERE
   - type: section_content_title_1
     title: John H. Head Scholarship
+  - type: section_content_images
+    list:
+      - image: /assets/john-h.-head-scholarship-poster.png
+        alt_text: Scholarship Poster
   - type: section_content_text
     text: >-
       The Atlanta Federation of Musicians has developed a scholarship program to
