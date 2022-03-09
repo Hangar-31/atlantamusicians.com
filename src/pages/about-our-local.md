@@ -67,22 +67,20 @@ sections:
           lifetime. 
         image: /assets/mmooreheadshot.jpg
         alt_text: Michael Moore
-      - name: Christina Ottaviano
+      - name: Brian Desarro
         title: Secretary-Treasurer
-        text: CHRISTINA OTTAVIANO has been Secretary of the Atlanta Federation of
-          Musicians since 2012 and Secretary-Treasurer since 2018. Previously,
-          she served as Local Executive Board Director and ROPA Delegate for the
-          Atlanta Ballet Orchestra. Christina received her Bachelor of Music in
-          Double Bass Performance from the New England Conservatory and Master
-          of Music from the University of Georgia. She performed as a member of
-          the Atlanta Ballet Orchestra, the Atlanta Opera Orchestra, and the
-          Columbus Symphony for over a decade. Her students have gone on to
-          pursue degrees at Florida State University, the University of South
-          Carolina, and Boston Conservatory. A runner, baker, gamer, and
-          accounting student, Christina currently lives in Cumming with her
-          husband and young son.
-        image: /assets/tina-headshot.jpg
-        alt_text: Christina Ottaviano
+        text: Brian stepped into the role of Secretary-Treasurer after four years of
+          working at the Local, starting as Office Manager before moving into an
+          operational role in 2020. A former trombone player, he played in
+          various honor bands and marched in the Auburn University Marching
+          Band. After school, he spent eight years in journalism and digital
+          marketing, gaining a multitude of experiences that brought him to the
+          Local. With an eye for potential, he is dedicated to organizing and
+          growing the ranks of Local 148-462 to foster a healthy, sustainable,
+          and active music community for professional musicians across our
+          jurisdiction.
+        image: /assets/brian-photo.jpg
+        alt_text: Brian Desarro
       - name: Bill Hatcher
         title: Local Executive Board
         text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
