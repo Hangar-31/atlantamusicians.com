@@ -88,15 +88,17 @@ sections:
         alt_text: Evan Nicholson
       - name: Alex Carrillo
         title: Second Place, clarinet
-        text: >-
-          Alex Carrillo started clarinet at age 11. Since then, she has
-          participated in the GMEA all state band and was given the opportunity
-          to be a part of the Atlanta Symphony Orchestra Talent Development
-          Program, which is a program that helps Latinx and
-
-          African American musicians pursue their dreams of becoming a professional musician. Alex has performed with the Metropolitan Youth Symphony Orchestra, the Emory Youth Symphony Orchestra, the Atlanta Youth Wind Symphony, and the Atlanta Symphony Youth Orchestra. Alex has attended the Sewanee Summer Music Festival, the Brevard Music Center,
-
-          and the Boston University Tanglewood Institute. She is currently a clarinet performance major at the University of Georgia.
+        text: Alex Carrillo started clarinet at age 11. Since then, she has participated
+          in the GMEA all state band and was given the opportunity to be a part
+          of the Atlanta Symphony Orchestra Talent Development Program, which is
+          a program that helps Latinx and African American musicians pursue
+          their dreams of becoming a professional musician. Alex has performed
+          with the Metropolitan Youth Symphony Orchestra, the Emory Youth
+          Symphony Orchestra, the Atlanta Youth Wind Symphony, and the Atlanta
+          Symphony Youth Orchestra. Alex has attended the Sewanee Summer Music
+          Festival, the Brevard Music Center, and the Boston University
+          Tanglewood Institute. She is currently a clarinet performance major at
+          the University of Georgia.
         image: /assets/ev_alexandria-carrillo-1-aaf83e8805.jpg
         alt_text: Alex Carrillo
       - name: Zoe Gotlin
