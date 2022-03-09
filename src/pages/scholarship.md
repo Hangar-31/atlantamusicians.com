@@ -71,33 +71,17 @@ sections:
   - type: section_awards
     year: 2021
     list:
-      - text: >
-          After a brief stint on violin, Evan Nicholson began studying cello at
-          the age of four. His primary teachers have
+      - text: >+
+          Evan Nicholson began studying cello at the age of four. His primary
+          teachers have been Pamela Devenport, Avi Friedlander, Martin
+          Gueorguiev, Wendy Warner, and Daniel Laufer. Evan has attended the
+          Green Mountain Chamber Music Festival, Bowdoin International Music
+          Festival, the Franklin Pond Chamber Music program, Hilton Head Chamber
+          Music Institute, and the Cincinnati Young Artists Cello Workshop. As a
+          soloist, Evan has performed with the Northwest Florida Symphony
+          Orchestra and Dekalb Symphony. He is currently attending Rice
+          University in cello performance.
 
-          been Pamela Devenport, Avi Friedlander, Martin Gueorguiev, and Wendy Warner. Currently, Evan studies with
-
-          Daniel Laufer. Evan spent four summers at Green Mountain Chamber Music Festival studying with Alan
-
-          Rafferty, Sarah Kim, and Alison Wells. For two year, Evan has attended the Bowdoin International Music
-
-          Festival and studied with Stephen Doane and David Ying. Evan has participated in cello workshops in
-
-          Cincinnati, Birmingham, Memphis, and Jacksonville and has played in the Franklin Pond Chamber Music
-
-          program and the Emory Youth programs including AJCO, EYCP, and EYSO. In 2019, Evan performed the first
-
-          movement of the Dvorak Cello Concerto with EYSO and the Columbus State Symphony Orchestra. In 2021,
-
-          Evan will perform the first movement of the Shostakovich Concerto with the Northwest Florida Symphony
-
-          Orchestra and Dekalb Symphony. During the summer of 2020, Evan participated in the Hilton Head Chamber
-
-          Music Institute and the Cincinnati Young Artists Cello Workshops. A passionate chamber musician, Evan
-
-          currently plays in the Sycamore Piano Trio and is currently a member of the Atlanta Symphony Youth
-
-          Orchestra. 
         name: Evan Nicholson
         title: First Place, cello
         image: /assets/evan-nicholson-headshot.jpg
