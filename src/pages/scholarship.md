@@ -103,28 +103,15 @@ sections:
         alt_text: Alex Carrillo
       - name: Zoe Gotlin
         title: Third Place, violin
-        text: >-
-          This year I was accepted to
-
-          Vanderbilt University/Blair School of Music as a Violin Performance major, my proudest
-
-          achievement thus far. In 2019, I won "Outstanding Performer" at the Georgia Music Teachers
-
-          Association Concerto Competition. I have been selected to participate in various different
-
-          ensembles, including symphonies through Emory University where I am a principal player. I was
-
-          the Concertmaster of the Johns Creek High School top orchestra and I performed solos
-
-          throughout my high school career. I was chosen to be a part of the 2020 Bowdoin Summer
-
-          Music Festival, as well as the Governor's Honors Program. I performed a solo with an orchestra
-
-          at Carnegie Hall in 2017. I have extensive chamber music experience, including performing with
-
-          the world-renowned Vega Quartet and participating in a program for two summers at New York
-
-          University.
+        text: "Violinist Zoe Gotlin was accepted into the Vanderbilt University/Blair
+          School of Music as a Violin Performance major. Zoe was a principal
+          player with the Emory Youth Symphonies,  was Concertmaster of the
+          Johns Creek High School top orchestra, won \"Outstanding Performer\"
+          at the GMTA Concerto Competition, and performed solos throughout her
+          high school career. Zoe participated in the 2020 Bowdoin Summer Music
+          Festival, the Governor's Honors Program, and spent two summers at New
+          York University's program. Zoe has performed with the world-renowned
+          Vega Quartet and in 2017 was a soloist at Carnegie Hall. "
         image: /assets/zoe-gotlin-headshot.jpg
         alt_text: Zoe Gotlin
       - name: Gordon Scott Meeks
