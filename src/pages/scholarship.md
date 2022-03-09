@@ -35,9 +35,9 @@ sections:
 
       - Monday April 18, 2022: Application due to Local via email or postmarked via USPS
 
-      - Monday April 25, 2022: Audition times (1 pm or after) and safety guidelines confirmed with applicants via email
+      - Monday April 25, 2022: Audition times and safety guidelines confirmed with applicants via email
 
-      - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta
+      - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta (starting at 1pm)
 
 
       Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encourages, but not required.
