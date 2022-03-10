@@ -6,23 +6,59 @@ seo_title: Scholarship
 seo_description: scholarship
 sections:
   - type: section_banner
-    title: 2021 John H. Head Scholarship
+    title: 2022 John H. Head Scholarship
     content_image: /assets/atlanta-musicians-placeholder-square.png
     content_alt_text: Scholarship
-    file_url: ""
+    file_url: /assets/2022-scholarship-application.pdf
     content_title: Applications Now Available
-    content_text: It’s time for the 23rd annual John H. Head Scholarship Auditions.
-      Applications will be released soon. Please stay tuned for more details on
-      audition format and deadline for applications!
-    link_text: ""
+    content_text: |+
+      It’s time for the 23rd annual John H. Head Scholarship Auditions! 
+      Applications are now available by clicking the "Apply Now" link. 
+      Details for this year's scholarship auditions are below.
+      Please send application to office@atlantamusicians.com. 
+      All applications are due by April 18, 2022. 
+
+    link_text: APPLY HERE
   - type: section_content_title_1
     title: John H. Head Scholarship
+  - type: section_content_images
+    list:
+      - image: /assets/john-h.-head-scholarship-poster.png
+        alt_text: Scholarship Poster
   - type: section_content_text
-    text: The Atlanta Federation of Musicians has developed a scholarship program to
+    text: >-
+      The Atlanta Federation of Musicians has developed a scholarship program to
       encourage and support future professional instrumentalists. Auditions are
       open to any instrumentalist in Georgia who is a graduating high school
       senior planning to pursue a career in music, and who has been accepted to
       a college or university music program.
+
+
+      For 2022, applicants must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
+
+
+      Scholarship Deadlines:
+
+      - Monday April 18, 2022: Application due to Local via email or postmarked via USPS
+
+      - Monday April 25, 2022: Audition times and safety guidelines confirmed with applicants via email
+
+      - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta (starting at 1pm)
+
+
+      Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encouraged, but not required.
+
+
+      Auditions in front of our Union judging panel will be semi-anonymous, with all applicants assigned numbers and proctored by an office staff member. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
+
+
+      Awards are designated at the sole discretion of our judging panel based solely on the content of the performance during the audition. Any awards received are intended to be used for education-related expenses according to the regulations of the Internal Revenue Service.
+
+
+      For any questions, please feel free to reach out to Office Manager Aaron Kruziki by email at office@atlantamusicians.com or by phone at (404) 873-2033.
+
+
+      Auditions to be held at 551 Dutch Valley Road NE; Atlanta, GA 30324.
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
@@ -37,16 +73,85 @@ sections:
   - type: section_title
     title: Award Winners
   - type: section_content_title_1
-    title: 2020 John H. Head Scholarship Winners
-  - type: section_content_text
-    text: >-
-      For our 2020 auditions, we had 14 talented musicians audition, though in a
-      slightly different format than typical. We would like to wish all the
-      young musicians for submitting their audition videos, and we know they all
-      have a bright future ahead of them.
+    title: Past John H. Head Scholarship Winners
+  - type: section_awards
+    year: 2021
+    list:
+      - text: >+
+          Evan Nicholson began studying cello at the age of four. His primary
+          teachers have been Pamela Devenport, Avi Friedlander, Martin
+          Gueorguiev, Wendy Warner, and Daniel Laufer. Evan has attended the
+          Green Mountain Chamber Music Festival, Bowdoin International Music
+          Festival, the Franklin Pond Chamber Music program, Hilton Head Chamber
+          Music Institute, and the Cincinnati Young Artists Cello Workshop. As a
+          soloist, Evan has performed with the Northwest Florida Symphony
+          Orchestra and Dekalb Symphony. He is currently attending Rice
+          University in cello performance.
 
-
-      We would also like to thank our 2020 Scholarship judging panel of Local 148-462 musicians: Karen Vaughn-Smith, Shadwa Mussad, and Eric Hawkins.
+        name: Evan Nicholson
+        title: First Place, cello
+        image: /assets/evan-nicholson-headshot.jpg
+        alt_text: Evan Nicholson
+      - name: Alex Carrillo
+        title: Second Place, clarinet
+        text: Alex Carrillo started clarinet at age 11. Since then, she has participated
+          in the GMEA all state band and was given the opportunity to be a part
+          of the Atlanta Symphony Orchestra Talent Development Program, which is
+          a program that helps Latinx and African American musicians pursue
+          their dreams of becoming a professional musician. Alex has performed
+          with the Metropolitan Youth Symphony Orchestra, the Emory Youth
+          Symphony Orchestra, the Atlanta Youth Wind Symphony, and the Atlanta
+          Symphony Youth Orchestra. Alex has attended the Sewanee Summer Music
+          Festival, the Brevard Music Center, and the Boston University
+          Tanglewood Institute. She is currently a clarinet performance major at
+          the University of Georgia.
+        image: /assets/ev_alexandria-carrillo-1-aaf83e8805.jpg
+        alt_text: Alex Carrillo
+      - name: Zoe Gotlin
+        title: Third Place, violin
+        text: "Violinist Zoe Gotlin was accepted into the Vanderbilt University/Blair
+          School of Music as a Violin Performance major. Zoe was a principal
+          player with the Emory Youth Symphonies,  was Concertmaster of the
+          Johns Creek High School top orchestra, won \"Outstanding Performer\"
+          at the GMTA Concerto Competition, and performed solos throughout her
+          high school career. Zoe participated in the 2020 Bowdoin Summer Music
+          Festival, the Governor's Honors Program, and spent two summers at New
+          York University's program. Zoe has performed with the world-renowned
+          Vega Quartet and in 2017 was a soloist at Carnegie Hall. "
+        image: /assets/zoe-gotlin-headshot.jpg
+        alt_text: Zoe Gotlin
+      - name: Gordon Scott Meeks
+        title: Honorable Mention, violin
+        text: >
+          As a Fellow in the Atlanta Symphony Orchestra's Talent Development
+          Program, Gordon Scott Meeks participated for two seasons in the
+          Atlanta Symphony Youth Orchestra, including one year as Associate
+          Concert Master. He has performed one season as Concert Master of the
+          Metropolitan Youth Symphony Orchestra at Georgia State University, and
+          won the 2019 concerto competition performing the Bruch Concerto, Op.
+          26 in 2019. Gordon performed Bach's "Partita in E Major" at the 2018
+          ATSA Conference, and has performed for Atlanta Music Club, and the
+          75th Anniversary ASO pre-concert recital. Gordon attended Brevard
+          Summer Music Institute, GMEA All-State Symphony, Cobb All Honors
+          Orchestra, University of Indiana Summer Strings Institute, Cleveland
+          Institute of Music Audition Intensive, and the Sphinx Summer Academy.
+          Gordan has performed in master classes for Kelly Hall Tompkins,
+          Stephen Rose, Alex Kerr, Mimi Zweig and Rachel Barton Pine. Gordon was
+          accepted into the Cincinnati Conservatory of Music as a violin
+          performance major. 
+        image: /assets/ev_gordon-meeks-1-c962b8470e.jpg
+        alt_text: Gordon Scott Meeks
+      - name: Kangin Joo
+        title: Honorable Mention, violin
+        text: "Kangin Joo was accepted into the Schwob School of Music at Columbus State
+          University as violin performance major. Kangin won an educational
+          grant from Rachel Barton Pine Foundation and was a concertmaster in
+          MYSO, as well as a member of the Atlanta Symphony Youth Orchestra. In
+          2020, Kangin was a second place winner in the Edward Braustein Award
+          and took first place in the Premier Online Music Competition, held in
+          Korea. "
+        image: /assets/kangin-joo.jpg
+        alt_text: Kangin Joo
   - type: section_awards
     year: 2020
     list:
