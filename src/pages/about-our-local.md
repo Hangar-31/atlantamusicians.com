@@ -71,14 +71,14 @@ sections:
         title: Secretary-Treasurer
         text: Brian stepped into the role of Secretary-Treasurer after four years of
           working at the Local, starting as Office Manager before moving into an
-          operational role in 2020. A former trombone player, he played in
-          various honor bands and marched in the Auburn University Marching
-          Band. After school, he spent eight years in journalism and digital
-          marketing, gaining a multitude of experiences that brought him to the
-          Local. With an eye for potential, he is dedicated to organizing and
-          growing the ranks of Local 148-462 to foster a healthy, sustainable,
-          and active music community for professional musicians across our
-          jurisdiction.
+          operational role in 2020. A former trombone player, he has played in
+          various honor bands around the country and marched in the Auburn
+          University Marching Band. After school, he spent eight years in
+          journalism and digital marketing, gaining a multitude of experiences
+          that brought him to the Local. With an eye for potential, he is
+          dedicated to organizing and growing the ranks of Local 148-462 to
+          foster a healthy, sustainable, and active music community for
+          professional musicians across our jurisdiction.
         image: /assets/brian-photo.jpg
         alt_text: Brian Desarro
       - name: Bill Hatcher
