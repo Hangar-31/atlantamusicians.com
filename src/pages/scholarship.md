@@ -23,7 +23,7 @@ sections:
     title: John H. Head Scholarship
   - type: section_content_images
     list:
-      - image: /assets/john-h.-head-scholarship-poster.png
+      - image: /assets/2023-scholarship-announcement-applications-due-5.1.23.png
         alt_text: Scholarship Poster
   - type: section_content_text
     text: >-
