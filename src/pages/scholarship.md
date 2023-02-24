@@ -6,7 +6,7 @@ seo_title: Scholarship
 seo_description: scholarship
 sections:
   - type: section_banner
-    title: 2023 John H. Head Scholarship
+    title: 24th Annual John H. Head Scholarship
     content_image: /assets/atlanta-musicians-placeholder-square.png
     content_alt_text: Scholarship
     file_url: /assets/2023-scholarship-application-rev-2.pdf
@@ -23,7 +23,7 @@ sections:
     title: John H. Head Scholarship
   - type: section_content_images
     list:
-      - image: /assets/2023-scholarship-announcement-applications-due-5.1.23-1-.png
+      - image: /assets/2023-scholarship-announcement-applications-due-5.1.23.png
         alt_text: Scholarship Poster
   - type: section_content_text
     text: >-
