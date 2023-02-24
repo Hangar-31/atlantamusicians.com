@@ -75,6 +75,25 @@ sections:
   - type: section_content_title_1
     title: Past John H. Head Scholarship Winners
   - type: section_awards
+    year: 2022
+    list:
+      - name: Alexia Toma
+        title: First Place, flute
+        text: >
+          Alexia Toma is from Dacula, Georgia and studied flute with Dr.
+          Katherine Emeneth. Alexia was a recent winner of the Music Teachers
+          National Association High School Woodwind State Competition and was
+          the 2021-22 runner-up of the Alpharetta Symphony Concerto
+          Competition. 
+
+
+          She has received 1st place in the Samuel Fordis Young Artists Concerto Competition for both the 2021 and 2022 seasons. In addition to solo performance competitions, Alexia has also participated in the Georgia Music Educators District 13 Honor Bands, All State bands, as well as UGA’s Middle School Band Festival and UGA’s Janfest. 
+
+
+          Alexia has received superior ratings at the Solo and Ensemble Festival and has been a member of the Dacula High School Marching Band for 2 years. In addition to her musical studies, Alexia is an accomplished scholar, as she is set to graduate as Dacula High’s Salutatorian for the class of 2022. Outside of school and music, she enjoys reading, running, and spending time with family. She plans on attending the University of Georgia in the fall and will pursue a double major in computer science and music. 
+        image: /assets/alexia-toma-photo-john-head-scholarship-winner.jpeg
+        alt_text: Alexia Toma
+  - type: section_awards
     year: 2021
     list:
       - text: >+
@@ -190,4 +209,5 @@ sections:
           Percussion Performance. Congratulations, Kobe! "
         image: /assets/kobe-lester.jpg
         alt_text: Kobe Lester
+  - type: section_spacer
 ---
