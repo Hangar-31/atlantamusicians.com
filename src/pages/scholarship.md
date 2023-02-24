@@ -9,7 +9,7 @@ sections:
     title: 2023 John H. Head Scholarship
     content_image: /assets/atlanta-musicians-placeholder-square.png
     content_alt_text: Scholarship
-    file_url: /assets/2023-scholarship-application.pdf
+    file_url: /assets/2023-scholarship-application-rev.pdf
     content_title: Applications Now Available
     content_text: |+
       It’s time for the 24th annual John H. Head Scholarship Auditions! 
