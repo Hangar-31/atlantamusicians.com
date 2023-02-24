@@ -20,7 +20,7 @@ sections:
 
     link_text: APPLY HERE
   - type: section_content_title_1
-    title: John H. Head Scholarship
+    title: 2023 John H. Head Scholarship
   - type: section_content_images
     list:
       - image: /assets/2023-scholarship-announcement-applications-due-5.1.23.png
