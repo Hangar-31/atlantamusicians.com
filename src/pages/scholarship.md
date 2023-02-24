@@ -9,7 +9,7 @@ sections:
     title: 2023 John H. Head Scholarship
     content_image: /assets/atlanta-musicians-placeholder-square.png
     content_alt_text: Scholarship
-    file_url: /assets/2022-scholarship-application.pdf
+    file_url: /assets/2023-scholarship-application.pdf
     content_title: Applications Now Available
     content_text: |+
       It’s time for the 24th annual John H. Head Scholarship Auditions! 
@@ -34,28 +34,28 @@ sections:
       a college or university music program.
 
 
-      For 2022, applicants must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
+      For 2023, applicants must return a completed and signed application and a copy of their acceptance letter to an accredited college music program to the Local.
 
 
       Scholarship Deadlines:
 
-      - Monday April 18, 2022: Application due to Local via email or postmarked via USPS
+      - Monday May 1, 2023: Application due to Local via email or postmarked via USPS
 
-      - Monday April 25, 2022: Audition times and safety guidelines confirmed with applicants via email
+      - Monday May 8, 2023: Audition times and safety guidelines confirmed with applicants via email
 
-      - Sunday May 1, 2022: Auditions at our Local office in Midtown Atlanta (starting at 1pm)
+      - Sunday May 14, 2023: Auditions at our Local office in Midtown Atlanta (starting at 1pm)
 
 
       Repertoire requirements: Please prepare a piece or pieces of your choice that best demonstrates your musicianship for our panel of Union judges, with total audition time lasting no longer than 10 minutes. Accompanists are encouraged, but not required.
 
 
-      Auditions in front of our Union judging panel will be semi-anonymous, with all applicants assigned numbers and proctored by an office staff member. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. All safety measures will be communicated upon confirmation of audition time the week prior on Monday, April 25th. 
+      Auditions in front of our Union judging panel will be semi-anonymous, with all applicants assigned numbers and proctored by an office staff member. AFM will provide warm-up rooms, along with a Steinway grand piano in the audition hall. 
 
 
       Awards are designated at the sole discretion of our judging panel based solely on the content of the performance during the audition. Any awards received are intended to be used for education-related expenses according to the regulations of the Internal Revenue Service.
 
 
-      For any questions, please feel free to reach out to Office Manager Aaron Kruziki by email at office@atlantamusicians.com or by phone at (404) 873-2033.
+      For any questions, please feel free to reach out to the office by email at office@atlantamusicians.com or by phone at (404) 873-2033.
 
 
       Auditions to be held at 551 Dutch Valley Road NE; Atlanta, GA 30324.
