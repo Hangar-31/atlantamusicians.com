@@ -67,20 +67,32 @@ sections:
           lifetime. 
         image: /assets/mmooreheadshot.jpg
         alt_text: Michael Moore
-      - name: Brian Desarro
+      - name: Bill Johnston
         title: Secretary-Treasurer
-        text: Brian stepped into the role of Secretary-Treasurer after four years of
-          working at the Local, starting as Office Manager before moving into an
-          operational role in 2020. A former trombone player, he has played in
-          various honor bands around the country and marched in the Auburn
-          University Marching Band. After school, he spent eight years in
-          journalism and digital marketing, gaining a multitude of experiences
-          that brought him to the Local. With an eye for potential, he is
-          dedicated to organizing and growing the ranks of Local 148-462 to
-          foster a healthy, sustainable, and active music community for
-          professional musicians across our jurisdiction.
-        image: /assets/brian-photo.jpg
-        alt_text: Brian Desarro
+        text: >-
+          William Johnston is a violist, teacher, and musicians’ wellness expert
+          whose work is fueled by his belief in the connection between beautiful
+          movement and beautiful music. Praised for his “richly lyrical tone and
+          expressive playing” (ArtsATL.com), Bill has performed widely as a
+          soloist and chamber musician with appearances ranging from the San
+          Jose Chamber Orchestra and Primrose International Viola Festival to
+          festivals in Aspen, Sarasota, and Blossom. He is principal violist of
+          The Atlanta Opera and performs regularly with the Atlanta Symphony
+          Orchestra. 
+
+
+          Bill specializes in helping motivated young violists develop into accomplished players who set ambitious goals and achieve them. Student successes include admission as viola majors to schools such as Indiana University, Boston University, and the Peabody Institute. He has served on the faculty at the University of Florida, and currently teaches in his private studio in Atlanta, coaches chamber music, and regularly presents masterclasses.
+
+
+          In addition to the viola, Bill also teaches musicians’ wellness. Clients ranging from middle school students to professional orchestral musicians and university professors have taken his Body Mapping courses to improve their quality of movement, enhance performance, and avoid injuries. He offers both in-person and online Body Mapping instruction in many formats, including private lessons, group courses, and guest workshops.
+
+
+          As a guest artist, Body Mapping instructor, and adjudicator, Bill has worked with musicians at more than forty universities, schools, and festivals including the Cleveland Institute of Music, Florida State University, University of Toronto, as well as the American Viola Society Festival. He often works with institutions to present tailored residencies that combine viola master classes and Body Mapping teaching, as well as solo and chamber performances.
+
+
+          Bill hails from Sarasota, Florida and earned the Doctor of Musical Arts Degree from the Cleveland Institute of Music. In his free time you may find him practicing Aikido or exploring Atlanta’s many wonderful parks with his Basset Hound.
+        image: /assets/william-johnston-768x1154.jpg
+        alt_text: Bill Johnston
       - name: Bill Hatcher
         title: Local Executive Board
         text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
@@ -141,25 +153,28 @@ sections:
           the Recording Academy. "
         image: /assets/kleahyheadshot.jpg
         alt_text: Kevin Leahy
-      - name: John McCutcheon
+      - name: Johnna Jeong
         title: Local Executive Board
-        text: >
-          JOHN MCCUTCHEON is a nearly-50-year veteran of the US folk music
-          scene. A songwriter, composer, multi-instrumentalist, author, actor,
-          an international touring artist, and long-time labor activist. His is
-          a recording artist with over 40 albums to his credit, including 6
-          Grammy award nominations. His song “Christmas in the Trenches was
-          named “one of the 100 essential folksongs” by Folk Alley. He is a
-          much-in demand workshop leader and is considered one of the world
-          masters of the hammer dulcimer. He has an extensive collection of
-          field recordings from around the world in the Archive of American
-          Folksong in the American Folklife Center in the Library of Congress.
+        text: >+
+          JOHNNA JEONG  is an active musician in Atlanta, a valued music
+          educator, guitarist, vocalist, actor, and composer. After growing up
+          traveling extensively in a military family, Johnna nurtured her
+          passion for music by earning a B.A. at Virginia Commonwealth
+          University and an M.M. at East Carolina University in music. Upon
+          arriving in Atlanta, she has had the opportunity to showcase her
+          skills across a wide range of musical genres as a freelance artist.
+          Initially joining  Local 148-462 in 2007, she has been the guitarist
+          for an Atlanta Lyric Theatre production, and various other musicals.
+          She has also ventured into scoring independent films, and currently
+          performs frequently as a solo artist while maintaining a busy teaching
+          schedule.
 
-          McCutcheon was one of the co-founders of AFM Local 1000 and served as its president for fifteen years. He is a 2-term Local Executive Board member of 148-462 and serves on its Organizing Task Force, Fair Trade Music Committee and Solidarity Team.
+          As a member of the Atlanta Federation of Musicians (AFM), Johnna contributes her support as a board member of the Diversity Committee, has been a recipient of the Music Performance Trust Fund, and is honored to follow in the footsteps of her predecessor John McCutcheon, as a Local Executive Board member. 
 
-          He is a resident of Smoke Rise, GA where he lives with his wife, author Carmen Agra Deedy and is the doting grandfather of five.
-        image: /assets/john-mccutcheon.jpg
-        alt_text: John McCutcheon
+          Johnna has established herself as a dedicated musician within the community, and continues to enrich the cultural fabric of Atlanta. 
+
+        image: /assets/johnnajeongoriginal-002-.jpg
+        alt_text: Johnna Jeong
       - name: Averil Taylor
         title: Local Executive Board and AFM Convention Diversity Delegate
         text: AVERIL TAYLOR is an active Atlanta musician who also studied music in the
