@@ -49,6 +49,90 @@ sections:
   - type: section_content_title_1
     title: Past John H. Head Scholarship Winners
   - type: section_awards
+    year: 2023
+    list:
+      - text: >
+          Ava Crook began her harp studies at the age of six with Atlanta Opera
+          Principal Harpist, Susan Bennett Brady. She has participated in
+          numerous international and national harp solo competitions. Ava has
+          competed twice in the Young Artist Harp Seminar Competition, where she
+          was a finalist in 2014 and 2nd prize winner in 2016. Additionally, she
+          was awarded an honorable mention in the 2017 American Harp Society
+          Solo Competition, where she also earned the Karl Carlson Award. In
+          2018, Ava won first prize in the Alpharetta Symphony Youth Concerto
+          Competition. She also was awarded fifth prize in the 2019 American
+          Harp Society Competition. She additionally enjoys playing cello in her
+          school’s orchestra. Next year, Ava will attend Florida State
+          University with a double major in biological sciences and harp
+          performance. 
+        name: Ava Crook
+        title: harp
+        image: /assets/ava-crook.png
+        alt_text: Ava Crook
+      - text: "Violinist Sam Vaillancourt serves as concertmaster of the Atlanta
+          Symphony Youth Orchestra, with whom he will be featured as a soloist
+          in 2023, and he serves as concertmaster of the Youth Orchestra of
+          Greater Columbus, with whom he was featured as a soloist in 2021 and
+          2022. He performed as a member of the Atlanta Symphony Youth Orchestra
+          Chamber Players, and the Franklin Pond Chamber Music Program. He was
+          chosen to represent the Atlanta Symphony Youth Orchestra in a chamber
+          concert where he performed with members of the Atlanta Symphony
+          Orchestra. Also, an accomplished pianist and composer, Sam received
+          ABRSM Theory 5 distinction and Piano Performance Level 5 Distinction,
+          the highest level for both categories. He was a National Award of
+          Excellence winner & GA State winner of the 2018-19 PTA Reflections
+          Music Composition competition. Sam currently studies violin with Prof.
+          Boris Abramov at the Schwob School of Music at Columbus State
+          University. "
+        name: Sam Vaillancourt
+        title: violin
+        image: /assets/sam-vaillancourt.png
+        alt_text: Sam Vaillancourt
+      - text: >
+          Emily Bridges began studying clarinet and bass clarinet with Sergeant
+          Marcus Moore of the Marine Corps Forces Pacific Band at the age of 11.
+          She was selected to participate in the GMEA All-State Band and
+          District Honor Band in all four years of high school, and has
+          participated in additional festivals such as the University of Georgia
+          January High School Band Festival and the University of Tennessee at
+          Chattanooga Tri-State Honor Band Festival. As a member of the Neo
+          International Clarinet Exposé since 2019, Emily has released music
+          with musicians from the Hong Kong Philharmonic Orchestra, the
+          Cincinnati Symphony Orchestra, all branches of the United States
+          Military Bands, and world-renowned jazz clarinet soloist Doreen
+          Ketchens. Emily has performed with the Atlanta Youth Wind Symphony for
+          two years, one of which as the Principal Bass Clarinetist. She has
+          also participated in masterclasses with Gunnery Sergeant Shannon
+          Kiewitt, bass clarinetist of The President’s Own Marine Band, and
+          soloist Mark Allen Jr. Emily will be attending Georgia State
+          University’s Honors College for music education. 
+        name: Emily Bridges
+        title: clarinet & bass clarinet
+        image: /assets/emily-bridges.png
+        alt_text: Emily Bridges
+      - text: >2
+             Pianist Brenna Pursley began learning the piano at the age of thirteen under Holly Adkinson and Dr. Grace Huang. Since then, she has participated in the AMTA Sonata/Sonatina Festival, receiving Gold ratings for three years in a row. She participated twice in the AMTA eFestival, where she received two Gold ratings and the Judges Choice Award. Brenna is a two-time participant in the GMTA State Auditions, receiving Honorable Mention and Award of Excellence. Brenna has accompanied her high school chorus for the past two years in concerts and the Large Group Performance Evaluation, and has performed in chamber music recitals, community music events, and UGA-facilitated masterclasses. She received the National School 
+          Choral Award in 2021, and in 2023, she received the Classic Center Cultural Foundation Performing Arts Scholarship. In addition, Brenna has finished as the Honorarian of the Oconee County High School's class of 2023. She has been accepted into the Hugh Hodgson School of Music at the University of Georgia, where she plans to pursue multiple degrees in piano with a minor in English. 
+        name: Brenna Pursley
+        title: piano
+        image: /assets/brenna-pursley.png
+        alt_text: Brenna Pursley
+      - text: "Xander Herman started the oboe in 5th grade. Under the guidance of his
+          private teachers, Brian Lyons and Emily Brebach, he developed a love
+          for the instrument. He has gone on to participate in many summer music
+          programs, such as the one week Oboe Intensive at the Interlochen
+          Center for the Arts, as well as the Brevard Music Center Summer
+          Institute. He will also be attending the Oboe Workshop at the Boston
+          University Tanglewood Institute this summer. Throughout his Highschool
+          career, he has been in multiple ensembles and groups, such as the GMEA
+          District Honor Band, the GMEA All State Band, the Georgia Youth
+          Symphony Orchestra, the Metropolitan Youth Symphony Orchestra, and the
+          Atlanta Symphony Youth Orchestra. "
+        name: Xander Herman
+        title: oboe
+        image: /assets/xander-herman.png
+        alt_text: Xander Herman
+  - type: section_awards
     year: 2022
     list:
       - name: Alexia Toma
