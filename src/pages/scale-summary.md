@@ -18,7 +18,7 @@ sections:
     title: Scale Summary
     type: section_banner
   - type: section_title
-    title: 2021 Price List Summary
+    title: 2023 Price List Summary
   - type: section_price_list_title
     text: 16.1A
     title: AFM-EPF Contribution
