@@ -52,7 +52,8 @@ sections:
   - type: section_content_text
     text: "Use local 148-462’s rehearsal hall free of charge during business hours.
       Our large space can accommodate a chamber orchestra. A Steinway grand
-      piano, drum set, and PA system are provided. "
+      piano, drum set, and PA system are provided. Email for more information:
+      office@atlantamusicians.com"
   - type: section_content_images
     list:
       - image: /assets/20231003_113507.jpg
