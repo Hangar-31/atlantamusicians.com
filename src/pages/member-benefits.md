@@ -45,6 +45,9 @@ sections:
     text: "AFM members have access to lower premiums on various kinds of insurance.
       Access these special rates through AFM’s partners by visiting the
       following:"
+  - type: section_content_link
+    link_text: Instrument & Equipment Insurance
+    link_url: https://www.afminsurance.com/business-insurance/business-owners-insurance/special-risk-insurance/musical-instrument-equipment-insurance.html
   - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
