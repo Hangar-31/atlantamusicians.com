@@ -50,5 +50,9 @@ sections:
     text: "Use local 148-462’s rehearsal hall free of charge during business hours.
       Our large space can accommodate a chamber orchestra. A Steinway grand
       piano, drum set, and PA system are provided. "
+  - type: section_content_images
+    list:
+      - image: /assets/20231003_113507.jpg
+        alt_text: James H. Patterson Hall
   - type: section_spacer
 ---
