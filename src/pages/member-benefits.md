@@ -45,10 +45,10 @@ sections:
     text: Union Plus offers exclusive discounts to AFM members on everything from
       mortgages to phone service.
   - type: section_content_title_2
-    title: Rehearsal Space
+    title: Rehearsal Space; James H. Patterson Hall
   - type: section_content_text
     text: "Use local 148-462’s rehearsal hall free of charge during business hours.
-      Our large space can accommodate a chamber orchestra. A Steinway piano and
-      drum set are provided. "
+      Our large space can accommodate a chamber orchestra. A Steinway grand
+      piano, drum set, and PA system are provided. "
   - type: section_spacer
 ---
