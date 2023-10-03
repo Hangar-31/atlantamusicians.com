@@ -48,6 +48,9 @@ sections:
   - type: section_content_link
     link_text: Instrument & Equipment Insurance
     link_url: https://www.afminsurance.com/business-insurance/business-owners-insurance/special-risk-insurance/musical-instrument-equipment-insurance.html
+  - type: section_content_link
+    link_url: https://ambacompare.com/?MDRefCode=amba-afm
+    link_text: Auto, Home, and Renters Insurance
   - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
