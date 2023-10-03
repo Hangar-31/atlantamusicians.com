@@ -31,14 +31,25 @@ sections:
       can download a Summary Plan Description to help understand how the Plan
       works, and can also check the status of their individual employer
       contributions.
+  - type: section_content_link
+    link_url: https://afm-epf.org/
+    link_text: AFM-EPF website
   - type: section_content_title_2
-    title: Subscriptions
+    title: Monthly Newsletters; National & Local
   - type: section_content_text
-    text: Stay informed with free subscriptions to the AFM’s award winning monthly
-      magazine International Musicians and the Atlanta Local’s monthly
-      newsletter Podium. In addition to fascinating interviews with some of the
-      industry’s top names, each issue has news and information you need,
-      industry employment and audition advertisements, and useful career advice.
+    text: >-
+      Members can stay informed on pertinent news, audition announcements, and
+      other great articles with AFM’s monthly magazine "International Musician"
+      and the Atlanta Local’s monthly newsletter "Podium". 
+
+
+      AFM members can access the IM & Podium with links below.
+  - type: section_content_link
+    link_url: https://internationalmusician.org/
+    link_text: International Musician
+  - type: section_content_link
+    link_url: https://member.atlantamusicians.com/
+    link_text: Podium
   - type: section_content_title_2
     title: Insurance
   - type: section_content_text
