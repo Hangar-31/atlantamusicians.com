@@ -40,6 +40,12 @@ sections:
       industry’s top names, each issue has news and information you need,
       industry employment and audition advertisements, and useful career advice.
   - type: section_content_title_2
+    title: Insurance
+  - type: section_content_text
+    text: "AFM members have access to lower premiums on various kinds of insurance.
+      Access these special rates through AFM’s partners by visiting the
+      following:"
+  - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
     text: Union Plus offers exclusive discounts to AFM members on everything from
