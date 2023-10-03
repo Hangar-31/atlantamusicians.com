@@ -44,6 +44,9 @@ sections:
   - type: section_content_text
     text: Union Plus offers exclusive discounts to AFM members on everything from
       mortgages to phone service.
+  - type: section_content_link
+    link_text: www.unionplus.org
+    link_url: https://www.unionplus.org/
   - type: section_content_title_2
     title: Rehearsal Space; James H. Patterson Hall
   - type: section_content_text
