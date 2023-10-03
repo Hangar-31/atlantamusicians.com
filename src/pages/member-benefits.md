@@ -51,6 +51,9 @@ sections:
   - type: section_content_link
     link_url: https://ambacompare.com/?MDRefCode=amba-afm
     link_text: Auto, Home, and Renters Insurance
+  - type: section_content_link
+    link_url: https://www.afminsurance.com/business-insurance/professional-liability/business-liability/business-liability-insurance-plan.html
+    link_text: Business Liability Insurance
   - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
@@ -70,5 +73,6 @@ sections:
     list:
       - image: /assets/20231003_113507.jpg
         alt_text: James H. Patterson Hall
+  - type: section_spacer
   - type: section_spacer
 ---
