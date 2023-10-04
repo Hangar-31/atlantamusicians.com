@@ -136,7 +136,7 @@ sections:
     year: 2022
     list:
       - name: Alexia Toma
-        title: First Place, flute
+        title: flute
         text: >
           Alexia Toma is from Dacula, Georgia and studied flute with Dr.
           Katherine Emeneth. Alexia was a recent winner of the Music Teachers
@@ -166,11 +166,11 @@ sections:
           University in cello performance.
 
         name: Evan Nicholson
-        title: First Place, cello
+        title: cello
         image: /assets/evan-nicholson-headshot.jpg
         alt_text: Evan Nicholson
       - name: Alex Carrillo
-        title: Second Place, clarinet
+        title: clarinet
         text: Alex Carrillo started clarinet at age 11. Since then, she has participated
           in the GMEA all state band and was given the opportunity to be a part
           of the Atlanta Symphony Orchestra Talent Development Program, which is
@@ -185,7 +185,7 @@ sections:
         image: /assets/ev_alexandria-carrillo-1-aaf83e8805.jpg
         alt_text: Alex Carrillo
       - name: Zoe Gotlin
-        title: Third Place, violin
+        title: violin
         text: "Violinist Zoe Gotlin was accepted into the Vanderbilt University/Blair
           School of Music as a Violin Performance major. Zoe was a principal
           player with the Emory Youth Symphonies,  was Concertmaster of the
@@ -198,7 +198,7 @@ sections:
         image: /assets/zoe-gotlin-headshot.jpg
         alt_text: Zoe Gotlin
       - name: Gordon Scott Meeks
-        title: Honorable Mention, violin
+        title: violin
         text: >
           As a Fellow in the Atlanta Symphony Orchestra's Talent Development
           Program, Gordon Scott Meeks participated for two seasons in the
@@ -219,7 +219,7 @@ sections:
         image: /assets/ev_gordon-meeks-1-c962b8470e.jpg
         alt_text: Gordon Scott Meeks
       - name: Kangin Joo
-        title: Honorable Mention, violin
+        title: violin
         text: "Kangin Joo was accepted into the Schwob School of Music at Columbus State
           University as violin performance major. Kangin won an educational
           grant from Rachel Barton Pine Foundation and was a concertmaster in
