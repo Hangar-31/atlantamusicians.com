@@ -12,6 +12,17 @@ sections:
     content_text: "AFM members have access to a range of benefits from our contracts
       and collective bargaining power to discounts and life insurance. "
   - type: section_content_title_2
+    title: Rehearsal Space; James H. Patterson Hall
+  - type: section_content_text
+    text: "Members may use Local 148-462’s rehearsal hall free of charge during
+      business hours. Our large space can accommodate a chamber orchestra. A
+      Steinway grand piano, drum set, and PA system are provided. Email for more
+      information: office@atlantamusicians.com"
+  - type: section_content_images
+    list:
+      - image: /assets/20231003_113507.jpg
+        alt_text: James H. Patterson Hall
+  - type: section_content_title_2
     title: Contracts & Collective Bargaining
   - type: section_content_text
     text: The AFM negotiates wages and working conditions in order to maintain
@@ -82,17 +93,6 @@ sections:
   - type: section_content_link
     link_text: www.unionplus.org
     link_url: https://www.unionplus.org/
-  - type: section_content_title_2
-    title: Rehearsal Space; James H. Patterson Hall
-  - type: section_content_text
-    text: "Use local 148-462’s rehearsal hall free of charge during business hours.
-      Our large space can accommodate a chamber orchestra. A Steinway grand
-      piano, drum set, and PA system are provided. Email for more information:
-      office@atlantamusicians.com"
-  - type: section_content_images
-    list:
-      - image: /assets/20231003_113507.jpg
-        alt_text: James H. Patterson Hall
   - type: section_spacer
   - type: section_spacer
 ---
