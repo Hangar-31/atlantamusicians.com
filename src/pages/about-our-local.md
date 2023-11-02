@@ -91,18 +91,8 @@ sections:
 
 
           Bill hails from Sarasota, Florida and earned the Doctor of Musical Arts Degree from the Cleveland Institute of Music. In his free time you may find him practicing Aikido or exploring Atlanta’s many wonderful parks with his Basset Hound.
-        image: /assets/william-johnston-768x1154.jpg
+        image: /assets/bill-johnston-headshot-.jpg
         alt_text: Bill Johnston
-      - name: Bill Hatcher
-        title: Local Executive Board
-        text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
-          in Atlanta since 1974. He’s performed with the Atlanta Symphony,
-          Atlanta Opera, Atlanta Ballet, Alliance Theater and numerous others.
-          As a studio musician, Hatcher has performed on more than 3,000 local
-          recording sessions. He is a life member in local 148-462 and has
-          served as an executive board member for many years. "
-        image: /assets/bill-hatcher.jpg
-        alt_text: Bill Hatcher
       - name: Eric Ferguson
         title: Local Executive Board
         text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
@@ -130,6 +120,38 @@ sections:
           to be part of the AFM. "
         image: /assets/2squareafm.jpg
         alt_text: Eric Ferguson
+      - name: Bill Hatcher
+        title: Local Executive Board
+        text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
+          in Atlanta since 1974. He’s performed with the Atlanta Symphony,
+          Atlanta Opera, Atlanta Ballet, Alliance Theater and numerous others.
+          As a studio musician, Hatcher has performed on more than 3,000 local
+          recording sessions. He is a life member in local 148-462 and has
+          served as an executive board member for many years. "
+        image: /assets/bill-hatcher.jpg
+        alt_text: Bill Hatcher
+      - name: Johnna Jeong
+        title: Local Executive Board
+        text: >+
+          JOHNNA JEONG  is an active musician in Atlanta, a valued music
+          educator, guitarist, vocalist, actor, and composer. After growing up
+          traveling extensively in a military family, Johnna nurtured her
+          passion for music by earning a B.A. at Virginia Commonwealth
+          University and an M.M. at East Carolina University in music. Upon
+          arriving in Atlanta, she has had the opportunity to showcase her
+          skills across a wide range of musical genres as a freelance artist.
+          Initially joining  Local 148-462 in 2007, she has been the guitarist
+          for an Atlanta Lyric Theatre production, and various other musicals.
+          She has also ventured into scoring independent films, and currently
+          performs frequently as a solo artist while maintaining a busy teaching
+          schedule.
+
+          As a member of the Atlanta Federation of Musicians (AFM), Johnna contributes her support as a board member of the Diversity Committee, has been a recipient of the Music Performance Trust Fund, and is honored to follow in the footsteps of her predecessor John McCutcheon, as a Local Executive Board member. 
+
+          Johnna has established herself as a dedicated musician within the community, and continues to enrich the cultural fabric of Atlanta. 
+
+        image: /assets/johnnajeongoriginal-002-.jpg
+        alt_text: Johnna Jeong
       - name: Mary Kenney
         title: Local Executive Board
         text: The American Federation of Musicians has been an important part of MARY
@@ -153,28 +175,6 @@ sections:
           the Recording Academy. "
         image: /assets/kleahyheadshot.jpg
         alt_text: Kevin Leahy
-      - name: Johnna Jeong
-        title: Local Executive Board
-        text: >+
-          JOHNNA JEONG  is an active musician in Atlanta, a valued music
-          educator, guitarist, vocalist, actor, and composer. After growing up
-          traveling extensively in a military family, Johnna nurtured her
-          passion for music by earning a B.A. at Virginia Commonwealth
-          University and an M.M. at East Carolina University in music. Upon
-          arriving in Atlanta, she has had the opportunity to showcase her
-          skills across a wide range of musical genres as a freelance artist.
-          Initially joining  Local 148-462 in 2007, she has been the guitarist
-          for an Atlanta Lyric Theatre production, and various other musicals.
-          She has also ventured into scoring independent films, and currently
-          performs frequently as a solo artist while maintaining a busy teaching
-          schedule.
-
-          As a member of the Atlanta Federation of Musicians (AFM), Johnna contributes her support as a board member of the Diversity Committee, has been a recipient of the Music Performance Trust Fund, and is honored to follow in the footsteps of her predecessor John McCutcheon, as a Local Executive Board member. 
-
-          Johnna has established herself as a dedicated musician within the community, and continues to enrich the cultural fabric of Atlanta. 
-
-        image: /assets/johnnajeongoriginal-002-.jpg
-        alt_text: Johnna Jeong
       - name: Averil Taylor
         title: Local Executive Board and AFM Convention Diversity Delegate
         text: AVERIL TAYLOR is an active Atlanta musician who also studied music in the
