@@ -9,4 +9,8 @@ sections:
   - type: section_content_file
     file_url: /assets/2024-scale-wages-summary-afm-local-148-462.pdf
     file_text: 2024 Scale Wage Summary; Live Engagements
+  - type: section_content_images
+    list:
+      - image: /assets/2024-scale-wages-summary-afm-local-148-462.png
+        alt_text: 2024 Scale Wage Summary
 ---
