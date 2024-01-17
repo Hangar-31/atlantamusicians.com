@@ -12,5 +12,10 @@ sections:
   - type: section_content_images
     list:
       - image: /assets/2024-scale-wages-summary-afm-local-148-462.png
-        alt_text: 2024 Scale Wage Summary
+        alt_text: 2024 Scale Wage Summary AFM Local 148-462
+  - type: section_spacer
+  - type: section_content_images
+    list:
+      - image: /assets/cartage-2024.jpg
+        alt_text: 2024 Cartage AFM Local 148-462
 ---
