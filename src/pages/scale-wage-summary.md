@@ -19,6 +19,6 @@ sections:
     file_url: /assets/cartage-2024-local-148-462.pdf
   - type: section_content_images
     list:
-      - image: /assets/cartage-2024-local-148-462.png
+      - image: /assets/cartage-2024-local-148-462.jpg
         alt_text: 2024 Cartage AFM Local 148-462
 ---
