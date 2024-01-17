@@ -24,13 +24,12 @@ sections:
         alt_text: placeholder
         link_text: Find Musicians
         link_url: /find-a-musician
-      - title: Read Our Blog
-        text: Explore our blog to stay up to date on Local 148-462 events and membership
-          activities.
-        image: /assets/blog.jpg
+      - title: Scale Wage Summary
+        text: Explore the scale wages for Atlanta Federation of Musicians.
+        image: /assets/pink-know-your-worth-self-love-motivational-quote-your-story.png
         alt_text: placeholder
-        link_text: Read Blog
-        link_url: /blog
+        link_text: Scale Wage Summary
+        link_url: /scalewagesummary
       - title: Union Benefits
         text: Why Join the AFM? Membership has its benefits. Learn more about our
           programs and perks.
