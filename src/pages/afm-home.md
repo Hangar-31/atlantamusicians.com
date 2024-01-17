@@ -26,7 +26,7 @@ sections:
         link_url: /find-a-musician
       - title: Scale Wage Summary
         text: Explore the scale wages for Atlanta Federation of Musicians.
-        image: /assets/pink-know-your-worth-self-love-motivational-quote-your-story.png
+        image: /assets/beige-simple-elegant-personal-linkedin-banner.png
         alt_text: placeholder
         link_text: Scale Wage Summary
         link_url: /scalewagesummary
