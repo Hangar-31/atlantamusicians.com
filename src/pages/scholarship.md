@@ -18,17 +18,20 @@ sections:
 
 
     content_image: /assets/1-afm_logo_color.jpg
-    title: 24th Annual John H. Head Scholarship
+    title: 25th Annual John H. Head Scholarship
     type: section_banner
+  - type: section_spacer
   - type: section_content_title_1
     title: John H. Head Scholarship
   - type: section_content_images
     list:
       - image: /assets/john-h.-head-scholarship-logo.png
         alt_text: Scholarship Logo
+  - type: section_spacer
   - type: section_content_file
     file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
     file_text: 25th Annual John H. Head Scholarship Application
+  - type: section_spacer
   - type: section_content_text
     text: >-
       The Atlanta Federation of Musicians has developed a scholarship program to
@@ -39,6 +42,7 @@ sections:
 
 
       For the 2024 Scholarship application, please click the above PDF to download.
+  - type: section_spacer
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
@@ -235,5 +239,4 @@ sections:
           Korea. "
         image: /assets/kangin-joo.jpg
         alt_text: Kangin Joo
-  - type: section_spacer
 ---
