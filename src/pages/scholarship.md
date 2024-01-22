@@ -5,26 +5,30 @@ number: "404"
 seo_title: Scholarship
 seo_description: scholarship
 sections:
-  - type: section_banner
-    title: 24th Annual John H. Head Scholarship
-    content_image: /assets/1-afm_logo_color.jpg
-    content_alt_text: AFM Logo
-    file_url: ""
+  - content_alt_text: AFM Logo
+    link_url: John H. Head Scholarship Application
+    file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
+    link_text: Application Download
     content_title: Applications for 2024
     content_text: >+
-      The 25th annual John H. Head Scholarship Audition will be held in second
-      quarter 2024. 
+      The 25th annual John H. Head Scholarship Audition will be held on May
+      19th, 2024. 
 
-      Applications will be available first quarter 2024. 
+      Applications are available by clicking the PDF below.
 
 
-    link_text: ""
+    content_image: /assets/1-afm_logo_color.jpg
+    title: 24th Annual John H. Head Scholarship
+    type: section_banner
   - type: section_content_title_1
     title: John H. Head Scholarship
   - type: section_content_images
     list:
       - image: /assets/john-h.-head-scholarship-logo.png
         alt_text: Scholarship Logo
+  - type: section_content_file
+    file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
+    file_text: 25th Annual John H. Head Scholarship Application
   - type: section_content_text
     text: >-
       The Atlanta Federation of Musicians has developed a scholarship program to
@@ -34,7 +38,7 @@ sections:
       a college or university music program.
 
 
-      For the 2024 Scholarship, please check back in first quarter, '24. 
+      For the 2024 Scholarship application, please click the above PDF to download.
   - type: section_banner_small
     background_color_toggle: true
     title: Gift Your Support Today
