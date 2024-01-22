@@ -30,7 +30,7 @@ sections:
   - type: section_spacer
   - type: section_content_file
     file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
-    file_text: 25th Annual John H. Head Scholarship Application
+    file_text: "Application Download - 25th Annual John H. Head Scholarship "
   - type: section_spacer
   - type: section_content_text
     text: >-
