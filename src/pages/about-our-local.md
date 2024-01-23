@@ -100,7 +100,7 @@ sections:
       - name: Michael Moore
         title: Vice President and AFM Convention Delegate
         text: >
-          MICHAEL MOORE was raised in Decatur, GA., himself the son of long-time
+          MICHAEL MOORE was raised in Decatur, GA, himself the son of long-time
           AFM member Bill Moore, and has been a working member of Local 148-462
           since 1965 at the age of 15, when he worked a steady cocktail hour job
           on bass and guitar at the Hyatt Regency. He has been Principal Tuba in
@@ -109,7 +109,7 @@ sections:
           Finance Committee and is Treasurer of both the International
           Conference of Symphony and Opera Orchestras (ICSOM) and the Atlanta
           Symphony Orchestra Players’ Association (ASOPA). He is President and
-          founder of the Atlanta Brass Society,Inc.and is tubaist with the
+          founder of the Atlanta Brass Society, Inc. and is tubaist with the
           Atlanta Symphony Brass Quintet. Michael’s background in both classical
           and popular music has contributed to his understanding of the music
           industry and his willingness to serve the Local for nearly his
