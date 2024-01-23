@@ -188,4 +188,53 @@ sections:
           our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
+      - text: >-
+          Associate Professor Dr. Patterson earned his BA Degree in Music from
+          Clark College (now Clark Atlanta University) in 1957. In 1965 Dr.
+          Patterson earned his Masters of Music Degree from the University of
+          Michigan. He received an Honorary Doctorate Degree from Morris Brown
+          College in 2018.
+
+
+          ​Throughout Dr. Patterson's undergraduate years, he engaged in developing and refining his musical talent under Professor Wayman Carver (first to record the flute in jazz) the Band Director at then Clark College. After receiving his undergraduate degree, he entered the United States Army where he organized and directed the Drum and Bugle Corps at Fort Jackson, South Carolina. He served in Communications (radio teletype) during his army service and he also performed with the Seventh Army Band in Stuttgart, Germany and throughout Europe. Upon returning to civilian life and earning the Master's of Music degree from the University of Michigan, he also further studied at Atlanta University (now Clark Atlanta University) and the University of Wisconsin.
+
+
+          Before beginning his teaching career at Clark College and Clark Atlanta University, Associate Professor Dr. Patterson was employed as the Department Chair and Band Director with the Fulton County Board of Education. While Dr. Patterson explored and refined his musical talent in various types of musical genres, he has, for fifty plus years at Clark Atlanta University, continuously devoted time to training and motivating his students to strive to perfect their musical skills. His excellent guidance and instruction given to his students has been consistently demonstrated by the performance of the Clark Atlanta University Jazz Orchestra, as well as the achievements of his students.
+
+
+          The Clark Atlanta University Jazz Orchestra's concept was founded and performed on April 4, 1968 by Associate Professor Patterson, its current and only director. The Jazz Orchestra was then founded and placed in the curriculum in 1976 and also includes the Jazztet and the Clark College Symphony Orchestra. The premise of its founding is to preserve and promote "African diaspora history/culture," jazz, in the purest state. The Clark Atlanta University Jazz Orchestra is free of electronic technology or fusion with other genres.
+
+
+          Under Associate Professor Dr. Patterson's direction, the orchestra has performed locally, nationally and internationally with numerous jazz artists, among them James Moody, Dizzy Gillespie, Jimmy Heath, Wynton Marsalis, Branford Marsalis, Ellis Marsalis, Lalo Schifrin, Quincy Jones, and Lionel Hampton. Over the years, the group has also performed with such legendary artists as Jon Faddis, Frank Foster, Kenny Burrell, Mary Lou Williams, Nancy Wilson, Sarah Vaughn, Illinois Jacquet, and Clark Terry. Since 1981, the CAU Jazz Orchestra has performed eight times at the Montreux, Switzerland International Jazz Festival (once with Dizzy Gillespie and once with Quincy Jones). He has performed five times at the North Sea Jazz Festival.
+
+
+          Under the leadership of Associate Professor Dr. James Patterson, the Clark Atlanta University Jazz Orchestra continues to carry on the Clark Atlanta University Jazz Legacy.
+
+
+          ​In 1994, he founded the Clark Atlanta University Jazz Under the Stars.
+
+
+          He is the co-director of the African American Jazz Caucus, HBCU All Star Big Band,  2002-
+
+
+          Present; People to People Tour of Egypt; toured South Africa with a jazz quartet; served on the advisory board of the Southern Music Conference; Member of the Motown Band, Duke Pearson's Big Band, and performed with Lionel Hampton, Dizzy Gillespie and Cab Calloway Orchestras; Auditioned as the Assistant Conductor for the Atlanta Symphony Orchestra; Performer with the Atlanta Pops Orchestra and Band of Atlanta; Served as Music Director, Arranger and Conductor for the Trumpet Awards-Turner Broadcasting (CNN); First and Second Annual North Carolina Central African American Jazz Research Institute (NAJRI) HBCU Jazz Conference/ Festival, North Carolina Central University Durham, North Carolina-Presenter and Panelist; Performer-Director, Annual International Association for Jazz Education Conferences; Directed HBCU's All Star Big Band in the University of Notre Dame Annual Collegiate Jazz Festival; Created the Annual Duke Pearson Summer Jazz Camp; Founder of the Fletcher Henderson/ Wayman Carver Jazz Festival at Clark Atlanta University; Organizer of the Biannual concerts presented by the Clark Atlanta University Jazz Orchestra, Jazztet, and Woodwind department; in 1974, initiated the Adjunct Instrumental Program for the Department of Music; Presented honorary degrees to Duke Ellington and Dizzy Gillespie, Lionel Hampton, Wynton Marsalis, Quincy Jones and Congressman John Conyers, Jr.; served as guest conductor for the Atlanta University Center-wide Orchestra.​
+
+
+          Associate Professor Dr. James Patterson received invitations by Congressman John Conyers, Jr. to participate (over the past six years) in the Congressional Black Caucus as Panelist, Moderator, and Conference Participant. Board Member and 2020 Chairman of the Scholarship Committee of the Tuskegee Airmen, Atlanta, Georgia. Vice President Atlanta Federation of Musicians Union local 148-462–of the American Federation of Musicians. Lifetime voting member of the National Academy of Recording Arts and Sciences (Grammy Awards); Delegate to the Atlanta-North Georgia labor Council; Member A. Philip Randolph Institute and Founder and C.E.O. The James Hardy Patterson Foundation, Inc.
+
+
+          “I am honored to chair the Charlie “Yardbird” Parker exhibit that is held at the Jazz Educator Network (JEN) Conference New Orleans, Louisiana 2020.
+
+
+          This exhibit honors Charlie “Bird” Parker as we celebrate his centennial year 2020.”
+
+
+          "A Culture Is a Horrible Possession to lose."
+
+
+          James H. Patterson
+        name: James H. Patterson
+        title: Vice President
+        image: /assets/patterson_flute-1024x856.jpg
+        alt_text: James H. Patterson
 ---
