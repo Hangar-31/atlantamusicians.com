@@ -237,4 +237,23 @@ sections:
           our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
+      - name: Linda Cherniavsky
+        title: Local Executive Board
+        text: >
+          Linda Cherniavsky, a native of Atlanta, attended Northwestern
+          University, and the University of Georgia before earning her Bachelor
+          and Master of Science in Music Education degrees from the University
+          of Illinois at Urbana - Champaign. She pursued additional musical
+          study at the Aspen Music Festival and studied conducting with Sergiu
+          Celibidache, former General Music Director of the Munich Philharmonic.
+          She has earned a Level 1 Endorsement Certificate from the Paul Rolland
+          String Pedagogy Society.
+
+
+          Mrs. Cherniavsky’s career has spanned a variety of professional settings in education, leadership, and performance. She has taught at Community Consolidated School District 21 in Wheeling, IL, the Fulton County Public Schools, and The Westminster Schools, as well as the Georgia Academy of Music. During her 34 year tenure at Westminster, she taught Lower, Middle, and Upper Schools Orchestras. Additionally, she worked as Department Chair for two terms and was Director of Performing Arts until her retirement. She has also been Secretary and President of the Georgia Chapter of the American String Teachers Association. As a professional violinist, Mrs. Cherniavsky has performed with the Atlanta Ballet Orchestra, the Atlanta Chamber Orchestra, the Atlanta Opera Orchestra, and the Atlanta Pops Orchestra. 
+
+
+          Mrs. Cherniavsky maintains memberships in the American Federation of Musicians Local 148-462 where she serves on the Local Executive Board, the American String Teachers Association where she is a member of the Emeritus and K12 committees and the National Foundation for Music Education. She continues to serve as adjudicator, clinician, guest conductor, and mentor at the local, state, and national levels. 
+        image: /assets/fbp_l.cherniavsky_5433_5x7_300_23.1117-0813-2.png
+        alt_text: Linda Cherniavsky
 ---
