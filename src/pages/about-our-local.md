@@ -93,6 +93,28 @@ sections:
           Bill hails from Sarasota, Florida and earned the Doctor of Musical Arts Degree from the Cleveland Institute of Music. In his free time you may find him practicing Aikido or exploring Atlanta’s many wonderful parks with his Basset Hound.
         image: /assets/bill-johnston-headshot-.jpg
         alt_text: Bill Johnston
+      - name: Jeanne Carere
+        title: Local Executive Board
+        text: >
+          JEANNE CARERE has been an active freelance flutist and Atlanta
+          Federation of Musicians member for over 30 years. She currently plays
+          Principal Flute with the Atlanta Ballet Orchestra and the Georgia
+          Symphony. She also plays regularly with the Atlanta Pops and Pullman
+          Pops. Jeanne has played many shows at the Fox Theater including
+          “Wicked”, “Evita”, “Phantom of the Opera”, “Fiddler on the Roof”, just
+          to name a few. She has played for greats such as Celine Dion, Ray
+          Charles, Diana Krall, Elton John, Oleta Adams and many others.
+          Recently, Jeanne was invited to play a limited engagement of the
+          touring show of “Into the Woods” in Charlotte, NC starring Stephanie
+          Block, Montego Glover and Gavin Creel.  
+           
+          In addition to Jeanne’s playing career, she has contracted musicians for Pullman Pops at Pullman Yards, The Eagles “Hotel California” Tour in Atlanta in 2022 at State Farm Arena, operatic sensation Jessye Norman, and many other single engagements in greater Atlanta.  
+           
+          Jeanne owns and runs Carere Music in Peachtree Corners where she maintains a successful Flute studio and provides a space for other music teachers in the area.  
+           
+          Her proudest accomplishment is raising four amazing children.
+        image: /assets/jeanne-carere-s-headshot_-002-.jpg
+        alt_text: Jeanne Carere
       - name: Eric Ferguson
         title: Local Executive Board
         text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
@@ -166,46 +188,4 @@ sections:
           our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
-      - name: Kevin Leahy
-        title: Local Executive Board
-        text: "KEVIN LEAHY is a freelance drummer and percussionist who has worked in a
-          variety of settings. A graduate of the Indiana University Jacobs
-          School of Music, he is currently the Executive Director of the Atlanta
-          Pops Orchestra and has served on the Board of the Atlanta Chapter of
-          the Recording Academy. "
-        image: /assets/kleahyheadshot.jpg
-        alt_text: Kevin Leahy
-      - name: Averil Taylor
-        title: Local Executive Board and AFM Convention Diversity Delegate
-        text: AVERIL TAYLOR is an active Atlanta musician who also studied music in the
-          city. He is a former student of John Head and James Patterson. He
-          studied music in undergrad at Clark Atlanta University and in grad
-          school at Georgia State University.  Averil maintains an active
-          performance schedule while also being involved with the Atlanta Music
-          Project. He believes strongly in the potential that music has in the
-          area of youth development. Averil works to help the underserved have
-          access to high quality musical instruction. Averil hopes to play an
-          active role on the board to help with the work of advancing musician’s
-          rights and leaving a positive footprint on the Atlanta music scene.
-        image: /assets/averil-taylor.jpg
-        alt_text: Averil Taylor
-      - name: Meghan Yost
-        title: Local Executive Board
-        text: >
-          MEGHAN YOST-COE, violist and pedagogue, strongly believes in music as
-          a vehicle for human expression and social change. She teaches and
-          performs with organizations across the country that provide low cost
-          or tuition free training for young musicians. Her commitment to
-          accessibility has led her to work with El- Sistema inspired programs
-          such as Atlanta Music Project, Porterville Strings, and Carnegie
-          Hall’s PlayUSA. She regularly travels to give masterclasses and
-          workshops throughout the U.S. and last year was invited as Guest
-          Artist to Sunway University in Kuala Lumpur, Malaysia to give
-          masterclasses and concerts. Ms. Yost-Coe is also the Viola Professor
-          at Clayton State University. In 2020 she was named Music Educator of
-          the Year by the Atlanta Federation of Musicians. 
-
-          An active chamber musician, Ms. Yost-Coe has collaborated with Harlem Quartet, Dali Quartet, Elmar Oliveira, Petar Jankovic, Bright Feather Ensemble, and Kaleidoscope Chamber Orchestra. Her love of chamber music blossomed under the guidance of her mentors Joel Krosnick, David Cole, Chauncey Patterson, Doris Lederer, and Kathy Murdock. She regularly performs at The Porterville Strings Festival and the Atlanta Music Project Summer Chamber Series. Past festival performances include Kneisel Hall Chamber Music School, the Dali Quartet International Music Festival, and the Garth Newel Music Center. Love of chamber music also led her to collaborate with the indie-folk rock band River City Extension, touring the continental U.S. for two years. Her live session recordings can be heard on Audiotree, Little Elephant Room, and Daytrotter. Yost-Coe performs with orchestras across the southeast, including the Atlanta Opera, Charleston Symphony Orchestra, and Columbus Symphony Orchestra. She has performed throughout the U.S., Canada, China, Malaysia, and Brazil. Yost-Coe received her Bachelor of Music from Indiana University Jacobs School of Music, where she studied with Yuval Gotlibovich and Alan deVeritch; and her Master of Music from Lynn Conservatory of Music under Ralph Fielding.
-        image: /assets/myostheadshot.jpg
-        alt_text: Meghan Yost
 ---
