@@ -143,7 +143,7 @@ sections:
         image: /assets/bill-johnston-headshot-.jpg
         alt_text: Bill Johnston
       - name: Milkshake Mayfield
-        title: Diversity Delegate
+        title: Diversity Delegate to the AFM International Convention
         text: >
           Milkshake is Atlanta’s-own JAZZ Trumpeter/Flugelhornist
           'extraordinaire’ & music legend; Atlanta's 'Ambassador of JAZZ'; an
