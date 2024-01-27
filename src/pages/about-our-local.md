@@ -142,6 +142,36 @@ sections:
           Bill hails from Sarasota, Florida and earned the Doctor of Musical Arts Degree from the Cleveland Institute of Music. In his free time you may find him practicing Aikido or exploring Atlanta’s many wonderful parks with his Basset Hound.
         image: /assets/bill-johnston-headshot-.jpg
         alt_text: Bill Johnston
+      - name: Milkshake Mayfield
+        title: Diversity Delegate
+        text: >
+          Milkshake is Atlanta’s-own JAZZ Trumpeter/Flugelhornist
+          'extraordinaire’ & music legend; Atlanta's 'Ambassador of JAZZ'; an
+          Alpha Phi Alpha man, Alpha Phi Chapter at Clark College (now
+          Clark-Atlanta University), where he earned his BA degree in Music.  
+
+
+          Among numerous other award accolades for his professionalism in JAZZ music & community outreach, Milkshake  was recently awarded a Resolution from State of Georgia Senator Gail Davenport, when his JAZZ  band, the Milkshake Quintet (MSQ), was invited to perform at the 2023 Unity JAZZ Concert Series, Emory University, Atlanta, GA.  
+
+
+          No matter which corner of the world Milkshake plays in, his followers recognize him by his distinctly authentic 'signature' sound of JAZZ, that has taken him all over the world.  As a JAZZ fusion artist, he is super skilled in blending polyrhythmic music in improvised format; in contemporary & straight-ahead jazz, bebop, funk, R&B, Pop...however it pleases his diverse fans & audiences.  His presentation style of performance & dress were highly influenced by the esteemed professionalism of late renown JAZZ giants, Dizzy Gillespie, Duke Ellington, & Cab Calloway, all of whom he had the pleasure of performing with.  
+
+
+          Milkshake formed the MSQ over 45 years ago, & to this day, his 'signature' still out-stands the changing phases of what REAL JAZZ sounds like, looks like, feels like, & is like.  His impressive & varied music performance portfolio has catapulted him to wide venues---Atlanta Montreux International JAZZ Festival; Nice France’s La Grande Parade de JAZZ; Montreux Switzerland JAZZ Festival; Carnegie Hall; Atlanta's Black Arts Fests; shared-stage performances with the SOS band, Bobby Byrd & the JBs, Michael Franks, Alex Bugnon, Kevin Eubanks, Maysa, Jeff Lorber, Gladys Knight, Fred Wesley & the New JBs, the late Freddy Cole, Rachelle Ferrell, etc.  He even garnered a cameo appearance in a Housewives of Atlanta's episode.  He was featured JAZZ artist on WAGA Fox 5's 'Wednesday’s Child' adoption hotline; & 'JAZZ in School', sponsored by Atlanta's JAZZ station WCLK 91.9's community outreach/workshop program initiative that mentors to young aspiring musicians.  He has even given away instruments to aspiring young musicians.  
+
+
+          Milkshake & wife Christine (Tine), MSQ's featured vocalist, have performed on several Royal Caribbean Cruise lines across Europe.  His JAZZ debut CD "In My Time" was released in 2010. He is currently working on other JAZZ projects.  He is also well known in his practice as a  licensed apprentice in Mortuary Science.  
+
+
+          Milkshake Mayfield, Trumpeter/Flugelhornist 
+
+          404/372-6473 ~ milkshake@bellsouth.net
+
+          Smooth Music Production ~ Silky Smooth Records
+
+          FaceBook: Shake Mayfield ~ InStaGram: Milkshake_Mayfield
+        image: /assets/milkshake-1.webp
+        alt_text: Milkshake Mayfield
       - name: Jeanne Carere
         title: Local Executive Board
         text: >
