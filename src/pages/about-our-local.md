@@ -170,7 +170,7 @@ sections:
           Smooth Music Production ~ Silky Smooth Records
 
           FaceBook: Shake Mayfield ~ InStaGram: Milkshake_Mayfield
-        image: /assets/milkshake-1.webp
+        image: /assets/milkshake-1.jpg
         alt_text: Milkshake Mayfield
       - name: Jeanne Carere
         title: Local Executive Board
