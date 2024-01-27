@@ -208,7 +208,7 @@ sections:
           time.  The most important element in all of these events is a deep
           sense of gratitude to have performed with so many great musicians, and
           to be part of the AFM. "
-        image: /assets/2squareafm.jpg
+        image: /assets/eric-ferguson-4.jpg
         alt_text: Eric Ferguson
       - name: Bill Hatcher
         title: Local Executive Board
