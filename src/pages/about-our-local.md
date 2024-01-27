@@ -218,7 +218,7 @@ sections:
           As a studio musician, Hatcher has performed on more than 3,000 local
           recording sessions. He is a life member in local 148-462 and has
           served as an executive board member for many years. "
-        image: /assets/bill-hatcher.jpg
+        image: /assets/bill-hatcher-headshot.jpg
         alt_text: Bill Hatcher
       - name: Johnna Jeong
         title: Local Executive Board
