@@ -49,11 +49,11 @@ sections:
         image: /assets/bruce-kenney.jpg
         alt_text: Bruce Kenney
       - text: >-
-          Associate Professor Dr. Patterson earned his BA Degree in Music from
-          Clark College (now Clark Atlanta University) in 1957. In 1965 Dr.
-          Patterson earned his Masters of Music Degree from the University of
-          Michigan. He received an Honorary Doctorate Degree from Morris Brown
-          College in 2018.
+          DR. JAMES HARDY PATTERSON earned his BA Degree in Music from Clark
+          College (now Clark Atlanta University) in 1957. In 1965 Dr. Patterson
+          earned his Masters of Music Degree from the University of Michigan. He
+          received an Honorary Doctorate Degree from Morris Brown College in
+          2018.
 
 
           ​Throughout Dr. Patterson's undergraduate years, he engaged in developing and refining his musical talent under Professor Wayman Carver (first to record the flute in jazz) the Band Director at then Clark College. After receiving his undergraduate degree, he entered the United States Army where he organized and directed the Drum and Bugle Corps at Fort Jackson, South Carolina. He served in Communications (radio teletype) during his army service and he also performed with the Seventh Army Band in Stuttgart, Germany and throughout Europe. Upon returning to civilian life and earning the Master's of Music degree from the University of Michigan, he also further studied at Atlanta University (now Clark Atlanta University) and the University of Wisconsin.
@@ -119,7 +119,7 @@ sections:
       - name: Bill Johnston
         title: Secretary-Treasurer
         text: >-
-          William Johnston is a violist, teacher, and musicians’ wellness expert
+          BILL JOHNSTON is a violist, teacher, and musicians’ wellness expert
           whose work is fueled by his belief in the connection between beautiful
           movement and beautiful music. Praised for his “richly lyrical tone and
           expressive playing” (ArtsATL.com), Bill has performed widely as a
@@ -145,7 +145,7 @@ sections:
       - name: Milkshake Mayfield
         title: Diversity Delegate to the AFM International Convention
         text: >
-          Milkshake is Atlanta’s-own JAZZ Trumpeter/Flugelhornist
+          MILKSHAKE MAYFIELD is Atlanta’s-own JAZZ Trumpeter/Flugelhornist
           'extraordinaire’ & music legend; Atlanta's 'Ambassador of JAZZ'; an
           Alpha Phi Alpha man, Alpha Phi Chapter at Clark College (now
           Clark-Atlanta University), where he earned his BA degree in Music.  
@@ -197,7 +197,7 @@ sections:
       - name: Linda Cherniavsky
         title: Local Executive Board
         text: >
-          Linda Cherniavsky, a native of Atlanta, attended Northwestern
+          LINDA CHERNIAVSKY, a native of Atlanta, attended Northwestern
           University, and the University of Georgia before earning her Bachelor
           and Master of Science in Music Education degrees from the University
           of Illinois at Urbana - Champaign. She pursued additional musical
@@ -213,6 +213,23 @@ sections:
           Mrs. Cherniavsky maintains memberships in the American Federation of Musicians Local 148-462 where she serves on the Local Executive Board, the American String Teachers Association where she is a member of the Emeritus and K12 committees and the National Foundation for Music Education. She continues to serve as adjudicator, clinician, guest conductor, and mentor at the local, state, and national levels. 
         image: /assets/fbp_l.cherniavsky_5433_5x7_300_23.1117-0813-2.png
         alt_text: Linda Cherniavsky
+      - name: Brian Desarro
+        text: >-
+          BRIAN DESARRO began serving Atlanta Federation of Musicians in 2018
+          when he joined the staff, working his way from Office Manager to Local
+          148-462 Secretary-Treasurer by 2022/23. In that time, he directly
+          negotiated with CBA and freelance employers for better working
+          conditions and wages on behalf of union musicians, represented Atlanta
+          on the international level negotiating electronic media contracts, and
+          he sought to serve the needs of the membership and steward a healthy
+          and thriving music community across the state.
+
+          He currently works as a Director of Campaign Operations at POWER 10, a leading campaign management company specializing in strategic initiative development and campaigns to fund chamber of commerce/economic development programs and community building projects. He also sits as Executive Board Secretary of the Atlanta Pride Committee, Georgia’s oldest non-profit agency serving the LGBTQ+ community as an advocate of and resource to the gender and sexually diverse communities in Atlanta and across the Southeast.
+
+          As a Director of AFM Local 148-462, he hopes to draw on his time directly working with the membership to be a strategic partner leveraging his current role and past experience in digital marketing and project management to keep Georgia musicians empowered, protected, and unified with the strength of one voice.
+        title: Local Executive Board
+        image: /assets/brian-desarro-2023-headshot-.jpg
+        alt_text: Brian Desarro
       - name: Eric Ferguson
         title: Local Executive Board
         text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
@@ -253,7 +270,7 @@ sections:
       - name: Johnna Jeong
         title: Local Executive Board
         text: >+
-          JOHNNA JEONG  is an active musician in Atlanta, a valued music
+          JOHNNA JEONG is an active musician in Atlanta, a valued music
           educator, guitarist, vocalist, actor, and composer. After growing up
           traveling extensively in a military family, Johnna nurtured her
           passion for music by earning a B.A. at Virginia Commonwealth
@@ -275,15 +292,16 @@ sections:
       - name: Mary Kenney
         title: Local Executive Board
         text: The American Federation of Musicians has been an important part of MARY
-          KENNEY's life since she first joined in 1978. She is a free lance
+          KENNEY's life since she first joined in 1978. Mary is a freelance
           cellist and member of both the Atlanta Opera and Atlanta Ballet
-          Orchestras, joining the Union Board in 1998. She has actively
-          participated in orchestra players committees, ROPA, CBA negotiations,
-          modernizing our union building and most recently, efforts of the
-          Solidarity Team and Organizing Task Force. Through it all - management
-          lockouts, picket lines, CBA negotiations, long fought for gains in pay
-          and working conditions and some amazing performance opportunities,
-          Mary has remained committed to our Local's shared objectives.
+          Orchestras, having joined the Local Union Board in 1998. She has
+          actively participated in orchestra players committees, ROPA (Regional
+          Orchestra Players Association), CBA negotiations, modernizing our
+          union building and most recently, efforts with the Solidarity Team and
+          Organizing Task Force. Through it all - management lockouts, picket
+          lines, CBA negotiations, long fought for gains in pay and working
+          conditions and some amazing performance opportunities, Mary has
+          remained committed to our Local's shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
 ---
