@@ -271,21 +271,25 @@ sections:
         title: Local Executive Board
         text: >+
           JOHNNA JEONG is an active musician in Atlanta, a valued music
-          educator, guitarist, vocalist, actor, and composer. After growing up
+          educator, guitarist, vocalist, actor, and composer. After growing up
           traveling extensively in a military family, Johnna nurtured her
           passion for music by earning a B.A. at Virginia Commonwealth
           University and an M.M. at East Carolina University in music. Upon
           arriving in Atlanta, she has had the opportunity to showcase her
           skills across a wide range of musical genres as a freelance artist.
-          Initially joining  Local 148-462 in 2007, she has been the guitarist
-          for an Atlanta Lyric Theatre production, and various other musicals.
-          She has also ventured into scoring independent films, and currently
-          performs frequently as a solo artist while maintaining a busy teaching
+          Initially joining Local 148-462 in 2007, as the guitarist for an
+          Atlanta Lyric Theatre production. She is also a member of WIM (Women
+          In Music, Atlanta chapter), has ventured into scoring independent
+          films, is active in the Atlanta acting community, and currently
+          performs frequently as a solo artist while maintaining a teaching
           schedule.
 
-          As a member of the Atlanta Federation of Musicians (AFM), Johnna contributes her support as a board member of the Diversity Committee, has been a recipient of the Music Performance Trust Fund, and is honored to follow in the footsteps of her predecessor John McCutcheon, as a Local Executive Board member. 
 
-          Johnna has established herself as a dedicated musician within the community, and continues to enrich the cultural fabric of Atlanta. 
+          As a member of the Atlanta Federation of Musicians (AFM), Johnna contributes her support as a board member of the Diversity Committee, has been a recipient of the Music Performance Trust Fund, and is honored to follow in the footsteps of her predecessor John McCutcheon, as a Local Executive Board member. 
+
+
+          Johnna has established herself as a dedicated musician within the community and continues to enrich the cultural fabric of Atlanta. 
+
 
         image: /assets/johnnajeongoriginal-002-.jpg
         alt_text: Johnna Jeong
