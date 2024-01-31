@@ -145,31 +145,30 @@ sections:
       - name: Milkshake Mayfield
         title: Diversity Delegate to the AFM International Convention
         text: >
-          MILKSHAKE MAYFIELD is Atlanta’s-own JAZZ Trumpeter/Flugelhornist
-          'extraordinaire’ & music legend; Atlanta's 'Ambassador of JAZZ'; an
-          Alpha Phi Alpha man, Alpha Phi Chapter at Clark College (now
-          Clark-Atlanta University), where he earned his BA degree in Music.  
+          MILKSHAKE MAYFIELD is Atlanta’s own jazz trumpeter and flugelhornist
+          extraordinaire; a 
+
+          music legend. He is Atlanta's ambassador of jazz, and an Alpha Phi Alpha man (Clark Atlanta University Chapter), where he earned his BA in Music.
 
 
-          Among numerous other award accolades for his professionalism in JAZZ music & community outreach, Milkshake  was recently awarded a Resolution from State of Georgia Senator Gail Davenport, when his JAZZ  band, the Milkshake Quintet (MSQ), was invited to perform at the 2023 Unity JAZZ Concert Series, Emory University, Atlanta, GA.  
+          Among numerous other accolades and awards for his professionalism in jazz music and community outreach, Milkshake was recently awarded a Resolution from Georgia State Senator Gail Davenport. His band, The Milkshake Quintet (MSQ), was invited to perform at the 2023 Unity Jazz Concert Series at Emory University.
 
 
-          No matter which corner of the world Milkshake plays in, his followers recognize him by his distinctly authentic 'signature' sound of JAZZ, that has taken him all over the world.  As a JAZZ fusion artist, he is super skilled in blending polyrhythmic music in improvised format; in contemporary & straight-ahead jazz, bebop, funk, R&B, Pop...however it pleases his diverse fans & audiences.  His presentation style of performance & dress were highly influenced by the esteemed professionalism of late renown JAZZ giants, Dizzy Gillespie, Duke Ellington, & Cab Calloway, all of whom he had the pleasure of performing with.  
+          No matter which corner of the world Milkshake plays in, his followers recognize him by his distinctly authentic ’signature' sound, which has been heard globally. As a jazz fusion artist, he is skilled in blending polyrhythmic music in an improvised format. In contemporary music, straight-ahead jazz, bebop, funk, R&B, and pop, his audiences enjoys the diverse music. His performance style, fashion sense, and sound were highly influenced by the renowned jazz giants Dizzy Gillespie, Duke Ellington, and Cab Calloway (all of whom he had the pleasure of performing with).  
 
 
-          Milkshake formed the MSQ over 45 years ago, & to this day, his 'signature' still out-stands the changing phases of what REAL JAZZ sounds like, looks like, feels like, & is like.  His impressive & varied music performance portfolio has catapulted him to wide venues---Atlanta Montreux International JAZZ Festival; Nice France’s La Grande Parade de JAZZ; Montreux Switzerland JAZZ Festival; Carnegie Hall; Atlanta's Black Arts Fests; shared-stage performances with the SOS band, Bobby Byrd & the JBs, Michael Franks, Alex Bugnon, Kevin Eubanks, Maysa, Jeff Lorber, Gladys Knight, Fred Wesley & the New JBs, the late Freddy Cole, Rachelle Ferrell, etc.  He even garnered a cameo appearance in a Housewives of Atlanta's episode.  He was featured JAZZ artist on WAGA Fox 5's 'Wednesday’s Child' adoption hotline; & 'JAZZ in School', sponsored by Atlanta's JAZZ station WCLK 91.9's community outreach/workshop program initiative that mentors to young aspiring musicians.  He has even given away instruments to aspiring young musicians.  
+          Milkshake formed his quintet over 45 years ago, and to this day his sound stands out. His impressive and varied music performance portfolio has catapulted him to wide venues such as: Montreux International Jazz Festival, La Grande Parade de Jazz (Nice, France), 
+
+          Carnegie Hall, the National Black Arts Festival (ATL).
 
 
-          Milkshake & wife Christine (Tine), MSQ's featured vocalist, have performed on several Royal Caribbean Cruise lines across Europe.  His JAZZ debut CD "In My Time" was released in 2010. He is currently working on other JAZZ projects.  He is also well known in his practice as a  licensed apprentice in Mortuary Science.  
+          Milkshake has shared the stage with: The S.O.S. Band, Bobby Byrd & The JB’s, Michael Franks, Alex Bugnon, Kevin Eubanks, Maysa, Jeff Lorber, Gladys Knight, Fred Wesley & The New JB’s, the late Freddy Cole, Rachelle Ferrell, and many others.  
 
 
-          Milkshake Mayfield, Trumpeter/Flugelhornist 
+          Milkshake garnered a cameo appearance in The Housewives of Atlanta and was a featured artist on WAGA Fox 5's Wednesday’s Child Adoption Hotline, as well as  Jazz in School, which is the community outreach and workshop initiative sponsored by WCLK 91.9, Atlanta's jazz radio station. He mentors and has even given away instruments to aspiring young musicians.  
 
-          404/372-6473 ~ milkshake@bellsouth.net
 
-          Smooth Music Production ~ Silky Smooth Records
-
-          FaceBook: Shake Mayfield ~ InStaGram: Milkshake_Mayfield
+          Milkshake and his wife Christine, who is also a musician and vocalist, have performed on several Royal Caribbean Cruise line cruises across Europe. His jazz debut CD In My Time, was released in 2010 and he is currently working on other projects. He is also well known in his practice as a licensed apprentice in Mortuary Science.  
         image: /assets/milkshake-1.jpg
         alt_text: Milkshake Mayfield
       - name: Jeanne Carere
