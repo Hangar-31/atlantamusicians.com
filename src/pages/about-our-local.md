@@ -180,17 +180,20 @@ sections:
           Principal Flute with the Atlanta Ballet Orchestra and the Georgia
           Symphony. She also plays regularly with the Atlanta Pops and Pullman
           Pops. Jeanne has played many shows at the Fox Theater including
-          “Wicked”, “Evita”, “Phantom of the Opera”, “Fiddler on the Roof”, just
-          to name a few. She has played for greats such as Celine Dion, Ray
+          Wicked, Evita, Phantom of the Opera, and Fiddler on the Roof, just to
+          name a few. She has played for greats such as Celine Dion, Ray
           Charles, Diana Krall, Elton John, Oleta Adams and many others.
           Recently, Jeanne was invited to play a limited engagement of the
-          touring show of “Into the Woods” in Charlotte, NC starring Stephanie
-          Block, Montego Glover and Gavin Creel.  
+          touring show of Into the Woods in Charlotte, NC starring Stephanie
+          Block, Montego Glover and Gavin Creel. 
            
-          In addition to Jeanne’s playing career, she has contracted musicians for Pullman Pops at Pullman Yards, The Eagles “Hotel California” Tour in Atlanta in 2022 at State Farm Arena, operatic sensation Jessye Norman, and many other single engagements in greater Atlanta.  
-           
+          In addition to Jeanne’s playing career, she has contracted musicians for Pullman Pops at Pullman Yards, The Eagles “Hotel California” Tour in Atlanta in 2022 at State Farm Arena, 
+
+          operatic sensation Jessye Norman, and many other single engagements in greater Atlanta.
+            
           Jeanne owns and runs Carere Music in Peachtree Corners where she maintains a successful Flute studio and provides a space for other music teachers in the area.  
-           
+
+
           Her proudest accomplishment is raising four amazing children.
         image: /assets/jeanne-carere-s-headshot_-002-.jpg
         alt_text: Jeanne Carere
