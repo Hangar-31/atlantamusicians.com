@@ -259,12 +259,12 @@ sections:
         alt_text: Eric Ferguson
       - name: Bill Hatcher
         title: Local Executive Board
-        text: "Guitarist BILL HATCHER is an Atlanta-based musician who’s been performing
-          in Atlanta since 1974. He’s performed with the Atlanta Symphony,
-          Atlanta Opera, Atlanta Ballet, Alliance Theater and numerous others.
-          As a studio musician, Hatcher has performed on more than 3,000 local
-          recording sessions. He is a life member in local 148-462 and has
-          served as an executive board member for many years. "
+        text: "Guitarist BILL HATCHER has been performing in Atlanta since 1974. He’s
+          performed with the Atlanta Symphony, Atlanta Opera, Atlanta Ballet,
+          Alliance Theater and numerous others. As a studio musician, Hatcher
+          has performed on more than 3,000 local recording sessions. He is a
+          life member in Local 148-462 and has served as an executive board
+          member for many years. "
         image: /assets/bill-hatcher-headshot.jpg
         alt_text: Bill Hatcher
       - name: Johnna Jeong
@@ -295,17 +295,17 @@ sections:
         alt_text: Johnna Jeong
       - name: Mary Kenney
         title: Local Executive Board
-        text: The American Federation of Musicians has been an important part of MARY
-          KENNEY's life since she first joined in 1978. Mary is a freelance
-          cellist and member of both the Atlanta Opera and Atlanta Ballet
-          Orchestras, having joined the Local Union Board in 1998. She has
-          actively participated in orchestra players committees, ROPA (Regional
-          Orchestra Players Association), CBA negotiations, modernizing our
-          union building and most recently, efforts with the Solidarity Team and
-          Organizing Task Force. Through it all - management lockouts, picket
-          lines, CBA negotiations, long fought for gains in pay and working
-          conditions and some amazing performance opportunities, Mary has
-          remained committed to our Local's shared objectives.
+        text: >
+          The American Federation of Musicians has been an important part of
+          MARY KENNEY’s life since she first joined in 1978. She is a free lance
+          cellist and member of both the Opera and Ballet Orchestras, joining
+          the Union Board in 1998.She has actively participated in orchestra
+          players committees, ROPA, CBA negotiations, modernizing our building
+          and most recently, efforts of the Solidarity Team and Organizing Task
+          Force. Through it all - management lockouts, picket lines, CBA
+          negotiations, long fought for gains in pay and working conditions and
+          some amazing performance opportunities, she has remained committed to
+          our shared objectives.
         image: /assets/mary-kenney.jpg
         alt_text: Mary Kenney
 ---
