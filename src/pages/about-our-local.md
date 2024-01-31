@@ -109,7 +109,7 @@ sections:
           Finance Committee and is Treasurer of both the International
           Conference of Symphony and Opera Orchestras (ICSOM) and the Atlanta
           Symphony Orchestra Players’ Association (ASOPA). He is President and
-          founder of the Atlanta Brass Society, Inc. and is tubaist with the
+          founder of the Atlanta Brass Society, Inc. and is tubist with the
           Atlanta Symphony Brass Quintet. Michael’s background in both classical
           and popular music has contributed to his understanding of the music
           industry and his willingness to serve the Local for nearly his
