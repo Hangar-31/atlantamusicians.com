@@ -119,9 +119,9 @@ sections:
         title: Diversity Delegate to the AFM International Convention
         text: >
           MILKSHAKE MAYFIELD is Atlanta’s own jazz trumpeter and flugelhornist
-          extraordinaire; a 
-
-          music legend. He is Atlanta's ambassador of jazz, and an Alpha Phi Alpha man (Clark Atlanta University Chapter), where he earned his BA in Music.
+          extraordinaire; a music legend. He is Atlanta's ambassador of jazz,
+          and an Alpha Phi Alpha man (Clark Atlanta University Chapter), where
+          he earned his BA in Music.
 
 
           Among numerous other accolades and awards for his professionalism in jazz music and community outreach, Milkshake was recently awarded a Resolution from Georgia State Senator Gail Davenport. His band, The Milkshake Quintet (MSQ), was invited to perform at the 2023 Unity Jazz Concert Series at Emory University.
@@ -130,9 +130,7 @@ sections:
           No matter which corner of the world Milkshake plays in, his followers recognize him by his distinctly authentic ’signature' sound, which has been heard globally. As a jazz fusion artist, he is skilled in blending polyrhythmic music in an improvised format. In contemporary music, straight-ahead jazz, bebop, funk, R&B, and pop, his audiences enjoys the diverse music. His performance style, fashion sense, and sound were highly influenced by the renowned jazz giants Dizzy Gillespie, Duke Ellington, and Cab Calloway (all of whom he had the pleasure of performing with).  
 
 
-          Milkshake formed his quintet over 45 years ago, and to this day his sound stands out. His impressive and varied music performance portfolio has catapulted him to wide venues such as: Montreux International Jazz Festival, La Grande Parade de Jazz (Nice, France), 
-
-          Carnegie Hall, the National Black Arts Festival (ATL).
+          Milkshake formed his quintet over 45 years ago, and to this day his sound stands out. His impressive and varied music performance portfolio has catapulted him to wide venues such as: Montreux International Jazz Festival, La Grande Parade de Jazz (Nice, France), Carnegie Hall, and the National Black Arts Festival (ATL).
 
 
           Milkshake has shared the stage with: The S.O.S. Band, Bobby Byrd & The JB’s, Michael Franks, Alex Bugnon, Kevin Eubanks, Maysa, Jeff Lorber, Gladys Knight, Fred Wesley & The New JB’s, the late Freddy Cole, Rachelle Ferrell, and many others.  
@@ -209,9 +207,18 @@ sections:
         title: Local Executive Board
         text: >-
           ERIC FERGUSON is an AFM life member and previously a member of Actor’s
-          Equity 
-
-          Association. As bassist for Ronnie Hawkins’ band in the early 1970’s, Eric performed in Toronto and London Ontario, as well as on Kenny Rogers’ variety show Rollin’ On The River. His sideman credits also include recording artists John David Souther, Martha Reeves and the Vandellas, Lonnie Mack, Sir Douglas Quintet, The Shirelles, King Biscuit Boy, and Kinky Friedman. At the Chautauqua Institution, Eric was a featured vocalist and backed up an array of Grand Ole Opry members in Minnie Pearl’s Country Revue.  In professional theatre, he has played for: The Robber Bride Groom, Big River, Little Shop of Horrors, Best Little Whorehouse in Texas, A Funny Thing Happened on the Way to the Forum, Della’s Diner 6, Shrew The Musical, Twelfth Night The Musical, amongst others. 
+          Equity Association. As bassist for Ronnie Hawkins’ band in the early
+          1970’s, Eric performed in Toronto and London Ontario, as well as on
+          Kenny Rogers’ variety show Rollin’ On The River. His sideman credits
+          also include recording artists John David Souther, Martha Reeves and
+          the Vandellas, Lonnie Mack, Sir Douglas Quintet, The Shirelles, King
+          Biscuit Boy, and Kinky Friedman. At the Chautauqua Institution, Eric
+          was a featured vocalist and backed up an array of Grand Ole Opry
+          members in Minnie Pearl’s Country Revue.  In professional theatre, he
+          has played for: The Robber Bride Groom, Big River, Little Shop of
+          Horrors, Best Little Whorehouse in Texas, A Funny Thing Happened on
+          the Way to the Forum, Della’s Diner 6, Shrew The Musical, Twelfth
+          Night The Musical, amongst others. 
 
 
           Eric was bassist/conductor for Beehive, starring Mary Wilson, and bassist/music director for numerous productions of PUMP BOYS AND DINETTES. He most recently performed with America’s Got Talent 1st prize winner Michael Grimm at the Hard Rock Casino Hotel in Atlantic City. 
