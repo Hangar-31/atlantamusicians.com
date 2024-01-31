@@ -232,29 +232,17 @@ sections:
         alt_text: Brian Desarro
       - name: Eric Ferguson
         title: Local Executive Board
-        text: "ERIC FERGUSON is an AFM life member and previously a member of Actor’s
-          Equity Association.  As Bassist for Ronnie Hawkins’ band in the early
-          1970’s, Eric performed in Toronto and London Ontario, as well as on
-          Kenny Rogers’ variety show ROLLIN’ ON THE RIVER.  His sideman credits
-          also include recording artists John David Souther, Martha Reeves and
-          the Vandellas, Lonnie Mack, Sir Douglas Quintet, The Shirelles, King
-          Biscuit Boy, and Kinky Friedman.  At the Chautauqua Institution, Eric
-          was a featured vocalist and backed up an array of Grand Ole Opry
-          members in Minnie Pearl’s country revue.  In professional theatre, he
-          has played bass in THE ROBBER BRIDEGROOM, BIG RIVER, LITTLE SHOP OF
-          HORRORS, BEST LITTLE WHOREHOUSE IN TEXAS, A FUNNY YHING HAPPENED ON
-          THE WAY TO THE FORUM, DELLA’S DINER 6, SHREW THE MUSICAL, TWELFTH
-          NIGHT THE MUSICAL and others.  Eric was bassist/conductor for BEEHIVE
-          starring Mary Wilson, and bassist/music director for numerous
-          productions of PUMP BOYS AND DINETTES.  He most recently performed
-          with America’s Got Talent 1st prize winner Michael Grimm at the Hard
-          Rock Casino Hotel in Atlantic City.  Previous to AFM Local 148-462, he
-          was a member of locals 92 and 802.  Eric was Director of Public
-          Relations at 148-462, and ran the in-house signatory booking
-          agency.  He subsequently served on the LEB up to the present
-          time.  The most important element in all of these events is a deep
-          sense of gratitude to have performed with so many great musicians, and
-          to be part of the AFM. "
+        text: >-
+          ERIC FERGUSON is an AFM life member and previously a member of Actor’s
+          Equity 
+
+          Association. As bassist for Ronnie Hawkins’ band in the early 1970’s, Eric performed in Toronto and London Ontario, as well as on Kenny Rogers’ variety show Rollin’ On The River. His sideman credits also include recording artists John David Souther, Martha Reeves and the Vandellas, Lonnie Mack, Sir Douglas Quintet, The Shirelles, King Biscuit Boy, and Kinky Friedman. At the Chautauqua Institution, Eric was a featured vocalist and backed up an array of Grand Ole Opry members in Minnie Pearl’s Country Revue.  In professional theatre, he has played for: The Robber Bride Groom, Big River, Little Shop of Horrors, Best Little Whorehouse in Texas, A Funny Thing Happened on the Way to the Forum, Della’s Diner 6, Shrew The Musical, Twelfth Night The Musical, amongst others. 
+
+
+          Eric was bassist/conductor for Beehive, starring Mary Wilson, and bassist/music director for numerous productions of PUMP BOYS AND DINETTES. He most recently performed with America’s Got Talent 1st prize winner Michael Grimm at the Hard Rock Casino Hotel in Atlantic City. 
+
+
+          Previous to AFM Local 148-462, Eric was a member of locals 92 and 802. He was Director of Public Relations at 148-462, and ran the in-house signatory booking agency. He subsequently served on the LEB up to the present time. The most important element in all of these activities is a deep sense of gratitude to have performed with so many great musicians, and to be part of the AFM. 
         image: /assets/eric-ferguson-5.jpg
         alt_text: Eric Ferguson
       - name: Bill Hatcher
