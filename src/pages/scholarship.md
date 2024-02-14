@@ -17,7 +17,7 @@ sections:
       Applications are due by April 29th, 2024. Please click below to download PDF application.
 
 
-    content_image: /assets/1-afm_logo_color.jpg
+    content_image: /assets/popart.jpg
     title: 25th Annual John H. Head Scholarship
     type: section_banner
   - type: section_spacer
