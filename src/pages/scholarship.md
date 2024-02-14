@@ -11,10 +11,10 @@ sections:
     link_text: Application Download
     content_title: Applications for 2024
     content_text: >+
-      The 25th annual John H. Head Scholarship Audition will be held on May
+      The 25th annual John H. Head Scholarship Auditions will be held on May
       19th, 2024. 
 
-      Applications are available by clicking the PDF below.
+      Applications are due by April 29th, 2024. Please click below to download PDF application.
 
 
     content_image: /assets/1-afm_logo_color.jpg
@@ -25,8 +25,8 @@ sections:
     title: John H. Head Scholarship
   - type: section_content_images
     list:
-      - image: /assets/john-h.-head-scholarship-logo.png
-        alt_text: Scholarship Logo
+      - image: /assets/2024-scholarship-announcement-applications-due-4.29.24.png
+        alt_text: Audition Announcement Flier
   - type: section_spacer
   - type: section_content_file
     file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
@@ -41,7 +41,13 @@ sections:
       a college or university music program.
 
 
-      For the 2024 Scholarship application, please click the above PDF to download.
+      If you meet this criteria and would like to reserve your audition spot, please email a copy of your acceptance letter from an accredited college music program, along with the scholarship application, to office@atlantamusicians.com. Download application above by clicking "Application Download".
+
+
+      Applications are due by April 29th, 2024. 
+
+
+      Auditions take place on May 19th, 2024 at AFM Local 148-462, Atlanta Federation of Musicians, 551 Dutch Valley Road NE, Atlanta, GA 30324.
   - type: section_spacer
   - type: section_banner_small
     background_color_toggle: true
