@@ -34,4 +34,13 @@ sections:
     list:
       - image: /assets/eagles-orch-crop.jpg
         alt_text: placeholder
+  - type: section_content_boxes
+    list:
+      - title: Membership Dues Breakdown
+        text: "Here is the current Membership dues for Atlanta Federation of Musicians.
+          If joining as a new member of AFM, there is also a $100 initiation
+          fee.  "
+        image: /assets/membership-dues-atlanta-federation-of-musicians.jpg
+        alt_text: AFM Local 148-462 Membership Dues
+        link_text: AFM Local 148-462 Membership Dues
 ---
