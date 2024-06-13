@@ -10,13 +10,18 @@ sections:
     file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
     link_text: Application Download
     content_title: Applications for 2024
-    content_text: >+
-      The 25th annual John H. Head Scholarship Auditions will be held on May
-      19th, 2024. 
+    content_text: >-
+      On behalf of the John H. Head Scholarship Award, facilitated by the
+      Atlanta Federation of Musicians Local 148-462, we would like to thank you
+      for your participation in the 25th annual John H. Head Scholarship
+      auditions on May 19th, 2024. The Local office has emailed and mailed
+      official audition completion letters to everyone who was able to attend. 
 
-      Applications are due by April 29th, 2024. Please click below to download PDF application.
+
+      The 2024 John H. Head Scholarship auditions had a record number of auditionees. Our judging panel were very impressed by the talent they heard throughout the day. They were indeed faced with a difficult decision with such skilled young performers. Thank you to all those involved with making this year a special one, especially to all the auditionees, parents and guardians, collaborative pianists, and music educators. Thank you for your amazing work.
 
 
+      Our profession is about showing up and doing our best. Auditionees showing up meant so much. Your musical journey is moving forward in a positive way. It's this positive attitude that will take every student very far in the music industry. Thank you to everyone who helped make this year's auditions possible.
     content_image: /assets/popart.jpg
     title: 25th Annual John H. Head Scholarship
     type: section_banner
@@ -41,13 +46,7 @@ sections:
       a college or university music program.
 
 
-      If you meet this criteria and would like to reserve your audition spot, please email a copy of your acceptance letter from an accredited college music program, along with the scholarship application, to office@atlantamusicians.com. Download application above by clicking "Application Download".
-
-
-      Applications are due by April 29th, 2024. 
-
-
-      Auditions take place on May 19th, 2024 at AFM Local 148-462, Atlanta Federation of Musicians, 551 Dutch Valley Road NE, Atlanta, GA 30324.
+      The next auditions will take place in the spring of 2025. Auditions take place at AFM Local 148-462, Atlanta Federation of Musicians, 551 Dutch Valley Road NE, Atlanta, GA 30324.
   - type: section_spacer
   - type: section_banner_small
     background_color_toggle: true
