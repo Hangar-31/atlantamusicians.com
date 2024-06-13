@@ -113,6 +113,22 @@ sections:
         title: violin
         image: /assets/didi-croft.jpg
         alt_text: Croft Didi Stone
+      - name: Youyou Zhu
+        title: violin
+        text: Youyou Zhu has been a member of the Atlanta Symphony Youth Orchestra and
+          the Georgia Music Educators Association All-State Orchestra, where she
+          served as concertmaster of the 11/12 String Orchestra in the 2024
+          program. She earned superior ratings from the Solo and Ensemble
+          Festival throughout high school and performed in masterclasses as a
+          member of the Franklin Pond Chamber Music Program this past year. She
+          also attended summer intensive programs such as the Sewanee Summer
+          Music Festival and Georgia’s Governors Honors Program in 2021 and
+          2023, respectively. This past April, she traveled to Europe along with
+          members of the Johns Creek High School Orchestra to perform in France.
+          Youyou will be attending Emory University in the fall, majoring in
+          neuroscience and behavioral biology and minoring in music performance.
+        image: /assets/youyou-zhu.jpg
+        alt_text: Youyou Zhu
   - type: section_awards
     year: 2023
     list:
