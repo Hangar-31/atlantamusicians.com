@@ -125,7 +125,7 @@ sections:
           Music Festival and Georgia’s Governors Honors Program in 2021 and
           2023, respectively. This past April, she traveled to Europe along with
           members of the Johns Creek High School Orchestra to perform in France.
-          Youyou will be attending Emory University in the fall, majoring in
+          Youyou will attend Emory University in the fall of 2024, majoring in
           neuroscience and behavioral biology and minoring in music performance.
         image: /assets/youyou-zhu.jpg
         alt_text: Youyou Zhu
