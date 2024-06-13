@@ -89,6 +89,30 @@ sections:
           Psychology."
         image: /assets/miguel-flores-padilla-headshot.jpeg
         alt_text: Miguel Flores-Padilla
+      - name: Croft (Didi) Stone
+        text: >+
+          Croft (Didi) Stone began performing the violin in 1st grade with the
+          Fayette Fiddlers. His continuous passion for orchestra led him to
+          perform in the GMEA All-State orchestra every year since 6th grade,
+          Emory Junior Chamber Orchestra, Emory Youth Symphony Orchestra, and
+          the Atlanta Symphony Youth Orchestra. Didi was also one of ten
+          violinists selected for the Georgia Governor’s Honors Program in 2022.
+          In addition to serving as the concertmaster of the Alpharetta High
+          School Symphony Orchestra, during the 2023-24 school year, he held the
+          position of concertmaster in both the Emory Youth Symphony Orchestra
+          and the Atlanta Symphony Youth Orchestra. In 2024, in addition to
+          winning the Emory Youth Symphony Orchestra Concerto Competition, Didi
+          was selected as a member of the prestigious National Youth Orchestra
+          (NYO-USA) and toured with the orchestra in South America under
+          conductor Marin Alsop.
+
+          Didi is also an avid chamber musician. Since elementary school, he has played with Quartet Le Petit. The quartet won the State-level Kiwanis Music & Art Competition in 2022 and top prizes at the Franklin Pond Chamber Music Competitions in 2018, 2019, 2021, & 2023. His newly formed Trio in 2024 was a semi-finalist in the Coltman National Chamber Music Competition and won the Franklin Pond Chamber Music competition that same year.
+
+          Apart from his violin skills, Didi is an accomplished singer, winning local competitions in Fayette County, Georgia, and Quanzhou, China. He has been chosen as a soloist for the Georgia All-State Chorus for two consecutive years. In the summer of 2023, Didi had the opportunity to record solo songs for a local composer in Xiamen, China. Beyond music, Didi enjoys hobbies such as solving Rubik's cubes, working out, and playing tennis. 
+
+        title: violin
+        image: /assets/didi-croft.jpg
+        alt_text: Croft Didi Stone
   - type: section_awards
     year: 2023
     list:
