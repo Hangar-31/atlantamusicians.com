@@ -65,6 +65,31 @@ sections:
   - type: section_content_title_1
     title: Past John H. Head Scholarship Winners
   - type: section_awards
+    year: 2024
+    list:
+      - name: Miguel Flores-Padilla
+        title: saxophone
+        text: "Miguel Flores-Padilla began his musical journey studying under the 116th
+          Army Band’s Principal Saxophonist, Brandyn Taylor. Serving as the
+          Atlanta Youth Wind Symphony’s saxophone Section Leader, Miguel has
+          performed at Carnegie Hall, The Classic Center, the Georgia Tech Hotel
+          and Conference Center, and other venues alongside the group’s full
+          ensemble and saxophone quartet. A resident of Kennesaw, Georgia,
+          Miguel has enjoyed his time as Drum Major of the North Cobb High
+          School Marching Band, as well as President of North Cobb’s
+          multi-instrumental ensembles: Tri-M Music Honor Society and United
+          Sound. Miguel is a National YoungArts Winner in Classical Saxophone,
+          and a recipient of the Phi Beta Mu All-State Senior Scholarship.
+          Appearing on GPB’s Instrument Quest and The 8 to 5 Club Podcast,
+          Miguel has committed himself to encouraging the youth’s lifelong
+          interaction with music. He is a current Brand Ambassador for the
+          marching arts organization Silent Command as well as a member of the
+          Blue Devils Drum and Bugle Corps. Miguel will attend Northwestern
+          University in the fall of 2024 to study Music Education and
+          Psychology."
+        image: /assets/miguel-flores-padilla-headshot.jpeg
+        alt_text: Miguel Flores-Padilla
+  - type: section_awards
     year: 2023
     list:
       - text: >
