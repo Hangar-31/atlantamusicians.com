@@ -164,6 +164,23 @@ sections:
           Alex has been a student of Franklin Pond Chamber Music and the ASYO Chamber Players. As a member of the Willow Quartet, he has performed at the GMEA State Conference and received the Founder’s Award in the 2024 Franklin Pond Chamber Music Competition. In the fall, he will attend Johns Hopkins University to study Applied Mathematics and the Peabody Conservatory to continue his studies with Professor Alan Stepansky.
         image: /assets/alex-woloschinow-2024.jpg
         alt_text: Alex Woloschinow
+      - name: Clifton Yeager
+        title: euphonium
+        text: My name is CJ Yeager. I’m a Euphonium player and a native of Dallas,
+          Georgia, where I attended East Paulding High School. While in high
+          school I was a member of organizations and groups such as West Georgia
+          Winds, the Atlanta Low Brass Academy, and Atlanta CV Drum & Bugle
+          Corps. In addition, I served as Principle Euphonium for many honor
+          bands and clinics such as GMEA All-State bands & District Honor bands
+          as well as UGA’s Janfest. I am very fortunate to have been taught by
+          Mr. Josh Robichaux & Mr. Aidan Lerner as well as to study under Mr.
+          Michael Brown. This upcoming Fall (2024) I will be a full-time student
+          at the University of North Georgia where I look forward to studying
+          Music Education! Outside of music, I enjoy hiking, running & walking,
+          food, spending time with friends and family and experiencing new
+          things.
+        image: /assets/clifton-yeager-2024.jpg
+        alt_text: Clifton Yeager
   - type: section_awards
     year: 2023
     list:
