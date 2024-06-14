@@ -128,6 +128,22 @@ sections:
           neuroscience and behavioral biology and minoring in music performance.
         image: /assets/youyou-zhu.jpg
         alt_text: Youyou Zhu
+      - name: Amy Shan
+        text: Amy Shan started playing piano at the age of 5, and began studying with
+          Mr. Jonathan Klein at 11. She regularly competed in the Georgia Music
+          Teachers' Association State auditions, where she has received the
+          Outstanding Performer award. Additionally, she often participated in
+          local events such as the Athens MTA Sonata Festival, E-Festival, Fall
+          Recital, Intermediate Masterclass, and more. She has played in
+          masterclasses taught by Dr. Evgeny Rivkin, Dr. Liza Stepanova, and Dr.
+          Paul Barnes. For 2024-25, she was accepted into the undergraduate
+          piano programs at Manhattan School of Music, Boston Conservatory at
+          Berklee, and more. Outside of competing, Amy has played piano at her
+          church, cafes, All-State band, jazz concerts, weddings, recitals, and
+          worked as an accompanist, performer, and private teacher.
+        title: piano
+        image: /assets/amy-shan-2024.jpg
+        alt_text: Amy Shan
   - type: section_awards
     year: 2023
     list:
