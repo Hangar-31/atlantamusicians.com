@@ -144,6 +144,26 @@ sections:
         title: piano
         image: /assets/amy-shan-2024.jpg
         alt_text: Amy Shan
+      - name: Alex Woloschinow
+        title: cello
+        text: >
+          Alex Woloschinow began playing the cello at age 12. He has performed
+          with the Georgia Youth Symphony Orchestra, the Emory Youth Symphony
+          Orchestra, and the Atlanta Symphony Youth Orchestra. Alex has also
+          attended the 2022 Georgia Governor’s Honors Program and the 2023
+          Brevard Summer Music Institute. A student of Harrison Cook, Alex has
+          served as the principal cellist of the GMEA District 12 Honor
+          Orchestra, the GMEA 11/12 All-State Full Orchestra, and the Hillgrove
+          High School Mastery Orchestra, leading his section in performances at
+          Carnegie Hall in New York and Harpa Hall in Iceland. At Hillgrove,
+          Alex has held the position of Vice President of the Tri-M Music Honors
+          Society and Co-Founder of the Hillgrove Cello Choir. He has performed
+          as a guitarist with the Hillgrove Jazz Orchestra at the Midwest
+          International Clinic.
+
+          Alex has been a student of Franklin Pond Chamber Music and the ASYO Chamber Players. As a member of the Willow Quartet, he has performed at the GMEA State Conference and received the Founder’s Award in the 2024 Franklin Pond Chamber Music Competition. In the fall, he will attend Johns Hopkins University to study Applied Mathematics and the Peabody Conservatory to continue his studies with Professor Alan Stepansky.
+        image: /assets/alex-woloschinow-2024.jpg
+        alt_text: Alex Woloschinow
   - type: section_awards
     year: 2023
     list:
