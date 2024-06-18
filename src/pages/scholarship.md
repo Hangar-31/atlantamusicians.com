@@ -143,7 +143,7 @@ sections:
           worked as an accompanist, performer, and private teacher.
         title: piano
         image: /assets/amy-shan-2024.jpg
-        alt_text: Amy Shan
+        alt_text: Amy Shan 2024 piano
       - name: Alex Woloschinow
         title: cello
         text: >
