@@ -17,11 +17,11 @@ sections:
     title: About AFM Local 148-462
   - type: section_content_text
     text: >
-      Every day the AFM helps thousands of musicians — negotiating fair
-      agreements, protecting ownership of recorded music, securing benefits such
-      as health care and pension, or lobbying our legislators. The AFM is
-      committed to raising industry standards and placing the professional
-      musician in the foreground of the cultural landscape.
+      Every day, American Federation of Musicians helps thousands of musicians
+      negotiate fair agreements, protect ownership of recorded music, secure
+      benefits such as health care and pension, and lobby legislators. AFM
+      commits to raise industry standards and place professional musicians in
+      the foreground of our cultural landscape.
 
 
       Organized in 1901, the Atlanta Federation of Musicians is a significant chapter of the AFM representing around 700 musicians throughout Georgia, including the metropolitan areas of Atlanta, Athens, Augusta, Columbus and Macon. Our professional members perform every imaginable style of music – including blues, classical, country, ethnic/world music, hip-hop, jazz, rap, rock, soul.
