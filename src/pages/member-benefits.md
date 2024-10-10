@@ -73,18 +73,6 @@ sections:
   - type: section_content_link
     link_url: https://ambacompare.com/?MDRefCode=amba-afm
     link_text: Auto, Home, and Renters Insurance
-  - type: section_content_link
-    link_url: https://www.afminsurance.com/business-insurance/professional-liability/business-liability/business-liability-insurance-plan.html
-    link_text: Business Liability Insurance
-  - type: section_content_link
-    link_url: https://www.afminsurance.com/health-insurance/major-medical/major-medical-insurance.html
-    link_text: Medical Insurance
-  - type: section_content_link
-    link_url: https://www.afminsurance.com/health-insurance/dental-insurance/dental-insurance.html
-    link_text: Dental Insurance
-  - type: section_content_link
-    link_url: https://www.afminsurance.com/life-insurance/group-level-term-life-insurance/ny-group-term-life-insurance.html
-    link_text: Life Insurance
   - type: section_content_title_2
     title: Union Plus
   - type: section_content_text
