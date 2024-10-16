@@ -12,10 +12,6 @@ sections:
   - type: section_content_file
     file_url: /assets/scale-wages-2025-afm-local-148-462.pdf
     file_text: 2025 Scale Wage Summary
-  - type: section_content_images
-    list:
-      - image: /assets/scale-wages-2024-all-leader_contractor-afm-local-148-462-1-.jpg
-        alt_text: 2024 Scale Wage Summary AFM Local 148-462
   - type: section_spacer
   - type: section_content_file
     file_text: 2024 Cartage Pricing; AFM Local 148-462
