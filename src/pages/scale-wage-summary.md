@@ -8,7 +8,7 @@ sections:
   - type: section_spacer
   - type: section_content_file
     file_url: /assets/scale-wages-2024-all-leader_contractor-afm-local-148-462.pdf
-    file_text: 2024 Scale Wage Summary
+    file_text: 2025 Scale Wage Summary
   - type: section_content_file
     file_url: /assets/scale-wages-2025-afm-local-148-462.pdf
     file_text: 2025 Scale Wage Summary
