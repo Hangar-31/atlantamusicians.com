@@ -14,7 +14,7 @@ sections:
     file_text: 2025 Scale Wage Summary
   - type: section_spacer
   - type: section_content_file
-    file_text: 2024 Cartage Pricing; AFM Local 148-462
+    file_text: 2025 Cartage Pricing; AFM Local 148-462
     file_url: /assets/cartage-2024-local-148-462.pdf
   - type: section_content_images
     list:
