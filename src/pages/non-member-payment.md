@@ -18,6 +18,9 @@ sections:
   - type: section_credit_card_payment
     payment_type: PAYMENT
     title: Non Member Payment
+    list:
+      - text: pk_live_kcYJoaFrmW9ymewnQLcFv6hB00VYFtaSAf
+        name: Publishable Key
   - type: section_thank_you
     title: Thank you for your donation
     text: Please check out more!
