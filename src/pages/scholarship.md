@@ -9,21 +9,13 @@ sections:
     link_url: John H. Head Scholarship Application
     file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
     link_text: Application Download
-    content_title: Applications for 2024
-    content_text: >-
-      On behalf of the John H. Head Scholarship Award, facilitated by the
-      Atlanta Federation of Musicians Local 148-462, we would like to thank you
-      for your participation in the 25th annual John H. Head Scholarship
-      auditions on May 19th, 2024. The Local office has emailed and mailed
-      official audition completion letters to everyone who was able to attend. 
-
-
-      The 2024 John H. Head Scholarship auditions had a record number of auditionees. Our judging panel were very impressed by the talent they heard throughout the day. They were indeed faced with a difficult decision with such skilled young performers. Thank you to all those involved with making this year a special one, especially to all the auditionees, parents and guardians, collaborative pianists, and music educators. Thank you for your amazing work.
-
-
-      Our profession is about showing up and doing our best. Auditionees showing up meant so much. Your musical journey is moving forward in a positive way. It's this positive attitude that will take every student very far in the music industry. Thank you to everyone who helped make this year's auditions possible.
+    content_title: Applications for 2025
+    content_text: "On behalf of the John H. Head Scholarship Award, facilitated by
+      the Atlanta Federation of Musicians (AFM Local 148-462), we would like to
+      invite you to participate in the 26th annual John H. Head Scholarship
+      auditions, date TBD Spring 2025. "
     content_image: /assets/popart.jpg
-    title: 25th Annual John H. Head Scholarship
+    title: 26th Annual John H. Head Scholarship
     type: section_banner
   - type: section_spacer
   - type: section_content_title_1
