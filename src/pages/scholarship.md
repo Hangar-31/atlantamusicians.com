@@ -7,13 +7,20 @@ seo_description: scholarship
 sections:
   - content_alt_text: AFM Logo
     link_url: John H. Head Scholarship Application
-    file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
+    file_url: /assets/26th-annual-john-h.-head-scholarship-application.pdf
     link_text: Application Download
     content_title: Applications for 2025
-    content_text: "On behalf of the John H. Head Scholarship Award, facilitated by
-      the Atlanta Federation of Musicians (AFM Local 148-462), we would like to
+    content_text: >-
+      On behalf of the John H. Head Scholarship Award, facilitated by the
+      Atlanta Federation of Musicians (AFM Local 148-462), we would like to
       invite you to participate in the 26th annual John H. Head Scholarship
-      auditions, date TBD Spring 2025. "
+      auditions on Sunday May 19th, 2025.
+
+
+      Please download the application below, fill it out, and send it back to: office@atlantamusicias.com 
+
+
+      Additionally, please send a copy of your acceptance letter from an accredited college music program. 
     content_image: /assets/popart.jpg
     title: 26th Annual John H. Head Scholarship
     type: section_banner
@@ -22,12 +29,12 @@ sections:
     title: John H. Head Scholarship
   - type: section_content_images
     list:
-      - image: /assets/2024-scholarship-announcement-applications-due-4.29.24.png
+      - image: /assets/2025-scholarship-announcement-applications.png
         alt_text: Audition Announcement Flier
   - type: section_spacer
   - type: section_content_file
-    file_url: /assets/25th-annual-john-h.-head-scholarship-application.pdf
-    file_text: "Application Download - 25th Annual John H. Head Scholarship "
+    file_url: /assets/26th-annual-john-h.-head-scholarship-application.pdf
+    file_text: "Application Download - 26th Annual John H. Head Scholarship "
   - type: section_spacer
   - type: section_content_text
     text: >-
