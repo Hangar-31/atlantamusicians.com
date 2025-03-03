@@ -14,7 +14,7 @@ sections:
       On behalf of the John H. Head Scholarship Award, facilitated by the
       Atlanta Federation of Musicians (AFM Local 148-462), we would like to
       invite you to participate in the 26th annual John H. Head Scholarship
-      auditions on Sunday May 19th, 2025.
+      auditions on Sunday May 18th, 2025.
 
 
       Please download the application below, fill it out, and send it back to: office@atlantamusicias.com 
