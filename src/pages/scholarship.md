@@ -30,7 +30,7 @@ sections:
   - type: section_content_images
     list:
       - image: /assets/2025-scholarship-announcement-applications.png
-        alt_text: Audition Announcement Flier
+        alt_text: 2025 Audition Announcement Flier
   - type: section_spacer
   - type: section_content_file
     file_url: /assets/26th-annual-john-h.-head-scholarship-application.pdf
