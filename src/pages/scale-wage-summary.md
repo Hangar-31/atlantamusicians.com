@@ -19,5 +19,5 @@ sections:
   - type: section_content_images
     list:
       - image: /assets/cartage-2024-local-148-462.jpg
-        alt_text: 2024 Cartage AFM Local 148-462
+        alt_text: 2025 Cartage AFM Local 148-462
 ---
