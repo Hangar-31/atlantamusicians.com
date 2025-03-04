@@ -38,11 +38,11 @@ sections:
   - type: section_spacer
   - type: section_content_text
     text: >-
-      The Atlanta Federation of Musicians has developed a scholarship program to
-      encourage and support future professional instrumentalists. Auditions are
-      open to any instrumentalist in Georgia who is a graduating high school
-      senior planning to pursue a career in music, and who has been accepted to
-      a college or university music program.
+      The Atlanta Federation of Musicians has developed a scholarship audition
+      program to encourage and support future professional instrumentalists.
+      Auditions are open to any instrumentalist in Georgia who is a graduating
+      high school senior planning to pursue a career in music, and who has been
+      accepted to a college or university music program.
 
 
       The next auditions will take place in the spring of 2025. Auditions take place at AFM Local 148-462, Atlanta Federation of Musicians, 551 Dutch Valley Road NE, Atlanta, GA 30324.
