@@ -2,6 +2,6 @@
 
 [build]
   node_version = "22.0"
-  command = "gatsby build"
+  command = "gatsby clean && gatsby build"
   publish = "public"
   functions = "lambda"
