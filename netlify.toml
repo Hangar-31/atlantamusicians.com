@@ -1,6 +1,7 @@
 # netlify.toml
 
 [build]
+  node_version = "22.0"
   command = "gatsby build"
   publish = "public"
   functions = "lambda"
