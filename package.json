@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "Hangar 31 LLC",
   "dependencies": {
+    "@babel/core": "^7.26.10",
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@mdx-js/mdx": "^1.5.8",
@@ -20,7 +21,7 @@
     "gatsby-plugin-mdx": "^1.1.9",
     "gatsby-plugin-netlify": "^2.3.5",
     "gatsby-plugin-netlify-cache": "^1.2.0",
-    "gatsby-plugin-netlify-cms": "^4.3.5",
+    "gatsby-plugin-netlify-cms": "^4.10.1",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-remove-trailing-slashes": "^2.1.20",
@@ -47,6 +48,7 @@
     "react-icons": "^3.9.0",
     "react-markdown": "^4.3.1",
     "semantic-ui-react": "^0.88.2",
+    "sharp": "^0.33.5",
     "stripe": "^8.74.0"
   },
   "devDependencies": {
