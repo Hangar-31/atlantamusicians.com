@@ -2,6 +2,6 @@
 
 [build]
   node_version = "22.0"
-  command = "npm i --legacy-peer-deps"
+  command = "gatsby build"
   publish = "public"
   functions = "lambda"
